@@ -9,6 +9,8 @@
 Данные: [повторная проверка Kaggle v2](docs/kaggle_dataset_inventory_audit.md) подтвердила SHA256 всех 22 primary CSV Wind Farm A и наличие дополнительных датчиков. Raw B/C локально не включены.
 
 Проверено [расширение до восьми температур](docs/personal_extended_h24_experiment.md): 4/11 обнаружений, 18 ложных эпизодов. Критерий замены не выполнен; в демо сохранён baseline.
+
+Новый [эксперимент физических связей и Grid power](docs/personal_relations_h24_experiment.md) дал 5/11 и 14 ложных эпизодов на изученной истории. Лимит false alerts ещё не пройден; рабочая модель не заменена.
 # WindScope — мониторинг и прогноз отказа H7
 
 Рабочий локальный MVP: FastAPI, PostgreSQL, persistent historical replay, WebSockets и Next.js. Подключён экспериментальный прогноз отказа на **7 суток**: сохранённая Logistic Regression из `project`, отдельный изолированный inference-сервис и почасовой расчёт по истории SCADA. Исходный XGBoost SWTFPS доступен для прежних сессий и сравнения. Это воспроизведение истории, а не подключение к действующей SCADA.

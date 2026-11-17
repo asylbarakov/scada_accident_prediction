@@ -1,0 +1,1193 @@
+{
+  "scope": "delayed relations, original numeric scale, no finite-value clipping",
+  "channels": [
+    {
+      "event": 0,
+      "target": "generator_bearing_delta__now",
+      "role": "train",
+      "rows": 6942,
+      "missing": 1,
+      "minimum": -17.0,
+      "maximum": 20.0
+    },
+    {
+      "event": 0,
+      "target": "generator_bearing_delta__now",
+      "role": "calibration",
+      "rows": 1719,
+      "missing": 0,
+      "minimum": -12.0,
+      "maximum": 16.0
+    },
+    {
+      "event": 0,
+      "target": "generator_bearing_delta__now",
+      "role": "test",
+      "rows": 471,
+      "missing": 0,
+      "minimum": -9.0,
+      "maximum": 20.0
+    },
+    {
+      "event": 0,
+      "target": "transformer_phase_spread__now",
+      "role": "train",
+      "rows": 6942,
+      "missing": 1,
+      "minimum": 2.0,
+      "maximum": 60.0
+    },
+    {
+      "event": 0,
+      "target": "transformer_phase_spread__now",
+      "role": "calibration",
+      "rows": 1719,
+      "missing": 0,
+      "minimum": 1.0,
+      "maximum": 19.0
+    },
+    {
+      "event": 0,
+      "target": "transformer_phase_spread__now",
+      "role": "test",
+      "rows": 471,
+      "missing": 0,
+      "minimum": 1.0,
+      "maximum": 18.0
+    },
+    {
+      "event": 3,
+      "target": "generator_bearing_delta__now",
+      "role": "train",
+      "rows": 6919,
+      "missing": 7,
+      "minimum": -192.0,
+      "maximum": 188.0
+    },
+    {
+      "event": 3,
+      "target": "generator_bearing_delta__now",
+      "role": "calibration",
+      "rows": 1745,
+      "missing": 1,
+      "minimum": -14.0,
+      "maximum": 6.0
+    },
+    {
+      "event": 3,
+      "target": "generator_bearing_delta__now",
+      "role": "test",
+      "rows": 551,
+      "missing": 0,
+      "minimum": -13.0,
+      "maximum": 2.0
+    },
+    {
+      "event": 3,
+      "target": "transformer_phase_spread__now",
+      "role": "train",
+      "rows": 6919,
+      "missing": 7,
+      "minimum": 1.0,
+      "maximum": 20.0
+    },
+    {
+      "event": 3,
+      "target": "transformer_phase_spread__now",
+      "role": "calibration",
+      "rows": 1745,
+      "missing": 1,
+      "minimum": 3.0,
+      "maximum": 22.0
+    },
+    {
+      "event": 3,
+      "target": "transformer_phase_spread__now",
+      "role": "test",
+      "rows": 551,
+      "missing": 0,
+      "minimum": 2.0,
+      "maximum": 16.0
+    },
+    {
+      "event": 10,
+      "target": "generator_bearing_delta__now",
+      "role": "train",
+      "rows": 6945,
+      "missing": 7,
+      "minimum": -192.0,
+      "maximum": 188.0
+    },
+    {
+      "event": 10,
+      "target": "generator_bearing_delta__now",
+      "role": "calibration",
+      "rows": 1747,
+      "missing": 1,
+      "minimum": -28.0,
+      "maximum": 2.0
+    },
+    {
+      "event": 10,
+      "target": "generator_bearing_delta__now",
+      "role": "test",
+      "rows": 211,
+      "missing": 0,
+      "minimum": -21.0,
+      "maximum": 1.0
+    },
+    {
+      "event": 10,
+      "target": "transformer_phase_spread__now",
+      "role": "train",
+      "rows": 6945,
+      "missing": 7,
+      "minimum": 1.0,
+      "maximum": 22.0
+    },
+    {
+      "event": 10,
+      "target": "transformer_phase_spread__now",
+      "role": "calibration",
+      "rows": 1747,
+      "missing": 1,
+      "minimum": 2.0,
+      "maximum": 17.0
+    },
+    {
+      "event": 10,
+      "target": "transformer_phase_spread__now",
+      "role": "test",
+      "rows": 211,
+      "missing": 0,
+      "minimum": 2.0,
+      "maximum": 13.0
+    },
+    {
+      "event": 13,
+      "target": "generator_bearing_delta__now",
+      "role": "train",
+      "rows": 6629,
+      "missing": 3,
+      "minimum": -29.0,
+      "maximum": 22.0
+    },
+    {
+      "event": 13,
+      "target": "generator_bearing_delta__now",
+      "role": "calibration",
+      "rows": 1746,
+      "missing": 2,
+      "minimum": -28.0,
+      "maximum": 23.0
+    },
+    {
+      "event": 13,
+      "target": "generator_bearing_delta__now",
+      "role": "test",
+      "rows": 597,
+      "missing": 0,
+      "minimum": -28.0,
+      "maximum": 20.0
+    },
+    {
+      "event": 13,
+      "target": "transformer_phase_spread__now",
+      "role": "train",
+      "rows": 6629,
+      "missing": 3,
+      "minimum": 1.0,
+      "maximum": 8.0
+    },
+    {
+      "event": 13,
+      "target": "transformer_phase_spread__now",
+      "role": "calibration",
+      "rows": 1746,
+      "missing": 2,
+      "minimum": 2.0,
+      "maximum": 8.0
+    },
+    {
+      "event": 13,
+      "target": "transformer_phase_spread__now",
+      "role": "test",
+      "rows": 597,
+      "missing": 0,
+      "minimum": 2.0,
+      "maximum": 7.0
+    },
+    {
+      "event": 14,
+      "target": "generator_bearing_delta__now",
+      "role": "train",
+      "rows": 6938,
+      "missing": 2,
+      "minimum": -23.0,
+      "maximum": 13.0
+    },
+    {
+      "event": 14,
+      "target": "generator_bearing_delta__now",
+      "role": "calibration",
+      "rows": 1746,
+      "missing": 0,
+      "minimum": -23.0,
+      "maximum": 15.0
+    },
+    {
+      "event": 14,
+      "target": "generator_bearing_delta__now",
+      "role": "test",
+      "rows": 317,
+      "missing": 0,
+      "minimum": -20.0,
+      "maximum": 4.0
+    },
+    {
+      "event": 14,
+      "target": "transformer_phase_spread__now",
+      "role": "train",
+      "rows": 6938,
+      "missing": 2,
+      "minimum": 1.0,
+      "maximum": 17.0
+    },
+    {
+      "event": 14,
+      "target": "transformer_phase_spread__now",
+      "role": "calibration",
+      "rows": 1746,
+      "missing": 0,
+      "minimum": 3.0,
+      "maximum": 16.0
+    },
+    {
+      "event": 14,
+      "target": "transformer_phase_spread__now",
+      "role": "test",
+      "rows": 317,
+      "missing": 0,
+      "minimum": 4.0,
+      "maximum": 17.0
+    },
+    {
+      "event": 17,
+      "target": "generator_bearing_delta__now",
+      "role": "train",
+      "rows": 6948,
+      "missing": 7,
+      "minimum": -192.0,
+      "maximum": 188.0
+    },
+    {
+      "event": 17,
+      "target": "generator_bearing_delta__now",
+      "role": "calibration",
+      "rows": 1742,
+      "missing": 0,
+      "minimum": -21.0,
+      "maximum": 2.0
+    },
+    {
+      "event": 17,
+      "target": "generator_bearing_delta__now",
+      "role": "test",
+      "rows": 462,
+      "missing": 0,
+      "minimum": -10.0,
+      "maximum": 3.0
+    },
+    {
+      "event": 17,
+      "target": "transformer_phase_spread__now",
+      "role": "train",
+      "rows": 6948,
+      "missing": 7,
+      "minimum": 1.0,
+      "maximum": 22.0
+    },
+    {
+      "event": 17,
+      "target": "transformer_phase_spread__now",
+      "role": "calibration",
+      "rows": 1742,
+      "missing": 0,
+      "minimum": 2.0,
+      "maximum": 17.0
+    },
+    {
+      "event": 17,
+      "target": "transformer_phase_spread__now",
+      "role": "test",
+      "rows": 462,
+      "missing": 0,
+      "minimum": 2.0,
+      "maximum": 9.0
+    },
+    {
+      "event": 22,
+      "target": "generator_bearing_delta__now",
+      "role": "train",
+      "rows": 6899,
+      "missing": 5,
+      "minimum": -29.0,
+      "maximum": 23.0
+    },
+    {
+      "event": 22,
+      "target": "generator_bearing_delta__now",
+      "role": "calibration",
+      "rows": 1720,
+      "missing": 0,
+      "minimum": -26.0,
+      "maximum": 21.0
+    },
+    {
+      "event": 22,
+      "target": "generator_bearing_delta__now",
+      "role": "test",
+      "rows": 191,
+      "missing": 1,
+      "minimum": -23.0,
+      "maximum": 18.0
+    },
+    {
+      "event": 22,
+      "target": "transformer_phase_spread__now",
+      "role": "train",
+      "rows": 6899,
+      "missing": 5,
+      "minimum": 1.0,
+      "maximum": 8.0
+    },
+    {
+      "event": 22,
+      "target": "transformer_phase_spread__now",
+      "role": "calibration",
+      "rows": 1720,
+      "missing": 0,
+      "minimum": 1.0,
+      "maximum": 7.0
+    },
+    {
+      "event": 22,
+      "target": "transformer_phase_spread__now",
+      "role": "test",
+      "rows": 191,
+      "missing": 1,
+      "minimum": 3.0,
+      "maximum": 6.0
+    },
+    {
+      "event": 24,
+      "target": "generator_bearing_delta__now",
+      "role": "train",
+      "rows": 6939,
+      "missing": 1,
+      "minimum": -114.0,
+      "maximum": 20.0
+    },
+    {
+      "event": 24,
+      "target": "generator_bearing_delta__now",
+      "role": "calibration",
+      "rows": 1745,
+      "missing": 1,
+      "minimum": -12.0,
+      "maximum": 19.0
+    },
+    {
+      "event": 24,
+      "target": "generator_bearing_delta__now",
+      "role": "test",
+      "rows": 453,
+      "missing": 0,
+      "minimum": -10.0,
+      "maximum": 10.0
+    },
+    {
+      "event": 24,
+      "target": "transformer_phase_spread__now",
+      "role": "train",
+      "rows": 6939,
+      "missing": 1,
+      "minimum": 2.0,
+      "maximum": 70.0
+    },
+    {
+      "event": 24,
+      "target": "transformer_phase_spread__now",
+      "role": "calibration",
+      "rows": 1745,
+      "missing": 1,
+      "minimum": 2.0,
+      "maximum": 17.0
+    },
+    {
+      "event": 24,
+      "target": "transformer_phase_spread__now",
+      "role": "test",
+      "rows": 453,
+      "missing": 0,
+      "minimum": 2.0,
+      "maximum": 15.0
+    },
+    {
+      "event": 25,
+      "target": "generator_bearing_delta__now",
+      "role": "train",
+      "rows": 6944,
+      "missing": 1,
+      "minimum": -19.0,
+      "maximum": 16.0
+    },
+    {
+      "event": 25,
+      "target": "generator_bearing_delta__now",
+      "role": "calibration",
+      "rows": 1742,
+      "missing": 2,
+      "minimum": -19.0,
+      "maximum": 18.0
+    },
+    {
+      "event": 25,
+      "target": "generator_bearing_delta__now",
+      "role": "test",
+      "rows": 404,
+      "missing": 0,
+      "minimum": -17.0,
+      "maximum": 13.0
+    },
+    {
+      "event": 25,
+      "target": "transformer_phase_spread__now",
+      "role": "train",
+      "rows": 6944,
+      "missing": 1,
+      "minimum": 2.0,
+      "maximum": 36.0
+    },
+    {
+      "event": 25,
+      "target": "transformer_phase_spread__now",
+      "role": "calibration",
+      "rows": 1742,
+      "missing": 2,
+      "minimum": 3.0,
+      "maximum": 39.0
+    },
+    {
+      "event": 25,
+      "target": "transformer_phase_spread__now",
+      "role": "test",
+      "rows": 404,
+      "missing": 0,
+      "minimum": 3.0,
+      "maximum": 34.0
+    },
+    {
+      "event": 26,
+      "target": "generator_bearing_delta__now",
+      "role": "train",
+      "rows": 6947,
+      "missing": 1,
+      "minimum": -12.0,
+      "maximum": 20.0
+    },
+    {
+      "event": 26,
+      "target": "generator_bearing_delta__now",
+      "role": "calibration",
+      "rows": 1732,
+      "missing": 0,
+      "minimum": -16.0,
+      "maximum": 179.0
+    },
+    {
+      "event": 26,
+      "target": "generator_bearing_delta__now",
+      "role": "test",
+      "rows": 240,
+      "missing": 0,
+      "minimum": -13.0,
+      "maximum": 1.0
+    },
+    {
+      "event": 26,
+      "target": "transformer_phase_spread__now",
+      "role": "train",
+      "rows": 6947,
+      "missing": 1,
+      "minimum": 1.0,
+      "maximum": 43.0
+    },
+    {
+      "event": 26,
+      "target": "transformer_phase_spread__now",
+      "role": "calibration",
+      "rows": 1732,
+      "missing": 0,
+      "minimum": 1.0,
+      "maximum": 18.0
+    },
+    {
+      "event": 26,
+      "target": "transformer_phase_spread__now",
+      "role": "test",
+      "rows": 240,
+      "missing": 0,
+      "minimum": 2.0,
+      "maximum": 15.0
+    },
+    {
+      "event": 38,
+      "target": "generator_bearing_delta__now",
+      "role": "train",
+      "rows": 6943,
+      "missing": 1,
+      "minimum": -24.0,
+      "maximum": 15.0
+    },
+    {
+      "event": 38,
+      "target": "generator_bearing_delta__now",
+      "role": "calibration",
+      "rows": 1742,
+      "missing": 2,
+      "minimum": -23.0,
+      "maximum": 12.0
+    },
+    {
+      "event": 38,
+      "target": "generator_bearing_delta__now",
+      "role": "test",
+      "rows": 424,
+      "missing": 0,
+      "minimum": -20.0,
+      "maximum": 13.0
+    },
+    {
+      "event": 38,
+      "target": "transformer_phase_spread__now",
+      "role": "train",
+      "rows": 6943,
+      "missing": 1,
+      "minimum": 1.0,
+      "maximum": 17.0
+    },
+    {
+      "event": 38,
+      "target": "transformer_phase_spread__now",
+      "role": "calibration",
+      "rows": 1742,
+      "missing": 2,
+      "minimum": 3.0,
+      "maximum": 18.0
+    },
+    {
+      "event": 38,
+      "target": "transformer_phase_spread__now",
+      "role": "test",
+      "rows": 424,
+      "missing": 0,
+      "minimum": 1.0,
+      "maximum": 16.0
+    },
+    {
+      "event": 40,
+      "target": "generator_bearing_delta__now",
+      "role": "train",
+      "rows": 6794,
+      "missing": 3,
+      "minimum": -29.0,
+      "maximum": 17.0
+    },
+    {
+      "event": 40,
+      "target": "generator_bearing_delta__now",
+      "role": "calibration",
+      "rows": 1708,
+      "missing": 1,
+      "minimum": -34.0,
+      "maximum": 178.0
+    },
+    {
+      "event": 40,
+      "target": "generator_bearing_delta__now",
+      "role": "test",
+      "rows": 825,
+      "missing": 4,
+      "minimum": -192.0,
+      "maximum": 188.0
+    },
+    {
+      "event": 40,
+      "target": "transformer_phase_spread__now",
+      "role": "train",
+      "rows": 6794,
+      "missing": 3,
+      "minimum": 1.0,
+      "maximum": 17.0
+    },
+    {
+      "event": 40,
+      "target": "transformer_phase_spread__now",
+      "role": "calibration",
+      "rows": 1708,
+      "missing": 1,
+      "minimum": 2.0,
+      "maximum": 20.0
+    },
+    {
+      "event": 40,
+      "target": "transformer_phase_spread__now",
+      "role": "test",
+      "rows": 825,
+      "missing": 4,
+      "minimum": 3.0,
+      "maximum": 16.0
+    },
+    {
+      "event": 42,
+      "target": "generator_bearing_delta__now",
+      "role": "train",
+      "rows": 6965,
+      "missing": 7,
+      "minimum": -192.0,
+      "maximum": 188.0
+    },
+    {
+      "event": 42,
+      "target": "generator_bearing_delta__now",
+      "role": "calibration",
+      "rows": 1723,
+      "missing": 1,
+      "minimum": -28.0,
+      "maximum": 2.0
+    },
+    {
+      "event": 42,
+      "target": "generator_bearing_delta__now",
+      "role": "test",
+      "rows": 264,
+      "missing": 0,
+      "minimum": -14.0,
+      "maximum": 2.0
+    },
+    {
+      "event": 42,
+      "target": "transformer_phase_spread__now",
+      "role": "train",
+      "rows": 6965,
+      "missing": 7,
+      "minimum": 2.0,
+      "maximum": 22.0
+    },
+    {
+      "event": 42,
+      "target": "transformer_phase_spread__now",
+      "role": "calibration",
+      "rows": 1723,
+      "missing": 1,
+      "minimum": 1.0,
+      "maximum": 17.0
+    },
+    {
+      "event": 42,
+      "target": "transformer_phase_spread__now",
+      "role": "test",
+      "rows": 264,
+      "missing": 0,
+      "minimum": 2.0,
+      "maximum": 7.0
+    },
+    {
+      "event": 45,
+      "target": "generator_bearing_delta__now",
+      "role": "train",
+      "rows": 6939,
+      "missing": 0,
+      "minimum": -23.0,
+      "maximum": 13.0
+    },
+    {
+      "event": 45,
+      "target": "generator_bearing_delta__now",
+      "role": "calibration",
+      "rows": 1746,
+      "missing": 1,
+      "minimum": -24.0,
+      "maximum": 15.0
+    },
+    {
+      "event": 45,
+      "target": "generator_bearing_delta__now",
+      "role": "test",
+      "rows": 240,
+      "missing": 0,
+      "minimum": -23.0,
+      "maximum": 1.0
+    },
+    {
+      "event": 45,
+      "target": "transformer_phase_spread__now",
+      "role": "train",
+      "rows": 6939,
+      "missing": 0,
+      "minimum": 1.0,
+      "maximum": 17.0
+    },
+    {
+      "event": 45,
+      "target": "transformer_phase_spread__now",
+      "role": "calibration",
+      "rows": 1746,
+      "missing": 1,
+      "minimum": 4.0,
+      "maximum": 17.0
+    },
+    {
+      "event": 45,
+      "target": "transformer_phase_spread__now",
+      "role": "test",
+      "rows": 240,
+      "missing": 0,
+      "minimum": 4.0,
+      "maximum": 18.0
+    },
+    {
+      "event": 51,
+      "target": "generator_bearing_delta__now",
+      "role": "train",
+      "rows": 6900,
+      "missing": 4,
+      "minimum": -29.0,
+      "maximum": 23.0
+    },
+    {
+      "event": 51,
+      "target": "generator_bearing_delta__now",
+      "role": "calibration",
+      "rows": 1745,
+      "missing": 2,
+      "minimum": -26.0,
+      "maximum": 18.0
+    },
+    {
+      "event": 51,
+      "target": "generator_bearing_delta__now",
+      "role": "test",
+      "rows": 399,
+      "missing": 0,
+      "minimum": -14.0,
+      "maximum": 3.0
+    },
+    {
+      "event": 51,
+      "target": "transformer_phase_spread__now",
+      "role": "train",
+      "rows": 6900,
+      "missing": 4,
+      "minimum": 1.0,
+      "maximum": 8.0
+    },
+    {
+      "event": 51,
+      "target": "transformer_phase_spread__now",
+      "role": "calibration",
+      "rows": 1745,
+      "missing": 2,
+      "minimum": 2.0,
+      "maximum": 6.0
+    },
+    {
+      "event": 51,
+      "target": "transformer_phase_spread__now",
+      "role": "test",
+      "rows": 399,
+      "missing": 0,
+      "minimum": 2.0,
+      "maximum": 7.0
+    },
+    {
+      "event": 68,
+      "target": "generator_bearing_delta__now",
+      "role": "train",
+      "rows": 6941,
+      "missing": 3,
+      "minimum": -19.0,
+      "maximum": 18.0
+    },
+    {
+      "event": 68,
+      "target": "generator_bearing_delta__now",
+      "role": "calibration",
+      "rows": 1708,
+      "missing": 0,
+      "minimum": -17.0,
+      "maximum": 15.0
+    },
+    {
+      "event": 68,
+      "target": "generator_bearing_delta__now",
+      "role": "test",
+      "rows": 383,
+      "missing": 0,
+      "minimum": -11.0,
+      "maximum": 10.0
+    },
+    {
+      "event": 68,
+      "target": "transformer_phase_spread__now",
+      "role": "train",
+      "rows": 6941,
+      "missing": 3,
+      "minimum": 2.0,
+      "maximum": 39.0
+    },
+    {
+      "event": 68,
+      "target": "transformer_phase_spread__now",
+      "role": "calibration",
+      "rows": 1708,
+      "missing": 0,
+      "minimum": 2.0,
+      "maximum": 38.0
+    },
+    {
+      "event": 68,
+      "target": "transformer_phase_spread__now",
+      "role": "test",
+      "rows": 383,
+      "missing": 0,
+      "minimum": 5.0,
+      "maximum": 31.0
+    },
+    {
+      "event": 69,
+      "target": "generator_bearing_delta__now",
+      "role": "train",
+      "rows": 6970,
+      "missing": 3,
+      "minimum": -19.0,
+      "maximum": 18.0
+    },
+    {
+      "event": 69,
+      "target": "generator_bearing_delta__now",
+      "role": "calibration",
+      "rows": 1705,
+      "missing": 0,
+      "minimum": -16.0,
+      "maximum": 13.0
+    },
+    {
+      "event": 69,
+      "target": "generator_bearing_delta__now",
+      "role": "test",
+      "rows": 432,
+      "missing": 0,
+      "minimum": -11.0,
+      "maximum": 17.0
+    },
+    {
+      "event": 69,
+      "target": "transformer_phase_spread__now",
+      "role": "train",
+      "rows": 6970,
+      "missing": 3,
+      "minimum": 2.0,
+      "maximum": 39.0
+    },
+    {
+      "event": 69,
+      "target": "transformer_phase_spread__now",
+      "role": "calibration",
+      "rows": 1705,
+      "missing": 0,
+      "minimum": 2.0,
+      "maximum": 32.0
+    },
+    {
+      "event": 69,
+      "target": "transformer_phase_spread__now",
+      "role": "test",
+      "rows": 432,
+      "missing": 0,
+      "minimum": 4.0,
+      "maximum": 21.0
+    },
+    {
+      "event": 71,
+      "target": "generator_bearing_delta__now",
+      "role": "train",
+      "rows": 6944,
+      "missing": 2,
+      "minimum": -114.0,
+      "maximum": 19.0
+    },
+    {
+      "event": 71,
+      "target": "generator_bearing_delta__now",
+      "role": "calibration",
+      "rows": 1741,
+      "missing": 0,
+      "minimum": -12.0,
+      "maximum": 18.0
+    },
+    {
+      "event": 71,
+      "target": "generator_bearing_delta__now",
+      "role": "test",
+      "rows": 409,
+      "missing": 0,
+      "minimum": -7.0,
+      "maximum": 18.0
+    },
+    {
+      "event": 71,
+      "target": "transformer_phase_spread__now",
+      "role": "train",
+      "rows": 6944,
+      "missing": 2,
+      "minimum": 1.0,
+      "maximum": 70.0
+    },
+    {
+      "event": 71,
+      "target": "transformer_phase_spread__now",
+      "role": "calibration",
+      "rows": 1741,
+      "missing": 0,
+      "minimum": 2.0,
+      "maximum": 43.0
+    },
+    {
+      "event": 71,
+      "target": "transformer_phase_spread__now",
+      "role": "test",
+      "rows": 409,
+      "missing": 0,
+      "minimum": 2.0,
+      "maximum": 13.0
+    },
+    {
+      "event": 72,
+      "target": "generator_bearing_delta__now",
+      "role": "train",
+      "rows": 6904,
+      "missing": 4,
+      "minimum": -29.0,
+      "maximum": 23.0
+    },
+    {
+      "event": 72,
+      "target": "generator_bearing_delta__now",
+      "role": "calibration",
+      "rows": 1745,
+      "missing": 2,
+      "minimum": -26.0,
+      "maximum": 18.0
+    },
+    {
+      "event": 72,
+      "target": "generator_bearing_delta__now",
+      "role": "test",
+      "rows": 336,
+      "missing": 0,
+      "minimum": -14.0,
+      "maximum": 3.0
+    },
+    {
+      "event": 72,
+      "target": "transformer_phase_spread__now",
+      "role": "train",
+      "rows": 6904,
+      "missing": 4,
+      "minimum": 1.0,
+      "maximum": 8.0
+    },
+    {
+      "event": 72,
+      "target": "transformer_phase_spread__now",
+      "role": "calibration",
+      "rows": 1745,
+      "missing": 2,
+      "minimum": 2.0,
+      "maximum": 6.0
+    },
+    {
+      "event": 72,
+      "target": "transformer_phase_spread__now",
+      "role": "test",
+      "rows": 336,
+      "missing": 0,
+      "minimum": 2.0,
+      "maximum": 7.0
+    },
+    {
+      "event": 73,
+      "target": "generator_bearing_delta__now",
+      "role": "train",
+      "rows": 6942,
+      "missing": 0,
+      "minimum": -17.0,
+      "maximum": 20.0
+    },
+    {
+      "event": 73,
+      "target": "generator_bearing_delta__now",
+      "role": "calibration",
+      "rows": 1747,
+      "missing": 0,
+      "minimum": -12.0,
+      "maximum": 18.0
+    },
+    {
+      "event": 73,
+      "target": "generator_bearing_delta__now",
+      "role": "test",
+      "rows": 288,
+      "missing": 0,
+      "minimum": -12.0,
+      "maximum": 16.0
+    },
+    {
+      "event": 73,
+      "target": "transformer_phase_spread__now",
+      "role": "train",
+      "rows": 6942,
+      "missing": 0,
+      "minimum": 2.0,
+      "maximum": 70.0
+    },
+    {
+      "event": 73,
+      "target": "transformer_phase_spread__now",
+      "role": "calibration",
+      "rows": 1747,
+      "missing": 0,
+      "minimum": 2.0,
+      "maximum": 18.0
+    },
+    {
+      "event": 73,
+      "target": "transformer_phase_spread__now",
+      "role": "test",
+      "rows": 288,
+      "missing": 0,
+      "minimum": 3.0,
+      "maximum": 16.0
+    },
+    {
+      "event": 84,
+      "target": "generator_bearing_delta__now",
+      "role": "train",
+      "rows": 6973,
+      "missing": 2,
+      "minimum": -24.0,
+      "maximum": 15.0
+    },
+    {
+      "event": 84,
+      "target": "generator_bearing_delta__now",
+      "role": "calibration",
+      "rows": 1723,
+      "missing": 1,
+      "minimum": -21.0,
+      "maximum": 13.0
+    },
+    {
+      "event": 84,
+      "target": "generator_bearing_delta__now",
+      "role": "test",
+      "rows": 240,
+      "missing": 3,
+      "minimum": -11.0,
+      "maximum": 9.0
+    },
+    {
+      "event": 84,
+      "target": "transformer_phase_spread__now",
+      "role": "train",
+      "rows": 6973,
+      "missing": 2,
+      "minimum": 3.0,
+      "maximum": 18.0
+    },
+    {
+      "event": 84,
+      "target": "transformer_phase_spread__now",
+      "role": "calibration",
+      "rows": 1723,
+      "missing": 1,
+      "minimum": 1.0,
+      "maximum": 16.0
+    },
+    {
+      "event": 84,
+      "target": "transformer_phase_spread__now",
+      "role": "test",
+      "rows": 240,
+      "missing": 3,
+      "minimum": 4.0,
+      "maximum": 12.0
+    },
+    {
+      "event": 92,
+      "target": "generator_bearing_delta__now",
+      "role": "train",
+      "rows": 6940,
+      "missing": 1,
+      "minimum": -21.0,
+      "maximum": 17.0
+    },
+    {
+      "event": 92,
+      "target": "generator_bearing_delta__now",
+      "role": "calibration",
+      "rows": 1746,
+      "missing": 1,
+      "minimum": -18.0,
+      "maximum": 18.0
+    },
+    {
+      "event": 92,
+      "target": "generator_bearing_delta__now",
+      "role": "test",
+      "rows": 296,
+      "missing": 0,
+      "minimum": -17.0,
+      "maximum": 16.0
+    },
+    {
+      "event": 92,
+      "target": "transformer_phase_spread__now",
+      "role": "train",
+      "rows": 6940,
+      "missing": 1,
+      "minimum": 2.0,
+      "maximum": 36.0
+    },
+    {
+      "event": 92,
+      "target": "transformer_phase_spread__now",
+      "role": "calibration",
+      "rows": 1746,
+      "missing": 1,
+      "minimum": 3.0,
+      "maximum": 33.0
+    },
+    {
+      "event": 92,
+      "target": "transformer_phase_spread__now",
+      "role": "test",
+      "rows": 296,
+      "missing": 0,
+      "minimum": 4.0,
+      "maximum": 34.0
+    }
+  ]
+}

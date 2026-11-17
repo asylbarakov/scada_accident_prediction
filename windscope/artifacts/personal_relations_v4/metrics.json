@@ -1,0 +1,1907 @@
+{
+  "experiment_id": "care-personal-physical-relations-h24-v4",
+  "baseline_metrics": {
+    "scheduled_hours": 8433,
+    "available_hours": 8238,
+    "unavailable_hours": 195,
+    "availability": 0.9768765563856279,
+    "known_scored_hours": 3224,
+    "tp": 17,
+    "fn": 224,
+    "fp": 74,
+    "tn": 2909,
+    "point_precision": 0.18681318681318682,
+    "point_recall": 0.07053941908713693,
+    "known_normal_hours": 2983,
+    "normal_warning_hours": 74,
+    "normal_warning_fraction": 0.0248072410325176,
+    "false_alarm_episodes": 17,
+    "false_alarms_per_720_normal_hours": 4.1032517599731815,
+    "unknown_warning_hours": 102,
+    "left_censored_alarm_starts": 0,
+    "observed_onsets": 44,
+    "window_hit_events": 4,
+    "onset_hit_events": 4,
+    "total_events": 11,
+    "onset_event_recall": 0.36363636363636365,
+    "window_event_recall": 0.36363636363636365,
+    "average_precision": 0.11984709016328651,
+    "roc_auc": 0.5427693304938218,
+    "events": [
+      {
+        "id": "care-a-fault-0",
+        "source_event": 0,
+        "turbine_id": "0",
+        "failure_at": "2023-08-20T06:10:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 24,
+        "window_hit": false,
+        "onset_hit": false,
+        "first_target_warning": null,
+        "first_observed_onset": null,
+        "first_onset_lead_hours": null,
+        "first_source_warning": null,
+        "first_source_warning_lead_hours": null
+      },
+      {
+        "id": "care-a-fault-10",
+        "source_event": 10,
+        "turbine_id": "10",
+        "failure_at": "2023-10-18T08:40:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 24,
+        "window_hit": false,
+        "onset_hit": false,
+        "first_target_warning": null,
+        "first_observed_onset": null,
+        "first_onset_lead_hours": null,
+        "first_source_warning": "2023-10-10T09:00:00+00:00",
+        "first_source_warning_lead_hours": 191.66666666666666
+      },
+      {
+        "id": "care-a-fault-22",
+        "source_event": 22,
+        "turbine_id": "21",
+        "failure_at": "2023-08-19T10:00:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 24,
+        "window_hit": false,
+        "onset_hit": false,
+        "first_target_warning": null,
+        "first_observed_onset": null,
+        "first_onset_lead_hours": null,
+        "first_source_warning": null,
+        "first_source_warning_lead_hours": null
+      },
+      {
+        "id": "care-a-fault-26",
+        "source_event": 26,
+        "turbine_id": "0",
+        "failure_at": "2023-10-19T10:20:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 24,
+        "window_hit": true,
+        "onset_hit": true,
+        "first_target_warning": "2023-10-19T08:00:00+00:00",
+        "first_observed_onset": "2023-10-19T08:00:00+00:00",
+        "first_onset_lead_hours": 2.3333333333333335,
+        "first_source_warning": "2023-10-19T08:00:00+00:00",
+        "first_source_warning_lead_hours": 2.3333333333333335
+      },
+      {
+        "id": "care-a-fault-40",
+        "source_event": 40,
+        "turbine_id": "10",
+        "failure_at": "2023-01-26T13:00:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 12,
+        "window_hit": false,
+        "onset_hit": false,
+        "first_target_warning": null,
+        "first_observed_onset": null,
+        "first_onset_lead_hours": null,
+        "first_source_warning": "2022-12-30T10:00:00+00:00",
+        "first_source_warning_lead_hours": 651.0
+      },
+      {
+        "id": "care-a-fault-42",
+        "source_event": 42,
+        "turbine_id": "10",
+        "failure_at": "2023-09-16T15:50:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 24,
+        "window_hit": true,
+        "onset_hit": true,
+        "first_target_warning": "2023-09-16T01:00:00+00:00",
+        "first_observed_onset": "2023-09-16T01:00:00+00:00",
+        "first_onset_lead_hours": 14.833333333333334,
+        "first_source_warning": "2023-09-16T01:00:00+00:00",
+        "first_source_warning_lead_hours": 14.833333333333334
+      },
+      {
+        "id": "care-a-fault-45",
+        "source_event": 45,
+        "turbine_id": "13",
+        "failure_at": "2023-04-26T18:10:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 24,
+        "window_hit": false,
+        "onset_hit": false,
+        "first_target_warning": null,
+        "first_observed_onset": null,
+        "first_onset_lead_hours": null,
+        "first_source_warning": null,
+        "first_source_warning_lead_hours": null
+      },
+      {
+        "id": "care-a-fault-51",
+        "source_event": 72,
+        "turbine_id": "21",
+        "failure_at": "2023-10-17T08:40:00+00:00",
+        "group_status": "conservative_merge",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 24,
+        "window_hit": false,
+        "onset_hit": false,
+        "first_target_warning": null,
+        "first_observed_onset": null,
+        "first_onset_lead_hours": null,
+        "first_source_warning": null,
+        "first_source_warning_lead_hours": null
+      },
+      {
+        "id": "care-a-fault-68",
+        "source_event": 68,
+        "turbine_id": "11",
+        "failure_at": "2023-08-11T13:10:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 24,
+        "window_hit": false,
+        "onset_hit": false,
+        "first_target_warning": null,
+        "first_observed_onset": null,
+        "first_onset_lead_hours": null,
+        "first_source_warning": null,
+        "first_source_warning_lead_hours": null
+      },
+      {
+        "id": "care-a-fault-73",
+        "source_event": 73,
+        "turbine_id": "0",
+        "failure_at": "2023-06-17T11:40:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 24,
+        "window_hit": true,
+        "onset_hit": true,
+        "first_target_warning": "2023-06-16T18:00:00+00:00",
+        "first_observed_onset": "2023-06-16T18:00:00+00:00",
+        "first_onset_lead_hours": 17.666666666666668,
+        "first_source_warning": "2023-06-16T18:00:00+00:00",
+        "first_source_warning_lead_hours": 17.666666666666668
+      },
+      {
+        "id": "care-a-fault-84",
+        "source_event": 84,
+        "turbine_id": "13",
+        "failure_at": "2023-09-12T15:30:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 13,
+        "window_hit": true,
+        "onset_hit": true,
+        "first_target_warning": "2023-09-12T10:00:00+00:00",
+        "first_observed_onset": "2023-09-12T10:00:00+00:00",
+        "first_onset_lead_hours": 5.5,
+        "first_source_warning": "2023-09-12T10:00:00+00:00",
+        "first_source_warning_lead_hours": 5.5
+      }
+    ]
+  },
+  "variants": {
+    "relations_only": {
+      "metrics": {
+        "scheduled_hours": 8433,
+        "available_hours": 8238,
+        "unavailable_hours": 195,
+        "availability": 0.9768765563856279,
+        "known_scored_hours": 3224,
+        "tp": 15,
+        "fn": 226,
+        "fp": 45,
+        "tn": 2938,
+        "point_precision": 0.25,
+        "point_recall": 0.06224066390041494,
+        "known_normal_hours": 2983,
+        "normal_warning_hours": 45,
+        "normal_warning_fraction": 0.015085484411666107,
+        "false_alarm_episodes": 14,
+        "false_alarms_per_720_normal_hours": 3.3791485082132082,
+        "unknown_warning_hours": 192,
+        "left_censored_alarm_starts": 1,
+        "observed_onsets": 41,
+        "window_hit_events": 4,
+        "onset_hit_events": 4,
+        "total_events": 11,
+        "onset_event_recall": 0.36363636363636365,
+        "window_event_recall": 0.36363636363636365,
+        "average_precision": 0.1255965638028987,
+        "roc_auc": 0.5478416420574125,
+        "events": [
+          {
+            "id": "care-a-fault-0",
+            "source_event": 0,
+            "turbine_id": "0",
+            "failure_at": "2023-08-20T06:10:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 24,
+            "window_hit": false,
+            "onset_hit": false,
+            "first_target_warning": null,
+            "first_observed_onset": null,
+            "first_onset_lead_hours": null,
+            "first_source_warning": "2023-08-10T16:00:00+00:00",
+            "first_source_warning_lead_hours": 230.16666666666666
+          },
+          {
+            "id": "care-a-fault-10",
+            "source_event": 10,
+            "turbine_id": "10",
+            "failure_at": "2023-10-18T08:40:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 24,
+            "window_hit": false,
+            "onset_hit": false,
+            "first_target_warning": null,
+            "first_observed_onset": null,
+            "first_onset_lead_hours": null,
+            "first_source_warning": "2023-10-10T10:00:00+00:00",
+            "first_source_warning_lead_hours": 190.66666666666666
+          },
+          {
+            "id": "care-a-fault-22",
+            "source_event": 22,
+            "turbine_id": "21",
+            "failure_at": "2023-08-19T10:00:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 24,
+            "window_hit": false,
+            "onset_hit": false,
+            "first_target_warning": null,
+            "first_observed_onset": null,
+            "first_onset_lead_hours": null,
+            "first_source_warning": null,
+            "first_source_warning_lead_hours": null
+          },
+          {
+            "id": "care-a-fault-26",
+            "source_event": 26,
+            "turbine_id": "0",
+            "failure_at": "2023-10-19T10:20:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 24,
+            "window_hit": true,
+            "onset_hit": true,
+            "first_target_warning": "2023-10-19T08:00:00+00:00",
+            "first_observed_onset": "2023-10-19T08:00:00+00:00",
+            "first_onset_lead_hours": 2.3333333333333335,
+            "first_source_warning": "2023-10-19T08:00:00+00:00",
+            "first_source_warning_lead_hours": 2.3333333333333335
+          },
+          {
+            "id": "care-a-fault-40",
+            "source_event": 40,
+            "turbine_id": "10",
+            "failure_at": "2023-01-26T13:00:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 12,
+            "window_hit": false,
+            "onset_hit": false,
+            "first_target_warning": null,
+            "first_observed_onset": null,
+            "first_onset_lead_hours": null,
+            "first_source_warning": "2022-12-30T10:00:00+00:00",
+            "first_source_warning_lead_hours": 651.0
+          },
+          {
+            "id": "care-a-fault-42",
+            "source_event": 42,
+            "turbine_id": "10",
+            "failure_at": "2023-09-16T15:50:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 24,
+            "window_hit": true,
+            "onset_hit": true,
+            "first_target_warning": "2023-09-16T02:00:00+00:00",
+            "first_observed_onset": "2023-09-16T02:00:00+00:00",
+            "first_onset_lead_hours": 13.833333333333334,
+            "first_source_warning": "2023-09-16T02:00:00+00:00",
+            "first_source_warning_lead_hours": 13.833333333333334
+          },
+          {
+            "id": "care-a-fault-45",
+            "source_event": 45,
+            "turbine_id": "13",
+            "failure_at": "2023-04-26T18:10:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 24,
+            "window_hit": false,
+            "onset_hit": false,
+            "first_target_warning": null,
+            "first_observed_onset": null,
+            "first_onset_lead_hours": null,
+            "first_source_warning": null,
+            "first_source_warning_lead_hours": null
+          },
+          {
+            "id": "care-a-fault-51",
+            "source_event": 72,
+            "turbine_id": "21",
+            "failure_at": "2023-10-17T08:40:00+00:00",
+            "group_status": "conservative_merge",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 24,
+            "window_hit": false,
+            "onset_hit": false,
+            "first_target_warning": null,
+            "first_observed_onset": null,
+            "first_onset_lead_hours": null,
+            "first_source_warning": null,
+            "first_source_warning_lead_hours": null
+          },
+          {
+            "id": "care-a-fault-68",
+            "source_event": 68,
+            "turbine_id": "11",
+            "failure_at": "2023-08-11T13:10:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 24,
+            "window_hit": false,
+            "onset_hit": false,
+            "first_target_warning": null,
+            "first_observed_onset": null,
+            "first_onset_lead_hours": null,
+            "first_source_warning": null,
+            "first_source_warning_lead_hours": null
+          },
+          {
+            "id": "care-a-fault-73",
+            "source_event": 73,
+            "turbine_id": "0",
+            "failure_at": "2023-06-17T11:40:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 24,
+            "window_hit": true,
+            "onset_hit": true,
+            "first_target_warning": "2023-06-16T18:00:00+00:00",
+            "first_observed_onset": "2023-06-16T18:00:00+00:00",
+            "first_onset_lead_hours": 17.666666666666668,
+            "first_source_warning": "2023-06-16T18:00:00+00:00",
+            "first_source_warning_lead_hours": 17.666666666666668
+          },
+          {
+            "id": "care-a-fault-84",
+            "source_event": 84,
+            "turbine_id": "13",
+            "failure_at": "2023-09-12T15:30:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 13,
+            "window_hit": true,
+            "onset_hit": true,
+            "first_target_warning": "2023-09-12T10:00:00+00:00",
+            "first_observed_onset": "2023-09-12T10:00:00+00:00",
+            "first_onset_lead_hours": 5.5,
+            "first_source_warning": "2023-09-12T10:00:00+00:00",
+            "first_source_warning_lead_hours": 5.5
+          }
+        ]
+      },
+      "promotion_gate_passed": false
+    },
+    "power30_only": {
+      "metrics": {
+        "scheduled_hours": 8433,
+        "available_hours": 8238,
+        "unavailable_hours": 195,
+        "availability": 0.9768765563856279,
+        "known_scored_hours": 3224,
+        "tp": 10,
+        "fn": 231,
+        "fp": 73,
+        "tn": 2910,
+        "point_precision": 0.12048192771084337,
+        "point_recall": 0.04149377593360996,
+        "known_normal_hours": 2983,
+        "normal_warning_hours": 73,
+        "normal_warning_fraction": 0.024472008045591687,
+        "false_alarm_episodes": 15,
+        "false_alarms_per_720_normal_hours": 3.620516258799866,
+        "unknown_warning_hours": 83,
+        "left_censored_alarm_starts": 1,
+        "observed_onsets": 41,
+        "window_hit_events": 4,
+        "onset_hit_events": 4,
+        "total_events": 11,
+        "onset_event_recall": 0.36363636363636365,
+        "window_event_recall": 0.36363636363636365,
+        "average_precision": 0.10618875677083861,
+        "roc_auc": 0.557822126211742,
+        "events": [
+          {
+            "id": "care-a-fault-0",
+            "source_event": 0,
+            "turbine_id": "0",
+            "failure_at": "2023-08-20T06:10:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 24,
+            "window_hit": false,
+            "onset_hit": false,
+            "first_target_warning": null,
+            "first_observed_onset": null,
+            "first_onset_lead_hours": null,
+            "first_source_warning": "2023-08-04T21:00:00+00:00",
+            "first_source_warning_lead_hours": 369.1666666666667
+          },
+          {
+            "id": "care-a-fault-10",
+            "source_event": 10,
+            "turbine_id": "10",
+            "failure_at": "2023-10-18T08:40:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 24,
+            "window_hit": false,
+            "onset_hit": false,
+            "first_target_warning": null,
+            "first_observed_onset": null,
+            "first_onset_lead_hours": null,
+            "first_source_warning": "2023-10-12T17:00:00+00:00",
+            "first_source_warning_lead_hours": 135.66666666666666
+          },
+          {
+            "id": "care-a-fault-22",
+            "source_event": 22,
+            "turbine_id": "21",
+            "failure_at": "2023-08-19T10:00:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 24,
+            "window_hit": false,
+            "onset_hit": false,
+            "first_target_warning": null,
+            "first_observed_onset": null,
+            "first_onset_lead_hours": null,
+            "first_source_warning": null,
+            "first_source_warning_lead_hours": null
+          },
+          {
+            "id": "care-a-fault-26",
+            "source_event": 26,
+            "turbine_id": "0",
+            "failure_at": "2023-10-19T10:20:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 24,
+            "window_hit": true,
+            "onset_hit": true,
+            "first_target_warning": "2023-10-19T09:00:00+00:00",
+            "first_observed_onset": "2023-10-19T09:00:00+00:00",
+            "first_onset_lead_hours": 1.3333333333333333,
+            "first_source_warning": "2023-10-19T09:00:00+00:00",
+            "first_source_warning_lead_hours": 1.3333333333333333
+          },
+          {
+            "id": "care-a-fault-40",
+            "source_event": 40,
+            "turbine_id": "10",
+            "failure_at": "2023-01-26T13:00:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 12,
+            "window_hit": false,
+            "onset_hit": false,
+            "first_target_warning": null,
+            "first_observed_onset": null,
+            "first_onset_lead_hours": null,
+            "first_source_warning": "2022-12-30T11:00:00+00:00",
+            "first_source_warning_lead_hours": 650.0
+          },
+          {
+            "id": "care-a-fault-42",
+            "source_event": 42,
+            "turbine_id": "10",
+            "failure_at": "2023-09-16T15:50:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 24,
+            "window_hit": false,
+            "onset_hit": false,
+            "first_target_warning": null,
+            "first_observed_onset": null,
+            "first_onset_lead_hours": null,
+            "first_source_warning": null,
+            "first_source_warning_lead_hours": null
+          },
+          {
+            "id": "care-a-fault-45",
+            "source_event": 45,
+            "turbine_id": "13",
+            "failure_at": "2023-04-26T18:10:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 24,
+            "window_hit": false,
+            "onset_hit": false,
+            "first_target_warning": null,
+            "first_observed_onset": null,
+            "first_onset_lead_hours": null,
+            "first_source_warning": null,
+            "first_source_warning_lead_hours": null
+          },
+          {
+            "id": "care-a-fault-51",
+            "source_event": 72,
+            "turbine_id": "21",
+            "failure_at": "2023-10-17T08:40:00+00:00",
+            "group_status": "conservative_merge",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 24,
+            "window_hit": false,
+            "onset_hit": false,
+            "first_target_warning": null,
+            "first_observed_onset": null,
+            "first_onset_lead_hours": null,
+            "first_source_warning": null,
+            "first_source_warning_lead_hours": null
+          },
+          {
+            "id": "care-a-fault-68",
+            "source_event": 68,
+            "turbine_id": "11",
+            "failure_at": "2023-08-11T13:10:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 24,
+            "window_hit": true,
+            "onset_hit": true,
+            "first_target_warning": "2023-08-10T18:00:00+00:00",
+            "first_observed_onset": "2023-08-10T18:00:00+00:00",
+            "first_onset_lead_hours": 19.166666666666668,
+            "first_source_warning": "2023-08-10T18:00:00+00:00",
+            "first_source_warning_lead_hours": 19.166666666666668
+          },
+          {
+            "id": "care-a-fault-73",
+            "source_event": 73,
+            "turbine_id": "0",
+            "failure_at": "2023-06-17T11:40:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 24,
+            "window_hit": true,
+            "onset_hit": true,
+            "first_target_warning": "2023-06-16T19:00:00+00:00",
+            "first_observed_onset": "2023-06-16T19:00:00+00:00",
+            "first_onset_lead_hours": 16.666666666666668,
+            "first_source_warning": "2023-06-15T06:00:00+00:00",
+            "first_source_warning_lead_hours": 53.666666666666664
+          },
+          {
+            "id": "care-a-fault-84",
+            "source_event": 84,
+            "turbine_id": "13",
+            "failure_at": "2023-09-12T15:30:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 13,
+            "window_hit": true,
+            "onset_hit": true,
+            "first_target_warning": "2023-09-12T10:00:00+00:00",
+            "first_observed_onset": "2023-09-12T10:00:00+00:00",
+            "first_onset_lead_hours": 5.5,
+            "first_source_warning": "2023-09-12T10:00:00+00:00",
+            "first_source_warning_lead_hours": 5.5
+          }
+        ]
+      },
+      "promotion_gate_passed": false
+    },
+    "relations_power30": {
+      "metrics": {
+        "scheduled_hours": 8433,
+        "available_hours": 8238,
+        "unavailable_hours": 195,
+        "availability": 0.9768765563856279,
+        "known_scored_hours": 3224,
+        "tp": 12,
+        "fn": 229,
+        "fp": 65,
+        "tn": 2918,
+        "point_precision": 0.15584415584415584,
+        "point_recall": 0.04979253112033195,
+        "known_normal_hours": 2983,
+        "normal_warning_hours": 65,
+        "normal_warning_fraction": 0.02179014415018438,
+        "false_alarm_episodes": 14,
+        "false_alarms_per_720_normal_hours": 3.3791485082132082,
+        "unknown_warning_hours": 194,
+        "left_censored_alarm_starts": 2,
+        "observed_onsets": 42,
+        "window_hit_events": 5,
+        "onset_hit_events": 5,
+        "total_events": 11,
+        "onset_event_recall": 0.45454545454545453,
+        "window_event_recall": 0.45454545454545453,
+        "average_precision": 0.11008252763162014,
+        "roc_auc": 0.5563852146951676,
+        "events": [
+          {
+            "id": "care-a-fault-0",
+            "source_event": 0,
+            "turbine_id": "0",
+            "failure_at": "2023-08-20T06:10:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 24,
+            "window_hit": true,
+            "onset_hit": true,
+            "first_target_warning": "2023-08-19T22:00:00+00:00",
+            "first_observed_onset": "2023-08-19T22:00:00+00:00",
+            "first_onset_lead_hours": 8.166666666666666,
+            "first_source_warning": "2023-08-04T21:00:00+00:00",
+            "first_source_warning_lead_hours": 369.1666666666667
+          },
+          {
+            "id": "care-a-fault-10",
+            "source_event": 10,
+            "turbine_id": "10",
+            "failure_at": "2023-10-18T08:40:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 24,
+            "window_hit": false,
+            "onset_hit": false,
+            "first_target_warning": null,
+            "first_observed_onset": null,
+            "first_onset_lead_hours": null,
+            "first_source_warning": "2023-10-12T18:00:00+00:00",
+            "first_source_warning_lead_hours": 134.66666666666666
+          },
+          {
+            "id": "care-a-fault-22",
+            "source_event": 22,
+            "turbine_id": "21",
+            "failure_at": "2023-08-19T10:00:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 24,
+            "window_hit": false,
+            "onset_hit": false,
+            "first_target_warning": null,
+            "first_observed_onset": null,
+            "first_onset_lead_hours": null,
+            "first_source_warning": null,
+            "first_source_warning_lead_hours": null
+          },
+          {
+            "id": "care-a-fault-26",
+            "source_event": 26,
+            "turbine_id": "0",
+            "failure_at": "2023-10-19T10:20:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 24,
+            "window_hit": true,
+            "onset_hit": true,
+            "first_target_warning": "2023-10-19T09:00:00+00:00",
+            "first_observed_onset": "2023-10-19T09:00:00+00:00",
+            "first_onset_lead_hours": 1.3333333333333333,
+            "first_source_warning": "2023-10-19T09:00:00+00:00",
+            "first_source_warning_lead_hours": 1.3333333333333333
+          },
+          {
+            "id": "care-a-fault-40",
+            "source_event": 40,
+            "turbine_id": "10",
+            "failure_at": "2023-01-26T13:00:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 12,
+            "window_hit": false,
+            "onset_hit": false,
+            "first_target_warning": null,
+            "first_observed_onset": null,
+            "first_onset_lead_hours": null,
+            "first_source_warning": "2023-01-15T20:00:00+00:00",
+            "first_source_warning_lead_hours": 257.0
+          },
+          {
+            "id": "care-a-fault-42",
+            "source_event": 42,
+            "turbine_id": "10",
+            "failure_at": "2023-09-16T15:50:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 24,
+            "window_hit": false,
+            "onset_hit": false,
+            "first_target_warning": null,
+            "first_observed_onset": null,
+            "first_onset_lead_hours": null,
+            "first_source_warning": null,
+            "first_source_warning_lead_hours": null
+          },
+          {
+            "id": "care-a-fault-45",
+            "source_event": 45,
+            "turbine_id": "13",
+            "failure_at": "2023-04-26T18:10:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 24,
+            "window_hit": false,
+            "onset_hit": false,
+            "first_target_warning": null,
+            "first_observed_onset": null,
+            "first_onset_lead_hours": null,
+            "first_source_warning": null,
+            "first_source_warning_lead_hours": null
+          },
+          {
+            "id": "care-a-fault-51",
+            "source_event": 72,
+            "turbine_id": "21",
+            "failure_at": "2023-10-17T08:40:00+00:00",
+            "group_status": "conservative_merge",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 24,
+            "window_hit": false,
+            "onset_hit": false,
+            "first_target_warning": null,
+            "first_observed_onset": null,
+            "first_onset_lead_hours": null,
+            "first_source_warning": null,
+            "first_source_warning_lead_hours": null
+          },
+          {
+            "id": "care-a-fault-68",
+            "source_event": 68,
+            "turbine_id": "11",
+            "failure_at": "2023-08-11T13:10:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 24,
+            "window_hit": true,
+            "onset_hit": true,
+            "first_target_warning": "2023-08-10T18:00:00+00:00",
+            "first_observed_onset": "2023-08-10T18:00:00+00:00",
+            "first_onset_lead_hours": 19.166666666666668,
+            "first_source_warning": "2023-08-10T18:00:00+00:00",
+            "first_source_warning_lead_hours": 19.166666666666668
+          },
+          {
+            "id": "care-a-fault-73",
+            "source_event": 73,
+            "turbine_id": "0",
+            "failure_at": "2023-06-17T11:40:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 24,
+            "window_hit": true,
+            "onset_hit": true,
+            "first_target_warning": "2023-06-16T19:00:00+00:00",
+            "first_observed_onset": "2023-06-16T19:00:00+00:00",
+            "first_onset_lead_hours": 16.666666666666668,
+            "first_source_warning": "2023-06-15T06:00:00+00:00",
+            "first_source_warning_lead_hours": 53.666666666666664
+          },
+          {
+            "id": "care-a-fault-84",
+            "source_event": 84,
+            "turbine_id": "13",
+            "failure_at": "2023-09-12T15:30:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 13,
+            "window_hit": true,
+            "onset_hit": true,
+            "first_target_warning": "2023-09-12T10:00:00+00:00",
+            "first_observed_onset": "2023-09-12T10:00:00+00:00",
+            "first_onset_lead_hours": 5.5,
+            "first_source_warning": "2023-09-12T10:00:00+00:00",
+            "first_source_warning_lead_hours": 5.5
+          }
+        ]
+      },
+      "promotion_gate_passed": false
+    }
+  },
+  "sources": [
+    {
+      "event": 0,
+      "asset": "0",
+      "source_features_sha256": "8603c7474055ad8074aa39e90faa28bd56b242b41d761f54a1b9c30ab8ffd295",
+      "variants": {
+        "relations_only": {
+          "threshold": 2.057642600141707,
+          "historical_calibration": {
+            "normal_hours": 1136,
+            "normal_warning_hours": 6,
+            "normal_warning_fraction": 0.00528169014084507,
+            "false_alarm_episodes": 3,
+            "false_alarms_per_720_normal_hours": 1.9014084507042253
+          },
+          "model_manifest_sha256": "f22e5192368bd4ae6b60c7feb18ab195fa40c554631f73cdfa30c108d5094872",
+          "fit_rows": 6246,
+          "calibration_rows": 1140
+        },
+        "power30_only": {
+          "threshold": 1.7179395524101337,
+          "historical_calibration": {
+            "normal_hours": 1136,
+            "normal_warning_hours": 8,
+            "normal_warning_fraction": 0.007042253521126761,
+            "false_alarm_episodes": 3,
+            "false_alarms_per_720_normal_hours": 1.9014084507042253
+          },
+          "model_manifest_sha256": "a47479d2a208636d5023d2cf4a7306f63c30ccbdbe241fdb04b3b3e672ba780a",
+          "fit_rows": 6246,
+          "calibration_rows": 1140
+        },
+        "relations_power30": {
+          "threshold": 1.7938515147947252,
+          "historical_calibration": {
+            "normal_hours": 1136,
+            "normal_warning_hours": 8,
+            "normal_warning_fraction": 0.007042253521126761,
+            "false_alarm_episodes": 3,
+            "false_alarms_per_720_normal_hours": 1.9014084507042253
+          },
+          "model_manifest_sha256": "40b9df794dbaed7f6ac1dc5f46b9b9d403ec495ccb3e22c2e221d6f48d559c1c",
+          "fit_rows": 6246,
+          "calibration_rows": 1140
+        }
+      }
+    },
+    {
+      "event": 3,
+      "asset": "10",
+      "source_features_sha256": "f405621937b3fc4cd4d921e78043303771e3d24bc81a280c4c7cc7af83ede778",
+      "variants": {
+        "relations_only": {
+          "threshold": 3.1665234112422453,
+          "historical_calibration": {
+            "normal_hours": 1689,
+            "normal_warning_hours": 4,
+            "normal_warning_fraction": 0.002368265245707519,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.7051509769094138
+          },
+          "model_manifest_sha256": "4aadf144ec2a06f71bf871bd3759d8176ad8908aab23e5387af9cc4eb85bf220",
+          "fit_rows": 4694,
+          "calibration_rows": 1691
+        },
+        "power30_only": {
+          "threshold": 2.0099881995598667,
+          "historical_calibration": {
+            "normal_hours": 1689,
+            "normal_warning_hours": 11,
+            "normal_warning_fraction": 0.006512729425695678,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.7051509769094138
+          },
+          "model_manifest_sha256": "15da17f7bf501d48dd125dba1b1abadca7a6a3c37357b0916dfe81e17fd8a2e6",
+          "fit_rows": 4694,
+          "calibration_rows": 1691
+        },
+        "relations_power30": {
+          "threshold": 2.143422698359286,
+          "historical_calibration": {
+            "normal_hours": 1689,
+            "normal_warning_hours": 9,
+            "normal_warning_fraction": 0.0053285968028419185,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.7051509769094138
+          },
+          "model_manifest_sha256": "d1a570a7b140951ec06a7b111d7390b8a01017580f360d8e681df663d00fdf38",
+          "fit_rows": 4694,
+          "calibration_rows": 1691
+        }
+      }
+    },
+    {
+      "event": 10,
+      "asset": "10",
+      "source_features_sha256": "9898997ba17c07890e1ad11b0dea6daec402aa02c2d67494bdebb42b52c7d036",
+      "variants": {
+        "relations_only": {
+          "threshold": 2.1364025786214267,
+          "historical_calibration": {
+            "normal_hours": 1133,
+            "normal_warning_hours": 8,
+            "normal_warning_fraction": 0.00706090026478376,
+            "false_alarm_episodes": 3,
+            "false_alarms_per_720_normal_hours": 1.9064430714916152
+          },
+          "model_manifest_sha256": "1df6035abc1306b3af4e8ac9f1371ed1ec369feb426eb39f1c3850652a1178c2",
+          "fit_rows": 6036,
+          "calibration_rows": 1135
+        },
+        "power30_only": {
+          "threshold": 1.7161898149093613,
+          "historical_calibration": {
+            "normal_hours": 1133,
+            "normal_warning_hours": 6,
+            "normal_warning_fraction": 0.00529567519858782,
+            "false_alarm_episodes": 3,
+            "false_alarms_per_720_normal_hours": 1.9064430714916152
+          },
+          "model_manifest_sha256": "3a4a8bb0050ce0de95384febd46a5273ea377ef8c81a4fcc7bfea01ae7f1716a",
+          "fit_rows": 6036,
+          "calibration_rows": 1135
+        },
+        "relations_power30": {
+          "threshold": 2.148001762712705,
+          "historical_calibration": {
+            "normal_hours": 1133,
+            "normal_warning_hours": 10,
+            "normal_warning_fraction": 0.0088261253309797,
+            "false_alarm_episodes": 3,
+            "false_alarms_per_720_normal_hours": 1.9064430714916152
+          },
+          "model_manifest_sha256": "4e6f990974200e19879640d62597f9c73aadf36d045c34d58eefca8707b1c1c2",
+          "fit_rows": 6036,
+          "calibration_rows": 1135
+        }
+      }
+    },
+    {
+      "event": 13,
+      "asset": "21",
+      "source_features_sha256": "c3f2b9e095088dfbe902576b3525a0def227dcc87da6825fd796e74e105af1bb",
+      "variants": {
+        "relations_only": {
+          "threshold": 2.9821905833422355,
+          "historical_calibration": {
+            "normal_hours": 1658,
+            "normal_warning_hours": 20,
+            "normal_warning_fraction": 0.012062726176115802,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.7370325693606754
+          },
+          "model_manifest_sha256": "70adea8eae4c807af6a0d21cced2dccbf231a1f10882c5efcedd8dd640940e62",
+          "fit_rows": 4715,
+          "calibration_rows": 1662
+        },
+        "power30_only": {
+          "threshold": 2.598333496813104,
+          "historical_calibration": {
+            "normal_hours": 1658,
+            "normal_warning_hours": 11,
+            "normal_warning_fraction": 0.0066344993968636915,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.7370325693606754
+          },
+          "model_manifest_sha256": "8d7dd3b3c50db6dd311d71e2188d4928ddbc2ad633c7bdfa80e507c5e386e253",
+          "fit_rows": 4715,
+          "calibration_rows": 1662
+        },
+        "relations_power30": {
+          "threshold": 2.6177524212590577,
+          "historical_calibration": {
+            "normal_hours": 1658,
+            "normal_warning_hours": 10,
+            "normal_warning_fraction": 0.006031363088057901,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.7370325693606754
+          },
+          "model_manifest_sha256": "09d742d370d131c41c9c3b380d4976897538da7a594bfc904d7a467dc02cffd0",
+          "fit_rows": 4715,
+          "calibration_rows": 1662
+        }
+      }
+    },
+    {
+      "event": 14,
+      "asset": "13",
+      "source_features_sha256": "ee52823e016c97febb5113c90088c91a313de62236e820c799b1ede0134a8517",
+      "variants": {
+        "relations_only": {
+          "threshold": 2.4118278359651066,
+          "historical_calibration": {
+            "normal_hours": 1690,
+            "normal_warning_hours": 8,
+            "normal_warning_fraction": 0.004733727810650888,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.7041420118343196
+          },
+          "model_manifest_sha256": "93b0bb00469662e5041bf429f7b911d2e8cd245677ccecf8a37426dee15139cb",
+          "fit_rows": 6171,
+          "calibration_rows": 1692
+        },
+        "power30_only": {
+          "threshold": 2.320996614015135,
+          "historical_calibration": {
+            "normal_hours": 1690,
+            "normal_warning_hours": 8,
+            "normal_warning_fraction": 0.004733727810650888,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.7041420118343196
+          },
+          "model_manifest_sha256": "292e91f255008b03060bf250d742f4d366462e1a3d70100c09f3eb98477f0bca",
+          "fit_rows": 6171,
+          "calibration_rows": 1692
+        },
+        "relations_power30": {
+          "threshold": 2.3209966140151352,
+          "historical_calibration": {
+            "normal_hours": 1690,
+            "normal_warning_hours": 8,
+            "normal_warning_fraction": 0.004733727810650888,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.7041420118343196
+          },
+          "model_manifest_sha256": "920b93fb4abe4251fe1fffbfef329615e203e2d7bc08d2f0db1b73e2efb75525",
+          "fit_rows": 6171,
+          "calibration_rows": 1692
+        }
+      }
+    },
+    {
+      "event": 17,
+      "asset": "10",
+      "source_features_sha256": "c68fc7d02d92d36efed3cbb5097766c888571ae654de05226721a067ed271ccb",
+      "variants": {
+        "relations_only": {
+          "threshold": 2.0408249380202284,
+          "historical_calibration": {
+            "normal_hours": 847,
+            "normal_warning_hours": 3,
+            "normal_warning_fraction": 0.0035419126328217238,
+            "false_alarm_episodes": 2,
+            "false_alarms_per_720_normal_hours": 1.7001180637544273
+          },
+          "model_manifest_sha256": "a56feeba7a1aef9f231e6f09193ff4b1e1d9a285f2865e42550bed7d45858f08",
+          "fit_rows": 6271,
+          "calibration_rows": 847
+        },
+        "power30_only": {
+          "threshold": 1.6474268513275778,
+          "historical_calibration": {
+            "normal_hours": 847,
+            "normal_warning_hours": 3,
+            "normal_warning_fraction": 0.0035419126328217238,
+            "false_alarm_episodes": 2,
+            "false_alarms_per_720_normal_hours": 1.7001180637544273
+          },
+          "model_manifest_sha256": "c3d9830f9f3891392b1bf11232d925b54f8f8a09bc3dbd8a9b9a6658424f423b",
+          "fit_rows": 6271,
+          "calibration_rows": 847
+        },
+        "relations_power30": {
+          "threshold": 1.8357315231987534,
+          "historical_calibration": {
+            "normal_hours": 847,
+            "normal_warning_hours": 5,
+            "normal_warning_fraction": 0.0059031877213695395,
+            "false_alarm_episodes": 2,
+            "false_alarms_per_720_normal_hours": 1.7001180637544273
+          },
+          "model_manifest_sha256": "ef8bd1bb922e8352af6e35ba218481918622b86568c29bdb1f14d41bed122cba",
+          "fit_rows": 6271,
+          "calibration_rows": 847
+        }
+      }
+    },
+    {
+      "event": 22,
+      "asset": "21",
+      "source_features_sha256": "300641994f7b5101f3a5c923e0a5c3a385c3dfd5c0b52f6965723a27a338f2d8",
+      "variants": {
+        "relations_only": {
+          "threshold": 7.481929720569191,
+          "historical_calibration": {
+            "normal_hours": 1452,
+            "normal_warning_hours": 4,
+            "normal_warning_fraction": 0.0027548209366391185,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.9834710743801653
+          },
+          "model_manifest_sha256": "1ab0fb74befbf2f73a37dcea4cb0b0364dd3440811ec12e91f657caa51b24316",
+          "fit_rows": 5467,
+          "calibration_rows": 1456
+        },
+        "power30_only": {
+          "threshold": 2.486770187050071,
+          "historical_calibration": {
+            "normal_hours": 1452,
+            "normal_warning_hours": 8,
+            "normal_warning_fraction": 0.005509641873278237,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.9834710743801653
+          },
+          "model_manifest_sha256": "fd3291621727c43f3c7850f16bbb501faed17928735ed65fef9463616573bf93",
+          "fit_rows": 5467,
+          "calibration_rows": 1456
+        },
+        "relations_power30": {
+          "threshold": 2.486770187050071,
+          "historical_calibration": {
+            "normal_hours": 1452,
+            "normal_warning_hours": 8,
+            "normal_warning_fraction": 0.005509641873278237,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.9834710743801653
+          },
+          "model_manifest_sha256": "fa4a6daa06f0238e22c06d921d543a29c177ddfb8f04de0aa5f0f7fde6ca9023",
+          "fit_rows": 5467,
+          "calibration_rows": 1456
+        }
+      }
+    },
+    {
+      "event": 24,
+      "asset": "0",
+      "source_features_sha256": "3cdf391172faffed913c2532a15a71d741767813a56bc9411ba0fd9478a825c5",
+      "variants": {
+        "relations_only": {
+          "threshold": 2.967771023772542,
+          "historical_calibration": {
+            "normal_hours": 1689,
+            "normal_warning_hours": 6,
+            "normal_warning_fraction": 0.003552397868561279,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.7051509769094138
+          },
+          "model_manifest_sha256": "b146903bd7d32436ec9c8619726ca6ff194fc945c6c57c5f92a8d140b1ba6493",
+          "fit_rows": 5591,
+          "calibration_rows": 1691
+        },
+        "power30_only": {
+          "threshold": 2.7601437099741406,
+          "historical_calibration": {
+            "normal_hours": 1689,
+            "normal_warning_hours": 13,
+            "normal_warning_fraction": 0.0076968620485494375,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.7051509769094138
+          },
+          "model_manifest_sha256": "7db99d0745e8d1d94c2b86c4b1687d53f28226548f18be61685dd7b1ce8f6b02",
+          "fit_rows": 5591,
+          "calibration_rows": 1691
+        },
+        "relations_power30": {
+          "threshold": 2.7601437099741397,
+          "historical_calibration": {
+            "normal_hours": 1689,
+            "normal_warning_hours": 13,
+            "normal_warning_fraction": 0.0076968620485494375,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.7051509769094138
+          },
+          "model_manifest_sha256": "a8f912418c31e84b6ef54cb53497d6f48908f08867e68f5542f9479fd77e3bfa",
+          "fit_rows": 5591,
+          "calibration_rows": 1691
+        }
+      }
+    },
+    {
+      "event": 25,
+      "asset": "11",
+      "source_features_sha256": "59308fc7fa107a8113d159f29da2bd9808b8c63d5f5aa597a943bd541445eb19",
+      "variants": {
+        "relations_only": {
+          "threshold": 1.8312291221265988,
+          "historical_calibration": {
+            "normal_hours": 1654,
+            "normal_warning_hours": 17,
+            "normal_warning_fraction": 0.010278113663845224,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.7412333736396615
+          },
+          "model_manifest_sha256": "c6d9579452cd451a95effdb4a7439494cb1014e2faba26e5e71653a0d4a245a3",
+          "fit_rows": 6279,
+          "calibration_rows": 1658
+        },
+        "power30_only": {
+          "threshold": 1.790387353892018,
+          "historical_calibration": {
+            "normal_hours": 1654,
+            "normal_warning_hours": 9,
+            "normal_warning_fraction": 0.005441354292623942,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.7412333736396615
+          },
+          "model_manifest_sha256": "50b059a06b3f7a10301e4ead2b759c890e3645d998c4074445ef7abdcbd0ff0d",
+          "fit_rows": 6279,
+          "calibration_rows": 1658
+        },
+        "relations_power30": {
+          "threshold": 1.7609705369757085,
+          "historical_calibration": {
+            "normal_hours": 1654,
+            "normal_warning_hours": 10,
+            "normal_warning_fraction": 0.006045949214026602,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.7412333736396615
+          },
+          "model_manifest_sha256": "559a3ff3abc000a6592011ecc03f66c4cd1385963bebd1f032c674374386fe6c",
+          "fit_rows": 6279,
+          "calibration_rows": 1658
+        }
+      }
+    },
+    {
+      "event": 26,
+      "asset": "0",
+      "source_features_sha256": "1c49fe96d5e9289204e36ff5f79bda7afcd8ebb95de8ee026c9f399b9e733f28",
+      "variants": {
+        "relations_only": {
+          "threshold": 2.0877848362417875,
+          "historical_calibration": {
+            "normal_hours": 894,
+            "normal_warning_hours": 7,
+            "normal_warning_fraction": 0.007829977628635347,
+            "false_alarm_episodes": 2,
+            "false_alarms_per_720_normal_hours": 1.610738255033557
+          },
+          "model_manifest_sha256": "33a9ad2b554f93f57094ae318dcf2926be3b030c2022e3dcf39de4777f49004d",
+          "fit_rows": 6262,
+          "calibration_rows": 904
+        },
+        "power30_only": {
+          "threshold": 1.7674886095687974,
+          "historical_calibration": {
+            "normal_hours": 894,
+            "normal_warning_hours": 9,
+            "normal_warning_fraction": 0.010067114093959731,
+            "false_alarm_episodes": 2,
+            "false_alarms_per_720_normal_hours": 1.610738255033557
+          },
+          "model_manifest_sha256": "6c085ae064ca549e2b0bb0ba2e30759d9bc163a07f5845670f4d40c93c8c0ca8",
+          "fit_rows": 6262,
+          "calibration_rows": 904
+        },
+        "relations_power30": {
+          "threshold": 1.7674886095687974,
+          "historical_calibration": {
+            "normal_hours": 894,
+            "normal_warning_hours": 9,
+            "normal_warning_fraction": 0.010067114093959731,
+            "false_alarm_episodes": 2,
+            "false_alarms_per_720_normal_hours": 1.610738255033557
+          },
+          "model_manifest_sha256": "75af7f23978690c4f9f336b5a3f3f6bce17ac5fc8483ac113dca5cb594d3b82c",
+          "fit_rows": 6262,
+          "calibration_rows": 904
+        }
+      }
+    },
+    {
+      "event": 38,
+      "asset": "13",
+      "source_features_sha256": "f646355dba50ea401c496ca1163bc6e9eac242f13dc645c8dfe78601997d9909",
+      "variants": {
+        "relations_only": {
+          "threshold": 2.2640857266346264,
+          "historical_calibration": {
+            "normal_hours": 1338,
+            "normal_warning_hours": 8,
+            "normal_warning_fraction": 0.005979073243647235,
+            "false_alarm_episodes": 3,
+            "false_alarms_per_720_normal_hours": 1.6143497757847534
+          },
+          "model_manifest_sha256": "c6d7de6d48855f50c4534e652565b8a5d139138d79ddde8c29f5d330b62b42ed",
+          "fit_rows": 6220,
+          "calibration_rows": 1342
+        },
+        "power30_only": {
+          "threshold": 2.2821416065245796,
+          "historical_calibration": {
+            "normal_hours": 1338,
+            "normal_warning_hours": 8,
+            "normal_warning_fraction": 0.005979073243647235,
+            "false_alarm_episodes": 3,
+            "false_alarms_per_720_normal_hours": 1.6143497757847534
+          },
+          "model_manifest_sha256": "6c87ef82201ee01805ed809ab67aef41740fc37b334bf20ca0efcf4e40328a53",
+          "fit_rows": 6220,
+          "calibration_rows": 1342
+        },
+        "relations_power30": {
+          "threshold": 2.2821416065245796,
+          "historical_calibration": {
+            "normal_hours": 1338,
+            "normal_warning_hours": 8,
+            "normal_warning_fraction": 0.005979073243647235,
+            "false_alarm_episodes": 3,
+            "false_alarms_per_720_normal_hours": 1.6143497757847534
+          },
+          "model_manifest_sha256": "afdd4d7366536bb8e19f604f623f68422a2f2f68aaf48e93c73623b90a5c60c9",
+          "fit_rows": 6220,
+          "calibration_rows": 1342
+        }
+      }
+    },
+    {
+      "event": 40,
+      "asset": "10",
+      "source_features_sha256": "2c9aeccae1f37131e3cf09a5b1e075899d4ed2c88ba1ec21c76752c97432fd3c",
+      "variants": {
+        "relations_only": {
+          "threshold": 1.7068296618027563,
+          "historical_calibration": {
+            "normal_hours": 1482,
+            "normal_warning_hours": 8,
+            "normal_warning_fraction": 0.005398110661268556,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.94331983805668
+          },
+          "model_manifest_sha256": "f962e9619ac75be27ab2998c15e542dcabeaa6c58a9196aac43c1c4f8040de05",
+          "fit_rows": 5240,
+          "calibration_rows": 1484
+        },
+        "power30_only": {
+          "threshold": 1.6326519513266733,
+          "historical_calibration": {
+            "normal_hours": 1482,
+            "normal_warning_hours": 9,
+            "normal_warning_fraction": 0.006072874493927126,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.94331983805668
+          },
+          "model_manifest_sha256": "0dcadccd3fd87aee0029be090f0934e9f03347673b5dfd6baf15477d6a2ecc16",
+          "fit_rows": 5240,
+          "calibration_rows": 1484
+        },
+        "relations_power30": {
+          "threshold": 1.7562381881998705,
+          "historical_calibration": {
+            "normal_hours": 1482,
+            "normal_warning_hours": 8,
+            "normal_warning_fraction": 0.005398110661268556,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.94331983805668
+          },
+          "model_manifest_sha256": "a56b1ac83851d3865d5dce2348e1f8f441a7c2fe3c1f426eeafbb63772cd2269",
+          "fit_rows": 5240,
+          "calibration_rows": 1484
+        }
+      }
+    },
+    {
+      "event": 42,
+      "asset": "10",
+      "source_features_sha256": "f6051e4d52397c50f70b719ed68c10243294c1f1b4d6ca135b3b527ade9f831e",
+      "variants": {
+        "relations_only": {
+          "threshold": 2.340444020869171,
+          "historical_calibration": {
+            "normal_hours": 1455,
+            "normal_warning_hours": 6,
+            "normal_warning_fraction": 0.004123711340206186,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.9793814432989691
+          },
+          "model_manifest_sha256": "4fca9c152b99124c642a383e8757b5ed5fdfe3abc05b139b2f5bbfd3c24d34c7",
+          "fit_rows": 5784,
+          "calibration_rows": 1459
+        },
+        "power30_only": {
+          "threshold": 2.107638331972966,
+          "historical_calibration": {
+            "normal_hours": 1455,
+            "normal_warning_hours": 9,
+            "normal_warning_fraction": 0.006185567010309278,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.9793814432989691
+          },
+          "model_manifest_sha256": "0e2ecf046d8a60f1735b9e5268f60241eb887b0fbf17d71afe753d08cbda2a1b",
+          "fit_rows": 5784,
+          "calibration_rows": 1459
+        },
+        "relations_power30": {
+          "threshold": 2.33034947444077,
+          "historical_calibration": {
+            "normal_hours": 1455,
+            "normal_warning_hours": 6,
+            "normal_warning_fraction": 0.004123711340206186,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.9793814432989691
+          },
+          "model_manifest_sha256": "f244b80aaca52a72b0e6b81fcdb39e85ff453349c29fc49d851335947625ec2d",
+          "fit_rows": 5784,
+          "calibration_rows": 1459
+        }
+      }
+    },
+    {
+      "event": 45,
+      "asset": "13",
+      "source_features_sha256": "a9d9f596684817f83add4ecc69aa7f372a4b86409c3e83dfdf285cb9d28d5406",
+      "variants": {
+        "relations_only": {
+          "threshold": 2.688765877341885,
+          "historical_calibration": {
+            "normal_hours": 1594,
+            "normal_warning_hours": 7,
+            "normal_warning_fraction": 0.00439146800501882,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.806775407779172
+          },
+          "model_manifest_sha256": "059dd9045cc80ed514a7602f32e38f5cb7b22ccd1574dd9fadb4d9d375c5b8a6",
+          "fit_rows": 6249,
+          "calibration_rows": 1596
+        },
+        "power30_only": {
+          "threshold": 2.682025295130172,
+          "historical_calibration": {
+            "normal_hours": 1594,
+            "normal_warning_hours": 7,
+            "normal_warning_fraction": 0.00439146800501882,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.806775407779172
+          },
+          "model_manifest_sha256": "1f221ca4d64e50dbffec24cc3f108835f5e068538b148d1bb5f126741cbbbccf",
+          "fit_rows": 6249,
+          "calibration_rows": 1596
+        },
+        "relations_power30": {
+          "threshold": 2.682025295130172,
+          "historical_calibration": {
+            "normal_hours": 1594,
+            "normal_warning_hours": 7,
+            "normal_warning_fraction": 0.00439146800501882,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.806775407779172
+          },
+          "model_manifest_sha256": "c48158595f99d3ff3b2c0bddacbb9d6a87d61d3e587bb991de24e2a1ebb1df14",
+          "fit_rows": 6249,
+          "calibration_rows": 1596
+        }
+      }
+    },
+    {
+      "event": 51,
+      "asset": "21",
+      "source_features_sha256": "6f96069e6fed7d1b6cc8b4f3d4f0b11fedc0d8b6941294f00757c772682bb37b",
+      "variants": {
+        "relations_only": {
+          "threshold": 3.058658845777449,
+          "historical_calibration": {
+            "normal_hours": 1181,
+            "normal_warning_hours": 3,
+            "normal_warning_fraction": 0.002540220152413209,
+            "false_alarm_episodes": 3,
+            "false_alarms_per_720_normal_hours": 1.8289585097375105
+          },
+          "model_manifest_sha256": "07076a0f4baecc835b8a0ec751f73cb4272208e12b2f2ed1cd5ff0693faf8df4",
+          "fit_rows": 6204,
+          "calibration_rows": 1185
+        },
+        "power30_only": {
+          "threshold": 2.0897674815945373,
+          "historical_calibration": {
+            "normal_hours": 1181,
+            "normal_warning_hours": 4,
+            "normal_warning_fraction": 0.003386960203217612,
+            "false_alarm_episodes": 3,
+            "false_alarms_per_720_normal_hours": 1.8289585097375105
+          },
+          "model_manifest_sha256": "62baa2c51948965c3eac56fa272dd7d8141ff1b816c326e8f27dfd7c0751a80c",
+          "fit_rows": 6204,
+          "calibration_rows": 1185
+        },
+        "relations_power30": {
+          "threshold": 3.0747738339744806,
+          "historical_calibration": {
+            "normal_hours": 1181,
+            "normal_warning_hours": 5,
+            "normal_warning_fraction": 0.004233700254022015,
+            "false_alarm_episodes": 3,
+            "false_alarms_per_720_normal_hours": 1.8289585097375105
+          },
+          "model_manifest_sha256": "0adefdc15d7a2c78b6d8494cc5e480e4ab91cea0c0962eed406df7adb62cce47",
+          "fit_rows": 6204,
+          "calibration_rows": 1185
+        }
+      }
+    },
+    {
+      "event": 68,
+      "asset": "11",
+      "source_features_sha256": "8355c218cbb72bbcc541e3ffdcb5adfe12b029eed2fb89dbdd2f665c0d000376",
+      "variants": {
+        "relations_only": {
+          "threshold": 2.1324134997834956,
+          "historical_calibration": {
+            "normal_hours": 1576,
+            "normal_warning_hours": 12,
+            "normal_warning_fraction": 0.007614213197969543,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.8274111675126903
+          },
+          "model_manifest_sha256": "5eb249b532b73812cdd6928d8bfa603d7e250227c0885bf7f85442aff5fdaebc",
+          "fit_rows": 6683,
+          "calibration_rows": 1582
+        },
+        "power30_only": {
+          "threshold": 1.879503410300116,
+          "historical_calibration": {
+            "normal_hours": 1576,
+            "normal_warning_hours": 8,
+            "normal_warning_fraction": 0.005076142131979695,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.8274111675126903
+          },
+          "model_manifest_sha256": "a608b80029b251a83aaf2e25383a0c3d5aade9b4fffb60ed64813a942be54ab7",
+          "fit_rows": 6683,
+          "calibration_rows": 1582
+        },
+        "relations_power30": {
+          "threshold": 1.884112537956449,
+          "historical_calibration": {
+            "normal_hours": 1576,
+            "normal_warning_hours": 8,
+            "normal_warning_fraction": 0.005076142131979695,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.8274111675126903
+          },
+          "model_manifest_sha256": "c958058757b269e4d45a41c3f11dd0da4dc61bb50852bb521494745cd8298361",
+          "fit_rows": 6683,
+          "calibration_rows": 1582
+        }
+      }
+    },
+    {
+      "event": 69,
+      "asset": "11",
+      "source_features_sha256": "fbf9caba32d8d6942b3717d5c79ca02189fc2a53c96930c15190d9ff61ef36f3",
+      "variants": {
+        "relations_only": {
+          "threshold": 1.8129148248002396,
+          "historical_calibration": {
+            "normal_hours": 1118,
+            "normal_warning_hours": 9,
+            "normal_warning_fraction": 0.008050089445438283,
+            "false_alarm_episodes": 3,
+            "false_alarms_per_720_normal_hours": 1.9320214669051878
+          },
+          "model_manifest_sha256": "d3814cb5c17c900728a2037f3e59d73663e04de890d00f490d64ff795282789a",
+          "fit_rows": 6784,
+          "calibration_rows": 1126
+        },
+        "power30_only": {
+          "threshold": 1.8038223292298081,
+          "historical_calibration": {
+            "normal_hours": 1118,
+            "normal_warning_hours": 9,
+            "normal_warning_fraction": 0.008050089445438283,
+            "false_alarm_episodes": 3,
+            "false_alarms_per_720_normal_hours": 1.9320214669051878
+          },
+          "model_manifest_sha256": "0abb804a705dda34f6d826e805b7b752eb447b1a11314e50a82867c2e0352000",
+          "fit_rows": 6784,
+          "calibration_rows": 1126
+        },
+        "relations_power30": {
+          "threshold": 1.8181347438735482,
+          "historical_calibration": {
+            "normal_hours": 1118,
+            "normal_warning_hours": 9,
+            "normal_warning_fraction": 0.008050089445438283,
+            "false_alarm_episodes": 3,
+            "false_alarms_per_720_normal_hours": 1.9320214669051878
+          },
+          "model_manifest_sha256": "ac0bee08f4cfbdd4f2ed41ac05305a712c80fa02c6609924eaf6f744161824da",
+          "fit_rows": 6784,
+          "calibration_rows": 1126
+        }
+      }
+    },
+    {
+      "event": 71,
+      "asset": "0",
+      "source_features_sha256": "4729a77805a859ace633718c0ce0fec75a300b38964c56979602713bc881cf3f",
+      "variants": {
+        "relations_only": {
+          "threshold": 2.208824847924388,
+          "historical_calibration": {
+            "normal_hours": 1685,
+            "normal_warning_hours": 12,
+            "normal_warning_fraction": 0.007121661721068249,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.7091988130563798
+          },
+          "model_manifest_sha256": "9f697594585bbeb27eac535b687b2619f29b79a2678c4bea05e32b8710dffb48",
+          "fit_rows": 5372,
+          "calibration_rows": 1687
+        },
+        "power30_only": {
+          "threshold": 2.1712575131274283,
+          "historical_calibration": {
+            "normal_hours": 1685,
+            "normal_warning_hours": 14,
+            "normal_warning_fraction": 0.00830860534124629,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.7091988130563798
+          },
+          "model_manifest_sha256": "3fcad561c09c01c16c4097aec37e4a510738036b59a618a6d970fd7b59132a79",
+          "fit_rows": 5372,
+          "calibration_rows": 1687
+        },
+        "relations_power30": {
+          "threshold": 2.1712575131274283,
+          "historical_calibration": {
+            "normal_hours": 1685,
+            "normal_warning_hours": 14,
+            "normal_warning_fraction": 0.00830860534124629,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.7091988130563798
+          },
+          "model_manifest_sha256": "f664a736d5b05c63b33e57dd03ede4ff71b0af265e656d41f1c9075f038b8ed1",
+          "fit_rows": 5372,
+          "calibration_rows": 1687
+        }
+      }
+    },
+    {
+      "event": 72,
+      "asset": "21",
+      "source_features_sha256": "b604aee9b77ed2033fbaecf5dffc889f474afd1e69ffdbbb51912f472014f4c3",
+      "variants": {
+        "relations_only": {
+          "threshold": 2.9743450522830037,
+          "historical_calibration": {
+            "normal_hours": 1102,
+            "normal_warning_hours": 4,
+            "normal_warning_fraction": 0.003629764065335753,
+            "false_alarm_episodes": 3,
+            "false_alarms_per_720_normal_hours": 1.9600725952813067
+          },
+          "model_manifest_sha256": "a47c7f4d391e56a98485fc23efa581e314e4d9de9b0651c64a6a6942808a9ed0",
+          "fit_rows": 6266,
+          "calibration_rows": 1106
+        },
+        "power30_only": {
+          "threshold": 2.059690893286893,
+          "historical_calibration": {
+            "normal_hours": 1102,
+            "normal_warning_hours": 5,
+            "normal_warning_fraction": 0.004537205081669692,
+            "false_alarm_episodes": 3,
+            "false_alarms_per_720_normal_hours": 1.9600725952813067
+          },
+          "model_manifest_sha256": "6e4d1513817525c4a9d8a7cfd56d76f92a902ce0aaf08680001b7b02b6977421",
+          "fit_rows": 6266,
+          "calibration_rows": 1106
+        },
+        "relations_power30": {
+          "threshold": 2.839919875955058,
+          "historical_calibration": {
+            "normal_hours": 1102,
+            "normal_warning_hours": 3,
+            "normal_warning_fraction": 0.0027223230490018148,
+            "false_alarm_episodes": 3,
+            "false_alarms_per_720_normal_hours": 1.9600725952813067
+          },
+          "model_manifest_sha256": "540d8fa51b06357a8e891d45e0eba4945e018636f81f4e681b74a8b456f0f8a2",
+          "fit_rows": 6266,
+          "calibration_rows": 1106
+        }
+      }
+    },
+    {
+      "event": 73,
+      "asset": "0",
+      "source_features_sha256": "cc877d89592978c2f4cac31aab08b3727b77fd746dd1285813e045bbb4a3e815",
+      "variants": {
+        "relations_only": {
+          "threshold": 2.1295277778937622,
+          "historical_calibration": {
+            "normal_hours": 1595,
+            "normal_warning_hours": 19,
+            "normal_warning_fraction": 0.011912225705329153,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.8056426332288402
+          },
+          "model_manifest_sha256": "b43f221fb45feec20474763d5be72c4b1fc01befc3a04e3e913731b174e90d47",
+          "fit_rows": 5828,
+          "calibration_rows": 1597
+        },
+        "power30_only": {
+          "threshold": 1.8590214616739758,
+          "historical_calibration": {
+            "normal_hours": 1595,
+            "normal_warning_hours": 11,
+            "normal_warning_fraction": 0.006896551724137931,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.8056426332288402
+          },
+          "model_manifest_sha256": "ca3749a22ce4b5b9dd35ded7a069318f3be2ececc8557bd6ad175f72ff621a79",
+          "fit_rows": 5828,
+          "calibration_rows": 1597
+        },
+        "relations_power30": {
+          "threshold": 1.8590214616739755,
+          "historical_calibration": {
+            "normal_hours": 1595,
+            "normal_warning_hours": 11,
+            "normal_warning_fraction": 0.006896551724137931,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.8056426332288402
+          },
+          "model_manifest_sha256": "3744ded386b48e718d51cf20ae0faa51c0632d782a2b9151d4e5d02884196868",
+          "fit_rows": 5828,
+          "calibration_rows": 1597
+        }
+      }
+    },
+    {
+      "event": 84,
+      "asset": "13",
+      "source_features_sha256": "3536002fa2d97df83ca38243cc143d35d095f4589cbbcfffe2501c6822d8d467",
+      "variants": {
+        "relations_only": {
+          "threshold": 1.9996024958734704,
+          "historical_calibration": {
+            "normal_hours": 1502,
+            "normal_warning_hours": 5,
+            "normal_warning_fraction": 0.003328894806924101,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.9174434087882823
+          },
+          "model_manifest_sha256": "0db26d906e29d925a1955af5a04f818e755354665d959ac917148bb65eb249d4",
+          "fit_rows": 6004,
+          "calibration_rows": 1507
+        },
+        "power30_only": {
+          "threshold": 1.9906116947488917,
+          "historical_calibration": {
+            "normal_hours": 1502,
+            "normal_warning_hours": 6,
+            "normal_warning_fraction": 0.0039946737683089215,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.9174434087882823
+          },
+          "model_manifest_sha256": "5a231754ed505b0b7444b350abe965fa2fbae11c8177293861263d8b4ff10bd8",
+          "fit_rows": 6004,
+          "calibration_rows": 1507
+        },
+        "relations_power30": {
+          "threshold": 1.9906116947488914,
+          "historical_calibration": {
+            "normal_hours": 1502,
+            "normal_warning_hours": 6,
+            "normal_warning_fraction": 0.0039946737683089215,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.9174434087882823
+          },
+          "model_manifest_sha256": "a68d1ab0bad0e17b0edb599f6412be3dc33b86f712f3a22803033d64582c49f4",
+          "fit_rows": 6004,
+          "calibration_rows": 1507
+        }
+      }
+    },
+    {
+      "event": 92,
+      "asset": "11",
+      "source_features_sha256": "e14123857c6ae57ca78754f8127ad651aee8d6fb9d89e0d6b19495a09a841538",
+      "variants": {
+        "relations_only": {
+          "threshold": 2.332704540766049,
+          "historical_calibration": {
+            "normal_hours": 1690,
+            "normal_warning_hours": 8,
+            "normal_warning_fraction": 0.004733727810650888,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.7041420118343196
+          },
+          "model_manifest_sha256": "8f0a36ae78fcfece5b6cb4919b1d42375db3ac7928d06b9ace4fd6ea584bbb87",
+          "fit_rows": 6245,
+          "calibration_rows": 1692
+        },
+        "power30_only": {
+          "threshold": 2.2693238390641923,
+          "historical_calibration": {
+            "normal_hours": 1690,
+            "normal_warning_hours": 9,
+            "normal_warning_fraction": 0.0053254437869822485,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.7041420118343196
+          },
+          "model_manifest_sha256": "2b1309a883d71828010c3443b6f605d8dffe601a747232655e15a4f90a6b4c12",
+          "fit_rows": 6245,
+          "calibration_rows": 1692
+        },
+        "relations_power30": {
+          "threshold": 2.288616809246698,
+          "historical_calibration": {
+            "normal_hours": 1690,
+            "normal_warning_hours": 9,
+            "normal_warning_fraction": 0.0053254437869822485,
+            "false_alarm_episodes": 4,
+            "false_alarms_per_720_normal_hours": 1.7041420118343196
+          },
+          "model_manifest_sha256": "c5d2269adb053958b3844d202fc15258e10d162d3af8ebda007e10d854a93785",
+          "fit_rows": 6245,
+          "calibration_rows": 1692
+        }
+      }
+    }
+  ],
+  "protocol_sha256": "dd7f845681567eff77af52d967970784bba826d140e13fd93e752b82bf264097",
+  "code_sha256": {
+    "relations.py": "a218ee93c5a0c82ca117d706bf09977388fd727d6a63acfcff9fe93584110652",
+    "run.py": "df03b2ed61747e02163803ed18dc23232509149f06b367ffeb5e9f40ec3b1808",
+    "test_relations.py": "d12d8b99d5f5b2afc9a7c354b4ec45620343f2a5dc119a855eac1131887a1492"
+  },
+  "baseline_gate_sha256": "6f96c2a3db3fb785d0e4c0cba005473228e1b5e30ec60dc8f6c8f8e56b2c4689",
+  "production_integrated": false,
+  "independent_external_validation": false,
+  "calibrated_failure_probability": false,
+  "model_selection_from_test": false
+}

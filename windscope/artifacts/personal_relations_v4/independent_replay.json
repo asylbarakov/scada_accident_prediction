@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "bundles": 66,
+  "decisions_per_variant": 8433,
+  "all_scores_and_metrics_reproduced": true,
+  "no_fitting": true,
+  "protocol_and_code_unchanged": true
+}

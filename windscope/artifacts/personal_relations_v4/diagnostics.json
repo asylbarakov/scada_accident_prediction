@@ -1,0 +1,875 @@
+{
+  "scope": "post-evaluation attribution; channel contribution is not fault diagnosis; no threshold changes",
+  "variants": {
+    "relations_only": {
+      "normal_sources": [
+        {
+          "event": 17,
+          "normal_hours": 230,
+          "false_episodes": 7,
+          "warning_hours": 18
+        },
+        {
+          "event": 69,
+          "normal_hours": 312,
+          "false_episodes": 2,
+          "warning_hours": 6
+        },
+        {
+          "event": 71,
+          "normal_hours": 313,
+          "false_episodes": 2,
+          "warning_hours": 12
+        },
+        {
+          "event": 3,
+          "normal_hours": 479,
+          "false_episodes": 1,
+          "warning_hours": 1
+        },
+        {
+          "event": 13,
+          "normal_hours": 477,
+          "false_episodes": 1,
+          "warning_hours": 7
+        },
+        {
+          "event": 38,
+          "normal_hours": 236,
+          "false_episodes": 1,
+          "warning_hours": 1
+        },
+        {
+          "event": 14,
+          "normal_hours": 149,
+          "false_episodes": 0,
+          "warning_hours": 0
+        },
+        {
+          "event": 24,
+          "normal_hours": 303,
+          "false_episodes": 0,
+          "warning_hours": 0
+        },
+        {
+          "event": 25,
+          "normal_hours": 284,
+          "false_episodes": 0,
+          "warning_hours": 0
+        },
+        {
+          "event": 92,
+          "normal_hours": 200,
+          "false_episodes": 0,
+          "warning_hours": 0
+        }
+      ],
+      "hits": [
+        {
+          "event": 26,
+          "first_h24_onset": "2023-10-19 08:00:00+00:00",
+          "lead_hours": 2.3333333333333335,
+          "threshold": 2.0877848362417875,
+          "score": 2.6089211368130614,
+          "score_contributions": {
+            "gearbox_bearing_temperature": 1.5978898916286237,
+            "gearbox_oil_temperature": 0.0,
+            "generator_bearing_temperature": 0.0,
+            "hydraulic_oil_temperature": 1.0110312451844379,
+            "generator_bearing_delta": 0.0,
+            "transformer_phase_spread": 0.0
+          },
+          "current_channel_evidence": [
+            {
+              "channel": "gearbox_bearing_temperature",
+              "actual": 51.0,
+              "expected": 41.640960693359375,
+              "normalized_residual": 4.793669674885871
+            },
+            {
+              "channel": "gearbox_oil_temperature",
+              "actual": 50.0,
+              "expected": 46.94698715209961,
+              "normalized_residual": 1.3591293576736352
+            },
+            {
+              "channel": "generator_bearing_temperature",
+              "actual": 44.0,
+              "expected": 35.60700988769531,
+              "normalized_residual": 2.180508561933814
+            },
+            {
+              "channel": "hydraulic_oil_temperature",
+              "actual": 40.0,
+              "expected": 35.2047233581543,
+              "normalized_residual": 1.222022192923036
+            },
+            {
+              "channel": "generator_bearing_delta",
+              "actual": -5.0,
+              "expected": -1.466161847114563,
+              "normalized_residual": 0.2039038100783994
+            },
+            {
+              "channel": "transformer_phase_spread",
+              "actual": 6.0,
+              "expected": 13.967408180236816,
+              "normalized_residual": -1.3105888632923273
+            }
+          ],
+          "warning_hours_last6": 3,
+          "available_hours_last6": 6,
+          "last_warning_lead_hours": 0.3333333333333333
+        },
+        {
+          "event": 42,
+          "first_h24_onset": "2023-09-16 02:00:00+00:00",
+          "lead_hours": 13.833333333333334,
+          "threshold": 2.340444020869171,
+          "score": 2.5774487866574347,
+          "score_contributions": {
+            "gearbox_bearing_temperature": 0.0,
+            "gearbox_oil_temperature": 0.0,
+            "generator_bearing_temperature": 0.0,
+            "hydraulic_oil_temperature": 2.577448786657435,
+            "generator_bearing_delta": 0.0,
+            "transformer_phase_spread": 0.0
+          },
+          "current_channel_evidence": [
+            {
+              "channel": "gearbox_bearing_temperature",
+              "actual": 35.0,
+              "expected": 35.697044372558594,
+              "normalized_residual": -0.4326863351203546
+            },
+            {
+              "channel": "gearbox_oil_temperature",
+              "actual": 37.0,
+              "expected": 36.2303581237793,
+              "normalized_residual": 0.0557940636260393
+            },
+            {
+              "channel": "generator_bearing_temperature",
+              "actual": 29.0,
+              "expected": 37.97637176513672,
+              "normalized_residual": -1.6491056224269534
+            },
+            {
+              "channel": "hydraulic_oil_temperature",
+              "actual": 52.0,
+              "expected": 43.96474838256836,
+              "normalized_residual": 3.104350368507178
+            },
+            {
+              "channel": "generator_bearing_delta",
+              "actual": -1.0,
+              "expected": -3.90428638458252,
+              "normalized_residual": 0.5190627535192399
+            },
+            {
+              "channel": "transformer_phase_spread",
+              "actual": 6.0,
+              "expected": 5.344916820526123,
+              "normalized_residual": 0.2596148305006903
+            }
+          ],
+          "warning_hours_last6": 0,
+          "available_hours_last6": 6,
+          "last_warning_lead_hours": 8.833333333333334
+        },
+        {
+          "event": 73,
+          "first_h24_onset": "2023-06-16 18:00:00+00:00",
+          "lead_hours": 17.666666666666668,
+          "threshold": 2.1295277778937622,
+          "score": 3.6809217909345833,
+          "score_contributions": {
+            "gearbox_bearing_temperature": 3.1155469065326624,
+            "gearbox_oil_temperature": 0.5653748844019212,
+            "generator_bearing_temperature": 0.0,
+            "hydraulic_oil_temperature": 0.0,
+            "generator_bearing_delta": 0.0,
+            "transformer_phase_spread": 0.0
+          },
+          "current_channel_evidence": [
+            {
+              "channel": "gearbox_bearing_temperature",
+              "actual": 63.0,
+              "expected": 47.87565612792969,
+              "normalized_residual": 8.069507322813896
+            },
+            {
+              "channel": "gearbox_oil_temperature",
+              "actual": 53.0,
+              "expected": 50.04566192626953,
+              "normalized_residual": 1.2212683445628616
+            },
+            {
+              "channel": "generator_bearing_temperature",
+              "actual": 76.0,
+              "expected": 42.02813720703125,
+              "normalized_residual": 3.624114465125774
+            },
+            {
+              "channel": "hydraulic_oil_temperature",
+              "actual": 42.0,
+              "expected": 45.558876037597656,
+              "normalized_residual": -0.6769461572804901
+            },
+            {
+              "channel": "generator_bearing_delta",
+              "actual": -9.0,
+              "expected": -5.55357551574707,
+              "normalized_residual": -0.2215935395773165
+            },
+            {
+              "channel": "transformer_phase_spread",
+              "actual": 10.0,
+              "expected": 41.71603012084961,
+              "normalized_residual": -2.8561655960866004
+            }
+          ],
+          "warning_hours_last6": 0,
+          "available_hours_last6": 6,
+          "last_warning_lead_hours": 13.666666666666666
+        },
+        {
+          "event": 84,
+          "first_h24_onset": "2023-09-12 10:00:00+00:00",
+          "lead_hours": 5.5,
+          "threshold": 1.9996024958734704,
+          "score": 2.749595727536363,
+          "score_contributions": {
+            "gearbox_bearing_temperature": 0.5359858385115246,
+            "gearbox_oil_temperature": 0.0,
+            "generator_bearing_temperature": 0.0,
+            "hydraulic_oil_temperature": 2.213609889024838,
+            "generator_bearing_delta": 0.0,
+            "transformer_phase_spread": 0.0
+          },
+          "current_channel_evidence": [
+            {
+              "channel": "gearbox_bearing_temperature",
+              "actual": 46.0,
+              "expected": 48.69257354736328,
+              "normalized_residual": -1.3291503834056566
+            },
+            {
+              "channel": "gearbox_oil_temperature",
+              "actual": 46.0,
+              "expected": 47.72569274902344,
+              "normalized_residual": -0.960200312331071
+            },
+            {
+              "channel": "generator_bearing_temperature",
+              "actual": 42.0,
+              "expected": 40.89933776855469,
+              "normalized_residual": 0.0728708008403073
+            },
+            {
+              "channel": "hydraulic_oil_temperature",
+              "actual": 48.0,
+              "expected": 37.76174545288086,
+              "normalized_residual": 3.2521370002861967
+            },
+            {
+              "channel": "generator_bearing_delta",
+              "actual": -1.0,
+              "expected": -3.85666561126709,
+              "normalized_residual": 0.2863901726506361
+            },
+            {
+              "channel": "transformer_phase_spread",
+              "actual": 5.0,
+              "expected": 4.579707145690918,
+              "normalized_residual": 0.0920667648315429
+            }
+          ],
+          "warning_hours_last6": 1,
+          "available_hours_last6": 1,
+          "last_warning_lead_hours": 5.5
+        }
+      ]
+    },
+    "power30_only": {
+      "normal_sources": [
+        {
+          "event": 17,
+          "normal_hours": 230,
+          "false_episodes": 8,
+          "warning_hours": 46
+        },
+        {
+          "event": 69,
+          "normal_hours": 312,
+          "false_episodes": 2,
+          "warning_hours": 5
+        },
+        {
+          "event": 71,
+          "normal_hours": 313,
+          "false_episodes": 2,
+          "warning_hours": 12
+        },
+        {
+          "event": 3,
+          "normal_hours": 479,
+          "false_episodes": 1,
+          "warning_hours": 1
+        },
+        {
+          "event": 13,
+          "normal_hours": 477,
+          "false_episodes": 1,
+          "warning_hours": 8
+        },
+        {
+          "event": 38,
+          "normal_hours": 236,
+          "false_episodes": 1,
+          "warning_hours": 1
+        },
+        {
+          "event": 14,
+          "normal_hours": 149,
+          "false_episodes": 0,
+          "warning_hours": 0
+        },
+        {
+          "event": 24,
+          "normal_hours": 303,
+          "false_episodes": 0,
+          "warning_hours": 0
+        },
+        {
+          "event": 25,
+          "normal_hours": 284,
+          "false_episodes": 0,
+          "warning_hours": 0
+        },
+        {
+          "event": 92,
+          "normal_hours": 200,
+          "false_episodes": 0,
+          "warning_hours": 0
+        }
+      ],
+      "hits": [
+        {
+          "event": 26,
+          "first_h24_onset": "2023-10-19 09:00:00+00:00",
+          "lead_hours": 1.3333333333333333,
+          "threshold": 1.7674886095687974,
+          "score": 1.9270754832049348,
+          "score_contributions": {
+            "gearbox_bearing_temperature": 0.9844436599587457,
+            "gearbox_oil_temperature": 0.0,
+            "generator_bearing_temperature": 0.0,
+            "hydraulic_oil_temperature": 0.9426318232461893
+          },
+          "current_channel_evidence": [
+            {
+              "channel": "gearbox_bearing_temperature",
+              "actual": 48.0,
+              "expected": 41.66765594482422,
+              "normalized_residual": 2.9533309798762373
+            },
+            {
+              "channel": "gearbox_oil_temperature",
+              "actual": 49.0,
+              "expected": 45.43756866455078,
+              "normalized_residual": 1.5582284938412598
+            },
+            {
+              "channel": "generator_bearing_temperature",
+              "actual": 43.0,
+              "expected": 35.54560852050781,
+              "normalized_residual": 2.0060289866692464
+            },
+            {
+              "channel": "hydraulic_oil_temperature",
+              "actual": 40.0,
+              "expected": 35.18634033203125,
+              "normalized_residual": 1.171665322777613
+            }
+          ],
+          "warning_hours_last6": 2,
+          "available_hours_last6": 6,
+          "last_warning_lead_hours": 0.3333333333333333
+        },
+        {
+          "event": 68,
+          "first_h24_onset": "2023-08-10 18:00:00+00:00",
+          "lead_hours": 19.166666666666668,
+          "threshold": 1.879503410300116,
+          "score": 2.004034794279714,
+          "score_contributions": {
+            "gearbox_bearing_temperature": 0.0,
+            "gearbox_oil_temperature": 0.0,
+            "generator_bearing_temperature": 0.0,
+            "hydraulic_oil_temperature": 2.0040347942797143
+          },
+          "current_channel_evidence": [
+            {
+              "channel": "gearbox_bearing_temperature",
+              "actual": 64.0,
+              "expected": 63.46249771118164,
+              "normalized_residual": 0.0309203395443437
+            },
+            {
+              "channel": "gearbox_oil_temperature",
+              "actual": 55.0,
+              "expected": 55.70732116699219,
+              "normalized_residual": -0.5109982063289804
+            },
+            {
+              "channel": "generator_bearing_temperature",
+              "actual": 78.0,
+              "expected": 72.8000259399414,
+              "normalized_residual": 0.7643934472250099
+            },
+            {
+              "channel": "hydraulic_oil_temperature",
+              "actual": 54.0,
+              "expected": 47.800811767578125,
+              "normalized_residual": 1.8759088653201617
+            }
+          ],
+          "warning_hours_last6": 0,
+          "available_hours_last6": 6,
+          "last_warning_lead_hours": 18.166666666666668
+        },
+        {
+          "event": 73,
+          "first_h24_onset": "2023-06-16 19:00:00+00:00",
+          "lead_hours": 16.666666666666668,
+          "threshold": 1.859021461673976,
+          "score": 2.473700665969309,
+          "score_contributions": {
+            "gearbox_bearing_temperature": 2.010753433406989,
+            "gearbox_oil_temperature": 0.4629472325623205,
+            "generator_bearing_temperature": 0.0,
+            "hydraulic_oil_temperature": 0.0
+          },
+          "current_channel_evidence": [
+            {
+              "channel": "gearbox_bearing_temperature",
+              "actual": 57.0,
+              "expected": 49.43449020385742,
+              "normalized_residual": 4.073167649193188
+            },
+            {
+              "channel": "gearbox_oil_temperature",
+              "actual": 55.0,
+              "expected": 53.41609954833984,
+              "normalized_residual": 0.6792588552363384
+            },
+            {
+              "channel": "generator_bearing_temperature",
+              "actual": 58.0,
+              "expected": 49.98987579345703,
+              "normalized_residual": 1.1397049668662398
+            },
+            {
+              "channel": "hydraulic_oil_temperature",
+              "actual": 44.0,
+              "expected": 46.32926559448242,
+              "normalized_residual": -0.4623553480505387
+            }
+          ],
+          "warning_hours_last6": 0,
+          "available_hours_last6": 6,
+          "last_warning_lead_hours": 9.666666666666666
+        },
+        {
+          "event": 84,
+          "first_h24_onset": "2023-09-12 10:00:00+00:00",
+          "lead_hours": 5.5,
+          "threshold": 1.990611694748892,
+          "score": 2.622316538217345,
+          "score_contributions": {
+            "gearbox_bearing_temperature": 0.4603550076721794,
+            "gearbox_oil_temperature": 0.0,
+            "generator_bearing_temperature": 0.0,
+            "hydraulic_oil_temperature": 2.1619615305451654
+          },
+          "current_channel_evidence": [
+            {
+              "channel": "gearbox_bearing_temperature",
+              "actual": 46.0,
+              "expected": 45.51101303100586,
+              "normalized_residual": 0.0226784352312957
+            },
+            {
+              "channel": "gearbox_oil_temperature",
+              "actual": 46.0,
+              "expected": 46.34981536865234,
+              "normalized_residual": -0.4515084599717527
+            },
+            {
+              "channel": "generator_bearing_temperature",
+              "actual": 42.0,
+              "expected": 39.22785949707031,
+              "normalized_residual": 0.2988453694464403
+            },
+            {
+              "channel": "hydraulic_oil_temperature",
+              "actual": 48.0,
+              "expected": 38.17403030395508,
+              "normalized_residual": 3.1002783087897874
+            }
+          ],
+          "warning_hours_last6": 1,
+          "available_hours_last6": 1,
+          "last_warning_lead_hours": 5.5
+        }
+      ]
+    },
+    "relations_power30": {
+      "normal_sources": [
+        {
+          "event": 17,
+          "normal_hours": 230,
+          "false_episodes": 7,
+          "warning_hours": 38
+        },
+        {
+          "event": 69,
+          "normal_hours": 312,
+          "false_episodes": 2,
+          "warning_hours": 5
+        },
+        {
+          "event": 71,
+          "normal_hours": 313,
+          "false_episodes": 2,
+          "warning_hours": 12
+        },
+        {
+          "event": 3,
+          "normal_hours": 479,
+          "false_episodes": 1,
+          "warning_hours": 1
+        },
+        {
+          "event": 13,
+          "normal_hours": 477,
+          "false_episodes": 1,
+          "warning_hours": 8
+        },
+        {
+          "event": 38,
+          "normal_hours": 236,
+          "false_episodes": 1,
+          "warning_hours": 1
+        },
+        {
+          "event": 14,
+          "normal_hours": 149,
+          "false_episodes": 0,
+          "warning_hours": 0
+        },
+        {
+          "event": 24,
+          "normal_hours": 303,
+          "false_episodes": 0,
+          "warning_hours": 0
+        },
+        {
+          "event": 25,
+          "normal_hours": 284,
+          "false_episodes": 0,
+          "warning_hours": 0
+        },
+        {
+          "event": 92,
+          "normal_hours": 200,
+          "false_episodes": 0,
+          "warning_hours": 0
+        }
+      ],
+      "hits": [
+        {
+          "event": 0,
+          "first_h24_onset": "2023-08-19 22:00:00+00:00",
+          "lead_hours": 8.166666666666666,
+          "threshold": 1.7938515147947252,
+          "score": 1.9129212674838385,
+          "score_contributions": {
+            "gearbox_bearing_temperature": 0.0,
+            "gearbox_oil_temperature": 0.0,
+            "generator_bearing_temperature": 0.0,
+            "hydraulic_oil_temperature": 0.0,
+            "generator_bearing_delta": 1.9129212674838378,
+            "transformer_phase_spread": 0.0
+          },
+          "current_channel_evidence": [
+            {
+              "channel": "gearbox_bearing_temperature",
+              "actual": 64.0,
+              "expected": 62.82144927978516,
+              "normalized_residual": 0.3828065014190439
+            },
+            {
+              "channel": "gearbox_oil_temperature",
+              "actual": 56.0,
+              "expected": 55.42916870117188,
+              "normalized_residual": 0.0716247871616475
+            },
+            {
+              "channel": "generator_bearing_temperature",
+              "actual": 87.0,
+              "expected": 70.97091674804688,
+              "normalized_residual": 1.6741561489414354
+            },
+            {
+              "channel": "hydraulic_oil_temperature",
+              "actual": 43.0,
+              "expected": 44.634368896484375,
+              "normalized_residual": -0.256255489983575
+            },
+            {
+              "channel": "generator_bearing_delta",
+              "actual": 12.0,
+              "expected": -0.2316184937953949,
+              "normalized_residual": 1.920691136366616
+            },
+            {
+              "channel": "transformer_phase_spread",
+              "actual": 10.0,
+              "expected": 27.39104652404785,
+              "normalized_residual": -0.0146373394281573
+            }
+          ],
+          "warning_hours_last6": 0,
+          "available_hours_last6": 6,
+          "last_warning_lead_hours": 7.166666666666667
+        },
+        {
+          "event": 26,
+          "first_h24_onset": "2023-10-19 09:00:00+00:00",
+          "lead_hours": 1.3333333333333333,
+          "threshold": 1.7674886095687974,
+          "score": 1.9270754832049348,
+          "score_contributions": {
+            "gearbox_bearing_temperature": 0.9844436599587457,
+            "gearbox_oil_temperature": 0.0,
+            "generator_bearing_temperature": 0.0,
+            "hydraulic_oil_temperature": 0.9426318232461893,
+            "generator_bearing_delta": 0.0,
+            "transformer_phase_spread": 0.0
+          },
+          "current_channel_evidence": [
+            {
+              "channel": "gearbox_bearing_temperature",
+              "actual": 48.0,
+              "expected": 41.66765594482422,
+              "normalized_residual": 2.9533309798762373
+            },
+            {
+              "channel": "gearbox_oil_temperature",
+              "actual": 49.0,
+              "expected": 45.43756866455078,
+              "normalized_residual": 1.5582284938412598
+            },
+            {
+              "channel": "generator_bearing_temperature",
+              "actual": 43.0,
+              "expected": 35.54560852050781,
+              "normalized_residual": 2.0060289866692464
+            },
+            {
+              "channel": "hydraulic_oil_temperature",
+              "actual": 40.0,
+              "expected": 35.18634033203125,
+              "normalized_residual": 1.171665322777613
+            },
+            {
+              "channel": "generator_bearing_delta",
+              "actual": -4.0,
+              "expected": -0.8572613000869751,
+              "normalized_residual": 0.2810939786324207
+            },
+            {
+              "channel": "transformer_phase_spread",
+              "actual": 6.0,
+              "expected": 11.241108894348145,
+              "normalized_residual": -0.6735500365085624
+            }
+          ],
+          "warning_hours_last6": 2,
+          "available_hours_last6": 6,
+          "last_warning_lead_hours": 0.3333333333333333
+        },
+        {
+          "event": 68,
+          "first_h24_onset": "2023-08-10 18:00:00+00:00",
+          "lead_hours": 19.166666666666668,
+          "threshold": 1.884112537956449,
+          "score": 2.004034794279714,
+          "score_contributions": {
+            "gearbox_bearing_temperature": 0.0,
+            "gearbox_oil_temperature": 0.0,
+            "generator_bearing_temperature": 0.0,
+            "hydraulic_oil_temperature": 2.0040347942797143,
+            "generator_bearing_delta": 0.0,
+            "transformer_phase_spread": 0.0
+          },
+          "current_channel_evidence": [
+            {
+              "channel": "gearbox_bearing_temperature",
+              "actual": 64.0,
+              "expected": 63.46249771118164,
+              "normalized_residual": 0.0309203395443437
+            },
+            {
+              "channel": "gearbox_oil_temperature",
+              "actual": 55.0,
+              "expected": 55.70732116699219,
+              "normalized_residual": -0.5109982063289804
+            },
+            {
+              "channel": "generator_bearing_temperature",
+              "actual": 78.0,
+              "expected": 72.8000259399414,
+              "normalized_residual": 0.7643934472250099
+            },
+            {
+              "channel": "hydraulic_oil_temperature",
+              "actual": 54.0,
+              "expected": 47.800811767578125,
+              "normalized_residual": 1.8759088653201617
+            },
+            {
+              "channel": "generator_bearing_delta",
+              "actual": -7.0,
+              "expected": -4.739991188049316,
+              "normalized_residual": -0.3623584131643647
+            },
+            {
+              "channel": "transformer_phase_spread",
+              "actual": 15.0,
+              "expected": 18.24272346496582,
+              "normalized_residual": -0.2967420765902191
+            }
+          ],
+          "warning_hours_last6": 0,
+          "available_hours_last6": 6,
+          "last_warning_lead_hours": 18.166666666666668
+        },
+        {
+          "event": 73,
+          "first_h24_onset": "2023-06-16 19:00:00+00:00",
+          "lead_hours": 16.666666666666668,
+          "threshold": 1.8590214616739755,
+          "score": 2.473700665969309,
+          "score_contributions": {
+            "gearbox_bearing_temperature": 2.010753433406989,
+            "gearbox_oil_temperature": 0.4629472325623205,
+            "generator_bearing_temperature": 0.0,
+            "hydraulic_oil_temperature": 0.0,
+            "generator_bearing_delta": 0.0,
+            "transformer_phase_spread": 0.0
+          },
+          "current_channel_evidence": [
+            {
+              "channel": "gearbox_bearing_temperature",
+              "actual": 57.0,
+              "expected": 49.43449020385742,
+              "normalized_residual": 4.073167649193188
+            },
+            {
+              "channel": "gearbox_oil_temperature",
+              "actual": 55.0,
+              "expected": 53.41609954833984,
+              "normalized_residual": 0.6792588552363384
+            },
+            {
+              "channel": "generator_bearing_temperature",
+              "actual": 58.0,
+              "expected": 49.98987579345703,
+              "normalized_residual": 1.1397049668662398
+            },
+            {
+              "channel": "hydraulic_oil_temperature",
+              "actual": 44.0,
+              "expected": 46.32926559448242,
+              "normalized_residual": -0.4623553480505387
+            },
+            {
+              "channel": "generator_bearing_delta",
+              "actual": -9.0,
+              "expected": -7.574130058288574,
+              "normalized_residual": -0.0148975601614038
+            },
+            {
+              "channel": "transformer_phase_spread",
+              "actual": 9.0,
+              "expected": 34.34928894042969,
+              "normalized_residual": -2.288145915823658
+            }
+          ],
+          "warning_hours_last6": 0,
+          "available_hours_last6": 6,
+          "last_warning_lead_hours": 9.666666666666666
+        },
+        {
+          "event": 84,
+          "first_h24_onset": "2023-09-12 10:00:00+00:00",
+          "lead_hours": 5.5,
+          "threshold": 1.9906116947488917,
+          "score": 2.622316538217345,
+          "score_contributions": {
+            "gearbox_bearing_temperature": 0.4603550076721794,
+            "gearbox_oil_temperature": 0.0,
+            "generator_bearing_temperature": 0.0,
+            "hydraulic_oil_temperature": 2.1619615305451654,
+            "generator_bearing_delta": 0.0,
+            "transformer_phase_spread": 0.0
+          },
+          "current_channel_evidence": [
+            {
+              "channel": "gearbox_bearing_temperature",
+              "actual": 46.0,
+              "expected": 45.51101303100586,
+              "normalized_residual": 0.0226784352312957
+            },
+            {
+              "channel": "gearbox_oil_temperature",
+              "actual": 46.0,
+              "expected": 46.34981536865234,
+              "normalized_residual": -0.4515084599717527
+            },
+            {
+              "channel": "generator_bearing_temperature",
+              "actual": 42.0,
+              "expected": 39.22785949707031,
+              "normalized_residual": 0.2988453694464403
+            },
+            {
+              "channel": "hydraulic_oil_temperature",
+              "actual": 48.0,
+              "expected": 38.17403030395508,
+              "normalized_residual": 3.1002783087897874
+            },
+            {
+              "channel": "generator_bearing_delta",
+              "actual": -1.0,
+              "expected": -1.6011664867401123,
+              "normalized_residual": 0.0711900365968161
+            },
+            {
+              "channel": "transformer_phase_spread",
+              "actual": 5.0,
+              "expected": 4.582287311553955,
+              "normalized_residual": 0.0991582870483398
+            }
+          ],
+          "warning_hours_last6": 1,
+          "available_hours_last6": 1,
+          "last_warning_lead_hours": 5.5
+        }
+      ]
+    }
+  }
+}

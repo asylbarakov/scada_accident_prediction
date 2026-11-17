@@ -1,0 +1,1023 @@
+{
+  "status": "passed",
+  "baseline_reproduced_sources": 22,
+  "native_reload_bundles": 66,
+  "raw_prefix_checks": [
+    {
+      "event": 0,
+      "at": "2023-08-04 07:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 0,
+      "at": "2023-08-24 06:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 3,
+      "at": "2023-04-27 03:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 3,
+      "at": "2023-05-20 01:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 10,
+      "at": "2023-10-09 09:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 10,
+      "at": "2023-10-18 08:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 13,
+      "at": "2023-04-30 14:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 13,
+      "at": "2023-05-25 10:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 14,
+      "at": "2023-03-03 14:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 14,
+      "at": "2023-03-16 18:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 17,
+      "at": "2023-10-31 16:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 17,
+      "at": "2023-11-20 00:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 22,
+      "at": "2023-08-12 10:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 22,
+      "at": "2023-08-20 09:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 24,
+      "at": "2023-04-24 15:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 24,
+      "at": "2023-05-13 11:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 25,
+      "at": "2023-05-23 07:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 25,
+      "at": "2023-06-09 02:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 26,
+      "at": "2023-10-12 11:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 26,
+      "at": "2023-10-22 10:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 38,
+      "at": "2023-06-28 16:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 38,
+      "at": "2023-07-17 07:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 40,
+      "at": "2022-12-25 00:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 40,
+      "at": "2023-01-28 13:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 42,
+      "at": "2023-09-09 16:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 42,
+      "at": "2023-09-20 15:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 45,
+      "at": "2023-04-16 19:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 45,
+      "at": "2023-04-26 18:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 51,
+      "at": "2023-10-04 02:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 51,
+      "at": "2023-10-20 16:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 68,
+      "at": "2023-07-28 14:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 68,
+      "at": "2023-08-13 13:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 69,
+      "at": "2023-09-03 01:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 69,
+      "at": "2023-09-21 00:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 71,
+      "at": "2023-01-01 00:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 71,
+      "at": "2023-01-18 00:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 72,
+      "at": "2023-10-07 09:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 72,
+      "at": "2023-10-21 08:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 73,
+      "at": "2023-06-07 12:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 73,
+      "at": "2023-06-19 11:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 84,
+      "at": "2023-09-03 16:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 84,
+      "at": "2023-09-13 15:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 92,
+      "at": "2023-04-04 03:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 92,
+      "at": "2023-04-16 10:00:00+00:00",
+      "passed": true
+    }
+  ],
+  "model_prefix_checks": [
+    {
+      "event": 0,
+      "variant": "relations_only",
+      "stop": 8691,
+      "passed": true
+    },
+    {
+      "event": 0,
+      "variant": "relations_only",
+      "stop": 9161,
+      "passed": true
+    },
+    {
+      "event": 0,
+      "variant": "power30_only",
+      "stop": 8691,
+      "passed": true
+    },
+    {
+      "event": 0,
+      "variant": "power30_only",
+      "stop": 9161,
+      "passed": true
+    },
+    {
+      "event": 0,
+      "variant": "relations_power30",
+      "stop": 8691,
+      "passed": true
+    },
+    {
+      "event": 0,
+      "variant": "relations_power30",
+      "stop": 9161,
+      "passed": true
+    },
+    {
+      "event": 3,
+      "variant": "relations_only",
+      "stop": 8694,
+      "passed": true
+    },
+    {
+      "event": 3,
+      "variant": "relations_only",
+      "stop": 9244,
+      "passed": true
+    },
+    {
+      "event": 3,
+      "variant": "power30_only",
+      "stop": 8694,
+      "passed": true
+    },
+    {
+      "event": 3,
+      "variant": "power30_only",
+      "stop": 9244,
+      "passed": true
+    },
+    {
+      "event": 3,
+      "variant": "relations_power30",
+      "stop": 8694,
+      "passed": true
+    },
+    {
+      "event": 3,
+      "variant": "relations_power30",
+      "stop": 9244,
+      "passed": true
+    },
+    {
+      "event": 10,
+      "variant": "relations_only",
+      "stop": 8722,
+      "passed": true
+    },
+    {
+      "event": 10,
+      "variant": "relations_only",
+      "stop": 8932,
+      "passed": true
+    },
+    {
+      "event": 10,
+      "variant": "power30_only",
+      "stop": 8722,
+      "passed": true
+    },
+    {
+      "event": 10,
+      "variant": "power30_only",
+      "stop": 8932,
+      "passed": true
+    },
+    {
+      "event": 10,
+      "variant": "relations_power30",
+      "stop": 8722,
+      "passed": true
+    },
+    {
+      "event": 10,
+      "variant": "relations_power30",
+      "stop": 8932,
+      "passed": true
+    },
+    {
+      "event": 13,
+      "variant": "relations_only",
+      "stop": 8405,
+      "passed": true
+    },
+    {
+      "event": 13,
+      "variant": "relations_only",
+      "stop": 9001,
+      "passed": true
+    },
+    {
+      "event": 13,
+      "variant": "power30_only",
+      "stop": 8405,
+      "passed": true
+    },
+    {
+      "event": 13,
+      "variant": "power30_only",
+      "stop": 9001,
+      "passed": true
+    },
+    {
+      "event": 13,
+      "variant": "relations_power30",
+      "stop": 8405,
+      "passed": true
+    },
+    {
+      "event": 13,
+      "variant": "relations_power30",
+      "stop": 9001,
+      "passed": true
+    },
+    {
+      "event": 14,
+      "variant": "relations_only",
+      "stop": 8714,
+      "passed": true
+    },
+    {
+      "event": 14,
+      "variant": "relations_only",
+      "stop": 9030,
+      "passed": true
+    },
+    {
+      "event": 14,
+      "variant": "power30_only",
+      "stop": 8714,
+      "passed": true
+    },
+    {
+      "event": 14,
+      "variant": "power30_only",
+      "stop": 9030,
+      "passed": true
+    },
+    {
+      "event": 14,
+      "variant": "relations_power30",
+      "stop": 8714,
+      "passed": true
+    },
+    {
+      "event": 14,
+      "variant": "relations_power30",
+      "stop": 9030,
+      "passed": true
+    },
+    {
+      "event": 17,
+      "variant": "relations_only",
+      "stop": 8720,
+      "passed": true
+    },
+    {
+      "event": 17,
+      "variant": "relations_only",
+      "stop": 9181,
+      "passed": true
+    },
+    {
+      "event": 17,
+      "variant": "power30_only",
+      "stop": 8720,
+      "passed": true
+    },
+    {
+      "event": 17,
+      "variant": "power30_only",
+      "stop": 9181,
+      "passed": true
+    },
+    {
+      "event": 17,
+      "variant": "relations_power30",
+      "stop": 8720,
+      "passed": true
+    },
+    {
+      "event": 17,
+      "variant": "relations_power30",
+      "stop": 9181,
+      "passed": true
+    },
+    {
+      "event": 22,
+      "variant": "relations_only",
+      "stop": 8649,
+      "passed": true
+    },
+    {
+      "event": 22,
+      "variant": "relations_only",
+      "stop": 8839,
+      "passed": true
+    },
+    {
+      "event": 22,
+      "variant": "power30_only",
+      "stop": 8649,
+      "passed": true
+    },
+    {
+      "event": 22,
+      "variant": "power30_only",
+      "stop": 8839,
+      "passed": true
+    },
+    {
+      "event": 22,
+      "variant": "relations_power30",
+      "stop": 8649,
+      "passed": true
+    },
+    {
+      "event": 22,
+      "variant": "relations_power30",
+      "stop": 8839,
+      "passed": true
+    },
+    {
+      "event": 24,
+      "variant": "relations_only",
+      "stop": 8714,
+      "passed": true
+    },
+    {
+      "event": 24,
+      "variant": "relations_only",
+      "stop": 9166,
+      "passed": true
+    },
+    {
+      "event": 24,
+      "variant": "power30_only",
+      "stop": 8714,
+      "passed": true
+    },
+    {
+      "event": 24,
+      "variant": "power30_only",
+      "stop": 9166,
+      "passed": true
+    },
+    {
+      "event": 24,
+      "variant": "relations_power30",
+      "stop": 8714,
+      "passed": true
+    },
+    {
+      "event": 24,
+      "variant": "relations_power30",
+      "stop": 9166,
+      "passed": true
+    },
+    {
+      "event": 25,
+      "variant": "relations_only",
+      "stop": 8716,
+      "passed": true
+    },
+    {
+      "event": 25,
+      "variant": "relations_only",
+      "stop": 9119,
+      "passed": true
+    },
+    {
+      "event": 25,
+      "variant": "power30_only",
+      "stop": 8716,
+      "passed": true
+    },
+    {
+      "event": 25,
+      "variant": "power30_only",
+      "stop": 9119,
+      "passed": true
+    },
+    {
+      "event": 25,
+      "variant": "relations_power30",
+      "stop": 8716,
+      "passed": true
+    },
+    {
+      "event": 25,
+      "variant": "relations_power30",
+      "stop": 9119,
+      "passed": true
+    },
+    {
+      "event": 26,
+      "variant": "relations_only",
+      "stop": 8709,
+      "passed": true
+    },
+    {
+      "event": 26,
+      "variant": "relations_only",
+      "stop": 8948,
+      "passed": true
+    },
+    {
+      "event": 26,
+      "variant": "power30_only",
+      "stop": 8709,
+      "passed": true
+    },
+    {
+      "event": 26,
+      "variant": "power30_only",
+      "stop": 8948,
+      "passed": true
+    },
+    {
+      "event": 26,
+      "variant": "relations_power30",
+      "stop": 8709,
+      "passed": true
+    },
+    {
+      "event": 26,
+      "variant": "relations_power30",
+      "stop": 8948,
+      "passed": true
+    },
+    {
+      "event": 38,
+      "variant": "relations_only",
+      "stop": 8715,
+      "passed": true
+    },
+    {
+      "event": 38,
+      "variant": "relations_only",
+      "stop": 9138,
+      "passed": true
+    },
+    {
+      "event": 38,
+      "variant": "power30_only",
+      "stop": 8715,
+      "passed": true
+    },
+    {
+      "event": 38,
+      "variant": "power30_only",
+      "stop": 9138,
+      "passed": true
+    },
+    {
+      "event": 38,
+      "variant": "relations_power30",
+      "stop": 8715,
+      "passed": true
+    },
+    {
+      "event": 38,
+      "variant": "relations_power30",
+      "stop": 9138,
+      "passed": true
+    },
+    {
+      "event": 40,
+      "variant": "relations_only",
+      "stop": 8532,
+      "passed": true
+    },
+    {
+      "event": 40,
+      "variant": "relations_only",
+      "stop": 9356,
+      "passed": true
+    },
+    {
+      "event": 40,
+      "variant": "power30_only",
+      "stop": 8532,
+      "passed": true
+    },
+    {
+      "event": 40,
+      "variant": "power30_only",
+      "stop": 9356,
+      "passed": true
+    },
+    {
+      "event": 40,
+      "variant": "relations_power30",
+      "stop": 8532,
+      "passed": true
+    },
+    {
+      "event": 40,
+      "variant": "relations_power30",
+      "stop": 9356,
+      "passed": true
+    },
+    {
+      "event": 42,
+      "variant": "relations_only",
+      "stop": 8718,
+      "passed": true
+    },
+    {
+      "event": 42,
+      "variant": "relations_only",
+      "stop": 8981,
+      "passed": true
+    },
+    {
+      "event": 42,
+      "variant": "power30_only",
+      "stop": 8718,
+      "passed": true
+    },
+    {
+      "event": 42,
+      "variant": "power30_only",
+      "stop": 8981,
+      "passed": true
+    },
+    {
+      "event": 42,
+      "variant": "relations_power30",
+      "stop": 8718,
+      "passed": true
+    },
+    {
+      "event": 42,
+      "variant": "relations_power30",
+      "stop": 8981,
+      "passed": true
+    },
+    {
+      "event": 45,
+      "variant": "relations_only",
+      "stop": 8715,
+      "passed": true
+    },
+    {
+      "event": 45,
+      "variant": "relations_only",
+      "stop": 8954,
+      "passed": true
+    },
+    {
+      "event": 45,
+      "variant": "power30_only",
+      "stop": 8715,
+      "passed": true
+    },
+    {
+      "event": 45,
+      "variant": "power30_only",
+      "stop": 8954,
+      "passed": true
+    },
+    {
+      "event": 45,
+      "variant": "relations_power30",
+      "stop": 8715,
+      "passed": true
+    },
+    {
+      "event": 45,
+      "variant": "relations_power30",
+      "stop": 8954,
+      "passed": true
+    },
+    {
+      "event": 51,
+      "variant": "relations_only",
+      "stop": 8675,
+      "passed": true
+    },
+    {
+      "event": 51,
+      "variant": "relations_only",
+      "stop": 9073,
+      "passed": true
+    },
+    {
+      "event": 51,
+      "variant": "power30_only",
+      "stop": 8675,
+      "passed": true
+    },
+    {
+      "event": 51,
+      "variant": "power30_only",
+      "stop": 9073,
+      "passed": true
+    },
+    {
+      "event": 51,
+      "variant": "relations_power30",
+      "stop": 8675,
+      "passed": true
+    },
+    {
+      "event": 51,
+      "variant": "relations_power30",
+      "stop": 9073,
+      "passed": true
+    },
+    {
+      "event": 68,
+      "variant": "relations_only",
+      "stop": 8679,
+      "passed": true
+    },
+    {
+      "event": 68,
+      "variant": "relations_only",
+      "stop": 9061,
+      "passed": true
+    },
+    {
+      "event": 68,
+      "variant": "power30_only",
+      "stop": 8679,
+      "passed": true
+    },
+    {
+      "event": 68,
+      "variant": "power30_only",
+      "stop": 9061,
+      "passed": true
+    },
+    {
+      "event": 68,
+      "variant": "relations_power30",
+      "stop": 8679,
+      "passed": true
+    },
+    {
+      "event": 68,
+      "variant": "relations_power30",
+      "stop": 9061,
+      "passed": true
+    },
+    {
+      "event": 69,
+      "variant": "relations_only",
+      "stop": 8705,
+      "passed": true
+    },
+    {
+      "event": 69,
+      "variant": "relations_only",
+      "stop": 9136,
+      "passed": true
+    },
+    {
+      "event": 69,
+      "variant": "power30_only",
+      "stop": 8705,
+      "passed": true
+    },
+    {
+      "event": 69,
+      "variant": "power30_only",
+      "stop": 9136,
+      "passed": true
+    },
+    {
+      "event": 69,
+      "variant": "relations_power30",
+      "stop": 8705,
+      "passed": true
+    },
+    {
+      "event": 69,
+      "variant": "relations_power30",
+      "stop": 9136,
+      "passed": true
+    },
+    {
+      "event": 71,
+      "variant": "relations_only",
+      "stop": 8715,
+      "passed": true
+    },
+    {
+      "event": 71,
+      "variant": "relations_only",
+      "stop": 9123,
+      "passed": true
+    },
+    {
+      "event": 71,
+      "variant": "power30_only",
+      "stop": 8715,
+      "passed": true
+    },
+    {
+      "event": 71,
+      "variant": "power30_only",
+      "stop": 9123,
+      "passed": true
+    },
+    {
+      "event": 71,
+      "variant": "relations_power30",
+      "stop": 8715,
+      "passed": true
+    },
+    {
+      "event": 71,
+      "variant": "relations_power30",
+      "stop": 9123,
+      "passed": true
+    },
+    {
+      "event": 72,
+      "variant": "relations_only",
+      "stop": 8679,
+      "passed": true
+    },
+    {
+      "event": 72,
+      "variant": "relations_only",
+      "stop": 9014,
+      "passed": true
+    },
+    {
+      "event": 72,
+      "variant": "power30_only",
+      "stop": 8679,
+      "passed": true
+    },
+    {
+      "event": 72,
+      "variant": "power30_only",
+      "stop": 9014,
+      "passed": true
+    },
+    {
+      "event": 72,
+      "variant": "relations_power30",
+      "stop": 8679,
+      "passed": true
+    },
+    {
+      "event": 72,
+      "variant": "relations_power30",
+      "stop": 9014,
+      "passed": true
+    },
+    {
+      "event": 73,
+      "variant": "relations_only",
+      "stop": 8718,
+      "passed": true
+    },
+    {
+      "event": 73,
+      "variant": "relations_only",
+      "stop": 9005,
+      "passed": true
+    },
+    {
+      "event": 73,
+      "variant": "power30_only",
+      "stop": 8718,
+      "passed": true
+    },
+    {
+      "event": 73,
+      "variant": "power30_only",
+      "stop": 9005,
+      "passed": true
+    },
+    {
+      "event": 73,
+      "variant": "relations_power30",
+      "stop": 8718,
+      "passed": true
+    },
+    {
+      "event": 73,
+      "variant": "relations_power30",
+      "stop": 9005,
+      "passed": true
+    },
+    {
+      "event": 84,
+      "variant": "relations_only",
+      "stop": 8725,
+      "passed": true
+    },
+    {
+      "event": 84,
+      "variant": "relations_only",
+      "stop": 8964,
+      "passed": true
+    },
+    {
+      "event": 84,
+      "variant": "power30_only",
+      "stop": 8725,
+      "passed": true
+    },
+    {
+      "event": 84,
+      "variant": "power30_only",
+      "stop": 8964,
+      "passed": true
+    },
+    {
+      "event": 84,
+      "variant": "relations_power30",
+      "stop": 8725,
+      "passed": true
+    },
+    {
+      "event": 84,
+      "variant": "relations_power30",
+      "stop": 8964,
+      "passed": true
+    },
+    {
+      "event": 92,
+      "variant": "relations_only",
+      "stop": 8716,
+      "passed": true
+    },
+    {
+      "event": 92,
+      "variant": "relations_only",
+      "stop": 9011,
+      "passed": true
+    },
+    {
+      "event": 92,
+      "variant": "power30_only",
+      "stop": 8716,
+      "passed": true
+    },
+    {
+      "event": 92,
+      "variant": "power30_only",
+      "stop": 9011,
+      "passed": true
+    },
+    {
+      "event": 92,
+      "variant": "relations_power30",
+      "stop": 8716,
+      "passed": true
+    },
+    {
+      "event": 92,
+      "variant": "relations_power30",
+      "stop": 9011,
+      "passed": true
+    }
+  ],
+  "fitting_calibration_followup_before_prediction": true,
+  "power_context_availability_identical": true
+}
