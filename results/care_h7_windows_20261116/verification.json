@@ -1,0 +1,33 @@
+{
+  "fixed_fold_coverage_matches": true,
+  "only_h7_trained": true,
+  "cache_unchanged": true,
+  "models": {
+    "logistic": {
+      "validation_and_test_keys_labels_match": true,
+      "scores_identical_after_reload": true,
+      "validation_threshold_reproduced": true
+    },
+    "lightgbm": {
+      "validation_and_test_keys_labels_match": true,
+      "scores_identical_after_reload": true,
+      "validation_threshold_reproduced": true
+    }
+  },
+  "validation_threshold_diagnostic": {
+    "logistic": {
+      "selected_threshold": 0.9999999614086562,
+      "fixed_positive_detection_candidates": 101,
+      "min_false_warnings_for_any_detected_episode": 0,
+      "min_false_alarm_rate_for_any_detected_episode": 0.0
+    },
+    "lightgbm": {
+      "selected_threshold": 1.0000000000000002,
+      "fixed_positive_detection_candidates": 7,
+      "min_false_warnings_for_any_detected_episode": 4,
+      "min_false_alarm_rate_for_any_detected_episode": 7.689473684210527
+    }
+  },
+  "local_shap_cases_verified": 5,
+  "lightgbm_global_shap_rows": 644
+}

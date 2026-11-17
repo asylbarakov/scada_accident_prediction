@@ -1,0 +1,3 @@
+episode_id,turbine_id,failure_at,first_alert_at,lead_time_hours
+care-a-fault-22,21,2023-08-19 10:00:00+00:00,2023-08-12 10:00:00+00:00,168.0
+care-a-fault-51,21,2023-10-17 08:40:00+00:00,,

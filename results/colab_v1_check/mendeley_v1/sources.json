@@ -1,0 +1,23 @@
+[
+  {
+    "path": "data/edp/mendeley_v1/signals_2016.xlsx",
+    "year": 2016,
+    "source": "https://edp.com/en/innovation/data/wind-farm-1-wind-turbine-scada-signals-2016",
+    "status": "unavailable",
+    "error": "Save https://edp.com/en/innovation/data/wind-farm-1-wind-turbine-scada-signals-2016 as data\\edp\\mendeley_v1\\signals_2016.xlsx, or configure its direct download URL"
+  },
+  {
+    "path": "data/edp/mendeley_v1/signals_2017.xlsx",
+    "year": 2017,
+    "source": "https://edp.com/en/innovation/data/wind-farm-1-wind-turbine-scada-signals-2017",
+    "status": "unavailable",
+    "error": "Save https://edp.com/en/innovation/data/wind-farm-1-wind-turbine-scada-signals-2017 as data\\edp\\mendeley_v1\\signals_2017.xlsx, or configure its direct download URL"
+  },
+  {
+    "path": "sources/edp_mendeley_v1_failures.csv",
+    "source": "https://data.mendeley.com/datasets/zjxjnjp3xs/1",
+    "representation": "Transcription of the two public Version 1 failure-log PNGs",
+    "status": "available",
+    "observed_sha256": "8f5cf0a0ec8b11c2aeb3cf6dce17a2d0a632e2ce92403b4969596511b75eb487"
+  }
+]

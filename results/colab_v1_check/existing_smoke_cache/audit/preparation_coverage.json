@@ -1,0 +1,143 @@
+{
+  "cache_version": 1,
+  "config_signature": "df9598fe7049d607298172afb92e2afeca6addc3f8ca9296e6db1574a8aa9e0c",
+  "mode": "synthetic_smoke",
+  "signals": {
+    "sources": [
+      {
+        "file": "signals.csv",
+        "year": null,
+        "declared_source": "synthetic technical fixture",
+        "sha256": "99441b311a32803c2886b81e5d61a9b1c0facd914bcdde1690df9d1a07ff5069",
+        "rows_read": 4680,
+        "invalid_keys": 0
+      }
+    ],
+    "off_grid_dropped": 0,
+    "identical_duplicate_rows": 0,
+    "conflicting_timestamp_keys": 0,
+    "by_turbine": [
+      {
+        "turbine_id": "T01",
+        "rows": 4680,
+        "start": "2016-01-01T00:00:00+00:00",
+        "end": "2016-07-13T23:00:00+00:00",
+        "missing_grid_slots": 0,
+        "gap_count": 0,
+        "missing_by_sensor": {
+          "wind_speed": 0,
+          "power": 0,
+          "rotor_speed": 0,
+          "generator_speed": 0,
+          "gearbox_oil_temperature": 0,
+          "ambient_temperature": 0
+        }
+      }
+    ],
+    "rows": 4680
+  },
+  "failure_log": {
+    "sources": [
+      {
+        "file": "failure_log.xlsx",
+        "year": null,
+        "declared_source": "synthetic technical fixture",
+        "sha256": "b852cacdcecdcbd69d2f5d7f3f16276a946bece4452cafeecba740bfb37f1830",
+        "rows_read": 3,
+        "invalid_keys": 0
+      }
+    ],
+    "unique_records": 3,
+    "exact_duplicate_records": 0,
+    "same_turbine_timestamp_records": 0,
+    "turbines": [
+      "T01"
+    ]
+  },
+  "review_counts": {
+    "confirmed": 3
+  },
+  "episodes": 3,
+  "episodes_without_recovery": 0,
+  "failure_turbines_missing_scada": [],
+  "scada_turbines_missing_coverage": [],
+  "same_turbine_distinct_log_rows_within_30d": 0,
+  "verified_coverage_intervals": 1,
+  "reviewed_outage_intervals": 0,
+  "review_sha256": {
+    "failure_review": "c948c3e8138250366d3329c226f4057e4eac0e6746255ace8cfd83a1d3a19fe8",
+    "log_coverage": "ff382b8774cfa023614861a6050d8015b43f096d0de49593d9593c6aa83fd0d1"
+  },
+  "operation": {
+    "observed": 4680,
+    "at_risk": 4680,
+    "suspected_stop": 0,
+    "operation_missing": 0
+  },
+  "coverage": {
+    "h7": {
+      "positive": 504,
+      "negative": 3936,
+      "censored": 240,
+      "positive_episode_ids": [
+        "T01/fixture_0",
+        "T01/fixture_1",
+        "T01/fixture_2"
+      ],
+      "counts_by_reason": {
+        "negative": 3936,
+        "positive": 504,
+        "incomplete_followup": 168,
+        "unavailable": 72
+      }
+    },
+    "h30": {
+      "positive": 2160,
+      "negative": 1968,
+      "censored": 552,
+      "positive_episode_ids": [
+        "T01/fixture_0",
+        "T01/fixture_1",
+        "T01/fixture_2"
+      ],
+      "counts_by_reason": {
+        "positive": 2160,
+        "negative": 1968,
+        "incomplete_followup": 480,
+        "unavailable": 72
+      }
+    }
+  },
+  "coverage_with_feature_history": {
+    "h7": {
+      "positive": 504,
+      "negative": 3265,
+      "censored": 168,
+      "positive_episode_ids": [
+        "T01/fixture_0",
+        "T01/fixture_1",
+        "T01/fixture_2"
+      ],
+      "counts_by_reason": {
+        "negative": 3265,
+        "positive": 504,
+        "incomplete_followup": 168
+      }
+    },
+    "h30": {
+      "positive": 2160,
+      "negative": 1465,
+      "censored": 312,
+      "positive_episode_ids": [
+        "T01/fixture_0",
+        "T01/fixture_1",
+        "T01/fixture_2"
+      ],
+      "counts_by_reason": {
+        "positive": 2160,
+        "negative": 1465,
+        "incomplete_followup": 312
+      }
+    }
+  }
+}

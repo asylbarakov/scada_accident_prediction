@@ -1,0 +1,38 @@
+test_csv_inventory (test_care_readiness_audit.TestCareReadiness.test_csv_inventory) ... ok
+test_failure_anchor_and_horizon (test_care_readiness_audit.TestCareReadiness.test_failure_anchor_and_horizon) ... ok
+test_failure_boundary_and_status_invariance (test_care_readiness_audit.TestCareReadiness.test_failure_boundary_and_status_invariance) ... ok
+test_normal_padding_and_single_missing_slot (test_care_readiness_audit.TestCareReadiness.test_normal_padding_and_single_missing_slot) ... ok
+test_right_censoring_on_normal_event (test_care_readiness_audit.TestCareReadiness.test_right_censoring_on_normal_event) ... ok
+test_timestamp_parsing (test_care_readiness_audit.TestCareReadiness.test_timestamp_parsing) ... ok
+test_audit_only_reports_eligible_folds_without_building_models (test_edp_pipeline.TestColabReadiness.test_audit_only_reports_eligible_folds_without_building_models) ... ok
+test_cache_requires_same_dataset_and_review_settings (test_edp_pipeline.TestColabReadiness.test_cache_requires_same_dataset_and_review_settings) ... ok
+test_download_preflight_rejects_web_page_saved_as_workbook (test_edp_pipeline.TestColabReadiness.test_download_preflight_rejects_web_page_saved_as_workbook) ... ok
+test_features_unchanged_by_future_or_another_turbine (test_edp_pipeline.TestFeaturesAndSplit.test_features_unchanged_by_future_or_another_turbine) ... ok
+test_purge_entire_window_and_held_out_turbine (test_edp_pipeline.TestFeaturesAndSplit.test_purge_entire_window_and_held_out_turbine) ... ok
+test_warning_episodes_and_lead_time (test_edp_pipeline.TestFeaturesAndSplit.test_warning_episodes_and_lead_time) ... ok
+test_conflicting_telemetry_leaves_gap_and_log_duplicates_collapse (test_edp_pipeline.TestRealFormats.test_conflicting_telemetry_leaves_gap_and_log_duplicates_collapse) ... ok
+test_v1_log_keeps_off_grid_timestamps_and_pending_reviews (test_edp_pipeline.TestRealFormats.test_v1_log_keeps_off_grid_timestamps_and_pending_reviews) ... ok
+test_between_sample_outage_and_pending_failure (test_edp_pipeline.TestTargets.test_between_sample_outage_and_pending_failure) ... ok
+test_closed_7_and_30_day_endpoint_and_excluded_fault (test_edp_pipeline.TestTargets.test_closed_7_and_30_day_endpoint_and_excluded_fault) ... ok
+test_logged_outage_between_last_slot_and_off_grid_failure (test_edp_pipeline.TestTargets.test_logged_outage_between_last_slot_and_off_grid_failure) ... ok
+test_missing_slot_censors_positive_and_negative (test_edp_pipeline.TestTargets.test_missing_slot_censors_positive_and_negative) ... ok
+test_recovery_keeps_fault_out_of_history (test_edp_pipeline.TestTargets.test_recovery_keeps_fault_out_of_history) ... ok
+test_right_censor_and_unverified_log (test_edp_pipeline.TestTargets.test_right_censor_and_unverified_log) ... ok
+test_metadata_and_features_are_invariant_to_status (test_farm_a_h7.TestCareLabels.test_metadata_and_features_are_invariant_to_status) ... ok
+test_normal_negative_requires_timestamp_and_observation_coverage (test_farm_a_h7.TestCareLabels.test_normal_negative_requires_timestamp_and_observation_coverage) ... ok
+test_positive_uses_inclusive_h7_at_verified_end (test_farm_a_h7.TestCareLabels.test_positive_uses_inclusive_h7_at_verified_end) ... ok
+test_alarms_do_not_bridge_source_files (test_farm_a_h7.TestCareLineage.test_alarms_do_not_bridge_source_files) ... ok
+test_conflicting_and_equivalent_duplicates (test_farm_a_h7.TestCareLineage.test_conflicting_and_equivalent_duplicates) ... ok
+test_fault_merging_requires_common_anchor_telemetry (test_farm_a_h7.TestCareLineage.test_fault_merging_requires_common_anchor_telemetry) ... ok
+test_raw_fold_check_includes_historical_rows_and_shifted_hash (test_farm_a_h7.TestCareLineage.test_raw_fold_check_includes_historical_rows_and_shifted_hash) ... ok
+test_shifted_content_links_assets_and_blocks_assignment (test_farm_a_h7.TestCareLineage.test_shifted_content_links_assets_and_blocks_assignment) ... ok
+test_shifted_fault_anchor_is_identified_in_another_file (test_farm_a_h7.TestCareLineage.test_shifted_fault_anchor_is_identified_in_another_file) ... ok
+test_care_learning_reload_and_shap_on_72_artificial_rows (test_farm_a_h7.TestSyntheticCareModelSmoke.test_care_learning_reload_and_shap_on_72_artificial_rows) ... ok
+test_reject_full_response_without_reading_body (test_fetch_care_a.TestRemoteZip.test_reject_full_response_without_reading_body) ... ok
+test_transfer_limit (test_fetch_care_a.TestRemoteZip.test_transfer_limit) ... ok
+test_validate_range_and_cache (test_fetch_care_a.TestRemoteZip.test_validate_range_and_cache) ... ok
+
+----------------------------------------------------------------------
+Ran 33 tests in 5.638s
+
+OK

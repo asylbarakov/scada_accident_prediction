@@ -1,0 +1,122 @@
+{
+  "cache_version": 1,
+  "config_signature": "89279b946b1101d20f947da47ca79385998dca3d82a0b47d09a84c56bda899b7",
+  "mode": "edp_reference",
+  "dataset_id": null,
+  "signals": {
+    "sources": [
+      {
+        "file": "T01_F99.xlsx",
+        "year": null,
+        "declared_source": "https://data.mendeley.com/datasets/zjxjnjp3xs/2",
+        "sha256": "6bc53a294093e70a2a1dc1a95376a9fd56c7635e0ef5d36a2d2f95d43757c452",
+        "rows_read": 5000,
+        "invalid_keys": 0
+      }
+    ],
+    "off_grid_dropped": 0,
+    "identical_duplicate_rows": 0,
+    "conflicting_timestamp_keys": 0,
+    "by_turbine": [
+      {
+        "turbine_id": "T01",
+        "rows": 5000,
+        "start": "2016-01-01T00:50:00+00:00",
+        "end": "2016-03-11T17:30:00+00:00",
+        "missing_grid_slots": 5181,
+        "gap_count": 196,
+        "missing_by_sensor": {
+          "wind_speed": 0,
+          "power": 0,
+          "rotor_speed": 0,
+          "generator_speed": 0,
+          "gearbox_oil_temperature": 0,
+          "ambient_temperature": 0
+        }
+      }
+    ],
+    "rows": 5000
+  },
+  "failure_log": {
+    "sources": [
+      {
+        "file": "Combined-Failure-Logbook-2016-2017.xlsx",
+        "year": null,
+        "declared_source": "https://data.mendeley.com/datasets/zjxjnjp3xs/2",
+        "sha256": "4fa7d7761bc6a7b09794a7c7ef8d73bcbf5edcd77cfb04ecc8470dd546640ee2",
+        "rows_read": 28,
+        "invalid_keys": 0
+      }
+    ],
+    "unique_records": 28,
+    "exact_duplicate_records": 0,
+    "same_turbine_timestamp_records": 0,
+    "turbines": [
+      "T01",
+      "T06",
+      "T07",
+      "T09",
+      "T11"
+    ]
+  },
+  "review_counts": {
+    "pending": 28
+  },
+  "episodes": 0,
+  "episodes_without_recovery": 0,
+  "failure_turbines_missing_scada": [
+    "T06",
+    "T07",
+    "T09",
+    "T11"
+  ],
+  "scada_turbines_missing_coverage": [
+    "T01"
+  ],
+  "same_turbine_distinct_log_rows_within_30d": 5,
+  "verified_coverage_intervals": 0,
+  "reviewed_outage_intervals": 0,
+  "review_sha256": {},
+  "operation": {
+    "observed": 5000,
+    "at_risk": 5000,
+    "suspected_stop": 0,
+    "operation_missing": 0
+  },
+  "coverage": {
+    "h7": {
+      "positive": 0,
+      "negative": 0,
+      "censored": 5000,
+      "positive_episode_ids": [],
+      "counts_by_reason": {
+        "unverified_log": 5000
+      }
+    },
+    "h30": {
+      "positive": 0,
+      "negative": 0,
+      "censored": 5000,
+      "positive_episode_ids": [],
+      "counts_by_reason": {
+        "unverified_log": 5000
+      }
+    }
+  },
+  "coverage_with_feature_history": {
+    "h7": {
+      "positive": 0,
+      "negative": 0,
+      "censored": 0,
+      "positive_episode_ids": [],
+      "counts_by_reason": {}
+    },
+    "h30": {
+      "positive": 0,
+      "negative": 0,
+      "censored": 0,
+      "positive_episode_ids": [],
+      "counts_by_reason": {}
+    }
+  }
+}

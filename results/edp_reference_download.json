@@ -1,0 +1,41 @@
+[
+  {
+    "path": "data/edp/reference/T01_F99.xlsx",
+    "source": "https://data.mendeley.com/datasets/zjxjnjp3xs/2",
+    "url": "https://data.mendeley.com/public-files/datasets/zjxjnjp3xs/files/6c3a6348-959d-4ed6-8028-e587055441b2/file_downloaded",
+    "sha256": "6bc53a294093e70a2a1dc1a95376a9fd56c7635e0ef5d36a2d2f95d43757c452",
+    "max_bytes": 21000000,
+    "limit_rows": 5000,
+    "status": "available",
+    "observed_sha256": "6bc53a294093e70a2a1dc1a95376a9fd56c7635e0ef5d36a2d2f95d43757c452"
+  },
+  {
+    "path": "data/edp/reference/Combined-Failure-Logbook-2016-2017.xlsx",
+    "source": "https://data.mendeley.com/datasets/zjxjnjp3xs/2",
+    "url": "https://data.mendeley.com/public-files/datasets/zjxjnjp3xs/files/034dd515-8eae-44ee-8d99-537de6b9c4f4/file_downloaded",
+    "sha256": "4fa7d7761bc6a7b09794a7c7ef8d73bcbf5edcd77cfb04ecc8470dd546640ee2",
+    "max_bytes": 10000,
+    "status": "available",
+    "observed_sha256": "4fa7d7761bc6a7b09794a7c7ef8d73bcbf5edcd77cfb04ecc8470dd546640ee2"
+  },
+  {
+    "path": "data/edp/reference/Wind-Turbines-Logs-2016.xlsx",
+    "year": 2016,
+    "source": "https://data.mendeley.com/datasets/zjxjnjp3xs/2",
+    "url": "https://data.mendeley.com/public-files/datasets/zjxjnjp3xs/files/ae510451-18dd-4eaf-9cc2-2783a2e51809/file_downloaded",
+    "sha256": "297dc37961aa2ece795f652bfeebe4ac6d47d0d21c6fe8f7a647228763ae3868",
+    "max_bytes": 3500000,
+    "status": "available",
+    "observed_sha256": "297dc37961aa2ece795f652bfeebe4ac6d47d0d21c6fe8f7a647228763ae3868"
+  },
+  {
+    "path": "data/edp/reference/Wind Turbines Logs 2017.xlsx",
+    "year": 2017,
+    "source": "https://data.mendeley.com/datasets/zjxjnjp3xs/2",
+    "url": "https://data.mendeley.com/public-files/datasets/zjxjnjp3xs/files/a1e69df8-4e18-4047-b2ff-006fb89cf3e9/file_downloaded",
+    "sha256": "ea55cacb94a930e927acb190909142a7df7ea544109ca986e34e4df9d9356271",
+    "max_bytes": 3500000,
+    "status": "available",
+    "observed_sha256": "ea55cacb94a930e927acb190909142a7df7ea544109ca986e34e4df9d9356271"
+  }
+]

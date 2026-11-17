@@ -1,0 +1,101 @@
+{
+  "mode": "edp_reference",
+  "score_semantics": "uncalibrated_failure_score",
+  "cache_signature": "89279b946b1101d20f947da47ca79385998dca3d82a0b47d09a84c56bda899b7",
+  "horizons": {
+    "h7": {
+      "coverage": {
+        "train": {
+          "start_utc": "2016-01-01T00:00:00+00:00",
+          "end_utc_exclusive": "2016-11-01T00:00:00+00:00",
+          "purged_rows": 81,
+          "missing_feature_history": 750,
+          "censored_rows": 0,
+          "positive": 0,
+          "negative": 0,
+          "positive_episode_ids": [],
+          "turbines": []
+        },
+        "validation": {
+          "start_utc": "2016-11-01T00:00:00+00:00",
+          "end_utc_exclusive": "2017-05-01T00:00:00+00:00",
+          "purged_rows": 0,
+          "missing_feature_history": 0,
+          "censored_rows": 0,
+          "positive": 0,
+          "negative": 0,
+          "positive_episode_ids": [],
+          "turbines": []
+        },
+        "test": {
+          "start_utc": "2017-05-01T00:00:00+00:00",
+          "end_utc_exclusive": "2018-01-01T00:00:00+00:00",
+          "purged_rows": 0,
+          "missing_feature_history": 0,
+          "censored_rows": 0,
+          "positive": 0,
+          "negative": 0,
+          "positive_episode_ids": [],
+          "turbines": []
+        }
+      },
+      "status": "skipped",
+      "reasons": [
+        "train: insufficient positives or negatives",
+        "train: insufficient independent failure episodes",
+        "validation: insufficient positives or negatives",
+        "validation: insufficient independent failure episodes",
+        "test: insufficient positives or negatives",
+        "test: insufficient independent failure episodes",
+        "Reference fragment is restricted to the data audit"
+      ]
+    },
+    "h30": {
+      "coverage": {
+        "train": {
+          "start_utc": "2016-01-01T00:00:00+00:00",
+          "end_utc_exclusive": "2016-11-01T00:00:00+00:00",
+          "purged_rows": 81,
+          "missing_feature_history": 750,
+          "censored_rows": 0,
+          "positive": 0,
+          "negative": 0,
+          "positive_episode_ids": [],
+          "turbines": []
+        },
+        "validation": {
+          "start_utc": "2016-11-01T00:00:00+00:00",
+          "end_utc_exclusive": "2017-05-01T00:00:00+00:00",
+          "purged_rows": 0,
+          "missing_feature_history": 0,
+          "censored_rows": 0,
+          "positive": 0,
+          "negative": 0,
+          "positive_episode_ids": [],
+          "turbines": []
+        },
+        "test": {
+          "start_utc": "2017-05-01T00:00:00+00:00",
+          "end_utc_exclusive": "2018-01-01T00:00:00+00:00",
+          "purged_rows": 0,
+          "missing_feature_history": 0,
+          "censored_rows": 0,
+          "positive": 0,
+          "negative": 0,
+          "positive_episode_ids": [],
+          "turbines": []
+        }
+      },
+      "status": "skipped",
+      "reasons": [
+        "train: insufficient positives or negatives",
+        "train: insufficient independent failure episodes",
+        "validation: insufficient positives or negatives",
+        "validation: insufficient independent failure episodes",
+        "test: insufficient positives or negatives",
+        "test: insufficient independent failure episodes",
+        "Reference fragment is restricted to the data audit"
+      ]
+    }
+  }
+}

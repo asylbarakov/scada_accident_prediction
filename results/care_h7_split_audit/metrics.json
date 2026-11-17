@@ -1,0 +1,122 @@
+{
+  "mode": "care_h7",
+  "dataset_id": "care-v6-15846963-wind-farm-a-h7",
+  "audit_only": true,
+  "score_semantics": "uncalibrated_failure_score",
+  "cache_signature": "5c19945263ca6df7f364c9530f5dc156b747843fb2e07ee8a1f8e7bcd27a7147",
+  "horizons": {
+    "h7": {
+      "coverage": {
+        "train": {
+          "positive": 1029,
+          "negative": 1011,
+          "without_label": 0,
+          "positive_episode_ids": [
+            "care-a-fault-0",
+            "care-a-fault-10",
+            "care-a-fault-26",
+            "care-a-fault-40",
+            "care-a-fault-42",
+            "care-a-fault-68",
+            "care-a-fault-73"
+          ],
+          "normal_events_with_negatives": 6,
+          "by_reason": {
+            "positive": 1029,
+            "negative": 1011
+          },
+          "turbines": [
+            "0",
+            "10",
+            "11"
+          ],
+          "source_events": [
+            0,
+            3,
+            10,
+            24,
+            25,
+            26,
+            40,
+            42,
+            68,
+            69,
+            71,
+            73,
+            92
+          ],
+          "lineage_groups": [
+            "care-a-group-0",
+            "care-a-group-25",
+            "care-a-group-3"
+          ]
+        },
+        "validation": {
+          "positive": 281,
+          "negative": 16,
+          "without_label": 0,
+          "positive_episode_ids": [
+            "care-a-fault-45",
+            "care-a-fault-84"
+          ],
+          "normal_events_with_negatives": 2,
+          "by_reason": {
+            "positive": 281,
+            "negative": 16
+          },
+          "turbines": [
+            "13"
+          ],
+          "source_events": [
+            14,
+            38,
+            45,
+            84
+          ],
+          "lineage_groups": [
+            "care-a-group-14"
+          ]
+        },
+        "test": {
+          "positive": 311,
+          "negative": 333,
+          "without_label": 0,
+          "positive_episode_ids": [
+            "care-a-fault-22",
+            "care-a-fault-51"
+          ],
+          "normal_events_with_negatives": 1,
+          "by_reason": {
+            "negative": 333,
+            "positive": 311
+          },
+          "turbines": [
+            "21"
+          ],
+          "source_events": [
+            13,
+            22,
+            72
+          ],
+          "lineage_groups": [
+            "care-a-group-13"
+          ]
+        }
+      },
+      "status": "skipped",
+      "reasons": [
+        "validation: insufficient positives or negatives"
+      ]
+    }
+  },
+  "evaluation_scope": "CARE curated event windows; negative exposure is conditional on eligible observations",
+  "raw_fold_audit": {
+    "raw_rows_checked": 1196747,
+    "cross_fold_repetitions": {
+      "source_event": 0,
+      "turbine_id+timestamp": 0,
+      "avg_fingerprint": 0,
+      "full_fingerprint": 0
+    }
+  }
+}

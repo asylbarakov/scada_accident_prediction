@@ -1,0 +1,11 @@
+sensor,source_column,physical_measurement,unit,gain,mean_abs_grouped_shap_log_odds,sum_feature_mean_abs_shap_log_odds
+ambient_temperature,sensor_0_avg,Ambient temperature,°C,30236.776186876,7.446304014708126,8.061076116819045
+gearbox_oil_temperature,sensor_12_avg,Gearbox oil temperature,°C,4603.8735373951495,0.5983062737001502,0.5983062737001502
+wind_speed,wind_speed_3_avg,Wind speed,m/s,4.845775827266987e-12,5.009316317162642e-15,5.519470729811048e-15
+grid_active_power,power_29_avg,Possible grid active power,p.u.,7.660548041692212e-15,3.0570250316132336e-17,5.094146635263715e-17
+transformer_temperature,sensor_38_avg,HV transformer phase L1 temperature,°C,1.3322669942754774e-15,6.3020093047592995e-18,6.3020093047592995e-18
+rotor_speed,sensor_52_avg,Rotor rotational speed,rpm,4.440889980918258e-16,3.1031078328032326e-18,3.1031078328032326e-18
+hydraulic_oil_temperature,sensor_41_avg,Hydraulic group oil temperature,°C,1.7763600157738027e-15,7.825111331851902e-19,7.825111331851902e-19
+gearbox_bearing_temperature,sensor_11_avg,Gearbox high-speed shaft bearing temperature,°C,0.0,0.0,0.0
+generator_speed,sensor_18_avg,Generator rotational speed,rpm,0.0,0.0,0.0
+generator_bearing_temperature,sensor_13_avg,Generator drive-end bearing temperature,°C,0.0,0.0,0.0

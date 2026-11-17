@@ -1,0 +1,49 @@
+{
+  "platform": "Windows-10-10.0.19045-SP0",
+  "python": "3.14.6",
+  "config_sha256": "af5ac4067cee314ef917efcf881fe46197fb845b4de93c33b6d098e6506df5fd",
+  "care_source_files_verified": 24,
+  "raw_source_sha256": {
+    "event_info.csv": "9254667b70d73e8eb23e7143ad56f1c280ba020c8b3d9289ad56fcaa59270aa5",
+    "feature_description.csv": "8834c8481585d133fc37ea70033fbdb4c64e5cd1e5d7f7257ca97a1e229ee921",
+    "datasets/0.csv": "f0a8365b2b60845b9ad78cf4deb167a2da500abef66199a55c381e8fff2bb26b",
+    "datasets/3.csv": "af3e8a8b9907183edecb763f60b1a5a79bb437228cbaa158be0a6dde24e93910",
+    "datasets/10.csv": "16a5bdaaf9afb5ce9b02e456c60e8ed7a6b6943c5e517d4866d7eedf31568914",
+    "datasets/13.csv": "fb3c996efd634e0422d95876a28dc6c777470a07816cc5f5894a3d18ccc32dbd",
+    "datasets/14.csv": "93bee35d6a6fa0b6d01961cd0980a53561184da36a80118b964750294be0f6ce",
+    "datasets/17.csv": "54237f22c32ff0b5dcedb8d3eb5dc452424baad2cdc4d599ca3215605eab6c8f",
+    "datasets/22.csv": "06b0745cc1b5ed3ec9bd0e34a81b1074bc23c4f76f854c8b395ea625237a76a3",
+    "datasets/24.csv": "310c27badde12582045627ae22a29d79d642b58f1379e2676bd3f21f46ac697e",
+    "datasets/25.csv": "f09afa3bfea796bb2bb52058830981554734a2a2b6085e3415f20d67b91defc6",
+    "datasets/26.csv": "6bf52430a8102d198c9bea3986e4bf81a120f7e86c8acc859ca1b606a3f08d35",
+    "datasets/38.csv": "085324d3dffe3fa12d37a2d95b71d439d8ba7085839dca644192b2b4ee360775",
+    "datasets/40.csv": "59a051d79baac85548922248013e1136407514d8bd7a2f374670865e6a6cf2ef",
+    "datasets/42.csv": "22af8df47d9d9844f15506980847ed27dca3b8148167073ee6e85e6faada5b4a",
+    "datasets/45.csv": "cc51aeabe485286e2fee4df23f39caf77c19ce5fdc34f1e16b01097209f4aa1b",
+    "datasets/51.csv": "cc4eaa53400424e1044f68379da070215d311d92f940b7050affbf2f289d0ebc",
+    "datasets/68.csv": "ab1db0f9a261c525572e09067def2c2876b2002335ec9d5c9c268246573bbcc3",
+    "datasets/69.csv": "fa66f3fc0e9af250cbc23b409a78b3d76e5b9a8526a0f138ee5efaf7b9508d9b",
+    "datasets/71.csv": "540b1b258c234ef898b087af4626aa46a86f08dc539f30836c2417f95a83533e",
+    "datasets/72.csv": "18964bc4ff606b77e7313427df81080d5651dfd6a9dd619be7657947ab42600f",
+    "datasets/73.csv": "d6071fe582077dd0ee1900597548497e17344f61c2ab4a784ecdd57529881db0",
+    "datasets/84.csv": "ac88e2141ec5c87c38bb3cee2c0fc084310b238f59464f1d9380cca0537c025a",
+    "datasets/92.csv": "a979ae914688dd4f4f5f3e3abd0d3ea2d607343363bca39292ad8e2de1c0a01d"
+  },
+  "cache_sha256": {
+    "coverage.json": "e67efdbcfe5f4dd5b1bb9871276d18207eded9b78bec16d2d021c4487c7d1304",
+    "feature_map.json": "3096b779b348c21d0f432b7c3f78fcb6e2e62b81092c8791d7b91fd5abf4c08f",
+    "features.parquet": "fe34be4233894c449c8b44489aee9dcfda3313764fb71ec80d040e12adced3d2",
+    "labels.parquet": "8b59c7869d09ee8a621bda27b0396a3cf3879e6a3cebeb485c110e27a3c4c0ca",
+    "observation_lineage.parquet": "8cf3ba25bc2f25dff97bf55cdb37bd0bc6f282c50a873554b9be518f0e1c8bef",
+    "overlaps.json": "1d98381e329601a224694bc092914fced8ac74688afbea6ce2b95737f6b9800b",
+    "scada.parquet": "dce515d1245a69ca9e01f1694bc3f5148c631040e4692b5dc0f01a0e84466a11"
+  },
+  "previous_audit": "results/care_h7_audit/metrics.json",
+  "coverage_matches_previous_audit": true,
+  "fold_keys_labels_sha256": {
+    "train": "49f379a792d07a10f5eb80b3af8da8d31b7a6669d077f7d278fbcdbdfe07452b",
+    "validation": "d3a1bac7d163775c7e1a0395470e81e28d6742eda27d9852aec63776fe3f21f3",
+    "test": "fc29c734a1c59358e979cf972d273430b7b125b68e564b987ed353e32af67d52"
+  },
+  "feature_count": 210
+}

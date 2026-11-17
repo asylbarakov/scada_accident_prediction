@@ -1,0 +1,2 @@
+episode_id,turbine_id,failure_at,first_alert_at,lead_time_hours
+T01/fixture_2,T01,2016-06-23 00:00:00+00:00,2016-06-16 00:00:00+00:00,168.0

@@ -1,0 +1,5 @@
+horizon_days,model,fold,eligible_rows,positive_rows,event_recall,detected_events,eligible_events,warning_episodes,false_warning_episodes,negative_exposure_turbine_months,false_alarms_per_turbine_month,median_lead_time_hours,pr_auc_average_precision,roc_auc
+7,logistic,validation,829,449,0.6666666666666666,2,3,5,0,0.5201916495550992,0.0,66.83333333333334,0.8094272046898721,0.7122201383190716
+7,logistic,test,644,311,0.5,1,2,1,0,0.45585215605749485,0.0,168.0,0.9066614704963285,0.9135888299875439
+7,lightgbm,validation,829,449,0.0,0,3,0,0,0.5201916495550992,0.0,,0.4887767411664928,0.391777048411675
+7,lightgbm,test,644,311,0.0,0,2,0,0,0.45585215605749485,0.0,,0.7404761904761905,0.8363363363363363

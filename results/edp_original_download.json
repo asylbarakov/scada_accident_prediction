@@ -1,0 +1,32 @@
+[
+  {
+    "path": "data/edp/original/signals_2016.xlsx",
+    "year": 2016,
+    "source": "https://edp.com/en/innovation/data/wind-farm-1-wind-turbine-scada-signals-2016",
+    "status": "unavailable",
+    "error": "Save https://edp.com/en/innovation/data/wind-farm-1-wind-turbine-scada-signals-2016 as data\\edp\\original\\signals_2016.xlsx, or configure its direct download URL"
+  },
+  {
+    "path": "data/edp/original/signals_2017.xlsx",
+    "year": 2017,
+    "source": "https://edp.com/en/innovation/data/wind-farm-1-wind-turbine-scada-signals-2017",
+    "status": "unavailable",
+    "error": "Save https://edp.com/en/innovation/data/wind-farm-1-wind-turbine-scada-signals-2017 as data\\edp\\original\\signals_2017.xlsx, or configure its direct download URL"
+  },
+  {
+    "path": "data/edp/original/failures_2016.xlsx",
+    "year": 2016,
+    "source": "https://edp.com/en/innovation/data/wind-farm-1-record-failure-history-2016",
+    "status": "unavailable",
+    "error": "Save https://edp.com/en/innovation/data/wind-farm-1-record-failure-history-2016 as data\\edp\\original\\failures_2016.xlsx, or configure its direct download URL"
+  },
+  {
+    "path": "data/edp/original/failures_2017.xlsx",
+    "year": 2017,
+    "source": "https://edp.com/en/innovation/data/wind-farm-1-record-failure-history-2017",
+    "url": "https://edp.com/sites/default/files/document/2025-04/opendata-wind-failures-2017.xlsx",
+    "max_bytes": 2000000,
+    "status": "unavailable",
+    "error": "<urlopen error [Errno 11002] getaddrinfo failed>"
+  }
+]

@@ -1,0 +1,4 @@
+{
+  "training_wall_seconds": 13.7596885,
+  "executed_command": "python -m scada_pdm.cli train --config configs/care_h7.json --cache cache/care_h7_v6 --output results/care_h7_windows_20261116/training"
+}

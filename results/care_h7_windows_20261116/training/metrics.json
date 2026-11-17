@@ -1,0 +1,191 @@
+{
+  "mode": "care_h7",
+  "dataset_id": "care-v6-15846963-wind-farm-a-h7",
+  "audit_only": false,
+  "score_semantics": "uncalibrated_failure_score",
+  "cache_signature": "5c19945263ca6df7f364c9530f5dc156b747843fb2e07ee8a1f8e7bcd27a7147",
+  "horizons": {
+    "h7": {
+      "coverage": {
+        "train": {
+          "positive": 861,
+          "negative": 647,
+          "without_label": 0,
+          "positive_episode_ids": [
+            "care-a-fault-0",
+            "care-a-fault-10",
+            "care-a-fault-26",
+            "care-a-fault-40",
+            "care-a-fault-42",
+            "care-a-fault-73"
+          ],
+          "normal_events_with_negatives": 3,
+          "by_reason": {
+            "positive": 861,
+            "negative": 647
+          },
+          "turbines": [
+            "0",
+            "10"
+          ],
+          "source_events": [
+            0,
+            3,
+            10,
+            24,
+            26,
+            40,
+            42,
+            71,
+            73
+          ],
+          "lineage_groups": [
+            "care-a-group-0",
+            "care-a-group-3"
+          ]
+        },
+        "validation": {
+          "positive": 449,
+          "negative": 380,
+          "without_label": 0,
+          "positive_episode_ids": [
+            "care-a-fault-45",
+            "care-a-fault-68",
+            "care-a-fault-84"
+          ],
+          "normal_events_with_negatives": 5,
+          "by_reason": {
+            "positive": 449,
+            "negative": 380
+          },
+          "turbines": [
+            "11",
+            "13"
+          ],
+          "source_events": [
+            14,
+            25,
+            38,
+            45,
+            68,
+            69,
+            84,
+            92
+          ],
+          "lineage_groups": [
+            "care-a-group-14",
+            "care-a-group-25"
+          ]
+        },
+        "test": {
+          "positive": 311,
+          "negative": 333,
+          "without_label": 0,
+          "positive_episode_ids": [
+            "care-a-fault-22",
+            "care-a-fault-51"
+          ],
+          "normal_events_with_negatives": 1,
+          "by_reason": {
+            "negative": 333,
+            "positive": 311
+          },
+          "turbines": [
+            "21"
+          ],
+          "source_events": [
+            13,
+            22,
+            72
+          ],
+          "lineage_groups": [
+            "care-a-group-13"
+          ]
+        }
+      },
+      "status": "trained",
+      "models": {
+        "logistic": {
+          "threshold": 0.9999999614086562,
+          "reload_max_abs_score_error": 0.0,
+          "fit_rows": 1508,
+          "validation": {
+            "eligible_rows": 829,
+            "positive_rows": 449,
+            "event_recall": 0.6666666666666666,
+            "detected_events": 2,
+            "eligible_events": 3,
+            "warning_episodes": 5,
+            "false_warning_episodes": 0,
+            "negative_exposure_turbine_months": 0.5201916495550992,
+            "false_alarms_per_turbine_month": 0.0,
+            "median_lead_time_hours": 66.83333333333334,
+            "pr_auc_average_precision": 0.8094272046898721,
+            "roc_auc": 0.7122201383190716
+          },
+          "test": {
+            "eligible_rows": 644,
+            "positive_rows": 311,
+            "event_recall": 0.5,
+            "detected_events": 1,
+            "eligible_events": 2,
+            "warning_episodes": 1,
+            "false_warning_episodes": 0,
+            "negative_exposure_turbine_months": 0.45585215605749485,
+            "false_alarms_per_turbine_month": 0.0,
+            "median_lead_time_hours": 168.0,
+            "pr_auc_average_precision": 0.9066614704963285,
+            "roc_auc": 0.9135888299875439
+          }
+        },
+        "lightgbm": {
+          "threshold": 1.0000000000000002,
+          "reload_max_abs_score_error": 0.0,
+          "fit_rows": 1508,
+          "validation": {
+            "eligible_rows": 829,
+            "positive_rows": 449,
+            "event_recall": 0.0,
+            "detected_events": 0,
+            "eligible_events": 3,
+            "warning_episodes": 0,
+            "false_warning_episodes": 0,
+            "negative_exposure_turbine_months": 0.5201916495550992,
+            "false_alarms_per_turbine_month": 0.0,
+            "median_lead_time_hours": null,
+            "pr_auc_average_precision": 0.4887767411664928,
+            "roc_auc": 0.391777048411675
+          },
+          "test": {
+            "eligible_rows": 644,
+            "positive_rows": 311,
+            "event_recall": 0.0,
+            "detected_events": 0,
+            "eligible_events": 2,
+            "warning_episodes": 0,
+            "false_warning_episodes": 0,
+            "negative_exposure_turbine_months": 0.45585215605749485,
+            "false_alarms_per_turbine_month": 0.0,
+            "median_lead_time_hours": null,
+            "pr_auc_average_precision": 0.7404761904761905,
+            "roc_auc": 0.8363363363363363
+          },
+          "shap_rows": 644,
+          "local_rows": 5,
+          "shap_max_abs_margin_error": 2.1316282072803006e-14,
+          "actual_trees": 250
+        }
+      }
+    }
+  },
+  "evaluation_scope": "CARE curated event windows; negative exposure is conditional on eligible observations",
+  "raw_fold_audit": {
+    "raw_rows_checked": 1196747,
+    "cross_fold_repetitions": {
+      "source_event": 0,
+      "turbine_id+timestamp": 0,
+      "avg_fingerprint": 0,
+      "full_fingerprint": 0
+    }
+  }
+}

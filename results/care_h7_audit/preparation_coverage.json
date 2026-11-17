@@ -1,0 +1,688 @@
+{
+  "cache_version": 1,
+  "config_signature": "5c19945263ca6df7f364c9530f5dc156b747843fb2e07ee8a1f8e7bcd27a7147",
+  "mode": "care_h7",
+  "dataset_id": "care-v6-15846963-wind-farm-a-h7",
+  "source": "https://zenodo.org/records/15846963",
+  "raw_dir": "C:\\Users\\danii\\Desktop\\predictive analytics\\scada-pdm-mvp-stage1\\scada-pdm-mvp\\data\\CARE_To_Compare",
+  "signals": {
+    "rows": 1196747,
+    "events": 22,
+    "physical_columns": 81,
+    "average_columns": 46
+  },
+  "source_sha256": {
+    "event_info.csv": "9254667b70d73e8eb23e7143ad56f1c280ba020c8b3d9289ad56fcaa59270aa5",
+    "feature_description.csv": "8834c8481585d133fc37ea70033fbdb4c64e5cd1e5d7f7257ca97a1e229ee921"
+  },
+  "event_summaries": [
+    {
+      "event": 0,
+      "asset": "0",
+      "event_label": "anomaly",
+      "fault_or_normal_end": "2023-08-20T06:10:00+00:00",
+      "end_row_id": "54447",
+      "description": "Generator bearing failure",
+      "rows": 54986,
+      "train_rows": 52148,
+      "prediction_rows": 2838,
+      "duplicate_avg_occurrences_within_file": 0,
+      "prediction_cadence_breaks": 3,
+      "sha256": "f0a8365b2b60845b9ad78cf4deb167a2da500abef66199a55c381e8fff2bb26b"
+    },
+    {
+      "event": 3,
+      "asset": "10",
+      "event_label": "normal",
+      "fault_or_normal_end": "2023-05-18T01:10:00+00:00",
+      "end_row_id": "55198",
+      "description": "",
+      "rows": 55487,
+      "train_rows": 52185,
+      "prediction_rows": 3302,
+      "duplicate_avg_occurrences_within_file": 0,
+      "prediction_cadence_breaks": 0,
+      "sha256": "af3e8a8b9907183edecb763f60b1a5a79bb437228cbaa158be0a6dde24e93910"
+    },
+    {
+      "event": 10,
+      "asset": "10",
+      "event_label": "anomaly",
+      "fault_or_normal_end": "2023-10-18T08:40:00+00:00",
+      "end_row_id": "53591",
+      "description": "Gearbox failure",
+      "rows": 53592,
+      "train_rows": 52323,
+      "prediction_rows": 1269,
+      "duplicate_avg_occurrences_within_file": 0,
+      "prediction_cadence_breaks": 1,
+      "sha256": "16a5bdaaf9afb5ce9b02e456c60e8ed7a6b6943c5e517d4866d7eedf31568914"
+    },
+    {
+      "event": 13,
+      "asset": "21",
+      "event_label": "normal",
+      "fault_or_normal_end": "2023-05-24T10:20:00+00:00",
+      "end_row_id": "53865",
+      "description": "",
+      "rows": 54010,
+      "train_rows": 50427,
+      "prediction_rows": 3583,
+      "duplicate_avg_occurrences_within_file": 0,
+      "prediction_cadence_breaks": 0,
+      "sha256": "fb3c996efd634e0422d95876a28dc6c777470a07816cc5f5894a3d18ccc32dbd"
+    },
+    {
+      "event": 14,
+      "asset": "13",
+      "event_label": "normal",
+      "fault_or_normal_end": "2023-03-12T18:40:00+00:00",
+      "end_row_id": "53620",
+      "description": "",
+      "rows": 54197,
+      "train_rows": 52296,
+      "prediction_rows": 1901,
+      "duplicate_avg_occurrences_within_file": 0,
+      "prediction_cadence_breaks": 0,
+      "sha256": "93bee35d6a6fa0b6d01961cd0980a53561184da36a80118b964750294be0f6ce"
+    },
+    {
+      "event": 17,
+      "asset": "10",
+      "event_label": "normal",
+      "fault_or_normal_end": "2023-11-16T00:40:00+00:00",
+      "end_row_id": "54513",
+      "description": "",
+      "rows": 55090,
+      "train_rows": 52309,
+      "prediction_rows": 2781,
+      "duplicate_avg_occurrences_within_file": 0,
+      "prediction_cadence_breaks": 2,
+      "sha256": "54237f22c32ff0b5dcedb8d3eb5dc452424baad2cdc4d599ca3215605eab6c8f"
+    },
+    {
+      "event": 22,
+      "asset": "21",
+      "event_label": "anomaly",
+      "fault_or_normal_end": "2023-08-19T10:00:00+00:00",
+      "end_row_id": "52892",
+      "description": "Hydraulic group",
+      "rows": 53036,
+      "train_rows": 51888,
+      "prediction_rows": 1148,
+      "duplicate_avg_occurrences_within_file": 0,
+      "prediction_cadence_breaks": 2,
+      "sha256": "06b0745cc1b5ed3ec9bd0e34a81b1074bc23c4f76f854c8b395ea625237a76a3"
+    },
+    {
+      "event": 24,
+      "asset": "0",
+      "event_label": "normal",
+      "fault_or_normal_end": "2023-05-11T11:20:00+00:00",
+      "end_row_id": "54714",
+      "description": "",
+      "rows": 55003,
+      "train_rows": 52289,
+      "prediction_rows": 2714,
+      "duplicate_avg_occurrences_within_file": 0,
+      "prediction_cadence_breaks": 1,
+      "sha256": "310c27badde12582045627ae22a29d79d642b58f1379e2676bd3f21f46ac697e"
+    },
+    {
+      "event": 25,
+      "asset": "11",
+      "event_label": "normal",
+      "fault_or_normal_end": "2023-06-05T02:30:00+00:00",
+      "end_row_id": "54135",
+      "description": "",
+      "rows": 54712,
+      "train_rows": 52289,
+      "prediction_rows": 2423,
+      "duplicate_avg_occurrences_within_file": 0,
+      "prediction_cadence_breaks": 0,
+      "sha256": "f09afa3bfea796bb2bb52058830981554734a2a2b6085e3415f20d67b91defc6"
+    },
+    {
+      "event": 26,
+      "asset": "0",
+      "event_label": "anomaly",
+      "fault_or_normal_end": "2023-10-19T10:20:00+00:00",
+      "end_row_id": "53269",
+      "description": "Hydraulic group",
+      "rows": 53702,
+      "train_rows": 52261,
+      "prediction_rows": 1441,
+      "duplicate_avg_occurrences_within_file": 0,
+      "prediction_cadence_breaks": 0,
+      "sha256": "6bf52430a8102d198c9bea3986e4bf81a120f7e86c8acc859ca1b606a3f08d35"
+    },
+    {
+      "event": 38,
+      "asset": "13",
+      "event_label": "normal",
+      "fault_or_normal_end": "2023-07-15T07:40:00+00:00",
+      "end_row_id": "54546",
+      "description": "",
+      "rows": 54835,
+      "train_rows": 52291,
+      "prediction_rows": 2544,
+      "duplicate_avg_occurrences_within_file": 0,
+      "prediction_cadence_breaks": 2,
+      "sha256": "085324d3dffe3fa12d37a2d95b71d439d8ba7085839dca644192b2b4ee360775"
+    },
+    {
+      "event": 40,
+      "asset": "10",
+      "event_label": "anomaly",
+      "fault_or_normal_end": "2023-01-26T13:00:00+00:00",
+      "end_row_id": "55870",
+      "description": "Generator bearing failure",
+      "rows": 56158,
+      "train_rows": 51219,
+      "prediction_rows": 4939,
+      "duplicate_avg_occurrences_within_file": 0,
+      "prediction_cadence_breaks": 13,
+      "sha256": "59a051d79baac85548922248013e1136407514d8bd7a2f374670865e6a6cf2ef"
+    },
+    {
+      "event": 42,
+      "asset": "10",
+      "event_label": "anomaly",
+      "fault_or_normal_end": "2023-09-16T15:50:00+00:00",
+      "end_row_id": "53309",
+      "description": "Hydraulic group",
+      "rows": 53886,
+      "train_rows": 52303,
+      "prediction_rows": 1583,
+      "duplicate_avg_occurrences_within_file": 0,
+      "prediction_cadence_breaks": 2,
+      "sha256": "22af8df47d9d9844f15506980847ed27dca3b8148167073ee6e85e6faada5b4a"
+    },
+    {
+      "event": 45,
+      "asset": "13",
+      "event_label": "anomaly",
+      "fault_or_normal_end": "2023-04-26T18:10:00+00:00",
+      "end_row_id": "53738",
+      "description": "Hydraulic group",
+      "rows": 53739,
+      "train_rows": 52299,
+      "prediction_rows": 1440,
+      "duplicate_avg_occurrences_within_file": 0,
+      "prediction_cadence_breaks": 1,
+      "sha256": "cc51aeabe485286e2fee4df23f39caf77c19ce5fdc34f1e16b01097209f4aa1b"
+    },
+    {
+      "event": 51,
+      "asset": "21",
+      "event_label": "anomaly",
+      "fault_or_normal_end": "2023-10-17T16:10:00+00:00",
+      "end_row_id": "54003",
+      "description": "Gearbox bearings damaged",
+      "rows": 54436,
+      "train_rows": 52043,
+      "prediction_rows": 2393,
+      "duplicate_avg_occurrences_within_file": 0,
+      "prediction_cadence_breaks": 0,
+      "sha256": "cc4eaa53400424e1044f68379da070215d311d92f940b7050affbf2f289d0ebc"
+    },
+    {
+      "event": 68,
+      "asset": "11",
+      "event_label": "anomaly",
+      "fault_or_normal_end": "2023-08-11T13:10:00+00:00",
+      "end_row_id": "54076",
+      "description": "Transformer failure",
+      "rows": 54358,
+      "train_rows": 52063,
+      "prediction_rows": 2295,
+      "duplicate_avg_occurrences_within_file": 0,
+      "prediction_cadence_breaks": 2,
+      "sha256": "ab1db0f9a261c525572e09067def2c2876b2002335ec9d5c9c268246573bbcc3"
+    },
+    {
+      "event": 69,
+      "asset": "11",
+      "event_label": "normal",
+      "fault_or_normal_end": "2023-09-18T00:50:00+00:00",
+      "end_row_id": "54380",
+      "description": "",
+      "rows": 54813,
+      "train_rows": 52220,
+      "prediction_rows": 2593,
+      "duplicate_avg_occurrences_within_file": 0,
+      "prediction_cadence_breaks": 0,
+      "sha256": "fa66f3fc0e9af250cbc23b409a78b3d76e5b9a8526a0f138ee5efaf7b9508d9b"
+    },
+    {
+      "event": 71,
+      "asset": "0",
+      "event_label": "normal",
+      "fault_or_normal_end": "2023-01-16T00:00:00+00:00",
+      "end_row_id": "54455",
+      "description": "",
+      "rows": 54744,
+      "train_rows": 52295,
+      "prediction_rows": 2449,
+      "duplicate_avg_occurrences_within_file": 0,
+      "prediction_cadence_breaks": 0,
+      "sha256": "540b1b258c234ef898b087af4626aa46a86f08dc539f30836c2417f95a83533e"
+    },
+    {
+      "event": 72,
+      "asset": "21",
+      "event_label": "anomaly",
+      "fault_or_normal_end": "2023-10-17T08:40:00+00:00",
+      "end_row_id": "53505",
+      "description": "Gearbox failure",
+      "rows": 54082,
+      "train_rows": 52065,
+      "prediction_rows": 2017,
+      "duplicate_avg_occurrences_within_file": 0,
+      "prediction_cadence_breaks": 0,
+      "sha256": "18964bc4ff606b77e7313427df81080d5651dfd6a9dd619be7657947ab42600f"
+    },
+    {
+      "event": 73,
+      "asset": "0",
+      "event_label": "anomaly",
+      "fault_or_normal_end": "2023-06-17T11:40:00+00:00",
+      "end_row_id": "53753",
+      "description": "Hydraulic group",
+      "rows": 54042,
+      "train_rows": 52313,
+      "prediction_rows": 1729,
+      "duplicate_avg_occurrences_within_file": 0,
+      "prediction_cadence_breaks": 0,
+      "sha256": "d6071fe582077dd0ee1900597548497e17344f61c2ab4a784ecdd57529881db0"
+    },
+    {
+      "event": 84,
+      "asset": "13",
+      "event_label": "anomaly",
+      "fault_or_normal_end": "2023-09-12T15:30:00+00:00",
+      "end_row_id": "53627",
+      "description": "Hydraulic group",
+      "rows": 53772,
+      "train_rows": 52335,
+      "prediction_rows": 1437,
+      "duplicate_avg_occurrences_within_file": 0,
+      "prediction_cadence_breaks": 4,
+      "sha256": "ac88e2141ec5c87c38bb3cee2c0fc084310b238f59464f1d9380cca0537c025a"
+    },
+    {
+      "event": 92,
+      "asset": "11",
+      "event_label": "normal",
+      "fault_or_normal_end": "2023-04-14T10:00:00+00:00",
+      "end_row_id": "53778",
+      "description": "",
+      "rows": 54067,
+      "train_rows": 52293,
+      "prediction_rows": 1774,
+      "duplicate_avg_occurrences_within_file": 0,
+      "prediction_cadence_breaks": 0,
+      "sha256": "a979ae914688dd4f4f5f3e3abd0d3ea2d607343363bca39292ad8e2de1c0a01d"
+    }
+  ],
+  "dependency_groups": [
+    {
+      "id": "care-a-group-0",
+      "events": [
+        0,
+        24,
+        26,
+        71,
+        73
+      ],
+      "assets": [
+        "0"
+      ]
+    },
+    {
+      "id": "care-a-group-3",
+      "events": [
+        3,
+        10,
+        17,
+        40,
+        42
+      ],
+      "assets": [
+        "10"
+      ]
+    },
+    {
+      "id": "care-a-group-13",
+      "events": [
+        13,
+        22,
+        51,
+        72
+      ],
+      "assets": [
+        "21"
+      ]
+    },
+    {
+      "id": "care-a-group-14",
+      "events": [
+        14,
+        38,
+        45,
+        84
+      ],
+      "assets": [
+        "13"
+      ]
+    },
+    {
+      "id": "care-a-group-25",
+      "events": [
+        25,
+        68,
+        69,
+        92
+      ],
+      "assets": [
+        "11"
+      ]
+    }
+  ],
+  "fault_groups": [
+    {
+      "id": "care-a-fault-0",
+      "events": [
+        0
+      ],
+      "anchor_event": 0,
+      "anchor_timestamp": "2023-08-20T06:10:00+00:00",
+      "status": "single"
+    },
+    {
+      "id": "care-a-fault-10",
+      "events": [
+        10
+      ],
+      "anchor_event": 10,
+      "anchor_timestamp": "2023-10-18T08:40:00+00:00",
+      "status": "single"
+    },
+    {
+      "id": "care-a-fault-22",
+      "events": [
+        22
+      ],
+      "anchor_event": 22,
+      "anchor_timestamp": "2023-08-19T10:00:00+00:00",
+      "status": "single"
+    },
+    {
+      "id": "care-a-fault-26",
+      "events": [
+        26
+      ],
+      "anchor_event": 26,
+      "anchor_timestamp": "2023-10-19T10:20:00+00:00",
+      "status": "single"
+    },
+    {
+      "id": "care-a-fault-40",
+      "events": [
+        40
+      ],
+      "anchor_event": 40,
+      "anchor_timestamp": "2023-01-26T13:00:00+00:00",
+      "status": "single"
+    },
+    {
+      "id": "care-a-fault-42",
+      "events": [
+        42
+      ],
+      "anchor_event": 42,
+      "anchor_timestamp": "2023-09-16T15:50:00+00:00",
+      "status": "single"
+    },
+    {
+      "id": "care-a-fault-45",
+      "events": [
+        45
+      ],
+      "anchor_event": 45,
+      "anchor_timestamp": "2023-04-26T18:10:00+00:00",
+      "status": "single"
+    },
+    {
+      "id": "care-a-fault-51",
+      "events": [
+        51,
+        72
+      ],
+      "anchor_event": 72,
+      "anchor_timestamp": "2023-10-17T08:40:00+00:00",
+      "status": "conservative_merge"
+    },
+    {
+      "id": "care-a-fault-68",
+      "events": [
+        68
+      ],
+      "anchor_event": 68,
+      "anchor_timestamp": "2023-08-11T13:10:00+00:00",
+      "status": "single"
+    },
+    {
+      "id": "care-a-fault-73",
+      "events": [
+        73
+      ],
+      "anchor_event": 73,
+      "anchor_timestamp": "2023-06-17T11:40:00+00:00",
+      "status": "single"
+    },
+    {
+      "id": "care-a-fault-84",
+      "events": [
+        84
+      ],
+      "anchor_event": 84,
+      "anchor_timestamp": "2023-09-12T15:30:00+00:00",
+      "status": "single"
+    }
+  ],
+  "fault_anchor_aliases": [
+    {
+      "in_event": 0,
+      "anchor_event": 73,
+      "timestamp": "2023-06-17T11:40:00+00:00",
+      "partition": "train"
+    },
+    {
+      "in_event": 3,
+      "anchor_event": 40,
+      "timestamp": "2023-01-25T13:00:00+00:00",
+      "partition": "train"
+    },
+    {
+      "in_event": 10,
+      "anchor_event": 40,
+      "timestamp": "2023-01-25T13:00:00+00:00",
+      "partition": "train"
+    },
+    {
+      "in_event": 10,
+      "anchor_event": 42,
+      "timestamp": "2023-09-16T15:50:00+00:00",
+      "partition": "train"
+    },
+    {
+      "in_event": 17,
+      "anchor_event": 40,
+      "timestamp": "2023-01-25T13:00:00+00:00",
+      "partition": "train"
+    },
+    {
+      "in_event": 17,
+      "anchor_event": 42,
+      "timestamp": "2023-09-16T15:50:00+00:00",
+      "partition": "train"
+    },
+    {
+      "in_event": 17,
+      "anchor_event": 10,
+      "timestamp": "2023-10-18T08:40:00+00:00",
+      "partition": "train"
+    },
+    {
+      "in_event": 26,
+      "anchor_event": 73,
+      "timestamp": "2023-06-17T11:40:00+00:00",
+      "partition": "train"
+    },
+    {
+      "in_event": 26,
+      "anchor_event": 0,
+      "timestamp": "2023-08-20T06:10:00+00:00",
+      "partition": "train"
+    },
+    {
+      "in_event": 38,
+      "anchor_event": 45,
+      "timestamp": "2023-04-26T18:10:00+00:00",
+      "partition": "train"
+    },
+    {
+      "in_event": 42,
+      "anchor_event": 40,
+      "timestamp": "2023-01-25T13:00:00+00:00",
+      "partition": "train"
+    },
+    {
+      "in_event": 51,
+      "anchor_event": 22,
+      "timestamp": "2023-08-19T10:00:00+00:00",
+      "partition": "train"
+    },
+    {
+      "in_event": 51,
+      "anchor_event": 72,
+      "timestamp": "2023-10-17T08:40:00+00:00",
+      "partition": "prediction"
+    },
+    {
+      "in_event": 69,
+      "anchor_event": 68,
+      "timestamp": "2023-08-11T13:10:00+00:00",
+      "partition": "train"
+    },
+    {
+      "in_event": 72,
+      "anchor_event": 22,
+      "timestamp": "2023-08-19T10:00:00+00:00",
+      "partition": "train"
+    },
+    {
+      "in_event": 72,
+      "anchor_event": 51,
+      "timestamp": "2023-10-17T16:10:00+00:00",
+      "partition": "prediction"
+    },
+    {
+      "in_event": 84,
+      "anchor_event": 45,
+      "timestamp": "2023-04-26T18:10:00+00:00",
+      "partition": "train"
+    }
+  ],
+  "pairs_examined": 231,
+  "overlap_pairs": 38,
+  "raw_occurrences_with_reused_averages": 1109454,
+  "distinct_reused_average_vectors": 337730,
+  "raw_occurrences_with_reused_full_vectors": 1109454,
+  "raw_h7": {
+    "positive": 12021,
+    "negative": 8428,
+    "without_label": 30144,
+    "positive_episode_ids": [
+      "raw-0",
+      "raw-10",
+      "raw-22",
+      "raw-26",
+      "raw-40",
+      "raw-42",
+      "raw-45",
+      "raw-51",
+      "raw-68",
+      "raw-72",
+      "raw-73",
+      "raw-84"
+    ],
+    "normal_events_with_negatives": 10,
+    "by_reason": {
+      "positive": 12021,
+      "incomplete_normal_followup": 11589,
+      "unknown_failure_free_future": 8799,
+      "negative": 8428,
+      "outside_annotated_normal_interval": 6047,
+      "at_or_after_fault": 3709
+    }
+  },
+  "h7_after_reconciliation": {
+    "positive": 11013,
+    "negative": 8428,
+    "without_label": 31152,
+    "positive_episode_ids": [
+      "care-a-fault-0",
+      "care-a-fault-10",
+      "care-a-fault-22",
+      "care-a-fault-26",
+      "care-a-fault-40",
+      "care-a-fault-42",
+      "care-a-fault-45",
+      "care-a-fault-51",
+      "care-a-fault-68",
+      "care-a-fault-73",
+      "care-a-fault-84"
+    ],
+    "normal_events_with_negatives": 10,
+    "by_reason": {
+      "incomplete_normal_followup": 11589,
+      "positive": 11013,
+      "negative": 8428,
+      "unknown_failure_free_future": 7847,
+      "outside_annotated_normal_interval": 6047,
+      "at_or_after_fault": 3276,
+      "ambiguous_fault_episode": 2393
+    }
+  },
+  "h7_with_feature_history": {
+    "positive": 9730,
+    "negative": 8148,
+    "without_label": 29687,
+    "positive_episode_ids": [
+      "care-a-fault-0",
+      "care-a-fault-10",
+      "care-a-fault-22",
+      "care-a-fault-26",
+      "care-a-fault-40",
+      "care-a-fault-42",
+      "care-a-fault-45",
+      "care-a-fault-51",
+      "care-a-fault-68",
+      "care-a-fault-73",
+      "care-a-fault-84"
+    ],
+    "normal_events_with_negatives": 9,
+    "by_reason": {
+      "incomplete_normal_followup": 11234,
+      "positive": 9730,
+      "negative": 8148,
+      "unknown_failure_free_future": 7395,
+      "outside_annotated_normal_interval": 6034,
+      "at_or_after_fault": 2631,
+      "ambiguous_fault_episode": 2393
+    }
+  },
+  "fault_independence": "Conservative CARE benchmark episodes; repair history is unverified"
+}

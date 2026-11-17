@@ -1,0 +1,106 @@
+{
+  "mode": "edp_reference",
+  "signals": [
+    {
+      "path": "data/edp/reference/T01_F99.xlsx",
+      "source": "https://data.mendeley.com/datasets/zjxjnjp3xs/2",
+      "url": "https://data.mendeley.com/public-files/datasets/zjxjnjp3xs/files/6c3a6348-959d-4ed6-8028-e587055441b2/file_downloaded",
+      "sha256": "6bc53a294093e70a2a1dc1a95376a9fd56c7635e0ef5d36a2d2f95d43757c452",
+      "max_bytes": 21000000,
+      "limit_rows": 5000
+    }
+  ],
+  "failure_logs": [
+    {
+      "path": "data/edp/reference/Combined-Failure-Logbook-2016-2017.xlsx",
+      "source": "https://data.mendeley.com/datasets/zjxjnjp3xs/2",
+      "url": "https://data.mendeley.com/public-files/datasets/zjxjnjp3xs/files/034dd515-8eae-44ee-8d99-537de6b9c4f4/file_downloaded",
+      "sha256": "4fa7d7761bc6a7b09794a7c7ef8d73bcbf5edcd77cfb04ecc8470dd546640ee2",
+      "max_bytes": 10000
+    }
+  ],
+  "failure_review": null,
+  "log_coverage": null,
+  "outages": null,
+  "cadence_minutes": 10,
+  "measurement_delay_steps": 1,
+  "prediction_every_minutes": 60,
+  "horizons_days": [
+    7,
+    30
+  ],
+  "windows_hours": [
+    1,
+    6,
+    24,
+    168
+  ],
+  "sensors": {
+    "wind_speed": {
+      "column": "Amb_WindSpeed_Avg",
+      "measurement": "Ambient wind speed",
+      "unit": "m/s"
+    },
+    "power": {
+      "column": "Grd_Prod_Pwr_Avg",
+      "measurement": "Grid active power",
+      "unit": "kW"
+    },
+    "rotor_speed": {
+      "column": "Rtr_RPM_Avg",
+      "measurement": "Rotor rotational speed",
+      "unit": "rpm"
+    },
+    "generator_speed": {
+      "column": "Gen_RPM_Avg",
+      "measurement": "Generator rotational speed",
+      "unit": "rpm"
+    },
+    "gearbox_oil_temperature": {
+      "column": "Gear_Oil_Temp_Avg",
+      "measurement": "Gearbox oil temperature",
+      "unit": "°C"
+    },
+    "ambient_temperature": {
+      "column": "Amb_Temp_Avg",
+      "measurement": "Ambient air temperature",
+      "unit": "°C"
+    }
+  },
+  "operation": {
+    "wind_sensor": "wind_speed",
+    "power_sensor": "power",
+    "rotor_sensor": "rotor_speed",
+    "min_rotor_rpm": 0.5,
+    "min_power_kw": 5.0,
+    "productive_wind_mps": [
+      4.0,
+      22.0
+    ]
+  },
+  "split_boundaries_utc": [
+    "2016-01-01",
+    "2016-11-01",
+    "2017-05-01",
+    "2018-01-01"
+  ],
+  "holdout_turbines": [],
+  "min_rows_per_class": 25,
+  "min_positive_episodes": {
+    "train": 3,
+    "validation": 2,
+    "test": 2
+  },
+  "max_validation_false_alarms_per_turbine_month": 2.0,
+  "seed": 42,
+  "threads": 2,
+  "lightgbm": {
+    "n_estimators": 250,
+    "learning_rate": 0.03,
+    "num_leaves": 15,
+    "min_child_samples": 30
+  },
+  "shap_rows": 1024,
+  "local_shap_rows": 5,
+  "top_sensor_count": 5
+}

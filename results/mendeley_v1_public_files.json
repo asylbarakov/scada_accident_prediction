@@ -1,0 +1,32 @@
+{
+  "source": "https://data.mendeley.com/datasets/zjxjnjp3xs/1",
+  "version": 1,
+  "files": [
+    {
+      "name": "2016 fault log.png",
+      "size": 66677,
+      "sha256": "7229b209bf193eba0da546726a36759e042cabd13344face86b7050276cb0336",
+      "url": "https://data.mendeley.com/public-files/datasets/zjxjnjp3xs/files/9386a057-63b8-4199-9413-1eac0e12fc0a/file_downloaded"
+    },
+    {
+      "name": "2017 fault log.png",
+      "size": 47771,
+      "sha256": "7b37392d0a9758c0aaa6a1c07d71c6852d3c42b42473800b760f80f1cef3db30",
+      "url": "https://data.mendeley.com/public-files/datasets/zjxjnjp3xs/files/058a524c-8f09-4367-ad6e-f5be1b8e90ac/file_downloaded"
+    }
+  ],
+  "archive": {
+    "url": "https://data.mendeley.com/public-api/zip/zjxjnjp3xs/download/1",
+    "bytes": 108778,
+    "members": [
+      {
+        "name": "Description of the SCADA dataset of the EDP onshor/2017 fault log.png",
+        "size": 47771
+      },
+      {
+        "name": "Description of the SCADA dataset of the EDP onshor/2016 fault log.png",
+        "size": 66677
+      }
+    ]
+  }
+}

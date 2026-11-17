@@ -1,0 +1,20 @@
+{
+  "notebook_code_cells_checked": 7,
+  "venv_dependency_cell": "passed_with_installed_pins",
+  "real_v1_missing_inputs": [
+    "data/edp/mendeley_v1/signals_2016.xlsx",
+    "data/edp/mendeley_v1/signals_2017.xlsx"
+  ],
+  "v1_failure_csv": "available",
+  "v2_reference_audit": {
+    "h7": "skipped",
+    "h30": "skipped"
+  },
+  "existing_synthetic_cache_audit": {
+    "h7": "eligible",
+    "h30": "eligible"
+  },
+  "prior_smoke_plot_cells": "passed",
+  "new_model_fits": 0,
+  "hosted_colab_executed": false
+}

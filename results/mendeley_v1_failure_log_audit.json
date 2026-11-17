@@ -1,0 +1,47 @@
+{
+  "source": {
+    "sources": [
+      {
+        "file": "edp_mendeley_v1_failures.csv",
+        "year": null,
+        "declared_source": "https://doi.org/10.17632/zjxjnjp3xs.1",
+        "sha256": "8f5cf0a0ec8b11c2aeb3cf6dce17a2d0a632e2ce92403b4969596511b75eb487",
+        "rows_read": 28,
+        "invalid_keys": 0
+      }
+    ],
+    "unique_records": 28,
+    "exact_duplicate_records": 0,
+    "same_turbine_timestamp_records": 0,
+    "turbines": [
+      "T01",
+      "T06",
+      "T07",
+      "T09",
+      "T11"
+    ]
+  },
+  "rows_by_year": {
+    "2016": 16,
+    "2017": 12
+  },
+  "rows_by_turbine": {
+    "T01": 2,
+    "T06": 8,
+    "T07": 7,
+    "T09": 7,
+    "T11": 4
+  },
+  "off_10min_grid": 24,
+  "linked_v2_workbook_full_record_matches": 28,
+  "rows_from_turbines_listed_in_v1_scada_description": 21,
+  "consecutive_rows_same_turbine_at_most_7_days": 2,
+  "consecutive_rows_same_turbine_at_most_30_days": 5,
+  "available_v1_scada_years": [],
+  "h7": {
+    "status": "not_measurable_without_telemetry"
+  },
+  "h30": {
+    "status": "not_measurable_without_telemetry"
+  }
+}

@@ -1,0 +1,1235 @@
+{
+  "source": "C:\\Users\\danii\\Desktop\\predictive analytics\\scada-pdm-mvp-stage1\\scada-pdm-mvp\\data\\CARE_To_Compare",
+  "farm": "A",
+  "scanned_series": true,
+  "warning": "Preliminary supervised label coverage. Confirm fault episodes and recovery against the original log before training. Negative coverage comes only from annotated normal intervals with complete 10-minute sampling. WF A status_type_id must NOT be used as an inference feature/filter. Anonymized event files must not be joined by timestamp.",
+  "events": 22,
+  "anomaly_events": 12,
+  "normal_events": 10,
+  "missing_csvs": 0,
+  "assets": [
+    "0",
+    "10",
+    "11",
+    "13",
+    "21"
+  ],
+  "per_event": [
+    {
+      "event_id": 68,
+      "asset": "11",
+      "event_label": "anomaly",
+      "event_start": "2023-07-28T13:20:00+00:00",
+      "event_end": "2023-08-11T13:10:00+00:00",
+      "event_start_id": "52063",
+      "event_end_id": "54076",
+      "event_description": "Transformer failure",
+      "fault_anchor": "event_end",
+      "issues": [],
+      "csv_exists": true,
+      "row_counts": {
+        "train": 52063,
+        "prediction": 2295,
+        "other": 0,
+        "bad_timestamp": 0
+      },
+      "train_start": "2022-07-28T13:20:00+00:00",
+      "train_end": "2023-07-28T13:10:00+00:00",
+      "prediction_start": "2023-07-28T13:20:00+00:00",
+      "prediction_end": "2023-08-13T13:20:00+00:00",
+      "duplicates": 0,
+      "cadence_breaks": 2,
+      "boundary_checks": {
+        "event_start": "verified",
+        "event_end": "verified"
+      },
+      "usable_for_coverage": true,
+      "unconfirmed_negative_candidates_in_anomaly_events": {
+        "h7d": 603,
+        "h30d": 0
+      },
+      "h7d": {
+        "positive": 1008,
+        "negative": 0,
+        "censored": 1005,
+        "excluded": 282
+      },
+      "h30d": {
+        "positive": 2013,
+        "negative": 0,
+        "censored": 0,
+        "excluded": 282
+      }
+    },
+    {
+      "event_id": 22,
+      "asset": "21",
+      "event_label": "anomaly",
+      "event_start": "2023-08-12T09:50:00+00:00",
+      "event_end": "2023-08-19T10:00:00+00:00",
+      "event_start_id": "51888",
+      "event_end_id": "52892",
+      "event_description": "Hydraulic group",
+      "fault_anchor": "event_end",
+      "issues": [],
+      "csv_exists": true,
+      "row_counts": {
+        "train": 51888,
+        "prediction": 1148,
+        "other": 0,
+        "bad_timestamp": 0
+      },
+      "train_start": "2022-08-12T09:50:00+00:00",
+      "train_end": "2023-08-12T09:40:00+00:00",
+      "prediction_start": "2023-08-12T09:50:00+00:00",
+      "prediction_end": "2023-08-20T09:50:00+00:00",
+      "duplicates": 0,
+      "cadence_breaks": 2,
+      "boundary_checks": {
+        "event_start": "verified",
+        "event_end": "verified"
+      },
+      "usable_for_coverage": true,
+      "unconfirmed_negative_candidates_in_anomaly_events": {
+        "h7d": 0,
+        "h30d": 0
+      },
+      "h7d": {
+        "positive": 1003,
+        "negative": 0,
+        "censored": 1,
+        "excluded": 144
+      },
+      "h30d": {
+        "positive": 1004,
+        "negative": 0,
+        "censored": 0,
+        "excluded": 144
+      }
+    },
+    {
+      "event_id": 72,
+      "asset": "21",
+      "event_label": "anomaly",
+      "event_start": "2023-10-10T08:40:00+00:00",
+      "event_end": "2023-10-17T08:40:00+00:00",
+      "event_start_id": "52497",
+      "event_end_id": "53505",
+      "event_description": "Gearbox failure",
+      "fault_anchor": "event_end",
+      "issues": [],
+      "csv_exists": true,
+      "row_counts": {
+        "train": 52065,
+        "prediction": 2017,
+        "other": 0,
+        "bad_timestamp": 0
+      },
+      "train_start": "2022-10-07T08:40:00+00:00",
+      "train_end": "2023-10-07T08:30:00+00:00",
+      "prediction_start": "2023-10-07T08:40:00+00:00",
+      "prediction_end": "2023-10-21T08:40:00+00:00",
+      "duplicates": 0,
+      "cadence_breaks": 0,
+      "boundary_checks": {
+        "event_start": "verified",
+        "event_end": "verified"
+      },
+      "usable_for_coverage": true,
+      "unconfirmed_negative_candidates_in_anomaly_events": {
+        "h7d": 432,
+        "h30d": 0
+      },
+      "h7d": {
+        "positive": 1008,
+        "negative": 0,
+        "censored": 432,
+        "excluded": 577
+      },
+      "h30d": {
+        "positive": 1440,
+        "negative": 0,
+        "censored": 0,
+        "excluded": 577
+      }
+    },
+    {
+      "event_id": 73,
+      "asset": "0",
+      "event_label": "anomaly",
+      "event_start": "2023-06-10T11:40:00+00:00",
+      "event_end": "2023-06-17T11:40:00+00:00",
+      "event_start_id": "52745",
+      "event_end_id": "53753",
+      "event_description": "Hydraulic group",
+      "fault_anchor": "event_end",
+      "issues": [],
+      "csv_exists": true,
+      "row_counts": {
+        "train": 52313,
+        "prediction": 1729,
+        "other": 0,
+        "bad_timestamp": 0
+      },
+      "train_start": "2022-06-07T11:40:00+00:00",
+      "train_end": "2023-06-07T11:30:00+00:00",
+      "prediction_start": "2023-06-07T11:40:00+00:00",
+      "prediction_end": "2023-06-19T11:40:00+00:00",
+      "duplicates": 0,
+      "cadence_breaks": 0,
+      "boundary_checks": {
+        "event_start": "verified",
+        "event_end": "verified"
+      },
+      "usable_for_coverage": true,
+      "unconfirmed_negative_candidates_in_anomaly_events": {
+        "h7d": 432,
+        "h30d": 0
+      },
+      "h7d": {
+        "positive": 1008,
+        "negative": 0,
+        "censored": 432,
+        "excluded": 289
+      },
+      "h30d": {
+        "positive": 1440,
+        "negative": 0,
+        "censored": 0,
+        "excluded": 289
+      }
+    },
+    {
+      "event_id": 0,
+      "asset": "0",
+      "event_label": "anomaly",
+      "event_start": "2023-08-06T06:10:00+00:00",
+      "event_end": "2023-08-20T06:10:00+00:00",
+      "event_start_id": "52436",
+      "event_end_id": "54447",
+      "event_description": "Generator bearing failure",
+      "fault_anchor": "event_end",
+      "issues": [],
+      "csv_exists": true,
+      "row_counts": {
+        "train": 52148,
+        "prediction": 2838,
+        "other": 0,
+        "bad_timestamp": 0
+      },
+      "train_start": "2022-08-04T06:10:00+00:00",
+      "train_end": "2023-08-04T06:00:00+00:00",
+      "prediction_start": "2023-08-04T06:10:00+00:00",
+      "prediction_end": "2023-08-24T06:10:00+00:00",
+      "duplicates": 0,
+      "cadence_breaks": 3,
+      "boundary_checks": {
+        "event_start": "verified",
+        "event_end": "verified"
+      },
+      "usable_for_coverage": true,
+      "unconfirmed_negative_candidates_in_anomaly_events": {
+        "h7d": 447,
+        "h30d": 0
+      },
+      "h7d": {
+        "positive": 1004,
+        "negative": 0,
+        "censored": 1295,
+        "excluded": 539
+      },
+      "h30d": {
+        "positive": 2299,
+        "negative": 0,
+        "censored": 0,
+        "excluded": 539
+      }
+    },
+    {
+      "event_id": 26,
+      "asset": "0",
+      "event_label": "anomaly",
+      "event_start": "2023-10-12T10:20:00+00:00",
+      "event_end": "2023-10-19T10:20:00+00:00",
+      "event_start_id": "52261",
+      "event_end_id": "53269",
+      "event_description": "Hydraulic group",
+      "fault_anchor": "event_end",
+      "issues": [],
+      "csv_exists": true,
+      "row_counts": {
+        "train": 52261,
+        "prediction": 1441,
+        "other": 0,
+        "bad_timestamp": 0
+      },
+      "train_start": "2022-10-12T10:20:00+00:00",
+      "train_end": "2023-10-12T10:10:00+00:00",
+      "prediction_start": "2023-10-12T10:20:00+00:00",
+      "prediction_end": "2023-10-22T10:20:00+00:00",
+      "duplicates": 0,
+      "cadence_breaks": 0,
+      "boundary_checks": {
+        "event_start": "verified",
+        "event_end": "verified"
+      },
+      "usable_for_coverage": true,
+      "unconfirmed_negative_candidates_in_anomaly_events": {
+        "h7d": 0,
+        "h30d": 0
+      },
+      "h7d": {
+        "positive": 1008,
+        "negative": 0,
+        "censored": 0,
+        "excluded": 433
+      },
+      "h30d": {
+        "positive": 1008,
+        "negative": 0,
+        "censored": 0,
+        "excluded": 433
+      }
+    },
+    {
+      "event_id": 40,
+      "asset": "10",
+      "event_label": "anomaly",
+      "event_start": "2022-12-26T00:00:00+00:00",
+      "event_end": "2023-01-26T13:00:00+00:00",
+      "event_start_id": "51363",
+      "event_end_id": "55870",
+      "event_description": "Generator bearing failure",
+      "fault_anchor": "event_end",
+      "issues": [],
+      "csv_exists": true,
+      "row_counts": {
+        "train": 51219,
+        "prediction": 4939,
+        "other": 0,
+        "bad_timestamp": 0
+      },
+      "train_start": "2022-01-01T00:00:00+00:00",
+      "train_end": "2022-12-24T23:50:00+00:00",
+      "prediction_start": "2022-12-25T00:00:00+00:00",
+      "prediction_end": "2023-01-28T13:00:00+00:00",
+      "duplicates": 0,
+      "cadence_breaks": 13,
+      "boundary_checks": {
+        "event_start": "verified",
+        "event_end": "verified"
+      },
+      "usable_for_coverage": true,
+      "unconfirmed_negative_candidates_in_anomaly_events": {
+        "h7d": 2470,
+        "h30d": 0
+      },
+      "h7d": {
+        "positive": 977,
+        "negative": 0,
+        "censored": 3674,
+        "excluded": 288
+      },
+      "h30d": {
+        "positive": 4285,
+        "negative": 0,
+        "censored": 366,
+        "excluded": 288
+      }
+    },
+    {
+      "event_id": 42,
+      "asset": "10",
+      "event_label": "anomaly",
+      "event_start": "2023-09-09T15:50:00+00:00",
+      "event_end": "2023-09-16T15:50:00+00:00",
+      "event_start_id": "52303",
+      "event_end_id": "53309",
+      "event_description": "Hydraulic group",
+      "fault_anchor": "event_end",
+      "issues": [],
+      "csv_exists": true,
+      "row_counts": {
+        "train": 52303,
+        "prediction": 1583,
+        "other": 0,
+        "bad_timestamp": 0
+      },
+      "train_start": "2022-09-09T15:50:00+00:00",
+      "train_end": "2023-09-09T15:40:00+00:00",
+      "prediction_start": "2023-09-09T15:50:00+00:00",
+      "prediction_end": "2023-09-20T15:50:00+00:00",
+      "duplicates": 0,
+      "cadence_breaks": 2,
+      "boundary_checks": {
+        "event_start": "verified",
+        "event_end": "verified"
+      },
+      "usable_for_coverage": true,
+      "unconfirmed_negative_candidates_in_anomaly_events": {
+        "h7d": 0,
+        "h30d": 0
+      },
+      "h7d": {
+        "positive": 1006,
+        "negative": 0,
+        "censored": 0,
+        "excluded": 577
+      },
+      "h30d": {
+        "positive": 1006,
+        "negative": 0,
+        "censored": 0,
+        "excluded": 577
+      }
+    },
+    {
+      "event_id": 10,
+      "asset": "10",
+      "event_label": "anomaly",
+      "event_start": "2023-10-11T08:40:00+00:00",
+      "event_end": "2023-10-18T08:40:00+00:00",
+      "event_start_id": "52611",
+      "event_end_id": "53591",
+      "event_description": "Gearbox failure",
+      "fault_anchor": "event_end",
+      "issues": [],
+      "csv_exists": true,
+      "row_counts": {
+        "train": 52323,
+        "prediction": 1269,
+        "other": 0,
+        "bad_timestamp": 0
+      },
+      "train_start": "2022-10-09T08:40:00+00:00",
+      "train_end": "2023-10-09T08:30:00+00:00",
+      "prediction_start": "2023-10-09T08:40:00+00:00",
+      "prediction_end": "2023-10-18T08:40:00+00:00",
+      "duplicates": 0,
+      "cadence_breaks": 1,
+      "boundary_checks": {
+        "event_start": "verified",
+        "event_end": "verified"
+      },
+      "usable_for_coverage": true,
+      "unconfirmed_negative_candidates_in_anomaly_events": {
+        "h7d": 0,
+        "h30d": 0
+      },
+      "h7d": {
+        "positive": 980,
+        "negative": 0,
+        "censored": 288,
+        "excluded": 1
+      },
+      "h30d": {
+        "positive": 1268,
+        "negative": 0,
+        "censored": 0,
+        "excluded": 1
+      }
+    },
+    {
+      "event_id": 45,
+      "asset": "13",
+      "event_label": "anomaly",
+      "event_start": "2023-04-19T18:10:00+00:00",
+      "event_end": "2023-04-26T18:10:00+00:00",
+      "event_start_id": "52731",
+      "event_end_id": "53738",
+      "event_description": "Hydraulic group",
+      "fault_anchor": "event_end",
+      "issues": [],
+      "csv_exists": true,
+      "row_counts": {
+        "train": 52299,
+        "prediction": 1440,
+        "other": 0,
+        "bad_timestamp": 0
+      },
+      "train_start": "2022-04-16T18:10:00+00:00",
+      "train_end": "2023-04-16T18:00:00+00:00",
+      "prediction_start": "2023-04-16T18:10:00+00:00",
+      "prediction_end": "2023-04-26T18:10:00+00:00",
+      "duplicates": 0,
+      "cadence_breaks": 1,
+      "boundary_checks": {
+        "event_start": "verified",
+        "event_end": "verified"
+      },
+      "usable_for_coverage": true,
+      "unconfirmed_negative_candidates_in_anomaly_events": {
+        "h7d": 0,
+        "h30d": 0
+      },
+      "h7d": {
+        "positive": 1007,
+        "negative": 0,
+        "censored": 432,
+        "excluded": 1
+      },
+      "h30d": {
+        "positive": 1439,
+        "negative": 0,
+        "censored": 0,
+        "excluded": 1
+      }
+    },
+    {
+      "event_id": 84,
+      "asset": "13",
+      "event_label": "anomaly",
+      "event_start": "2023-09-05T15:30:00+00:00",
+      "event_end": "2023-09-12T15:30:00+00:00",
+      "event_start_id": "52623",
+      "event_end_id": "53627",
+      "event_description": "Hydraulic group",
+      "fault_anchor": "event_end",
+      "issues": [],
+      "csv_exists": true,
+      "row_counts": {
+        "train": 52335,
+        "prediction": 1437,
+        "other": 0,
+        "bad_timestamp": 0
+      },
+      "train_start": "2022-09-03T15:30:00+00:00",
+      "train_end": "2023-09-03T15:20:00+00:00",
+      "prediction_start": "2023-09-03T15:30:00+00:00",
+      "prediction_end": "2023-09-13T15:30:00+00:00",
+      "duplicates": 0,
+      "cadence_breaks": 4,
+      "boundary_checks": {
+        "event_start": "verified",
+        "event_end": "verified"
+      },
+      "usable_for_coverage": true,
+      "unconfirmed_negative_candidates_in_anomaly_events": {
+        "h7d": 104,
+        "h30d": 0
+      },
+      "h7d": {
+        "positive": 1004,
+        "negative": 0,
+        "censored": 288,
+        "excluded": 145
+      },
+      "h30d": {
+        "positive": 1292,
+        "negative": 0,
+        "censored": 0,
+        "excluded": 145
+      }
+    },
+    {
+      "event_id": 25,
+      "asset": "11",
+      "event_label": "normal",
+      "event_start": "2023-05-23T06:50:00+00:00",
+      "event_end": "2023-06-05T02:30:00+00:00",
+      "event_start_id": "52289",
+      "event_end_id": "54135",
+      "event_description": "",
+      "fault_anchor": null,
+      "issues": [],
+      "csv_exists": true,
+      "row_counts": {
+        "train": 52289,
+        "prediction": 2423,
+        "other": 0,
+        "bad_timestamp": 0
+      },
+      "train_start": "2022-05-23T06:50:00+00:00",
+      "train_end": "2023-05-23T06:40:00+00:00",
+      "prediction_start": "2023-05-23T06:50:00+00:00",
+      "prediction_end": "2023-06-09T02:30:00+00:00",
+      "duplicates": 0,
+      "cadence_breaks": 0,
+      "boundary_checks": {
+        "event_start": "verified",
+        "event_end": "verified"
+      },
+      "usable_for_coverage": true,
+      "unconfirmed_negative_candidates_in_anomaly_events": {
+        "h7d": 0,
+        "h30d": 0
+      },
+      "h7d": {
+        "positive": 0,
+        "negative": 839,
+        "censored": 1008,
+        "excluded": 576
+      },
+      "h30d": {
+        "positive": 0,
+        "negative": 0,
+        "censored": 1847,
+        "excluded": 576
+      }
+    },
+    {
+      "event_id": 69,
+      "asset": "11",
+      "event_label": "normal",
+      "event_start": "2023-09-04T00:50:00+00:00",
+      "event_end": "2023-09-18T00:50:00+00:00",
+      "event_start_id": "52364",
+      "event_end_id": "54380",
+      "event_description": "",
+      "fault_anchor": null,
+      "issues": [],
+      "csv_exists": true,
+      "row_counts": {
+        "train": 52220,
+        "prediction": 2593,
+        "other": 0,
+        "bad_timestamp": 0
+      },
+      "train_start": "2022-09-03T00:50:00+00:00",
+      "train_end": "2023-09-03T00:40:00+00:00",
+      "prediction_start": "2023-09-03T00:50:00+00:00",
+      "prediction_end": "2023-09-21T00:50:00+00:00",
+      "duplicates": 0,
+      "cadence_breaks": 0,
+      "boundary_checks": {
+        "event_start": "verified",
+        "event_end": "verified"
+      },
+      "usable_for_coverage": true,
+      "unconfirmed_negative_candidates_in_anomaly_events": {
+        "h7d": 0,
+        "h30d": 0
+      },
+      "h7d": {
+        "positive": 0,
+        "negative": 1009,
+        "censored": 1008,
+        "excluded": 576
+      },
+      "h30d": {
+        "positive": 0,
+        "negative": 0,
+        "censored": 2017,
+        "excluded": 576
+      }
+    },
+    {
+      "event_id": 13,
+      "asset": "21",
+      "event_label": "normal",
+      "event_start": "2023-05-03T13:20:00+00:00",
+      "event_end": "2023-05-24T10:20:00+00:00",
+      "event_start_id": "50859",
+      "event_end_id": "53865",
+      "event_description": "",
+      "fault_anchor": null,
+      "issues": [],
+      "csv_exists": true,
+      "row_counts": {
+        "train": 50427,
+        "prediction": 3583,
+        "other": 0,
+        "bad_timestamp": 0
+      },
+      "train_start": "2022-04-30T13:20:00+00:00",
+      "train_end": "2023-04-30T13:10:00+00:00",
+      "prediction_start": "2023-04-30T13:20:00+00:00",
+      "prediction_end": "2023-05-25T10:20:00+00:00",
+      "duplicates": 0,
+      "cadence_breaks": 0,
+      "boundary_checks": {
+        "event_start": "verified",
+        "event_end": "verified"
+      },
+      "usable_for_coverage": true,
+      "unconfirmed_negative_candidates_in_anomaly_events": {
+        "h7d": 0,
+        "h30d": 0
+      },
+      "h7d": {
+        "positive": 0,
+        "negative": 1999,
+        "censored": 1008,
+        "excluded": 576
+      },
+      "h30d": {
+        "positive": 0,
+        "negative": 0,
+        "censored": 3007,
+        "excluded": 576
+      }
+    },
+    {
+      "event_id": 24,
+      "asset": "0",
+      "event_label": "normal",
+      "event_start": "2023-04-27T15:00:00+00:00",
+      "event_end": "2023-05-11T11:20:00+00:00",
+      "event_start_id": "52720",
+      "event_end_id": "54714",
+      "event_description": "",
+      "fault_anchor": null,
+      "issues": [],
+      "csv_exists": true,
+      "row_counts": {
+        "train": 52289,
+        "prediction": 2714,
+        "other": 0,
+        "bad_timestamp": 0
+      },
+      "train_start": "2022-04-24T15:00:00+00:00",
+      "train_end": "2023-04-24T14:50:00+00:00",
+      "prediction_start": "2023-04-24T15:00:00+00:00",
+      "prediction_end": "2023-05-13T11:20:00+00:00",
+      "duplicates": 0,
+      "cadence_breaks": 1,
+      "boundary_checks": {
+        "event_start": "verified",
+        "event_end": "verified"
+      },
+      "usable_for_coverage": true,
+      "unconfirmed_negative_candidates_in_anomaly_events": {
+        "h7d": 0,
+        "h30d": 0
+      },
+      "h7d": {
+        "positive": 0,
+        "negative": 987,
+        "censored": 1008,
+        "excluded": 719
+      },
+      "h30d": {
+        "positive": 0,
+        "negative": 0,
+        "censored": 1995,
+        "excluded": 719
+      }
+    },
+    {
+      "event_id": 3,
+      "asset": "10",
+      "event_label": "normal",
+      "event_start": "2023-04-27T03:00:00+00:00",
+      "event_end": "2023-05-18T01:10:00+00:00",
+      "event_start_id": "52185",
+      "event_end_id": "55198",
+      "event_description": "",
+      "fault_anchor": null,
+      "issues": [],
+      "csv_exists": true,
+      "row_counts": {
+        "train": 52185,
+        "prediction": 3302,
+        "other": 0,
+        "bad_timestamp": 0
+      },
+      "train_start": "2022-04-27T03:00:00+00:00",
+      "train_end": "2023-04-27T02:50:00+00:00",
+      "prediction_start": "2023-04-27T03:00:00+00:00",
+      "prediction_end": "2023-05-20T01:10:00+00:00",
+      "duplicates": 0,
+      "cadence_breaks": 0,
+      "boundary_checks": {
+        "event_start": "verified",
+        "event_end": "verified"
+      },
+      "usable_for_coverage": true,
+      "unconfirmed_negative_candidates_in_anomaly_events": {
+        "h7d": 0,
+        "h30d": 0
+      },
+      "h7d": {
+        "positive": 0,
+        "negative": 2006,
+        "censored": 1008,
+        "excluded": 288
+      },
+      "h30d": {
+        "positive": 0,
+        "negative": 0,
+        "censored": 3014,
+        "excluded": 288
+      }
+    },
+    {
+      "event_id": 17,
+      "asset": "10",
+      "event_label": "normal",
+      "event_start": "2023-11-02T15:20:00+00:00",
+      "event_end": "2023-11-16T00:40:00+00:00",
+      "event_start_id": "52597",
+      "event_end_id": "54513",
+      "event_description": "",
+      "fault_anchor": null,
+      "issues": [],
+      "csv_exists": true,
+      "row_counts": {
+        "train": 52309,
+        "prediction": 2781,
+        "other": 0,
+        "bad_timestamp": 0
+      },
+      "train_start": "2022-10-31T15:20:00+00:00",
+      "train_end": "2023-10-31T15:10:00+00:00",
+      "prediction_start": "2023-10-31T15:20:00+00:00",
+      "prediction_end": "2023-11-20T00:40:00+00:00",
+      "duplicates": 0,
+      "cadence_breaks": 2,
+      "boundary_checks": {
+        "event_start": "verified",
+        "event_end": "verified"
+      },
+      "usable_for_coverage": true,
+      "unconfirmed_negative_candidates_in_anomaly_events": {
+        "h7d": 0,
+        "h30d": 0
+      },
+      "h7d": {
+        "positive": 0,
+        "negative": 5,
+        "censored": 1912,
+        "excluded": 864
+      },
+      "h30d": {
+        "positive": 0,
+        "negative": 0,
+        "censored": 1917,
+        "excluded": 864
+      }
+    },
+    {
+      "event_id": 38,
+      "asset": "13",
+      "event_label": "normal",
+      "event_start": "2023-07-01T15:40:00+00:00",
+      "event_end": "2023-07-15T07:40:00+00:00",
+      "event_start_id": "52723",
+      "event_end_id": "54546",
+      "event_description": "",
+      "fault_anchor": null,
+      "issues": [],
+      "csv_exists": true,
+      "row_counts": {
+        "train": 52291,
+        "prediction": 2544,
+        "other": 0,
+        "bad_timestamp": 0
+      },
+      "train_start": "2022-06-28T15:40:00+00:00",
+      "train_end": "2023-06-28T15:30:00+00:00",
+      "prediction_start": "2023-06-28T15:40:00+00:00",
+      "prediction_end": "2023-07-17T07:40:00+00:00",
+      "duplicates": 0,
+      "cadence_breaks": 2,
+      "boundary_checks": {
+        "event_start": "verified",
+        "event_end": "verified"
+      },
+      "usable_for_coverage": true,
+      "unconfirmed_negative_candidates_in_anomaly_events": {
+        "h7d": 0,
+        "h30d": 0
+      },
+      "h7d": {
+        "positive": 0,
+        "negative": 211,
+        "censored": 1613,
+        "excluded": 720
+      },
+      "h30d": {
+        "positive": 0,
+        "negative": 0,
+        "censored": 1824,
+        "excluded": 720
+      }
+    },
+    {
+      "event_id": 71,
+      "asset": "0",
+      "event_label": "normal",
+      "event_start": "2023-01-02T00:00:00+00:00",
+      "event_end": "2023-01-16T00:00:00+00:00",
+      "event_start_id": "52439",
+      "event_end_id": "54455",
+      "event_description": "",
+      "fault_anchor": null,
+      "issues": [],
+      "csv_exists": true,
+      "row_counts": {
+        "train": 52295,
+        "prediction": 2449,
+        "other": 0,
+        "bad_timestamp": 0
+      },
+      "train_start": "2022-01-01T00:00:00+00:00",
+      "train_end": "2022-12-31T23:50:00+00:00",
+      "prediction_start": "2023-01-01T00:00:00+00:00",
+      "prediction_end": "2023-01-18T00:00:00+00:00",
+      "duplicates": 0,
+      "cadence_breaks": 0,
+      "boundary_checks": {
+        "event_start": "verified",
+        "event_end": "verified"
+      },
+      "usable_for_coverage": true,
+      "unconfirmed_negative_candidates_in_anomaly_events": {
+        "h7d": 0,
+        "h30d": 0
+      },
+      "h7d": {
+        "positive": 0,
+        "negative": 1009,
+        "censored": 1008,
+        "excluded": 432
+      },
+      "h30d": {
+        "positive": 0,
+        "negative": 0,
+        "censored": 2017,
+        "excluded": 432
+      }
+    },
+    {
+      "event_id": 14,
+      "asset": "13",
+      "event_label": "normal",
+      "event_start": "2023-03-05T14:00:00+00:00",
+      "event_end": "2023-03-12T18:40:00+00:00",
+      "event_start_id": "52584",
+      "event_end_id": "53620",
+      "event_description": "",
+      "fault_anchor": null,
+      "issues": [],
+      "csv_exists": true,
+      "row_counts": {
+        "train": 52296,
+        "prediction": 1901,
+        "other": 0,
+        "bad_timestamp": 0
+      },
+      "train_start": "2022-03-03T14:00:00+00:00",
+      "train_end": "2023-03-03T13:50:00+00:00",
+      "prediction_start": "2023-03-03T14:00:00+00:00",
+      "prediction_end": "2023-03-16T18:40:00+00:00",
+      "duplicates": 0,
+      "cadence_breaks": 0,
+      "boundary_checks": {
+        "event_start": "verified",
+        "event_end": "verified"
+      },
+      "usable_for_coverage": true,
+      "unconfirmed_negative_candidates_in_anomaly_events": {
+        "h7d": 0,
+        "h30d": 0
+      },
+      "h7d": {
+        "positive": 0,
+        "negative": 29,
+        "censored": 1008,
+        "excluded": 864
+      },
+      "h30d": {
+        "positive": 0,
+        "negative": 0,
+        "censored": 1037,
+        "excluded": 864
+      }
+    },
+    {
+      "event_id": 92,
+      "asset": "11",
+      "event_label": "normal",
+      "event_start": "2023-04-05T02:30:00+00:00",
+      "event_end": "2023-04-14T10:00:00+00:00",
+      "event_start_id": "52437",
+      "event_end_id": "53778",
+      "event_description": "",
+      "fault_anchor": null,
+      "issues": [],
+      "csv_exists": true,
+      "row_counts": {
+        "train": 52293,
+        "prediction": 1774,
+        "other": 0,
+        "bad_timestamp": 0
+      },
+      "train_start": "2022-04-04T02:30:00+00:00",
+      "train_end": "2023-04-04T02:20:00+00:00",
+      "prediction_start": "2023-04-04T02:30:00+00:00",
+      "prediction_end": "2023-04-16T10:00:00+00:00",
+      "duplicates": 0,
+      "cadence_breaks": 0,
+      "boundary_checks": {
+        "event_start": "verified",
+        "event_end": "verified"
+      },
+      "usable_for_coverage": true,
+      "unconfirmed_negative_candidates_in_anomaly_events": {
+        "h7d": 0,
+        "h30d": 0
+      },
+      "h7d": {
+        "positive": 0,
+        "negative": 334,
+        "censored": 1008,
+        "excluded": 432
+      },
+      "h30d": {
+        "positive": 0,
+        "negative": 0,
+        "censored": 1342,
+        "excluded": 432
+      }
+    },
+    {
+      "event_id": 51,
+      "asset": "21",
+      "event_label": "anomaly",
+      "event_start": "2023-10-06T01:30:00+00:00",
+      "event_end": "2023-10-17T16:10:00+00:00",
+      "event_start_id": "52331",
+      "event_end_id": "54003",
+      "event_description": "Gearbox bearings damaged",
+      "fault_anchor": "event_end",
+      "issues": [],
+      "csv_exists": true,
+      "row_counts": {
+        "train": 52043,
+        "prediction": 2393,
+        "other": 0,
+        "bad_timestamp": 0
+      },
+      "train_start": "2022-10-04T01:30:00+00:00",
+      "train_end": "2023-10-04T01:20:00+00:00",
+      "prediction_start": "2023-10-04T01:30:00+00:00",
+      "prediction_end": "2023-10-20T16:10:00+00:00",
+      "duplicates": 0,
+      "cadence_breaks": 0,
+      "boundary_checks": {
+        "event_start": "verified",
+        "event_end": "verified"
+      },
+      "usable_for_coverage": true,
+      "unconfirmed_negative_candidates_in_anomaly_events": {
+        "h7d": 952,
+        "h30d": 0
+      },
+      "h7d": {
+        "positive": 1008,
+        "negative": 0,
+        "censored": 952,
+        "excluded": 433
+      },
+      "h30d": {
+        "positive": 1960,
+        "negative": 0,
+        "censored": 0,
+        "excluded": 433
+      }
+    }
+  ],
+  "label_totals": {
+    "h7d": {
+      "positive": 12021,
+      "negative": 8428,
+      "censored": 20388,
+      "excluded": 9756
+    },
+    "h30d": {
+      "positive": 20454,
+      "negative": 0,
+      "censored": 20383,
+      "excluded": 9756
+    }
+  },
+  "horizon_events": {
+    "h7d": {
+      "positive_events": 12,
+      "positive_assets": [
+        "0",
+        "10",
+        "11",
+        "13",
+        "21"
+      ],
+      "negative_events": 10
+    },
+    "h30d": {
+      "positive_events": 12,
+      "positive_assets": [
+        "0",
+        "10",
+        "11",
+        "13",
+        "21"
+      ],
+      "negative_events": 0
+    }
+  },
+  "unconfirmed_negative_candidates_in_anomaly_events": {
+    "h7d": 5440,
+    "h30d": 0
+  },
+  "events_with_label_counts": 22,
+  "events_usable_for_coverage": 22,
+  "same_asset_overlapping_file_ranges": [
+    [
+      68,
+      25
+    ],
+    [
+      68,
+      69
+    ],
+    [
+      68,
+      92
+    ],
+    [
+      22,
+      72
+    ],
+    [
+      22,
+      13
+    ],
+    [
+      22,
+      51
+    ],
+    [
+      72,
+      13
+    ],
+    [
+      72,
+      51
+    ],
+    [
+      73,
+      0
+    ],
+    [
+      73,
+      26
+    ],
+    [
+      73,
+      24
+    ],
+    [
+      73,
+      71
+    ],
+    [
+      0,
+      26
+    ],
+    [
+      0,
+      24
+    ],
+    [
+      0,
+      71
+    ],
+    [
+      26,
+      24
+    ],
+    [
+      26,
+      71
+    ],
+    [
+      40,
+      42
+    ],
+    [
+      40,
+      10
+    ],
+    [
+      40,
+      3
+    ],
+    [
+      40,
+      17
+    ],
+    [
+      42,
+      10
+    ],
+    [
+      42,
+      3
+    ],
+    [
+      42,
+      17
+    ],
+    [
+      10,
+      3
+    ],
+    [
+      10,
+      17
+    ],
+    [
+      45,
+      84
+    ],
+    [
+      45,
+      38
+    ],
+    [
+      45,
+      14
+    ],
+    [
+      84,
+      38
+    ],
+    [
+      84,
+      14
+    ],
+    [
+      25,
+      69
+    ],
+    [
+      25,
+      92
+    ],
+    [
+      69,
+      92
+    ],
+    [
+      13,
+      51
+    ],
+    [
+      24,
+      71
+    ],
+    [
+      3,
+      17
+    ],
+    [
+      38,
+      14
+    ]
+  ],
+  "same_asset_overlapping_prediction_ranges": [
+    [
+      72,
+      51
+    ]
+  ]
+}

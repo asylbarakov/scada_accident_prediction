@@ -1,0 +1,98 @@
+{
+  "mode": "synthetic_smoke",
+  "signals": [
+    {
+      "path": "results\\edp_smoke\\generated_inputs\\signals.csv",
+      "source": "synthetic technical fixture"
+    }
+  ],
+  "failure_logs": [
+    {
+      "path": "results\\edp_smoke\\generated_inputs\\failure_log.xlsx",
+      "source": "synthetic technical fixture"
+    }
+  ],
+  "failure_review": "results\\edp_smoke\\generated_inputs\\failure_review.csv",
+  "log_coverage": "results\\edp_smoke\\generated_inputs\\log_coverage.csv",
+  "outages": null,
+  "cadence_minutes": 60,
+  "prediction_every_minutes": 60,
+  "horizons_days": [
+    7,
+    30
+  ],
+  "windows_hours": [
+    1,
+    6,
+    24,
+    168
+  ],
+  "sensors": {
+    "wind_speed": {
+      "column": "Amb_WindSpeed_Avg",
+      "measurement": "Ambient wind speed",
+      "unit": "m/s"
+    },
+    "power": {
+      "column": "Grd_Prod_Pwr_Avg",
+      "measurement": "Grid active power",
+      "unit": "kW"
+    },
+    "rotor_speed": {
+      "column": "Rtr_RPM_Avg",
+      "measurement": "Rotor rotational speed",
+      "unit": "rpm"
+    },
+    "generator_speed": {
+      "column": "Gen_RPM_Avg",
+      "measurement": "Generator rotational speed",
+      "unit": "rpm"
+    },
+    "gearbox_oil_temperature": {
+      "column": "Gear_Oil_Temp_Avg",
+      "measurement": "Gearbox oil temperature",
+      "unit": "°C"
+    },
+    "ambient_temperature": {
+      "column": "Amb_Temp_Avg",
+      "measurement": "Ambient air temperature",
+      "unit": "°C"
+    }
+  },
+  "operation": {
+    "wind_sensor": "wind_speed",
+    "power_sensor": "power",
+    "rotor_sensor": "rotor_speed",
+    "min_rotor_rpm": 0.5,
+    "min_power_kw": 5.0,
+    "productive_wind_mps": [
+      4.0,
+      22.0
+    ]
+  },
+  "split_boundaries_utc": [
+    "2016-01-01T00:00:00+00:00",
+    "2016-03-06T00:00:00+00:00",
+    "2016-05-10T00:00:00+00:00",
+    "2016-07-14T00:00:00+00:00"
+  ],
+  "holdout_turbines": [],
+  "min_rows_per_class": 5,
+  "min_positive_episodes": {
+    "train": 1,
+    "validation": 1,
+    "test": 1
+  },
+  "max_validation_false_alarms_per_turbine_month": 2.0,
+  "seed": 42,
+  "threads": 2,
+  "lightgbm": {
+    "n_estimators": 10,
+    "learning_rate": 0.15,
+    "num_leaves": 7,
+    "min_child_samples": 12
+  },
+  "shap_rows": 256,
+  "local_shap_rows": 3,
+  "top_sensor_count": 4
+}

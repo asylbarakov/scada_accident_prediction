@@ -1,0 +1,138 @@
+{
+  "mode": "care_h7",
+  "signals": [
+    {
+      "path": "data/edp/original/signals_2016.xlsx",
+      "year": 2016,
+      "source": "https://edp.com/en/innovation/data/wind-farm-1-wind-turbine-scada-signals-2016"
+    },
+    {
+      "path": "data/edp/original/signals_2017.xlsx",
+      "year": 2017,
+      "source": "https://edp.com/en/innovation/data/wind-farm-1-wind-turbine-scada-signals-2017"
+    }
+  ],
+  "failure_logs": [
+    {
+      "path": "data/edp/original/failures_2016.xlsx",
+      "year": 2016,
+      "source": "https://edp.com/en/innovation/data/wind-farm-1-record-failure-history-2016"
+    },
+    {
+      "path": "data/edp/original/failures_2017.xlsx",
+      "year": 2017,
+      "source": "https://edp.com/en/innovation/data/wind-farm-1-record-failure-history-2017",
+      "url": "https://edp.com/sites/default/files/document/2025-04/opendata-wind-failures-2017.xlsx",
+      "max_bytes": 2000000
+    }
+  ],
+  "failure_review": null,
+  "log_coverage": null,
+  "outages": null,
+  "cadence_minutes": 10,
+  "measurement_delay_steps": 1,
+  "prediction_every_minutes": 60,
+  "horizons_days": [
+    7
+  ],
+  "windows_hours": [
+    1,
+    6,
+    24,
+    168
+  ],
+  "sensors": {
+    "wind_speed": {
+      "column": "wind_speed_3_avg",
+      "measurement": "Wind speed",
+      "unit": "m/s"
+    },
+    "ambient_temperature": {
+      "column": "sensor_0_avg",
+      "measurement": "Ambient temperature",
+      "unit": "°C"
+    },
+    "grid_active_power": {
+      "column": "power_29_avg",
+      "measurement": "Possible grid active power",
+      "unit": "p.u."
+    },
+    "gearbox_bearing_temperature": {
+      "column": "sensor_11_avg",
+      "measurement": "Gearbox high-speed shaft bearing temperature",
+      "unit": "°C"
+    },
+    "gearbox_oil_temperature": {
+      "column": "sensor_12_avg",
+      "measurement": "Gearbox oil temperature",
+      "unit": "°C"
+    },
+    "generator_bearing_temperature": {
+      "column": "sensor_13_avg",
+      "measurement": "Generator drive-end bearing temperature",
+      "unit": "°C"
+    },
+    "generator_speed": {
+      "column": "sensor_18_avg",
+      "measurement": "Generator rotational speed",
+      "unit": "rpm"
+    },
+    "transformer_temperature": {
+      "column": "sensor_38_avg",
+      "measurement": "HV transformer phase L1 temperature",
+      "unit": "°C"
+    },
+    "hydraulic_oil_temperature": {
+      "column": "sensor_41_avg",
+      "measurement": "Hydraulic group oil temperature",
+      "unit": "°C"
+    },
+    "rotor_speed": {
+      "column": "sensor_52_avg",
+      "measurement": "Rotor rotational speed",
+      "unit": "rpm"
+    }
+  },
+  "operation": null,
+  "split_boundaries_utc": [
+    "2016-01-01",
+    "2016-11-01",
+    "2017-05-01",
+    "2018-01-01"
+  ],
+  "holdout_turbines": [],
+  "min_rows_per_class": 25,
+  "min_positive_episodes": {
+    "train": 3,
+    "validation": 2,
+    "test": 2
+  },
+  "max_validation_false_alarms_per_turbine_month": 2.0,
+  "seed": 42,
+  "threads": 2,
+  "lightgbm": {
+    "n_estimators": 250,
+    "learning_rate": 0.03,
+    "num_leaves": 15,
+    "min_child_samples": 30
+  },
+  "shap_rows": 1024,
+  "local_shap_rows": 5,
+  "top_sensor_count": 5,
+  "dataset_id": "care-v6-15846963-wind-farm-a-h7",
+  "raw_dir": "data/CARE_To_Compare",
+  "required_history_hours": 24,
+  "asset_splits": {
+    "train": [
+      "0",
+      "10"
+    ],
+    "validation": [
+      "11",
+      "13"
+    ],
+    "test": [
+      "21"
+    ]
+  }
+}

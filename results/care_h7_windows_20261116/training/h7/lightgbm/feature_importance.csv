@@ -1,0 +1,211 @@
+feature,sensor,source_column,physical_measurement,sensor_unit,statistic,window_hours,feature_unit,gain,mean_abs_shap_log_odds
+ambient_temperature__24h_mean,ambient_temperature,sensor_0_avg,Ambient temperature,°C,mean,24,°C,21486.38284009695,6.4928386355035155
+ambient_temperature__168h_std,ambient_temperature,sensor_0_avg,Ambient temperature,°C,std,168,°C,8750.393346779048,1.5682374813155286
+gearbox_oil_temperature__168h_std,gearbox_oil_temperature,sensor_12_avg,Gearbox oil temperature,°C,std,168,°C,4603.8735373951495,0.5983062737001502
+wind_speed__now,wind_speed,wind_speed_3_avg,Wind speed,m/s,now,0,m/s,3.986080877797051e-12,4.422413227723326e-15
+wind_speed__1h_mean,wind_speed,wind_speed_3_avg,Wind speed,m/s,mean,1,m/s,5.701970512725399e-13,7.639019982105362e-16
+wind_speed__1h_delta_mean,wind_speed,wind_speed_3_avg,Wind speed,m/s,delta_mean,1,m/s,6.49203495620752e-14,1.0590382441126149e-16
+wind_speed__168h_delta_mean,wind_speed,wind_speed_3_avg,Wind speed,m/s,delta_mean,168,m/s,2.436937959468121e-14,4.369174818460704e-17
+wind_speed__1h_std,wind_speed,wind_speed_3_avg,Wind speed,m/s,std,1,m/s,8.971998733931869e-15,3.9042515863983345e-17
+wind_speed__1h_trend,wind_speed,wind_speed_3_avg,Wind speed,m/s,trend,1,m/s/h,2.164934189952451e-15,3.660933217634517e-17
+grid_active_power__168h_delta_mean,grid_active_power,power_29_avg,Possible grid active power,p.u.,delta_mean,168,p.u.,4.662943029702982e-15,2.9305277633909824e-17
+wind_speed__6h_std,wind_speed,wind_speed_3_avg,Wind speed,m/s,std,6,m/s,1.4488456654506253e-14,2.57528319752737e-17
+wind_speed__1h_max,wind_speed,wind_speed_3_avg,Wind speed,m/s,max,1,m/s,1.4915867631438412e-13,2.41522027586734e-17
+wind_speed__6h_mean,wind_speed,wind_speed_3_avg,Wind speed,m/s,mean,6,m/s,4.4408890809457516e-15,1.651960465418752e-17
+wind_speed__6h_max,wind_speed,wind_speed_3_avg,Wind speed,m/s,max,6,m/s,4.440888075094127e-15,1.55426442183283e-17
+grid_active_power__24h_delta_mean,grid_active_power,power_29_avg,Possible grid active power,p.u.,delta_mean,24,p.u.,2.1094270158055782e-15,1.4899698861694428e-17
+wind_speed__24h_delta_mean,wind_speed,wind_speed_3_avg,Wind speed,m/s,delta_mean,24,m/s,1.2434497981680872e-14,1.1008608378531195e-17
+wind_speed__6h_trend,wind_speed,wind_speed_3_avg,Wind speed,m/s,trend,6,m/s/h,1.887382013833853e-15,7.709451876495141e-18
+wind_speed__168h_trend,wind_speed,wind_speed_3_avg,Wind speed,m/s,trend,168,m/s/h,1.3322680001271023e-15,7.103881191024588e-18
+grid_active_power__168h_trend,grid_active_power,power_29_avg,Possible grid active power,p.u.,trend,168,p.u./h,8.881779961836516e-16,6.736489857032897e-18
+transformer_temperature__168h_delta_mean,transformer_temperature,sensor_38_avg,HV transformer phase L1 temperature,°C,delta_mean,168,°C,1.3322669942754774e-15,6.3020093047592995e-18
+rotor_speed__168h_trend,rotor_speed,sensor_52_avg,Rotor rotational speed,rpm,trend,168,rpm/h,4.440889980918258e-16,3.1031078328032326e-18
+ambient_temperature__168h_delta_mean,ambient_temperature,sensor_0_avg,Ambient temperature,°C,delta_mean,168,°C,1.0880184979582044e-14,9.119756472599343e-19
+ambient_temperature__24h_delta_mean,ambient_temperature,sensor_0_avg,Ambient temperature,°C,delta_mean,24,°C,4.440888075094127e-15,8.733383182870427e-19
+hydraulic_oil_temperature__24h_max,hydraulic_oil_temperature,sensor_41_avg,Hydraulic group oil temperature,°C,max,24,°C,1.7763600157738027e-15,7.825111331851902e-19
+wind_speed__6h_delta_mean,wind_speed,wind_speed_3_avg,Wind speed,m/s,delta_mean,6,m/s,8.881779961836516e-16,1.1885818847434257e-19
+wind_speed__168h_mean,wind_speed,wind_speed_3_avg,Wind speed,m/s,mean,168,m/s,0.0,0.0
+wind_speed__168h_max,wind_speed,wind_speed_3_avg,Wind speed,m/s,max,168,m/s,0.0,0.0
+ambient_temperature__1h_delta_mean,ambient_temperature,sensor_0_avg,Ambient temperature,°C,delta_mean,1,°C,0.0,0.0
+ambient_temperature__6h_max,ambient_temperature,sensor_0_avg,Ambient temperature,°C,max,6,°C,0.0,0.0
+ambient_temperature__6h_mean,ambient_temperature,sensor_0_avg,Ambient temperature,°C,mean,6,°C,0.0,0.0
+wind_speed__24h_mean,wind_speed,wind_speed_3_avg,Wind speed,m/s,mean,24,m/s,0.0,0.0
+wind_speed__24h_max,wind_speed,wind_speed_3_avg,Wind speed,m/s,max,24,m/s,0.0,0.0
+wind_speed__24h_trend,wind_speed,wind_speed_3_avg,Wind speed,m/s,trend,24,m/s/h,0.0,0.0
+wind_speed__24h_std,wind_speed,wind_speed_3_avg,Wind speed,m/s,std,24,m/s,0.0,0.0
+ambient_temperature__24h_max,ambient_temperature,sensor_0_avg,Ambient temperature,°C,max,24,°C,0.0,0.0
+ambient_temperature__6h_trend,ambient_temperature,sensor_0_avg,Ambient temperature,°C,trend,6,°C/h,0.0,0.0
+ambient_temperature__6h_delta_mean,ambient_temperature,sensor_0_avg,Ambient temperature,°C,delta_mean,6,°C,0.0,0.0
+ambient_temperature__24h_std,ambient_temperature,sensor_0_avg,Ambient temperature,°C,std,24,°C,0.0,0.0
+ambient_temperature__168h_mean,ambient_temperature,sensor_0_avg,Ambient temperature,°C,mean,168,°C,0.0,0.0
+ambient_temperature__24h_trend,ambient_temperature,sensor_0_avg,Ambient temperature,°C,trend,24,°C/h,0.0,0.0
+ambient_temperature__168h_max,ambient_temperature,sensor_0_avg,Ambient temperature,°C,max,168,°C,0.0,0.0
+ambient_temperature__168h_trend,ambient_temperature,sensor_0_avg,Ambient temperature,°C,trend,168,°C/h,0.0,0.0
+grid_active_power__now,grid_active_power,power_29_avg,Possible grid active power,p.u.,now,0,p.u.,0.0,0.0
+grid_active_power__1h_mean,grid_active_power,power_29_avg,Possible grid active power,p.u.,mean,1,p.u.,0.0,0.0
+grid_active_power__1h_max,grid_active_power,power_29_avg,Possible grid active power,p.u.,max,1,p.u.,0.0,0.0
+grid_active_power__1h_std,grid_active_power,power_29_avg,Possible grid active power,p.u.,std,1,p.u.,0.0,0.0
+ambient_temperature__6h_std,ambient_temperature,sensor_0_avg,Ambient temperature,°C,std,6,°C,0.0,0.0
+ambient_temperature__1h_trend,ambient_temperature,sensor_0_avg,Ambient temperature,°C,trend,1,°C/h,0.0,0.0
+ambient_temperature__1h_mean,ambient_temperature,sensor_0_avg,Ambient temperature,°C,mean,1,°C,0.0,0.0
+wind_speed__168h_std,wind_speed,wind_speed_3_avg,Wind speed,m/s,std,168,m/s,0.0,0.0
+grid_active_power__6h_max,grid_active_power,power_29_avg,Possible grid active power,p.u.,max,6,p.u.,0.0,0.0
+grid_active_power__6h_mean,grid_active_power,power_29_avg,Possible grid active power,p.u.,mean,6,p.u.,0.0,0.0
+grid_active_power__1h_trend,grid_active_power,power_29_avg,Possible grid active power,p.u.,trend,1,p.u./h,0.0,0.0
+grid_active_power__6h_std,grid_active_power,power_29_avg,Possible grid active power,p.u.,std,6,p.u.,0.0,0.0
+grid_active_power__24h_mean,grid_active_power,power_29_avg,Possible grid active power,p.u.,mean,24,p.u.,0.0,0.0
+grid_active_power__24h_max,grid_active_power,power_29_avg,Possible grid active power,p.u.,max,24,p.u.,0.0,0.0
+grid_active_power__6h_trend,grid_active_power,power_29_avg,Possible grid active power,p.u.,trend,6,p.u./h,0.0,0.0
+grid_active_power__6h_delta_mean,grid_active_power,power_29_avg,Possible grid active power,p.u.,delta_mean,6,p.u.,0.0,0.0
+grid_active_power__24h_trend,grid_active_power,power_29_avg,Possible grid active power,p.u.,trend,24,p.u./h,0.0,0.0
+grid_active_power__24h_std,grid_active_power,power_29_avg,Possible grid active power,p.u.,std,24,p.u.,0.0,0.0
+grid_active_power__168h_max,grid_active_power,power_29_avg,Possible grid active power,p.u.,max,168,p.u.,0.0,0.0
+grid_active_power__168h_mean,grid_active_power,power_29_avg,Possible grid active power,p.u.,mean,168,p.u.,0.0,0.0
+grid_active_power__168h_std,grid_active_power,power_29_avg,Possible grid active power,p.u.,std,168,p.u.,0.0,0.0
+gearbox_bearing_temperature__now,gearbox_bearing_temperature,sensor_11_avg,Gearbox high-speed shaft bearing temperature,°C,now,0,°C,0.0,0.0
+gearbox_bearing_temperature__1h_mean,gearbox_bearing_temperature,sensor_11_avg,Gearbox high-speed shaft bearing temperature,°C,mean,1,°C,0.0,0.0
+gearbox_bearing_temperature__1h_max,gearbox_bearing_temperature,sensor_11_avg,Gearbox high-speed shaft bearing temperature,°C,max,1,°C,0.0,0.0
+gearbox_bearing_temperature__1h_std,gearbox_bearing_temperature,sensor_11_avg,Gearbox high-speed shaft bearing temperature,°C,std,1,°C,0.0,0.0
+gearbox_bearing_temperature__1h_delta_mean,gearbox_bearing_temperature,sensor_11_avg,Gearbox high-speed shaft bearing temperature,°C,delta_mean,1,°C,0.0,0.0
+gearbox_bearing_temperature__1h_trend,gearbox_bearing_temperature,sensor_11_avg,Gearbox high-speed shaft bearing temperature,°C,trend,1,°C/h,0.0,0.0
+gearbox_bearing_temperature__6h_mean,gearbox_bearing_temperature,sensor_11_avg,Gearbox high-speed shaft bearing temperature,°C,mean,6,°C,0.0,0.0
+gearbox_bearing_temperature__6h_max,gearbox_bearing_temperature,sensor_11_avg,Gearbox high-speed shaft bearing temperature,°C,max,6,°C,0.0,0.0
+gearbox_bearing_temperature__6h_std,gearbox_bearing_temperature,sensor_11_avg,Gearbox high-speed shaft bearing temperature,°C,std,6,°C,0.0,0.0
+gearbox_bearing_temperature__6h_delta_mean,gearbox_bearing_temperature,sensor_11_avg,Gearbox high-speed shaft bearing temperature,°C,delta_mean,6,°C,0.0,0.0
+gearbox_bearing_temperature__6h_trend,gearbox_bearing_temperature,sensor_11_avg,Gearbox high-speed shaft bearing temperature,°C,trend,6,°C/h,0.0,0.0
+gearbox_bearing_temperature__24h_mean,gearbox_bearing_temperature,sensor_11_avg,Gearbox high-speed shaft bearing temperature,°C,mean,24,°C,0.0,0.0
+gearbox_bearing_temperature__24h_max,gearbox_bearing_temperature,sensor_11_avg,Gearbox high-speed shaft bearing temperature,°C,max,24,°C,0.0,0.0
+gearbox_bearing_temperature__24h_std,gearbox_bearing_temperature,sensor_11_avg,Gearbox high-speed shaft bearing temperature,°C,std,24,°C,0.0,0.0
+gearbox_bearing_temperature__24h_delta_mean,gearbox_bearing_temperature,sensor_11_avg,Gearbox high-speed shaft bearing temperature,°C,delta_mean,24,°C,0.0,0.0
+grid_active_power__1h_delta_mean,grid_active_power,power_29_avg,Possible grid active power,p.u.,delta_mean,1,p.u.,0.0,0.0
+ambient_temperature__1h_max,ambient_temperature,sensor_0_avg,Ambient temperature,°C,max,1,°C,0.0,0.0
+ambient_temperature__1h_std,ambient_temperature,sensor_0_avg,Ambient temperature,°C,std,1,°C,0.0,0.0
+ambient_temperature__now,ambient_temperature,sensor_0_avg,Ambient temperature,°C,now,0,°C,0.0,0.0
+gearbox_bearing_temperature__168h_std,gearbox_bearing_temperature,sensor_11_avg,Gearbox high-speed shaft bearing temperature,°C,std,168,°C,0.0,0.0
+gearbox_bearing_temperature__168h_max,gearbox_bearing_temperature,sensor_11_avg,Gearbox high-speed shaft bearing temperature,°C,max,168,°C,0.0,0.0
+gearbox_bearing_temperature__168h_mean,gearbox_bearing_temperature,sensor_11_avg,Gearbox high-speed shaft bearing temperature,°C,mean,168,°C,0.0,0.0
+gearbox_bearing_temperature__24h_trend,gearbox_bearing_temperature,sensor_11_avg,Gearbox high-speed shaft bearing temperature,°C,trend,24,°C/h,0.0,0.0
+gearbox_oil_temperature__1h_max,gearbox_oil_temperature,sensor_12_avg,Gearbox oil temperature,°C,max,1,°C,0.0,0.0
+gearbox_bearing_temperature__168h_delta_mean,gearbox_bearing_temperature,sensor_11_avg,Gearbox high-speed shaft bearing temperature,°C,delta_mean,168,°C,0.0,0.0
+gearbox_oil_temperature__now,gearbox_oil_temperature,sensor_12_avg,Gearbox oil temperature,°C,now,0,°C,0.0,0.0
+gearbox_bearing_temperature__168h_trend,gearbox_bearing_temperature,sensor_11_avg,Gearbox high-speed shaft bearing temperature,°C,trend,168,°C/h,0.0,0.0
+gearbox_oil_temperature__6h_mean,gearbox_oil_temperature,sensor_12_avg,Gearbox oil temperature,°C,mean,6,°C,0.0,0.0
+gearbox_oil_temperature__6h_max,gearbox_oil_temperature,sensor_12_avg,Gearbox oil temperature,°C,max,6,°C,0.0,0.0
+gearbox_oil_temperature__6h_std,gearbox_oil_temperature,sensor_12_avg,Gearbox oil temperature,°C,std,6,°C,0.0,0.0
+gearbox_oil_temperature__6h_delta_mean,gearbox_oil_temperature,sensor_12_avg,Gearbox oil temperature,°C,delta_mean,6,°C,0.0,0.0
+gearbox_oil_temperature__6h_trend,gearbox_oil_temperature,sensor_12_avg,Gearbox oil temperature,°C,trend,6,°C/h,0.0,0.0
+gearbox_oil_temperature__1h_std,gearbox_oil_temperature,sensor_12_avg,Gearbox oil temperature,°C,std,1,°C,0.0,0.0
+gearbox_oil_temperature__1h_delta_mean,gearbox_oil_temperature,sensor_12_avg,Gearbox oil temperature,°C,delta_mean,1,°C,0.0,0.0
+gearbox_oil_temperature__1h_mean,gearbox_oil_temperature,sensor_12_avg,Gearbox oil temperature,°C,mean,1,°C,0.0,0.0
+gearbox_oil_temperature__24h_std,gearbox_oil_temperature,sensor_12_avg,Gearbox oil temperature,°C,std,24,°C,0.0,0.0
+gearbox_oil_temperature__24h_delta_mean,gearbox_oil_temperature,sensor_12_avg,Gearbox oil temperature,°C,delta_mean,24,°C,0.0,0.0
+gearbox_oil_temperature__168h_mean,gearbox_oil_temperature,sensor_12_avg,Gearbox oil temperature,°C,mean,168,°C,0.0,0.0
+gearbox_oil_temperature__24h_trend,gearbox_oil_temperature,sensor_12_avg,Gearbox oil temperature,°C,trend,24,°C/h,0.0,0.0
+gearbox_oil_temperature__168h_max,gearbox_oil_temperature,sensor_12_avg,Gearbox oil temperature,°C,max,168,°C,0.0,0.0
+gearbox_oil_temperature__168h_delta_mean,gearbox_oil_temperature,sensor_12_avg,Gearbox oil temperature,°C,delta_mean,168,°C,0.0,0.0
+gearbox_oil_temperature__168h_trend,gearbox_oil_temperature,sensor_12_avg,Gearbox oil temperature,°C,trend,168,°C/h,0.0,0.0
+generator_bearing_temperature__now,generator_bearing_temperature,sensor_13_avg,Generator drive-end bearing temperature,°C,now,0,°C,0.0,0.0
+generator_bearing_temperature__1h_mean,generator_bearing_temperature,sensor_13_avg,Generator drive-end bearing temperature,°C,mean,1,°C,0.0,0.0
+generator_bearing_temperature__1h_max,generator_bearing_temperature,sensor_13_avg,Generator drive-end bearing temperature,°C,max,1,°C,0.0,0.0
+generator_bearing_temperature__1h_std,generator_bearing_temperature,sensor_13_avg,Generator drive-end bearing temperature,°C,std,1,°C,0.0,0.0
+generator_bearing_temperature__1h_delta_mean,generator_bearing_temperature,sensor_13_avg,Generator drive-end bearing temperature,°C,delta_mean,1,°C,0.0,0.0
+generator_bearing_temperature__1h_trend,generator_bearing_temperature,sensor_13_avg,Generator drive-end bearing temperature,°C,trend,1,°C/h,0.0,0.0
+gearbox_oil_temperature__24h_mean,gearbox_oil_temperature,sensor_12_avg,Gearbox oil temperature,°C,mean,24,°C,0.0,0.0
+gearbox_oil_temperature__24h_max,gearbox_oil_temperature,sensor_12_avg,Gearbox oil temperature,°C,max,24,°C,0.0,0.0
+gearbox_oil_temperature__1h_trend,gearbox_oil_temperature,sensor_12_avg,Gearbox oil temperature,°C,trend,1,°C/h,0.0,0.0
+generator_bearing_temperature__6h_delta_mean,generator_bearing_temperature,sensor_13_avg,Generator drive-end bearing temperature,°C,delta_mean,6,°C,0.0,0.0
+generator_bearing_temperature__6h_trend,generator_bearing_temperature,sensor_13_avg,Generator drive-end bearing temperature,°C,trend,6,°C/h,0.0,0.0
+generator_bearing_temperature__24h_mean,generator_bearing_temperature,sensor_13_avg,Generator drive-end bearing temperature,°C,mean,24,°C,0.0,0.0
+generator_bearing_temperature__24h_max,generator_bearing_temperature,sensor_13_avg,Generator drive-end bearing temperature,°C,max,24,°C,0.0,0.0
+generator_bearing_temperature__24h_std,generator_bearing_temperature,sensor_13_avg,Generator drive-end bearing temperature,°C,std,24,°C,0.0,0.0
+generator_bearing_temperature__24h_delta_mean,generator_bearing_temperature,sensor_13_avg,Generator drive-end bearing temperature,°C,delta_mean,24,°C,0.0,0.0
+generator_bearing_temperature__24h_trend,generator_bearing_temperature,sensor_13_avg,Generator drive-end bearing temperature,°C,trend,24,°C/h,0.0,0.0
+generator_bearing_temperature__168h_mean,generator_bearing_temperature,sensor_13_avg,Generator drive-end bearing temperature,°C,mean,168,°C,0.0,0.0
+generator_bearing_temperature__168h_max,generator_bearing_temperature,sensor_13_avg,Generator drive-end bearing temperature,°C,max,168,°C,0.0,0.0
+generator_bearing_temperature__168h_std,generator_bearing_temperature,sensor_13_avg,Generator drive-end bearing temperature,°C,std,168,°C,0.0,0.0
+generator_bearing_temperature__168h_delta_mean,generator_bearing_temperature,sensor_13_avg,Generator drive-end bearing temperature,°C,delta_mean,168,°C,0.0,0.0
+generator_bearing_temperature__168h_trend,generator_bearing_temperature,sensor_13_avg,Generator drive-end bearing temperature,°C,trend,168,°C/h,0.0,0.0
+generator_speed__now,generator_speed,sensor_18_avg,Generator rotational speed,rpm,now,0,rpm,0.0,0.0
+generator_speed__1h_mean,generator_speed,sensor_18_avg,Generator rotational speed,rpm,mean,1,rpm,0.0,0.0
+generator_speed__1h_max,generator_speed,sensor_18_avg,Generator rotational speed,rpm,max,1,rpm,0.0,0.0
+generator_speed__1h_std,generator_speed,sensor_18_avg,Generator rotational speed,rpm,std,1,rpm,0.0,0.0
+generator_speed__1h_delta_mean,generator_speed,sensor_18_avg,Generator rotational speed,rpm,delta_mean,1,rpm,0.0,0.0
+generator_speed__1h_trend,generator_speed,sensor_18_avg,Generator rotational speed,rpm,trend,1,rpm/h,0.0,0.0
+generator_speed__6h_mean,generator_speed,sensor_18_avg,Generator rotational speed,rpm,mean,6,rpm,0.0,0.0
+generator_speed__6h_max,generator_speed,sensor_18_avg,Generator rotational speed,rpm,max,6,rpm,0.0,0.0
+generator_speed__6h_std,generator_speed,sensor_18_avg,Generator rotational speed,rpm,std,6,rpm,0.0,0.0
+generator_speed__6h_delta_mean,generator_speed,sensor_18_avg,Generator rotational speed,rpm,delta_mean,6,rpm,0.0,0.0
+generator_speed__6h_trend,generator_speed,sensor_18_avg,Generator rotational speed,rpm,trend,6,rpm/h,0.0,0.0
+generator_speed__24h_mean,generator_speed,sensor_18_avg,Generator rotational speed,rpm,mean,24,rpm,0.0,0.0
+generator_speed__24h_max,generator_speed,sensor_18_avg,Generator rotational speed,rpm,max,24,rpm,0.0,0.0
+generator_speed__24h_std,generator_speed,sensor_18_avg,Generator rotational speed,rpm,std,24,rpm,0.0,0.0
+generator_speed__24h_delta_mean,generator_speed,sensor_18_avg,Generator rotational speed,rpm,delta_mean,24,rpm,0.0,0.0
+generator_speed__24h_trend,generator_speed,sensor_18_avg,Generator rotational speed,rpm,trend,24,rpm/h,0.0,0.0
+generator_speed__168h_mean,generator_speed,sensor_18_avg,Generator rotational speed,rpm,mean,168,rpm,0.0,0.0
+generator_bearing_temperature__6h_mean,generator_bearing_temperature,sensor_13_avg,Generator drive-end bearing temperature,°C,mean,6,°C,0.0,0.0
+generator_bearing_temperature__6h_max,generator_bearing_temperature,sensor_13_avg,Generator drive-end bearing temperature,°C,max,6,°C,0.0,0.0
+generator_bearing_temperature__6h_std,generator_bearing_temperature,sensor_13_avg,Generator drive-end bearing temperature,°C,std,6,°C,0.0,0.0
+generator_speed__168h_delta_mean,generator_speed,sensor_18_avg,Generator rotational speed,rpm,delta_mean,168,rpm,0.0,0.0
+generator_speed__168h_std,generator_speed,sensor_18_avg,Generator rotational speed,rpm,std,168,rpm,0.0,0.0
+generator_speed__168h_max,generator_speed,sensor_18_avg,Generator rotational speed,rpm,max,168,rpm,0.0,0.0
+generator_speed__168h_trend,generator_speed,sensor_18_avg,Generator rotational speed,rpm,trend,168,rpm/h,0.0,0.0
+transformer_temperature__1h_std,transformer_temperature,sensor_38_avg,HV transformer phase L1 temperature,°C,std,1,°C,0.0,0.0
+transformer_temperature__1h_delta_mean,transformer_temperature,sensor_38_avg,HV transformer phase L1 temperature,°C,delta_mean,1,°C,0.0,0.0
+transformer_temperature__1h_mean,transformer_temperature,sensor_38_avg,HV transformer phase L1 temperature,°C,mean,1,°C,0.0,0.0
+transformer_temperature__now,transformer_temperature,sensor_38_avg,HV transformer phase L1 temperature,°C,now,0,°C,0.0,0.0
+transformer_temperature__6h_max,transformer_temperature,sensor_38_avg,HV transformer phase L1 temperature,°C,max,6,°C,0.0,0.0
+transformer_temperature__6h_std,transformer_temperature,sensor_38_avg,HV transformer phase L1 temperature,°C,std,6,°C,0.0,0.0
+transformer_temperature__6h_delta_mean,transformer_temperature,sensor_38_avg,HV transformer phase L1 temperature,°C,delta_mean,6,°C,0.0,0.0
+transformer_temperature__6h_trend,transformer_temperature,sensor_38_avg,HV transformer phase L1 temperature,°C,trend,6,°C/h,0.0,0.0
+transformer_temperature__24h_mean,transformer_temperature,sensor_38_avg,HV transformer phase L1 temperature,°C,mean,24,°C,0.0,0.0
+transformer_temperature__24h_max,transformer_temperature,sensor_38_avg,HV transformer phase L1 temperature,°C,max,24,°C,0.0,0.0
+transformer_temperature__1h_trend,transformer_temperature,sensor_38_avg,HV transformer phase L1 temperature,°C,trend,1,°C/h,0.0,0.0
+transformer_temperature__1h_max,transformer_temperature,sensor_38_avg,HV transformer phase L1 temperature,°C,max,1,°C,0.0,0.0
+transformer_temperature__24h_delta_mean,transformer_temperature,sensor_38_avg,HV transformer phase L1 temperature,°C,delta_mean,24,°C,0.0,0.0
+transformer_temperature__24h_trend,transformer_temperature,sensor_38_avg,HV transformer phase L1 temperature,°C,trend,24,°C/h,0.0,0.0
+transformer_temperature__168h_max,transformer_temperature,sensor_38_avg,HV transformer phase L1 temperature,°C,max,168,°C,0.0,0.0
+transformer_temperature__168h_mean,transformer_temperature,sensor_38_avg,HV transformer phase L1 temperature,°C,mean,168,°C,0.0,0.0
+transformer_temperature__168h_std,transformer_temperature,sensor_38_avg,HV transformer phase L1 temperature,°C,std,168,°C,0.0,0.0
+transformer_temperature__168h_trend,transformer_temperature,sensor_38_avg,HV transformer phase L1 temperature,°C,trend,168,°C/h,0.0,0.0
+hydraulic_oil_temperature__now,hydraulic_oil_temperature,sensor_41_avg,Hydraulic group oil temperature,°C,now,0,°C,0.0,0.0
+hydraulic_oil_temperature__1h_mean,hydraulic_oil_temperature,sensor_41_avg,Hydraulic group oil temperature,°C,mean,1,°C,0.0,0.0
+hydraulic_oil_temperature__1h_max,hydraulic_oil_temperature,sensor_41_avg,Hydraulic group oil temperature,°C,max,1,°C,0.0,0.0
+hydraulic_oil_temperature__1h_std,hydraulic_oil_temperature,sensor_41_avg,Hydraulic group oil temperature,°C,std,1,°C,0.0,0.0
+hydraulic_oil_temperature__1h_delta_mean,hydraulic_oil_temperature,sensor_41_avg,Hydraulic group oil temperature,°C,delta_mean,1,°C,0.0,0.0
+hydraulic_oil_temperature__1h_trend,hydraulic_oil_temperature,sensor_41_avg,Hydraulic group oil temperature,°C,trend,1,°C/h,0.0,0.0
+hydraulic_oil_temperature__6h_mean,hydraulic_oil_temperature,sensor_41_avg,Hydraulic group oil temperature,°C,mean,6,°C,0.0,0.0
+hydraulic_oil_temperature__6h_max,hydraulic_oil_temperature,sensor_41_avg,Hydraulic group oil temperature,°C,max,6,°C,0.0,0.0
+transformer_temperature__24h_std,transformer_temperature,sensor_38_avg,HV transformer phase L1 temperature,°C,std,24,°C,0.0,0.0
+transformer_temperature__6h_mean,transformer_temperature,sensor_38_avg,HV transformer phase L1 temperature,°C,mean,6,°C,0.0,0.0
+hydraulic_oil_temperature__6h_delta_mean,hydraulic_oil_temperature,sensor_41_avg,Hydraulic group oil temperature,°C,delta_mean,6,°C,0.0,0.0
+hydraulic_oil_temperature__6h_std,hydraulic_oil_temperature,sensor_41_avg,Hydraulic group oil temperature,°C,std,6,°C,0.0,0.0
+hydraulic_oil_temperature__24h_mean,hydraulic_oil_temperature,sensor_41_avg,Hydraulic group oil temperature,°C,mean,24,°C,0.0,0.0
+hydraulic_oil_temperature__6h_trend,hydraulic_oil_temperature,sensor_41_avg,Hydraulic group oil temperature,°C,trend,6,°C/h,0.0,0.0
+hydraulic_oil_temperature__24h_delta_mean,hydraulic_oil_temperature,sensor_41_avg,Hydraulic group oil temperature,°C,delta_mean,24,°C,0.0,0.0
+hydraulic_oil_temperature__24h_trend,hydraulic_oil_temperature,sensor_41_avg,Hydraulic group oil temperature,°C,trend,24,°C/h,0.0,0.0
+hydraulic_oil_temperature__168h_mean,hydraulic_oil_temperature,sensor_41_avg,Hydraulic group oil temperature,°C,mean,168,°C,0.0,0.0
+hydraulic_oil_temperature__24h_std,hydraulic_oil_temperature,sensor_41_avg,Hydraulic group oil temperature,°C,std,24,°C,0.0,0.0
+hydraulic_oil_temperature__168h_std,hydraulic_oil_temperature,sensor_41_avg,Hydraulic group oil temperature,°C,std,168,°C,0.0,0.0
+hydraulic_oil_temperature__168h_delta_mean,hydraulic_oil_temperature,sensor_41_avg,Hydraulic group oil temperature,°C,delta_mean,168,°C,0.0,0.0
+hydraulic_oil_temperature__168h_trend,hydraulic_oil_temperature,sensor_41_avg,Hydraulic group oil temperature,°C,trend,168,°C/h,0.0,0.0
+rotor_speed__now,rotor_speed,sensor_52_avg,Rotor rotational speed,rpm,now,0,rpm,0.0,0.0
+rotor_speed__1h_mean,rotor_speed,sensor_52_avg,Rotor rotational speed,rpm,mean,1,rpm,0.0,0.0
+rotor_speed__1h_max,rotor_speed,sensor_52_avg,Rotor rotational speed,rpm,max,1,rpm,0.0,0.0
+rotor_speed__1h_std,rotor_speed,sensor_52_avg,Rotor rotational speed,rpm,std,1,rpm,0.0,0.0
+hydraulic_oil_temperature__168h_max,hydraulic_oil_temperature,sensor_41_avg,Hydraulic group oil temperature,°C,max,168,°C,0.0,0.0
+rotor_speed__1h_delta_mean,rotor_speed,sensor_52_avg,Rotor rotational speed,rpm,delta_mean,1,rpm,0.0,0.0
+rotor_speed__1h_trend,rotor_speed,sensor_52_avg,Rotor rotational speed,rpm,trend,1,rpm/h,0.0,0.0
+rotor_speed__6h_max,rotor_speed,sensor_52_avg,Rotor rotational speed,rpm,max,6,rpm,0.0,0.0
+rotor_speed__6h_mean,rotor_speed,sensor_52_avg,Rotor rotational speed,rpm,mean,6,rpm,0.0,0.0
+rotor_speed__6h_delta_mean,rotor_speed,sensor_52_avg,Rotor rotational speed,rpm,delta_mean,6,rpm,0.0,0.0
+rotor_speed__6h_trend,rotor_speed,sensor_52_avg,Rotor rotational speed,rpm,trend,6,rpm/h,0.0,0.0
+rotor_speed__24h_mean,rotor_speed,sensor_52_avg,Rotor rotational speed,rpm,mean,24,rpm,0.0,0.0
+rotor_speed__6h_std,rotor_speed,sensor_52_avg,Rotor rotational speed,rpm,std,6,rpm,0.0,0.0
+rotor_speed__24h_max,rotor_speed,sensor_52_avg,Rotor rotational speed,rpm,max,24,rpm,0.0,0.0
+rotor_speed__24h_std,rotor_speed,sensor_52_avg,Rotor rotational speed,rpm,std,24,rpm,0.0,0.0
+rotor_speed__24h_trend,rotor_speed,sensor_52_avg,Rotor rotational speed,rpm,trend,24,rpm/h,0.0,0.0
+rotor_speed__24h_delta_mean,rotor_speed,sensor_52_avg,Rotor rotational speed,rpm,delta_mean,24,rpm,0.0,0.0
+rotor_speed__168h_mean,rotor_speed,sensor_52_avg,Rotor rotational speed,rpm,mean,168,rpm,0.0,0.0
+rotor_speed__168h_max,rotor_speed,sensor_52_avg,Rotor rotational speed,rpm,max,168,rpm,0.0,0.0
+rotor_speed__168h_std,rotor_speed,sensor_52_avg,Rotor rotational speed,rpm,std,168,rpm,0.0,0.0
+rotor_speed__168h_delta_mean,rotor_speed,sensor_52_avg,Rotor rotational speed,rpm,delta_mean,168,rpm,0.0,0.0

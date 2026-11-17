@@ -1,0 +1,7 @@
+sensor,source_column,physical_measurement,unit,gain,mean_abs_grouped_shap_log_odds,sum_feature_mean_abs_shap_log_odds
+generator_speed,Gen_RPM_Avg,Generator rotational speed,rpm,2089.0591511619277,1.2403679569125106,1.2748731692070083
+rotor_speed,Rtr_RPM_Avg,Rotor rotational speed,rpm,136.96169662475586,0.213837688088735,0.213837688088735
+wind_speed,Amb_WindSpeed_Avg,Ambient wind speed,m/s,18.45047939050717,0.18178599114458044,0.1819423900022046
+gearbox_oil_temperature,Gear_Oil_Temp_Avg,Gearbox oil temperature,°C,8.153765263718014,0.05898316450181154,0.05914241515100383
+power,Grd_Prod_Pwr_Avg,Grid active power,kW,8.081768489749265,0.04372935305885464,0.04700269907393184
+ambient_temperature,Amb_Temp_Avg,Ambient air temperature,°C,32.472782158933114,0.025152995159189007,0.02759070917578017
