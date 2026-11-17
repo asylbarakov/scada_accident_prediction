@@ -1,0 +1,45 @@
+{
+  "scope": "validation-only descriptive tradeoffs; not retuning",
+  "folds": [
+    {
+      "test_asset": "0",
+      "max_validation_onset_recall_without_budgets": 0.3333333333333333,
+      "min_normal_warning_fraction_for_any_onset": 0.0594059405940594,
+      "max_recall_with_duration_only": 0.0,
+      "max_recall_with_frequency_only": 0.0,
+      "max_recall_with_both": 0.0
+    },
+    {
+      "test_asset": "10",
+      "max_validation_onset_recall_without_budgets": 1.0,
+      "min_normal_warning_fraction_for_any_onset": 0.06297229219143577,
+      "max_recall_with_duration_only": 0.0,
+      "max_recall_with_frequency_only": 0.0,
+      "max_recall_with_both": 0.0
+    },
+    {
+      "test_asset": "11",
+      "max_validation_onset_recall_without_budgets": 1.0,
+      "min_normal_warning_fraction_for_any_onset": 0.07532467532467532,
+      "max_recall_with_duration_only": 0.0,
+      "max_recall_with_frequency_only": 0.0,
+      "max_recall_with_both": 0.0
+    },
+    {
+      "test_asset": "13",
+      "max_validation_onset_recall_without_budgets": 1.0,
+      "min_normal_warning_fraction_for_any_onset": 0.03773584905660377,
+      "max_recall_with_duration_only": 0.5,
+      "max_recall_with_frequency_only": 0.0,
+      "max_recall_with_both": 0.0
+    },
+    {
+      "test_asset": "21",
+      "max_validation_onset_recall_without_budgets": 1.0,
+      "min_normal_warning_fraction_for_any_onset": 0.011363636363636364,
+      "max_recall_with_duration_only": 0.6666666666666666,
+      "max_recall_with_frequency_only": 0.0,
+      "max_recall_with_both": 0.0
+    }
+  ]
+}

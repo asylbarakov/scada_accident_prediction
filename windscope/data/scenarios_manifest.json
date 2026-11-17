@@ -1,0 +1,40 @@
+{
+  "provider": "Kaggle",
+  "dataset": "azizkasimov/wind-turbine-scada-data-for-early-fault-detection",
+  "version": 2,
+  "group": "primary",
+  "delimiter": ";",
+  "source_timezone": "unknown",
+  "files": [
+    {
+      "local_path": "0.csv",
+      "source_path": "Wind Farm A/datasets/0.csv",
+      "bytes": 36891572,
+      "sha256": "f0a8365b2b60845b9ad78cf4deb167a2da500abef66199a55c381e8fff2bb26b"
+    },
+    {
+      "local_path": "25.csv",
+      "source_path": "Wind Farm A/datasets/25.csv",
+      "bytes": 36624095,
+      "sha256": "f09afa3bfea796bb2bb52058830981554734a2a2b6085e3415f20d67b91defc6"
+    },
+    {
+      "local_path": "event_info.csv",
+      "source_path": "Wind Farm A/event_info.csv",
+      "bytes": 1788,
+      "sha256": "9254667b70d73e8eb23e7143ad56f1c280ba020c8b3d9289ad56fcaa59270aa5"
+    },
+    {
+      "local_path": "feature_description.csv",
+      "source_path": "Wind Farm A/feature_description.csv",
+      "bytes": 4098,
+      "sha256": "8834c8481585d133fc37ea70033fbdb4c64e5cd1e5d7f7257ca97a1e229ee921"
+    },
+    {
+      "local_path": "README.md",
+      "source_path": "README.md",
+      "bytes": 5268,
+      "sha256": "0bc9fa689cb28a6fa1439d15047f7f6b77beca53614a304bc86494f8dd6b9456"
+    }
+  ]
+}

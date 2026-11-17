@@ -1,0 +1,14 @@
+/* Verified KEGOC primitives; sizing is an original WindScope decision. */
+:root {
+ --ink-950:#0a0e13;--ink-925:#0c1117;--ink-900:#0e1319;--ink-850:#10161e;--ink-800:#121922;
+ --edge-700:#1b232d;--edge-600:#252f3b;--white-100:#e6edf3;--white-200:#c3ccd6;--gray-400:#8a96a3;--gray-500:#5b6673;
+ --sky-400:#38bdf8;--emerald-400:#34d399;--amber-400:#fbbf24;--orange-500:#f59e0b;--red-500:#ef4444;--indigo-400:#5b7cfa;
+ --space-1:4px;--space-2:8px;--space-3:12px;--space-4:16px;--space-5:20px;--space-6:24px;--space-8:32px;
+ --radius-sm:4px;--radius-md:6px;--radius-lg:8px;
+ --font-body:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;--font-data:"JetBrains Mono",ui-monospace,Consolas,monospace;
+ --bg:var(--ink-950);--bg2:var(--ink-925);--panel:var(--ink-900);--card:var(--ink-850);--panel2:var(--ink-800);
+ --line:var(--edge-700);--line2:var(--edge-600);--text:var(--white-100);--text2:var(--white-200);--muted:var(--gray-400);--dim:var(--gray-500);
+ --accent:var(--sky-400);--green:var(--emerald-400);--observation:var(--sky-400);--warning:var(--amber-400);--critical:var(--red-500);
+ --accent-surface:rgba(56,189,248,.09);--warning-surface:rgba(251,191,36,.06);--critical-surface:rgba(239,68,68,.09);--success-surface:rgba(52,211,153,.07);
+ --button-bg:var(--accent);--button-fg:var(--bg);--card-padding:var(--space-5);--card-border:var(--line2);--control-height:38px;
+}

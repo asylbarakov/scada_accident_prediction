@@ -1,0 +1,25 @@
+{
+  "experiment_id": "care-h24-loto-v1",
+  "horizon_hours": 24,
+  "cadence_minutes": 10,
+  "prediction_every_minutes": 60,
+  "windows_hours": [1, 6, 24],
+  "required_history_hours": 6,
+  "measurement_delay_steps": 1,
+  "assets": ["0", "10", "11", "13", "21"],
+  "validation_rule": "next asset in fixed cyclic order after outer test asset",
+  "models": {
+    "logistic": {"C": 1.0, "class_weight": "balanced", "max_iter": 3000},
+    "hist_gradient_boosting": {"learning_rate": 0.05, "max_iter": 150, "max_leaf_nodes": 7, "min_samples_leaf": 20, "l2_regularization": 1.0, "class_weight": "balanced", "early_stopping": false}
+  },
+  "seed": 42,
+  "false_alarm_budget_per_720_negative_hours": 2,
+  "threshold_rule": "validation only; maximize episode recall, then minimize false alarm rate, then maximize point precision, then maximize threshold",
+  "candidate_rule": "validation only; maximize episode recall, minimize false alarm rate, maximize point precision; exact tie favors logistic",
+  "gate": {"min_train_rows_per_class": 20, "min_validation_negative_hours": 24, "min_validation_positive_episodes": 1},
+  "negative_policy": "annotated normal interval, complete observed 24-hour future, competing anchors censored",
+  "positive_policy": "canonical failure anchor only, (t,t+24h], competing faults censored",
+  "unknown_policy": "exclude from fitting and point metrics; retain warnings and prediction availability in outputs",
+  "episode_denominator": "all 11 canonical faults, including faults with no eligible predictions",
+  "deployment": "offline experiment only; no production model selected using outer test scores"
+}

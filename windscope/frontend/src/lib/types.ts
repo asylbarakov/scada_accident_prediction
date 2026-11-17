@@ -1,0 +1,12 @@
+import type {Point,Prediction} from '../components/TelemetryChart';
+export type Evidence={sensor:string;label:string;value:number;unit:string;reference_median?:number;reference_count?:number;robust_deviation?:number};
+export type Diagnostic={timestamp:string;turbine_id:string;detection_source:string;model_output:Prediction;suspected_subsystem:string|null;category:string;condition:string;explanation:string;evidence:Evidence[];severity:string;confidence_limitations:string;suggested_action:string;version:string};
+export type Policy={activate_points:number;resolve_points:number;cooldown_minutes:number;version?:string};
+export type Snapshot={id:string;scenario_id:string;asset_id:string;status:string;speed:number;generation:number;revision:number;sequence:number;position:number;total:number;progress:number;start:string;end:string;virtual_time:string|null;latest:Point|null;latest_prediction:Prediction|null;model_state:string;model_id:string;continuous:boolean;monitoring:boolean;cycle:number;prediction_count:number;model?:{name:string;horizon_hours:number|null;cadence_minutes:number};diagnostic:Diagnostic|null;active_alerts:number;alert_policy:Policy};
+export type Turbine={asset_id:string;name:string;scenario_id:string;session:Snapshot|null};
+export type Alert={id:number;session_id:string;generation:number;turbine_id:string;first_signal:string;start:string;last:string;end:string|null;points:number;severity:string;status:string;subsystem:string|null;diagnostic:Diagnostic;policy:Policy;created_at:string;acknowledged_at:string|null;resolved_at:string|null;resolution_reason:string|null};
+export const subsystem:Record<string,string>={generator:'Генератор и подшипники',gearbox:'Редуктор и смазка'};
+export const alertStatus:Record<string,string>={active:'Активно',acknowledged:'Принято в работу',resolved:'Закрыто'};
+export const severityName:Record<string,string>={observation:'Наблюдение',warning:'Предупреждение',critical:'Критическое'};
+export const date=(v:string|null|undefined)=>v?v.slice(0,16).replace('T',' '):'—';
+export const fmt=(v:number|null|undefined,d=1)=>v==null?'—':v.toLocaleString('ru-RU',{maximumFractionDigits:d});

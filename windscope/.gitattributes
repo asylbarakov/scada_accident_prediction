@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.ubj binary
+*.joblib binary
+data/source_readme.md -text -diff
+artifacts/nbm_h24_v1/external_metadata/** -text -diff

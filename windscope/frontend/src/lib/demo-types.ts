@@ -1,0 +1,10 @@
+import type {Point,Prediction} from '../components/TelemetryChart';
+import type {Snapshot,Alert} from './types';
+export type DemoEvidence={sensor:string;label:string;value:number;expected:number;delta:number;unit:string;normalized_residual:number;observation_time:string};
+export type DemoPrediction=Prediction&{deviation_score?:number|null;warning_index?:number|null;evidence?:DemoEvidence[];inference_ms?:number;baseline?:{training_normal_hours:number;calibration_normal_hours:number;available_before:string}};
+export type DemoSession=Omit<Snapshot,'latest_prediction'>&{latest_prediction:DemoPrediction|null};
+export type DemoCase={id:string;title:string;subtitle:string;start:string;end:string;kind:string;available:boolean};
+export type DemoCatalog={model_id:string;dataset:string;historical:boolean;cases:DemoCase[];evaluation:{detected_events:number;total_events:number;false_alarm_episodes:number;normal_hours:number;normal_warning_fraction:number};disclaimer:string};
+export type DemoCheck={state:string;failure_at:string|null;future_revealed:boolean;first_warning:string|null;lead_hours:number|null;note:string};
+export type DemoPoint=Point;
+export type DemoAlert=Alert;

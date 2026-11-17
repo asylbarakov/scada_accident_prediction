@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "case": "26",
+      "session_id": "9facdf50-256c-4127-9a7d-f4b408c8fa94",
+      "measurements": 61,
+      "successful_model_calls": 11,
+      "evaluation": "warned_before_failure",
+      "lead_hours": 2.3333333333333335,
+      "alerts": 1
+    },
+    {
+      "case": "25",
+      "session_id": "b552bac2-d431-4a7b-9091-73abaabbf9e2",
+      "measurements": 73,
+      "successful_model_calls": 13,
+      "evaluation": "normal_scenario",
+      "lead_hours": null,
+      "alerts": 0
+    },
+    {
+      "case": "0",
+      "session_id": "09d1601e-d0ef-4b5e-93b9-5f066b5b62a1",
+      "measurements": 67,
+      "successful_model_calls": 12,
+      "evaluation": "missed_failure",
+      "lead_hours": null,
+      "alerts": 0
+    },
+    {
+      "case": "42",
+      "session_id": "3c4f4ff2-896e-436a-a949-acf170e15e11",
+      "measurements": 115,
+      "successful_model_calls": 20,
+      "evaluation": "warned_before_failure",
+      "lead_hours": 14.833333333333334,
+      "alerts": 1
+    }
+  ],
+  "pacing": {
+    "speed": 300,
+    "positions": 4,
+    "elapsed_seconds": 6.3
+  },
+  "continuous_cycle": 2
+}

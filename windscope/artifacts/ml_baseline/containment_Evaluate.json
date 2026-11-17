@@ -1,0 +1,32 @@
+{
+  "stage": "Evaluate",
+  "image_id": "sha256:dffcd6c18a846af44df47fe45d0793fd18dd185e218bf87da138d5ea03174903",
+  "network_mode": "none",
+  "read_only_root": true,
+  "user": "10001:10001",
+  "cap_drop": [
+    "ALL"
+  ],
+  "security_options": [
+    "no-new-privileges"
+  ],
+  "memory_bytes": 2147483648,
+  "nano_cpus": 2000000000,
+  "mounts": [
+    {
+      "Source": "D:\\predict_defect\\artifacts\\ml_baseline",
+      "Destination": "/output",
+      "RW": true
+    },
+    {
+      "Source": "D:\\predict_defect\\data\\raw\\wind_farm_a_v2\\event_info.csv",
+      "Destination": "/annotations/event_info.csv",
+      "RW": false
+    },
+    {
+      "Source": "D:\\predict_defect\\baseline",
+      "Destination": "/work/baseline",
+      "RW": false
+    }
+  ]
+}

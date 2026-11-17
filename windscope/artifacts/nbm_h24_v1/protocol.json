@@ -1,0 +1,65 @@
+{
+  "experiment_id": "care-nbm-h24-v1",
+  "purpose": "Evaluate early warnings from normal-behaviour temperature residuals; no calibrated failure probability or future sensor trajectory",
+  "evaluation_status": "exploratory reuse of previously examined CARE turbines; no fresh external holdout",
+  "assets": [
+    "0",
+    "10",
+    "11",
+    "13",
+    "21"
+  ],
+  "split_rule": "same fixed five outer whole-turbine folds as H24; next turbine cyclically is inner validation",
+  "seed": 42,
+  "horizon_hours": 24,
+  "schedule_minutes": 60,
+  "regime_features": [
+    "wind_speed__now",
+    "ambient_temperature__now",
+    "grid_active_power__now",
+    "generator_speed__now",
+    "rotor_speed__now",
+    "wind_speed__1h_mean",
+    "wind_speed__6h_mean",
+    "grid_active_power__1h_mean",
+    "grid_active_power__6h_mean",
+    "ambient_temperature__1h_mean",
+    "ambient_temperature__6h_mean"
+  ],
+  "required_current_inputs": [
+    "wind_speed__now",
+    "ambient_temperature__now",
+    "grid_active_power__now"
+  ],
+  "targets": [
+    "gearbox_bearing_temperature__now",
+    "gearbox_oil_temperature__now",
+    "generator_bearing_temperature__now",
+    "hydraulic_oil_temperature__now"
+  ],
+  "regressor": {
+    "loss": "squared_error",
+    "learning_rate": 0.05,
+    "max_iter": 120,
+    "max_leaf_nodes": 7,
+    "min_samples_leaf": 20,
+    "l2_regularization": 1.0,
+    "early_stopping": false
+  },
+  "training_policy": "only H24-ready, deduplicated, certified negative rows on the three outer-training turbines; no fitting on validation/test",
+  "residual_calibration": "leave-one-training-turbine-out normal residuals; per target median bias and max(q95-q50, 1 Celsius) scale; refit regressors on all three training turbines",
+  "minimum_target_count": 2,
+  "minimum_normal_rows_per_target": 60,
+  "score": "positive maximum normalized temperature residual, then trailing mean of 3 consecutive hourly observations within source; reset on unavailable or gaps",
+  "score_smoothing_hours": 3,
+  "alert": "score >= validation threshold; unavailable is unknown, not a negative decision",
+  "event_success": "new observed below-to-above threshold crossing within [failure-24h, failure); left-censored initial high states do not count as new onset",
+  "secondary_event_metric": "any active warning in target window, reported separately",
+  "false_alarm_budget_per_720_normal_hours": 2.0,
+  "max_normal_warning_fraction": 0.05,
+  "threshold_rule": "validation only; all observed known validation scores and explicit disabled mode; maximize onset event recall, minimize normal warning fraction, minimize false-alarm rate, maximize precision, maximize threshold; disable if no eligible new onset is detected",
+  "unknown_policy": "keep scores and warnings, exclude unknown outcomes from point metrics; unknown/gaps break certified-normal alarm episodes",
+  "episode_denominator": "all 11 canonical episodes, unavailable episodes count as missed",
+  "model_selection": "one fixed NBM specification, no search on outer results",
+  "production_integration": false
+}

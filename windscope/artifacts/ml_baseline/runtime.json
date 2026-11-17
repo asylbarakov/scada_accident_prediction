@@ -1,0 +1,18 @@
+{
+  "python": "3.12.12",
+  "platform": "Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36",
+  "packages": {
+    "numpy": "2.3.4",
+    "scipy": "1.16.3",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.7.2",
+    "xgboost-cpu": "3.1.2",
+    "joblib": "1.5.2",
+    "threadpoolctl": "3.6.0",
+    "matplotlib": "3.10.7"
+  },
+  "uid": 10001,
+  "network_interfaces": [
+    "lo"
+  ]
+}

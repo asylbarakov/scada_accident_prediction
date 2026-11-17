@@ -1,0 +1,657 @@
+{
+  "scope": "descriptive post-evaluation analysis, no causal interpretation",
+  "top_features": [
+    {
+      "test_asset": "11",
+      "candidate": "research7",
+      "feature": "sensor_0_avg",
+      "gain": 10.81665325164795,
+      "gain_fraction": 0.40619500508787576
+    },
+    {
+      "test_asset": "10",
+      "candidate": "research7",
+      "feature": "sensor_0_avg",
+      "gain": 7.80680513381958,
+      "gain_fraction": 0.3871553364100236
+    },
+    {
+      "test_asset": "0",
+      "candidate": "research7",
+      "feature": "sensor_0_avg",
+      "gain": 6.966577529907227,
+      "gain_fraction": 0.27294255018625163
+    },
+    {
+      "test_asset": "21",
+      "candidate": "research7",
+      "feature": "sensor_0_avg",
+      "gain": 6.823723316192627,
+      "gain_fraction": 0.2519142481268343
+    },
+    {
+      "test_asset": "21",
+      "candidate": "history160",
+      "feature": "hydraulic_oil_temperature__24h_max",
+      "gain": 114.72906494140625,
+      "gain_fraction": 0.23026399751879728
+    },
+    {
+      "test_asset": "13",
+      "candidate": "research7",
+      "feature": "sensor_0_avg",
+      "gain": 6.35672664642334,
+      "gain_fraction": 0.2175507279143385
+    },
+    {
+      "test_asset": "10",
+      "candidate": "history160",
+      "feature": "gearbox_bearing_temperature__24h_std",
+      "gain": 90.24810028076172,
+      "gain_fraction": 0.21670101514613185
+    },
+    {
+      "test_asset": "0",
+      "candidate": "research7",
+      "feature": "sensor_43_avg",
+      "gain": 5.338949203491211,
+      "gain_fraction": 0.2091739314835636
+    },
+    {
+      "test_asset": "21",
+      "candidate": "research7",
+      "feature": "sensor_43_avg",
+      "gain": 5.567276954650879,
+      "gain_fraction": 0.2055294922079659
+    },
+    {
+      "test_asset": "0",
+      "candidate": "history160",
+      "feature": "transformer_temperature__24h_max",
+      "gain": 131.69692993164062,
+      "gain_fraction": 0.20440611781562318
+    },
+    {
+      "test_asset": "13",
+      "candidate": "research7",
+      "feature": "sensor_43_avg",
+      "gain": 5.8598856925964355,
+      "gain_fraction": 0.20054699042886492
+    },
+    {
+      "test_asset": "13",
+      "candidate": "research7",
+      "feature": "sensor_11_avg",
+      "gain": 5.851634979248047,
+      "gain_fraction": 0.20026462046164845
+    },
+    {
+      "test_asset": "21",
+      "candidate": "history160",
+      "feature": "generator_bearing_temperature__6h_max",
+      "gain": 94.11773681640625,
+      "gain_fraction": 0.18889656538067265
+    },
+    {
+      "test_asset": "21",
+      "candidate": "research7",
+      "feature": "sensor_11_avg",
+      "gain": 4.622474193572998,
+      "gain_fraction": 0.17064981345248387
+    },
+    {
+      "test_asset": "0",
+      "candidate": "research7",
+      "feature": "sensor_11_avg",
+      "gain": 4.328786849975586,
+      "gain_fraction": 0.16959692431080742
+    },
+    {
+      "test_asset": "11",
+      "candidate": "research7",
+      "feature": "sensor_11_avg",
+      "gain": 4.460281848907471,
+      "gain_fraction": 0.16749582020985143
+    },
+    {
+      "test_asset": "10",
+      "candidate": "research7",
+      "feature": "sensor_43_avg",
+      "gain": 3.1003103256225586,
+      "gain_fraction": 0.15375069141819458
+    },
+    {
+      "test_asset": "10",
+      "candidate": "research7",
+      "feature": "sensor_1_avg",
+      "gain": 2.825268268585205,
+      "gain_fraction": 0.1401107966989187
+    },
+    {
+      "test_asset": "21",
+      "candidate": "history160",
+      "feature": "hydraulic_oil_temperature__24h_mean",
+      "gain": 69.09562683105469,
+      "gain_fraction": 0.13867658777931557
+    },
+    {
+      "test_asset": "10",
+      "candidate": "history160",
+      "feature": "hydraulic_oil_temperature__24h_max",
+      "gain": 55.07894515991211,
+      "gain_fraction": 0.13225390110372678
+    },
+    {
+      "test_asset": "11",
+      "candidate": "research7",
+      "feature": "sensor_1_avg",
+      "gain": 3.4318244457244873,
+      "gain_fraction": 0.12887442314741632
+    },
+    {
+      "test_asset": "11",
+      "candidate": "history160",
+      "feature": "ambient_temperature__24h_mean",
+      "gain": 65.22418975830078,
+      "gain_fraction": 0.12042850685475451
+    },
+    {
+      "test_asset": "0",
+      "candidate": "history160",
+      "feature": "generator_bearing_temperature__24h_max",
+      "gain": 72.06944274902344,
+      "gain_fraction": 0.11185860606704938
+    },
+    {
+      "test_asset": "13",
+      "candidate": "history160",
+      "feature": "ambient_temperature__24h_mean",
+      "gain": 99.9478530883789,
+      "gain_fraction": 0.10958765966234135
+    },
+    {
+      "test_asset": "10",
+      "candidate": "history160",
+      "feature": "ambient_temperature__24h_mean",
+      "gain": 40.74789810180664,
+      "gain_fraction": 0.0978426233489921
+    },
+    {
+      "test_asset": "11",
+      "candidate": "history160",
+      "feature": "hydraulic_oil_temperature__24h_mean",
+      "gain": 51.80988311767578,
+      "gain_fraction": 0.09566062663717474
+    },
+    {
+      "test_asset": "0",
+      "candidate": "history160",
+      "feature": "hydraulic_oil_temperature__24h_max",
+      "gain": 57.4014778137207,
+      "gain_fraction": 0.08909253422135643
+    },
+    {
+      "test_asset": "13",
+      "candidate": "history160",
+      "feature": "hydraulic_oil_temperature__6h_trend",
+      "gain": 80.88896179199219,
+      "gain_fraction": 0.08869056954592709
+    },
+    {
+      "test_asset": "13",
+      "candidate": "history160",
+      "feature": "hydraulic_oil_temperature__24h_max",
+      "gain": 70.19090270996094,
+      "gain_fraction": 0.0769607002040355
+    },
+    {
+      "test_asset": "11",
+      "candidate": "history160",
+      "feature": "grid_active_power__24h_mean",
+      "gain": 40.598201751708984,
+      "gain_fraction": 0.07495962519525463
+    }
+  ],
+  "score_distributions": [
+    {
+      "test_asset": "0",
+      "candidate": "research7",
+      "subset": "validation",
+      "label": 0,
+      "rows": 713,
+      "q05": 8.505844743922352e-06,
+      "median": 0.0003023806784767,
+      "q95": 0.07425268143415431,
+      "maximum": 0.9985827207565308
+    },
+    {
+      "test_asset": "0",
+      "candidate": "research7",
+      "subset": "validation",
+      "label": 1,
+      "rows": 62,
+      "q05": 5.199391057431057e-06,
+      "median": 0.00030668522231275,
+      "q95": 0.46538469791412324,
+      "maximum": 0.9130088090896606
+    },
+    {
+      "test_asset": "0",
+      "candidate": "research7",
+      "subset": "test",
+      "label": 0,
+      "rows": 618,
+      "q05": 6.319506769614237e-06,
+      "median": 0.0004918204795103,
+      "q95": 0.0651836775243281,
+      "maximum": 0.9877590537071228
+    },
+    {
+      "test_asset": "0",
+      "candidate": "research7",
+      "subset": "test",
+      "label": 1,
+      "rows": 72,
+      "q05": 1.8174965157413686e-05,
+      "median": 0.0178226195275783,
+      "q95": 0.895556914806366,
+      "maximum": 0.966130554676056
+    },
+    {
+      "test_asset": "0",
+      "candidate": "history160",
+      "subset": "validation",
+      "label": 0,
+      "rows": 713,
+      "q05": 0.0005295210750773001,
+      "median": 0.0122949769720435,
+      "q95": 0.8779567480087279,
+      "maximum": 0.9866427183151244
+    },
+    {
+      "test_asset": "0",
+      "candidate": "history160",
+      "subset": "validation",
+      "label": 1,
+      "rows": 62,
+      "q05": 0.00061980994069009,
+      "median": 0.0170482154935598,
+      "q95": 0.1871281266212463,
+      "maximum": 0.253311276435852
+    },
+    {
+      "test_asset": "0",
+      "candidate": "history160",
+      "subset": "test",
+      "label": 0,
+      "rows": 618,
+      "q05": 2.788219135254622e-05,
+      "median": 0.0002478079986758,
+      "q95": 0.08340392038226122,
+      "maximum": 0.8116135001182556
+    },
+    {
+      "test_asset": "0",
+      "candidate": "history160",
+      "subset": "test",
+      "label": 1,
+      "rows": 72,
+      "q05": 0.00016961674627959,
+      "median": 0.0137890670448541,
+      "q95": 0.7091382533311846,
+      "maximum": 0.8963292837142944
+    },
+    {
+      "test_asset": "10",
+      "candidate": "research7",
+      "subset": "validation",
+      "label": 0,
+      "rows": 796,
+      "q05": 4.72239355531201e-06,
+      "median": 0.0007093732419889,
+      "q95": 0.855145126581192,
+      "maximum": 0.9997393488883972
+    },
+    {
+      "test_asset": "10",
+      "candidate": "research7",
+      "subset": "validation",
+      "label": 1,
+      "rows": 24,
+      "q05": 0.000486352702137055,
+      "median": 0.0858115181326866,
+      "q95": 0.946164935827255,
+      "maximum": 0.9995125532150269
+    },
+    {
+      "test_asset": "10",
+      "candidate": "research7",
+      "subset": "test",
+      "label": 0,
+      "rows": 713,
+      "q05": 2.743984305197955e-06,
+      "median": 0.0003614125598687,
+      "q95": 0.29093580245971656,
+      "maximum": 0.999958038330078
+    },
+    {
+      "test_asset": "10",
+      "candidate": "research7",
+      "subset": "test",
+      "label": 1,
+      "rows": 62,
+      "q05": 2.9819646442774686e-06,
+      "median": 0.0002905863220803,
+      "q95": 0.9885557770729063,
+      "maximum": 0.9972522854804992
+    },
+    {
+      "test_asset": "10",
+      "candidate": "history160",
+      "subset": "validation",
+      "label": 0,
+      "rows": 796,
+      "q05": 1.6024389879021328e-05,
+      "median": 0.0012828091857954,
+      "q95": 0.9214294105768203,
+      "maximum": 0.9985182881355286
+    },
+    {
+      "test_asset": "10",
+      "candidate": "history160",
+      "subset": "validation",
+      "label": 1,
+      "rows": 24,
+      "q05": 0.08510682359337807,
+      "median": 0.8982166647911072,
+      "q95": 0.9785688161849975,
+      "maximum": 0.9863448143005372
+    },
+    {
+      "test_asset": "10",
+      "candidate": "history160",
+      "subset": "test",
+      "label": 0,
+      "rows": 713,
+      "q05": 3.178954793838784e-05,
+      "median": 0.0008252685074694,
+      "q95": 0.0687243059277533,
+      "maximum": 0.9977995753288268
+    },
+    {
+      "test_asset": "10",
+      "candidate": "history160",
+      "subset": "test",
+      "label": 1,
+      "rows": 62,
+      "q05": 0.00041268597269655,
+      "median": 0.0039590720552951,
+      "q95": 0.05125368759036056,
+      "maximum": 0.2636483609676361
+    },
+    {
+      "test_asset": "11",
+      "candidate": "research7",
+      "subset": "validation",
+      "label": 0,
+      "rows": 387,
+      "q05": 2.496248962415848e-05,
+      "median": 0.0158095005899667,
+      "q95": 0.9998186945915223,
+      "maximum": 0.99998676776886
+    },
+    {
+      "test_asset": "11",
+      "candidate": "research7",
+      "subset": "validation",
+      "label": 1,
+      "rows": 39,
+      "q05": 1.2227826255184484e-05,
+      "median": 0.0075618955306708,
+      "q95": 0.9253619253635408,
+      "maximum": 0.99900621175766
+    },
+    {
+      "test_asset": "11",
+      "candidate": "research7",
+      "subset": "test",
+      "label": 0,
+      "rows": 796,
+      "q05": 5.535576406145992e-06,
+      "median": 0.0053462400101125,
+      "q95": 0.9959215372800827,
+      "maximum": 0.9999481439590454
+    },
+    {
+      "test_asset": "11",
+      "candidate": "research7",
+      "subset": "test",
+      "label": 1,
+      "rows": 24,
+      "q05": 0.00030928544292689,
+      "median": 0.09839322417974465,
+      "q95": 0.9995285093784332,
+      "maximum": 0.9999570846557616
+    },
+    {
+      "test_asset": "11",
+      "candidate": "history160",
+      "subset": "validation",
+      "label": 0,
+      "rows": 387,
+      "q05": 5.22919279319467e-05,
+      "median": 0.1750426590442657,
+      "q95": 0.9997351765632629,
+      "maximum": 0.999855637550354
+    },
+    {
+      "test_asset": "11",
+      "candidate": "history160",
+      "subset": "validation",
+      "label": 1,
+      "rows": 39,
+      "q05": 0.000151734551764,
+      "median": 0.0003222748637199,
+      "q95": 0.9887692391872405,
+      "maximum": 0.9947027564048768
+    },
+    {
+      "test_asset": "11",
+      "candidate": "history160",
+      "subset": "test",
+      "label": 0,
+      "rows": 796,
+      "q05": 0.00011560280654515,
+      "median": 0.04204193316400045,
+      "q95": 0.9980936497449874,
+      "maximum": 0.9998940229415894
+    },
+    {
+      "test_asset": "11",
+      "candidate": "history160",
+      "subset": "test",
+      "label": 1,
+      "rows": 24,
+      "q05": 0.9109535932540893,
+      "median": 0.998949557542801,
+      "q95": 0.9997830688953399,
+      "maximum": 0.9998000264167786
+    },
+    {
+      "test_asset": "13",
+      "candidate": "research7",
+      "subset": "validation",
+      "label": 0,
+      "rows": 477,
+      "q05": 5.205639899941162e-06,
+      "median": 0.0009540165774524,
+      "q95": 0.5426959156990049,
+      "maximum": 0.9990853071212769
+    },
+    {
+      "test_asset": "13",
+      "candidate": "research7",
+      "subset": "validation",
+      "label": 1,
+      "rows": 48,
+      "q05": 5.855570498169982e-06,
+      "median": 0.0023217172129079,
+      "q95": 0.9602387815713883,
+      "maximum": 0.9893813133239746
+    },
+    {
+      "test_asset": "13",
+      "candidate": "research7",
+      "subset": "test",
+      "label": 0,
+      "rows": 387,
+      "q05": 2.8447030899769743e-06,
+      "median": 0.0002478625683579,
+      "q95": 0.6950486660003661,
+      "maximum": 0.9992179870605468
+    },
+    {
+      "test_asset": "13",
+      "candidate": "research7",
+      "subset": "test",
+      "label": 1,
+      "rows": 39,
+      "q05": 1.2803341996914243e-05,
+      "median": 0.0005164457834325,
+      "q95": 0.30533850491046965,
+      "maximum": 0.8383287787437439
+    },
+    {
+      "test_asset": "13",
+      "candidate": "history160",
+      "subset": "validation",
+      "label": 0,
+      "rows": 477,
+      "q05": 1.7263247718801723e-05,
+      "median": 0.0001453783916076,
+      "q95": 0.006106361933052478,
+      "maximum": 0.2311944663524627
+    },
+    {
+      "test_asset": "13",
+      "candidate": "history160",
+      "subset": "validation",
+      "label": 1,
+      "rows": 48,
+      "q05": 0.00047960313677316,
+      "median": 0.00257662113290275,
+      "q95": 0.010226411698386033,
+      "maximum": 0.0156354997307062
+    },
+    {
+      "test_asset": "13",
+      "candidate": "history160",
+      "subset": "test",
+      "label": 0,
+      "rows": 387,
+      "q05": 3.296350878372323e-05,
+      "median": 0.0004526035336311,
+      "q95": 0.10885011330246916,
+      "maximum": 0.6423074007034302
+    },
+    {
+      "test_asset": "13",
+      "candidate": "history160",
+      "subset": "test",
+      "label": 1,
+      "rows": 39,
+      "q05": 0.00027637801249507,
+      "median": 0.0008056405931711,
+      "q95": 0.01905517131090163,
+      "maximum": 0.0394986160099506
+    },
+    {
+      "test_asset": "21",
+      "candidate": "research7",
+      "subset": "validation",
+      "label": 0,
+      "rows": 618,
+      "q05": 4.775312604010651e-07,
+      "median": 0.0001903346565086,
+      "q95": 0.26988929808139744,
+      "maximum": 0.9993858337402344
+    },
+    {
+      "test_asset": "21",
+      "candidate": "research7",
+      "subset": "validation",
+      "label": 1,
+      "rows": 72,
+      "q05": 2.6960988270730014e-05,
+      "median": 0.00409658951684825,
+      "q95": 0.613898539543152,
+      "maximum": 0.8527153730392456
+    },
+    {
+      "test_asset": "21",
+      "candidate": "research7",
+      "subset": "test",
+      "label": 0,
+      "rows": 477,
+      "q05": 3.0690561288793105e-06,
+      "median": 0.0007732703816145,
+      "q95": 0.3419459700584411,
+      "maximum": 0.9966400861740112
+    },
+    {
+      "test_asset": "21",
+      "candidate": "research7",
+      "subset": "test",
+      "label": 1,
+      "rows": 48,
+      "q05": 3.922318660443125e-06,
+      "median": 0.00041403285285915,
+      "q95": 0.21006391346454614,
+      "maximum": 0.6342724561691284
+    },
+    {
+      "test_asset": "21",
+      "candidate": "history160",
+      "subset": "validation",
+      "label": 0,
+      "rows": 618,
+      "q05": 1.7619276513869407e-05,
+      "median": 0.0001423073626938,
+      "q95": 0.005591834150254691,
+      "maximum": 0.963299572467804
+    },
+    {
+      "test_asset": "21",
+      "candidate": "history160",
+      "subset": "validation",
+      "label": 1,
+      "rows": 72,
+      "q05": 3.173098502884386e-05,
+      "median": 0.00035682320594785,
+      "q95": 0.9627812713384628,
+      "maximum": 0.995648205280304
+    },
+    {
+      "test_asset": "21",
+      "candidate": "history160",
+      "subset": "test",
+      "label": 0,
+      "rows": 477,
+      "q05": 1.853780122473836e-05,
+      "median": 0.0001352516119368,
+      "q95": 0.003906557429581802,
+      "maximum": 0.9878986477851868
+    },
+    {
+      "test_asset": "21",
+      "candidate": "history160",
+      "subset": "test",
+      "label": 1,
+      "rows": 48,
+      "q05": 0.00010456190648249,
+      "median": 0.0002245743889943,
+      "q95": 0.41923342653317286,
+      "maximum": 0.6793185472488403
+    }
+  ]
+}

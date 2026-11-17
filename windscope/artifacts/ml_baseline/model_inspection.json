@@ -1,0 +1,156 @@
+{
+  "model_id": "swtfps-scada-xgboost-v1.0.0",
+  "artifact_sha256": "98584786a6a4421f74e599743378c67aadaeaa67ffbfdd582a14f5d235617fd8",
+  "feature_order": [
+    "sensor_0_avg",
+    "sensor_1_avg",
+    "sensor_43_avg",
+    "sensor_11_avg",
+    "wind_speed_3_avg",
+    "voltage",
+    "sensor_50"
+  ],
+  "classes": [
+    0,
+    1
+  ],
+  "pipeline_steps": [
+    "scaler",
+    "xgb"
+  ],
+  "scaler_data_min": [
+    9.999999999999998,
+    9.800000000000011,
+    22.0,
+    34.0,
+    1.2,
+    394.7,
+    -1987.0
+  ],
+  "scaler_data_max": [
+    34.0,
+    351.8,
+    40.0,
+    66.0,
+    12.6,
+    401.90000000000003,
+    262752.0
+  ],
+  "scaler_scale": [
+    0.041666666666666664,
+    0.0029239766081871343,
+    0.05555555555555555,
+    0.03125,
+    0.08771929824561403,
+    0.138888888888888,
+    3.7773051949278346e-06
+  ],
+  "scaler_min": [
+    -0.4166666666666666,
+    -0.02865497076023395,
+    -1.222222222222222,
+    -1.0625,
+    -0.10526315789473684,
+    -54.819444444444095,
+    0.007505505422321607
+  ],
+  "scaler_clip": false,
+  "scaler_n_samples_seen": 16000,
+  "objective": "binary:logistic",
+  "booster_config": {
+    "learner": {
+      "generic_param": {
+        "device": "cpu",
+        "fail_on_invalid_gpu_id": "0",
+        "n_jobs": "1",
+        "nthread": "1",
+        "random_state": "42",
+        "seed": "42",
+        "seed_per_iteration": "0",
+        "validate_parameters": "1"
+      },
+      "gradient_booster": {
+        "gbtree_model_param": {
+          "num_parallel_tree": "1",
+          "num_trees": "200"
+        },
+        "gbtree_train_param": {
+          "process_type": "default",
+          "tree_method": "auto",
+          "updater": "grow_quantile_histmaker",
+          "updater_seq": "grow_quantile_histmaker"
+        },
+        "name": "gbtree",
+        "specified_updater": false,
+        "tree_train_param": {
+          "alpha": "0",
+          "cache_opt": "1",
+          "colsample_bylevel": "1",
+          "colsample_bynode": "1",
+          "colsample_bytree": "1",
+          "eta": "0.300000012",
+          "gamma": "0",
+          "grow_policy": "depthwise",
+          "interaction_constraints": "",
+          "lambda": "1",
+          "learning_rate": "0.300000012",
+          "max_bin": "256",
+          "max_cat_threshold": "64",
+          "max_cat_to_onehot": "4",
+          "max_delta_step": "0",
+          "max_depth": "6",
+          "max_leaves": "0",
+          "min_child_weight": "1",
+          "min_split_loss": "0",
+          "monotone_constraints": "()",
+          "refresh_leaf": "1",
+          "reg_alpha": "0",
+          "reg_lambda": "1",
+          "sampling_method": "uniform",
+          "sketch_ratio": "2",
+          "sparse_threshold": "0.20000000000000001",
+          "subsample": "1"
+        },
+        "updater": [
+          {
+            "hist_train_param": {
+              "debug_synchronize": "0",
+              "extmem_single_page": "0",
+              "max_cached_hist_node": "18446744073709551615"
+            },
+            "name": "grow_quantile_histmaker"
+          }
+        ]
+      },
+      "learner_model_param": {
+        "base_score": "[5E-1]",
+        "boost_from_average": "1",
+        "num_class": "0",
+        "num_feature": "7",
+        "num_target": "1"
+      },
+      "learner_train_param": {
+        "booster": "gbtree",
+        "disable_default_eval_metric": "0",
+        "multi_strategy": "one_output_per_tree",
+        "objective": "binary:logistic"
+      },
+      "metrics": [
+        {
+          "name": "logloss"
+        }
+      ],
+      "objective": {
+        "name": "binary:logistic",
+        "reg_loss_param": {
+          "scale_pos_weight": "1"
+        }
+      }
+    },
+    "version": [
+      3,
+      1,
+      2
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "reproduced_available_oof_scores": 8194,
+  "max_absolute_score_error": 4.440892098500626e-16,
+  "training_rows_checked_across_folds": 8973,
+  "training_labels_all_normal": true,
+  "physical_prefix_checks": 44,
+  "upstream_raw_feature_prefix_checks": 44,
+  "raw_and_cache_hashes_checked": 26,
+  "external_metadata_files_verified": 4,
+  "fitting_performed": false,
+  "thresholds_changed": false
+}

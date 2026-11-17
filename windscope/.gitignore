@@ -1,0 +1,20 @@
+reference/
+data/raw/
+.venv*/
+.wheelhouse/
+__pycache__/
+*.pyc
+.publish/
+project/data/
+project/cache/
+artifacts/personal_h24_v1/features/
+artifacts/personal_h24_reproduction_v1/features/
+.env
+frontend/node_modules/
+frontend/.next/
+frontend/next-env.d.ts
+frontend/*.tsbuildinfo
+artifacts/ml_baseline/*.log
+# Reviewed public experiment evidence and the local H7 model are release inputs.
+!artifacts/**/*.csv
+!project/results/care_h7_windows_20261116/training/h7/logistic/pipeline.joblib

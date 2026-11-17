@@ -1,0 +1,19 @@
+{
+  "status": "not_available_locally",
+  "present_farms": [
+    "Wind Farm A"
+  ],
+  "new_independent_test_turbines": 0,
+  "exclusions": [
+    "Same CARE files or replay cycles are not new holdout data.",
+    "EDP failure-log CSV alone is not SCADA and is not established as independent of CARE Farm A."
+  ],
+  "candidate": "CARE Wind Farms B/C or a separately sourced farm, after sensor schema and lineage review",
+  "future_gate": [
+    "new turbine lineage",
+    "documented sensor mapping and units",
+    "confirmed fault anchors",
+    "normal follow-up coverage",
+    "new frozen protocol before examining outcomes"
+  ]
+}

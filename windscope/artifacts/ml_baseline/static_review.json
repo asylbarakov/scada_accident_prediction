@@ -1,0 +1,25 @@
+{
+  "repository": "https://github.com/SaraMahyan/SWTFPS_Wind-Turbine-Failure-Prediction",
+  "commit": "b0922f9ab22a65b582d8c0d0e810d8e959500e76",
+  "tag": "v1.0.0",
+  "artifact": "Codes/Models' Packeges/prototype_model_best.pkl",
+  "artifact_sha256": "98584786a6a4421f74e599743378c67aadaeaa67ffbfdd582a14f5d235617fd8",
+  "static_sklearn_version": "1.7.2",
+  "static_xgboost_ubjson_versions": [
+    [
+      3,
+      1,
+      2
+    ],
+    [
+      3,
+      1,
+      2
+    ]
+  ],
+  "numpy_module": "numpy._core.multiarray",
+  "source_training_script": "Prototype Experiment/New Sensors Control_With_Overall_Performance copy/Codes/prototype_model.py",
+  "training_script_executed": false,
+  "pickle_loaded_on_host": false,
+  "review_scope": "Static source/byte review and release digest identity; not a proof of pickle safety"
+}

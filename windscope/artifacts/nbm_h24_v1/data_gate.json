@@ -1,0 +1,395 @@
+{
+  "status": "passed",
+  "prior_experiment": "care-h24-loto-v1",
+  "prior_data_sha256": "62258e17633f8c4d30e2f7187c0065a7da18c6faf647c72eaf213d080ff43693",
+  "protocol_sha256": "d82ebbd7900bfac0fd9a33fe9fe6e20afd8e04e71c19f30b6afac30eff812ce6",
+  "previous_metrics_sha256": "52794b3e6b221754f162f8162679bc367083a462f888ed6e31e4ac076e11a265",
+  "previous_gate_sha256": "1283c17cb69cbaf311624f6226e5cc42c56b78eef1370c565caca1ed039e406f",
+  "original_inputs_sha256": {
+    "raw/event_info.csv": "9254667b70d73e8eb23e7143ad56f1c280ba020c8b3d9289ad56fcaa59270aa5",
+    "raw/feature_description.csv": "8834c8481585d133fc37ea70033fbdb4c64e5cd1e5d7f7257ca97a1e229ee921",
+    "raw/datasets/0.csv": "f0a8365b2b60845b9ad78cf4deb167a2da500abef66199a55c381e8fff2bb26b",
+    "raw/datasets/3.csv": "af3e8a8b9907183edecb763f60b1a5a79bb437228cbaa158be0a6dde24e93910",
+    "raw/datasets/10.csv": "16a5bdaaf9afb5ce9b02e456c60e8ed7a6b6943c5e517d4866d7eedf31568914",
+    "raw/datasets/13.csv": "fb3c996efd634e0422d95876a28dc6c777470a07816cc5f5894a3d18ccc32dbd",
+    "raw/datasets/14.csv": "93bee35d6a6fa0b6d01961cd0980a53561184da36a80118b964750294be0f6ce",
+    "raw/datasets/17.csv": "54237f22c32ff0b5dcedb8d3eb5dc452424baad2cdc4d599ca3215605eab6c8f",
+    "raw/datasets/22.csv": "06b0745cc1b5ed3ec9bd0e34a81b1074bc23c4f76f854c8b395ea625237a76a3",
+    "raw/datasets/24.csv": "310c27badde12582045627ae22a29d79d642b58f1379e2676bd3f21f46ac697e",
+    "raw/datasets/25.csv": "f09afa3bfea796bb2bb52058830981554734a2a2b6085e3415f20d67b91defc6",
+    "raw/datasets/26.csv": "6bf52430a8102d198c9bea3986e4bf81a120f7e86c8acc859ca1b606a3f08d35",
+    "raw/datasets/38.csv": "085324d3dffe3fa12d37a2d95b71d439d8ba7085839dca644192b2b4ee360775",
+    "raw/datasets/40.csv": "59a051d79baac85548922248013e1136407514d8bd7a2f374670865e6a6cf2ef",
+    "raw/datasets/42.csv": "22af8df47d9d9844f15506980847ed27dca3b8148167073ee6e85e6faada5b4a",
+    "raw/datasets/45.csv": "cc51aeabe485286e2fee4df23f39caf77c19ce5fdc34f1e16b01097209f4aa1b",
+    "raw/datasets/51.csv": "cc4eaa53400424e1044f68379da070215d311d92f940b7050affbf2f289d0ebc",
+    "raw/datasets/68.csv": "ab1db0f9a261c525572e09067def2c2876b2002335ec9d5c9c268246573bbcc3",
+    "raw/datasets/69.csv": "fa66f3fc0e9af250cbc23b409a78b3d76e5b9a8526a0f138ee5efaf7b9508d9b",
+    "raw/datasets/71.csv": "540b1b258c234ef898b087af4626aa46a86f08dc539f30836c2417f95a83533e",
+    "raw/datasets/72.csv": "18964bc4ff606b77e7313427df81080d5651dfd6a9dd619be7657947ab42600f",
+    "raw/datasets/73.csv": "d6071fe582077dd0ee1900597548497e17344f61c2ab4a784ecdd57529881db0",
+    "raw/datasets/84.csv": "ac88e2141ec5c87c38bb3cee2c0fc084310b238f59464f1d9380cca0537c025a",
+    "raw/datasets/92.csv": "a979ae914688dd4f4f5f3e3abd0d3ea2d607343363bca39292ad8e2de1c0a01d",
+    "cache/coverage.json": "e67efdbcfe5f4dd5b1bb9871276d18207eded9b78bec16d2d021c4487c7d1304",
+    "cache/observation_lineage.parquet": "8cf3ba25bc2f25dff97bf55cdb37bd0bc6f282c50a873554b9be518f0e1c8bef"
+  },
+  "per_asset_normal_counts": [
+    {
+      "asset": "0",
+      "normal_rows": 618,
+      "targets": {
+        "gearbox_bearing_temperature__now": 618,
+        "gearbox_oil_temperature__now": 618,
+        "generator_bearing_temperature__now": 618,
+        "hydraulic_oil_temperature__now": 618
+      }
+    },
+    {
+      "asset": "10",
+      "normal_rows": 713,
+      "targets": {
+        "gearbox_bearing_temperature__now": 713,
+        "gearbox_oil_temperature__now": 713,
+        "generator_bearing_temperature__now": 713,
+        "hydraulic_oil_temperature__now": 713
+      }
+    },
+    {
+      "asset": "11",
+      "normal_rows": 796,
+      "targets": {
+        "gearbox_bearing_temperature__now": 796,
+        "gearbox_oil_temperature__now": 796,
+        "generator_bearing_temperature__now": 796,
+        "hydraulic_oil_temperature__now": 796
+      }
+    },
+    {
+      "asset": "13",
+      "normal_rows": 387,
+      "targets": {
+        "gearbox_bearing_temperature__now": 387,
+        "gearbox_oil_temperature__now": 387,
+        "generator_bearing_temperature__now": 387,
+        "hydraulic_oil_temperature__now": 387
+      }
+    },
+    {
+      "asset": "21",
+      "normal_rows": 477,
+      "targets": {
+        "gearbox_bearing_temperature__now": 477,
+        "gearbox_oil_temperature__now": 477,
+        "generator_bearing_temperature__now": 477,
+        "hydraulic_oil_temperature__now": 477
+      }
+    }
+  ],
+  "canonical_faults": [
+    {
+      "id": "care-a-fault-0",
+      "source_event": 0,
+      "turbine_id": "0",
+      "failure_at": "2023-08-20T06:10:00+00:00",
+      "group_status": "single"
+    },
+    {
+      "id": "care-a-fault-10",
+      "source_event": 10,
+      "turbine_id": "10",
+      "failure_at": "2023-10-18T08:40:00+00:00",
+      "group_status": "single"
+    },
+    {
+      "id": "care-a-fault-22",
+      "source_event": 22,
+      "turbine_id": "21",
+      "failure_at": "2023-08-19T10:00:00+00:00",
+      "group_status": "single"
+    },
+    {
+      "id": "care-a-fault-26",
+      "source_event": 26,
+      "turbine_id": "0",
+      "failure_at": "2023-10-19T10:20:00+00:00",
+      "group_status": "single"
+    },
+    {
+      "id": "care-a-fault-40",
+      "source_event": 40,
+      "turbine_id": "10",
+      "failure_at": "2023-01-26T13:00:00+00:00",
+      "group_status": "single"
+    },
+    {
+      "id": "care-a-fault-42",
+      "source_event": 42,
+      "turbine_id": "10",
+      "failure_at": "2023-09-16T15:50:00+00:00",
+      "group_status": "single"
+    },
+    {
+      "id": "care-a-fault-45",
+      "source_event": 45,
+      "turbine_id": "13",
+      "failure_at": "2023-04-26T18:10:00+00:00",
+      "group_status": "single"
+    },
+    {
+      "id": "care-a-fault-51",
+      "source_event": 72,
+      "turbine_id": "21",
+      "failure_at": "2023-10-17T08:40:00+00:00",
+      "group_status": "conservative_merge"
+    },
+    {
+      "id": "care-a-fault-68",
+      "source_event": 68,
+      "turbine_id": "11",
+      "failure_at": "2023-08-11T13:10:00+00:00",
+      "group_status": "single"
+    },
+    {
+      "id": "care-a-fault-73",
+      "source_event": 73,
+      "turbine_id": "0",
+      "failure_at": "2023-06-17T11:40:00+00:00",
+      "group_status": "single"
+    },
+    {
+      "id": "care-a-fault-84",
+      "source_event": 84,
+      "turbine_id": "13",
+      "failure_at": "2023-09-12T15:30:00+00:00",
+      "group_status": "single"
+    }
+  ],
+  "physical_config": {
+    "cadence_minutes": 10,
+    "measurement_delay_steps": 1,
+    "windows_hours": [
+      1,
+      6,
+      24
+    ],
+    "required_history_hours": 6,
+    "sensors": {
+      "wind_speed": {
+        "column": "wind_speed_3_avg",
+        "measurement": "Wind speed",
+        "unit": "m/s"
+      },
+      "ambient_temperature": {
+        "column": "sensor_0_avg",
+        "measurement": "Ambient temperature",
+        "unit": "°C"
+      },
+      "grid_active_power": {
+        "column": "power_29_avg",
+        "measurement": "Possible grid active power",
+        "unit": "p.u."
+      },
+      "gearbox_bearing_temperature": {
+        "column": "sensor_11_avg",
+        "measurement": "Gearbox high-speed shaft bearing temperature",
+        "unit": "°C"
+      },
+      "gearbox_oil_temperature": {
+        "column": "sensor_12_avg",
+        "measurement": "Gearbox oil temperature",
+        "unit": "°C"
+      },
+      "generator_bearing_temperature": {
+        "column": "sensor_13_avg",
+        "measurement": "Generator drive-end bearing temperature",
+        "unit": "°C"
+      },
+      "generator_speed": {
+        "column": "sensor_18_avg",
+        "measurement": "Generator rotational speed",
+        "unit": "rpm"
+      },
+      "transformer_temperature": {
+        "column": "sensor_38_avg",
+        "measurement": "HV transformer phase L1 temperature",
+        "unit": "°C"
+      },
+      "hydraulic_oil_temperature": {
+        "column": "sensor_41_avg",
+        "measurement": "Hydraulic group oil temperature",
+        "unit": "°C"
+      },
+      "rotor_speed": {
+        "column": "sensor_52_avg",
+        "measurement": "Rotor rotational speed",
+        "unit": "rpm"
+      }
+    },
+    "operation": null
+  },
+  "features": [
+    "wind_speed__now",
+    "wind_speed__1h_mean",
+    "wind_speed__1h_max",
+    "wind_speed__1h_std",
+    "wind_speed__1h_delta_mean",
+    "wind_speed__1h_trend",
+    "wind_speed__6h_mean",
+    "wind_speed__6h_max",
+    "wind_speed__6h_std",
+    "wind_speed__6h_delta_mean",
+    "wind_speed__6h_trend",
+    "wind_speed__24h_mean",
+    "wind_speed__24h_max",
+    "wind_speed__24h_std",
+    "wind_speed__24h_delta_mean",
+    "wind_speed__24h_trend",
+    "ambient_temperature__now",
+    "ambient_temperature__1h_mean",
+    "ambient_temperature__1h_max",
+    "ambient_temperature__1h_std",
+    "ambient_temperature__1h_delta_mean",
+    "ambient_temperature__1h_trend",
+    "ambient_temperature__6h_mean",
+    "ambient_temperature__6h_max",
+    "ambient_temperature__6h_std",
+    "ambient_temperature__6h_delta_mean",
+    "ambient_temperature__6h_trend",
+    "ambient_temperature__24h_mean",
+    "ambient_temperature__24h_max",
+    "ambient_temperature__24h_std",
+    "ambient_temperature__24h_delta_mean",
+    "ambient_temperature__24h_trend",
+    "grid_active_power__now",
+    "grid_active_power__1h_mean",
+    "grid_active_power__1h_max",
+    "grid_active_power__1h_std",
+    "grid_active_power__1h_delta_mean",
+    "grid_active_power__1h_trend",
+    "grid_active_power__6h_mean",
+    "grid_active_power__6h_max",
+    "grid_active_power__6h_std",
+    "grid_active_power__6h_delta_mean",
+    "grid_active_power__6h_trend",
+    "grid_active_power__24h_mean",
+    "grid_active_power__24h_max",
+    "grid_active_power__24h_std",
+    "grid_active_power__24h_delta_mean",
+    "grid_active_power__24h_trend",
+    "gearbox_bearing_temperature__now",
+    "gearbox_bearing_temperature__1h_mean",
+    "gearbox_bearing_temperature__1h_max",
+    "gearbox_bearing_temperature__1h_std",
+    "gearbox_bearing_temperature__1h_delta_mean",
+    "gearbox_bearing_temperature__1h_trend",
+    "gearbox_bearing_temperature__6h_mean",
+    "gearbox_bearing_temperature__6h_max",
+    "gearbox_bearing_temperature__6h_std",
+    "gearbox_bearing_temperature__6h_delta_mean",
+    "gearbox_bearing_temperature__6h_trend",
+    "gearbox_bearing_temperature__24h_mean",
+    "gearbox_bearing_temperature__24h_max",
+    "gearbox_bearing_temperature__24h_std",
+    "gearbox_bearing_temperature__24h_delta_mean",
+    "gearbox_bearing_temperature__24h_trend",
+    "gearbox_oil_temperature__now",
+    "gearbox_oil_temperature__1h_mean",
+    "gearbox_oil_temperature__1h_max",
+    "gearbox_oil_temperature__1h_std",
+    "gearbox_oil_temperature__1h_delta_mean",
+    "gearbox_oil_temperature__1h_trend",
+    "gearbox_oil_temperature__6h_mean",
+    "gearbox_oil_temperature__6h_max",
+    "gearbox_oil_temperature__6h_std",
+    "gearbox_oil_temperature__6h_delta_mean",
+    "gearbox_oil_temperature__6h_trend",
+    "gearbox_oil_temperature__24h_mean",
+    "gearbox_oil_temperature__24h_max",
+    "gearbox_oil_temperature__24h_std",
+    "gearbox_oil_temperature__24h_delta_mean",
+    "gearbox_oil_temperature__24h_trend",
+    "generator_bearing_temperature__now",
+    "generator_bearing_temperature__1h_mean",
+    "generator_bearing_temperature__1h_max",
+    "generator_bearing_temperature__1h_std",
+    "generator_bearing_temperature__1h_delta_mean",
+    "generator_bearing_temperature__1h_trend",
+    "generator_bearing_temperature__6h_mean",
+    "generator_bearing_temperature__6h_max",
+    "generator_bearing_temperature__6h_std",
+    "generator_bearing_temperature__6h_delta_mean",
+    "generator_bearing_temperature__6h_trend",
+    "generator_bearing_temperature__24h_mean",
+    "generator_bearing_temperature__24h_max",
+    "generator_bearing_temperature__24h_std",
+    "generator_bearing_temperature__24h_delta_mean",
+    "generator_bearing_temperature__24h_trend",
+    "generator_speed__now",
+    "generator_speed__1h_mean",
+    "generator_speed__1h_max",
+    "generator_speed__1h_std",
+    "generator_speed__1h_delta_mean",
+    "generator_speed__1h_trend",
+    "generator_speed__6h_mean",
+    "generator_speed__6h_max",
+    "generator_speed__6h_std",
+    "generator_speed__6h_delta_mean",
+    "generator_speed__6h_trend",
+    "generator_speed__24h_mean",
+    "generator_speed__24h_max",
+    "generator_speed__24h_std",
+    "generator_speed__24h_delta_mean",
+    "generator_speed__24h_trend",
+    "transformer_temperature__now",
+    "transformer_temperature__1h_mean",
+    "transformer_temperature__1h_max",
+    "transformer_temperature__1h_std",
+    "transformer_temperature__1h_delta_mean",
+    "transformer_temperature__1h_trend",
+    "transformer_temperature__6h_mean",
+    "transformer_temperature__6h_max",
+    "transformer_temperature__6h_std",
+    "transformer_temperature__6h_delta_mean",
+    "transformer_temperature__6h_trend",
+    "transformer_temperature__24h_mean",
+    "transformer_temperature__24h_max",
+    "transformer_temperature__24h_std",
+    "transformer_temperature__24h_delta_mean",
+    "transformer_temperature__24h_trend",
+    "hydraulic_oil_temperature__now",
+    "hydraulic_oil_temperature__1h_mean",
+    "hydraulic_oil_temperature__1h_max",
+    "hydraulic_oil_temperature__1h_std",
+    "hydraulic_oil_temperature__1h_delta_mean",
+    "hydraulic_oil_temperature__1h_trend",
+    "hydraulic_oil_temperature__6h_mean",
+    "hydraulic_oil_temperature__6h_max",
+    "hydraulic_oil_temperature__6h_std",
+    "hydraulic_oil_temperature__6h_delta_mean",
+    "hydraulic_oil_temperature__6h_trend",
+    "hydraulic_oil_temperature__24h_mean",
+    "hydraulic_oil_temperature__24h_max",
+    "hydraulic_oil_temperature__24h_std",
+    "hydraulic_oil_temperature__24h_delta_mean",
+    "hydraulic_oil_temperature__24h_trend",
+    "rotor_speed__now",
+    "rotor_speed__1h_mean",
+    "rotor_speed__1h_max",
+    "rotor_speed__1h_std",
+    "rotor_speed__1h_delta_mean",
+    "rotor_speed__1h_trend",
+    "rotor_speed__6h_mean",
+    "rotor_speed__6h_max",
+    "rotor_speed__6h_std",
+    "rotor_speed__6h_delta_mean",
+    "rotor_speed__6h_trend",
+    "rotor_speed__24h_mean",
+    "rotor_speed__24h_max",
+    "rotor_speed__24h_std",
+    "rotor_speed__24h_delta_mean",
+    "rotor_speed__24h_trend"
+  ],
+  "prior_causal_prefix_checks": 44,
+  "external_holdout_available": false,
+  "source_lineage_cross_turbine_reuse": 0
+}

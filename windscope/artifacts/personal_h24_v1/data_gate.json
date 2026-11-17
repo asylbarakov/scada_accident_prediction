@@ -1,0 +1,997 @@
+{
+  "status": "passed",
+  "sources": [
+    {
+      "event": 0,
+      "asset": "0",
+      "eligible": true,
+      "bounds": {
+        "boundary": "2023-05-23T06:00:00+00:00",
+        "prediction_start": "2023-08-04T06:10:00+00:00",
+        "prefix_start": "2022-08-04T06:10:00+00:00"
+      },
+      "training_normal_hours": 6246,
+      "calibration_normal_hours": 1140,
+      "training_target_counts": {
+        "gearbox_bearing_temperature__now": 6246,
+        "gearbox_oil_temperature__now": 6246,
+        "generator_bearing_temperature__now": 6246,
+        "hydraulic_oil_temperature__now": 6246
+      },
+      "calibration_target_counts": {
+        "gearbox_bearing_temperature__now": 1140,
+        "gearbox_oil_temperature__now": 1140,
+        "generator_bearing_temperature__now": 1140,
+        "hydraulic_oil_temperature__now": 1140
+      },
+      "train_end": "2023-05-22T06:00:00+00:00",
+      "calibration_start": "2023-05-23T12:00:00+00:00",
+      "calibration_end": "2023-08-02T07:00:00+00:00",
+      "prediction_hours": 471,
+      "features_sha256": "142c27598135756ec224657cb38dd04e22580278f39f1adb9c63e08a36703cdf"
+    },
+    {
+      "event": 3,
+      "asset": "10",
+      "eligible": true,
+      "bounds": {
+        "boundary": "2023-02-13T03:00:00+00:00",
+        "prediction_start": "2023-04-27T03:00:00+00:00",
+        "prefix_start": "2022-04-27T03:00:00+00:00"
+      },
+      "training_normal_hours": 4694,
+      "calibration_normal_hours": 1691,
+      "training_target_counts": {
+        "gearbox_bearing_temperature__now": 4694,
+        "gearbox_oil_temperature__now": 4694,
+        "generator_bearing_temperature__now": 4694,
+        "hydraulic_oil_temperature__now": 4694
+      },
+      "calibration_target_counts": {
+        "gearbox_bearing_temperature__now": 1691,
+        "gearbox_oil_temperature__now": 1691,
+        "generator_bearing_temperature__now": 1691,
+        "hydraulic_oil_temperature__now": 1691
+      },
+      "train_end": "2023-02-12T03:00:00+00:00",
+      "calibration_start": "2023-02-13T09:00:00+00:00",
+      "calibration_end": "2023-04-26T02:00:00+00:00",
+      "prediction_hours": 551,
+      "features_sha256": "bba219fd90a7774a5b92f3ace4db7dc98073c9604f7994e52d4986dee4381439"
+    },
+    {
+      "event": 10,
+      "asset": "10",
+      "eligible": true,
+      "bounds": {
+        "boundary": "2023-07-28T08:00:00+00:00",
+        "prediction_start": "2023-10-09T08:40:00+00:00",
+        "prefix_start": "2022-10-09T08:40:00+00:00"
+      },
+      "training_normal_hours": 6036,
+      "calibration_normal_hours": 1135,
+      "training_target_counts": {
+        "gearbox_bearing_temperature__now": 6036,
+        "gearbox_oil_temperature__now": 6036,
+        "generator_bearing_temperature__now": 6036,
+        "hydraulic_oil_temperature__now": 6036
+      },
+      "calibration_target_counts": {
+        "gearbox_bearing_temperature__now": 1135,
+        "gearbox_oil_temperature__now": 1135,
+        "generator_bearing_temperature__now": 1135,
+        "hydraulic_oil_temperature__now": 1135
+      },
+      "train_end": "2023-07-27T08:00:00+00:00",
+      "calibration_start": "2023-07-28T14:00:00+00:00",
+      "calibration_end": "2023-10-03T08:00:00+00:00",
+      "prediction_hours": 211,
+      "features_sha256": "48a2892922921afcb3e104d91f64dda0e244e090156cbbb1a09661dbc6ae3686"
+    },
+    {
+      "event": 13,
+      "asset": "21",
+      "eligible": true,
+      "bounds": {
+        "boundary": "2023-02-16T13:00:00+00:00",
+        "prediction_start": "2023-04-30T13:20:00+00:00",
+        "prefix_start": "2022-04-30T13:20:00+00:00"
+      },
+      "training_normal_hours": 4715,
+      "calibration_normal_hours": 1662,
+      "training_target_counts": {
+        "gearbox_bearing_temperature__now": 4715,
+        "gearbox_oil_temperature__now": 4715,
+        "generator_bearing_temperature__now": 4715,
+        "hydraulic_oil_temperature__now": 4715
+      },
+      "calibration_target_counts": {
+        "gearbox_bearing_temperature__now": 1662,
+        "gearbox_oil_temperature__now": 1662,
+        "generator_bearing_temperature__now": 1662,
+        "hydraulic_oil_temperature__now": 1662
+      },
+      "train_end": "2023-02-15T13:00:00+00:00",
+      "calibration_start": "2023-02-16T19:00:00+00:00",
+      "calibration_end": "2023-04-29T13:00:00+00:00",
+      "prediction_hours": 597,
+      "features_sha256": "ad816ade5cdb876b8abdc665ee90a34e84d433f167fc101ceb9cd58c24394975"
+    },
+    {
+      "event": 14,
+      "asset": "13",
+      "eligible": true,
+      "bounds": {
+        "boundary": "2022-12-20T14:00:00+00:00",
+        "prediction_start": "2023-03-03T14:00:00+00:00",
+        "prefix_start": "2022-03-03T14:00:00+00:00"
+      },
+      "training_normal_hours": 6171,
+      "calibration_normal_hours": 1692,
+      "training_target_counts": {
+        "gearbox_bearing_temperature__now": 6171,
+        "gearbox_oil_temperature__now": 6171,
+        "generator_bearing_temperature__now": 6171,
+        "hydraulic_oil_temperature__now": 6171
+      },
+      "calibration_target_counts": {
+        "gearbox_bearing_temperature__now": 1692,
+        "gearbox_oil_temperature__now": 1692,
+        "generator_bearing_temperature__now": 1692,
+        "hydraulic_oil_temperature__now": 1692
+      },
+      "train_end": "2022-12-19T14:00:00+00:00",
+      "calibration_start": "2022-12-20T20:00:00+00:00",
+      "calibration_end": "2023-03-02T13:00:00+00:00",
+      "prediction_hours": 317,
+      "features_sha256": "9b71ea16224b44ebfd2211c55972b9fa939f5eda674eb99733690cbf5cd29267"
+    },
+    {
+      "event": 17,
+      "asset": "10",
+      "eligible": true,
+      "bounds": {
+        "boundary": "2023-08-19T15:00:00+00:00",
+        "prediction_start": "2023-10-31T15:20:00+00:00",
+        "prefix_start": "2022-10-31T15:20:00+00:00"
+      },
+      "training_normal_hours": 6271,
+      "calibration_normal_hours": 847,
+      "training_target_counts": {
+        "gearbox_bearing_temperature__now": 6271,
+        "gearbox_oil_temperature__now": 6271,
+        "generator_bearing_temperature__now": 6271,
+        "hydraulic_oil_temperature__now": 6271
+      },
+      "calibration_target_counts": {
+        "gearbox_bearing_temperature__now": 847,
+        "gearbox_oil_temperature__now": 847,
+        "generator_bearing_temperature__now": 847,
+        "hydraulic_oil_temperature__now": 847
+      },
+      "train_end": "2023-08-18T15:00:00+00:00",
+      "calibration_start": "2023-08-19T21:00:00+00:00",
+      "calibration_end": "2023-10-30T15:00:00+00:00",
+      "prediction_hours": 462,
+      "features_sha256": "392d9f14e907aa46e0565300db88c796a48119cbeff7d39447e9fcac41ca51be"
+    },
+    {
+      "event": 22,
+      "asset": "21",
+      "eligible": true,
+      "bounds": {
+        "boundary": "2023-05-31T09:00:00+00:00",
+        "prediction_start": "2023-08-12T09:50:00+00:00",
+        "prefix_start": "2022-08-12T09:50:00+00:00"
+      },
+      "training_normal_hours": 5467,
+      "calibration_normal_hours": 1456,
+      "training_target_counts": {
+        "gearbox_bearing_temperature__now": 5467,
+        "gearbox_oil_temperature__now": 5467,
+        "generator_bearing_temperature__now": 5467,
+        "hydraulic_oil_temperature__now": 5467
+      },
+      "calibration_target_counts": {
+        "gearbox_bearing_temperature__now": 1456,
+        "gearbox_oil_temperature__now": 1456,
+        "generator_bearing_temperature__now": 1456,
+        "hydraulic_oil_temperature__now": 1456
+      },
+      "train_end": "2023-05-30T09:00:00+00:00",
+      "calibration_start": "2023-05-31T15:00:00+00:00",
+      "calibration_end": "2023-08-04T09:00:00+00:00",
+      "prediction_hours": 191,
+      "features_sha256": "4c4ea434e446c0b8ae71913bd2a2a8b91ef090483b44208b0ed4a105cab09df7"
+    },
+    {
+      "event": 24,
+      "asset": "0",
+      "eligible": true,
+      "bounds": {
+        "boundary": "2023-02-10T15:00:00+00:00",
+        "prediction_start": "2023-04-24T15:00:00+00:00",
+        "prefix_start": "2022-04-24T15:00:00+00:00"
+      },
+      "training_normal_hours": 5591,
+      "calibration_normal_hours": 1691,
+      "training_target_counts": {
+        "gearbox_bearing_temperature__now": 5591,
+        "gearbox_oil_temperature__now": 5591,
+        "generator_bearing_temperature__now": 5591,
+        "hydraulic_oil_temperature__now": 5591
+      },
+      "calibration_target_counts": {
+        "gearbox_bearing_temperature__now": 1691,
+        "gearbox_oil_temperature__now": 1691,
+        "generator_bearing_temperature__now": 1691,
+        "hydraulic_oil_temperature__now": 1691
+      },
+      "train_end": "2023-02-09T15:00:00+00:00",
+      "calibration_start": "2023-02-10T21:00:00+00:00",
+      "calibration_end": "2023-04-23T14:00:00+00:00",
+      "prediction_hours": 453,
+      "features_sha256": "e918418de2174b48cb1b18c99aa966b5498985c222e023f12b5e9fa1a47cb49a"
+    },
+    {
+      "event": 25,
+      "asset": "11",
+      "eligible": true,
+      "bounds": {
+        "boundary": "2023-03-11T06:00:00+00:00",
+        "prediction_start": "2023-05-23T06:50:00+00:00",
+        "prefix_start": "2022-05-23T06:50:00+00:00"
+      },
+      "training_normal_hours": 6279,
+      "calibration_normal_hours": 1658,
+      "training_target_counts": {
+        "gearbox_bearing_temperature__now": 6279,
+        "gearbox_oil_temperature__now": 6279,
+        "generator_bearing_temperature__now": 6279,
+        "hydraulic_oil_temperature__now": 6279
+      },
+      "calibration_target_counts": {
+        "gearbox_bearing_temperature__now": 1658,
+        "gearbox_oil_temperature__now": 1658,
+        "generator_bearing_temperature__now": 1658,
+        "hydraulic_oil_temperature__now": 1658
+      },
+      "train_end": "2023-03-10T06:00:00+00:00",
+      "calibration_start": "2023-03-11T12:00:00+00:00",
+      "calibration_end": "2023-05-22T06:00:00+00:00",
+      "prediction_hours": 404,
+      "features_sha256": "a216f17efa4f62b36dd091652809a0f04e0cb70727ea47ebd6ad5bef16710054"
+    },
+    {
+      "event": 26,
+      "asset": "0",
+      "eligible": true,
+      "bounds": {
+        "boundary": "2023-07-31T10:00:00+00:00",
+        "prediction_start": "2023-10-12T10:20:00+00:00",
+        "prefix_start": "2022-10-12T10:20:00+00:00"
+      },
+      "training_normal_hours": 6262,
+      "calibration_normal_hours": 904,
+      "training_target_counts": {
+        "gearbox_bearing_temperature__now": 6262,
+        "gearbox_oil_temperature__now": 6262,
+        "generator_bearing_temperature__now": 6262,
+        "hydraulic_oil_temperature__now": 6262
+      },
+      "calibration_target_counts": {
+        "gearbox_bearing_temperature__now": 904,
+        "gearbox_oil_temperature__now": 904,
+        "generator_bearing_temperature__now": 904,
+        "hydraulic_oil_temperature__now": 904
+      },
+      "train_end": "2023-07-30T10:00:00+00:00",
+      "calibration_start": "2023-07-31T16:00:00+00:00",
+      "calibration_end": "2023-10-04T10:00:00+00:00",
+      "prediction_hours": 240,
+      "features_sha256": "bf4d9c1b5554d739da3e944428caf0f698dc30cf5206e235b4c47495d103340b"
+    },
+    {
+      "event": 38,
+      "asset": "13",
+      "eligible": true,
+      "bounds": {
+        "boundary": "2023-04-16T15:00:00+00:00",
+        "prediction_start": "2023-06-28T15:40:00+00:00",
+        "prefix_start": "2022-06-28T15:40:00+00:00"
+      },
+      "training_normal_hours": 6220,
+      "calibration_normal_hours": 1342,
+      "training_target_counts": {
+        "gearbox_bearing_temperature__now": 6220,
+        "gearbox_oil_temperature__now": 6220,
+        "generator_bearing_temperature__now": 6220,
+        "hydraulic_oil_temperature__now": 6220
+      },
+      "calibration_target_counts": {
+        "gearbox_bearing_temperature__now": 1342,
+        "gearbox_oil_temperature__now": 1342,
+        "generator_bearing_temperature__now": 1342,
+        "hydraulic_oil_temperature__now": 1342
+      },
+      "train_end": "2023-04-11T18:00:00+00:00",
+      "calibration_start": "2023-04-30T01:00:00+00:00",
+      "calibration_end": "2023-06-27T15:00:00+00:00",
+      "prediction_hours": 424,
+      "features_sha256": "2ed3f7a4322643f945be7d084ac746869fec1a696c86c79bd9f7aa6243df50ce"
+    },
+    {
+      "event": 40,
+      "asset": "10",
+      "eligible": true,
+      "bounds": {
+        "boundary": "2022-10-14T09:00:00+00:00",
+        "prediction_start": "2022-12-25T00:00:00+00:00",
+        "prefix_start": "2022-01-01T00:00:00+00:00"
+      },
+      "training_normal_hours": 5240,
+      "calibration_normal_hours": 1484,
+      "training_target_counts": {
+        "gearbox_bearing_temperature__now": 5240,
+        "gearbox_oil_temperature__now": 5240,
+        "generator_bearing_temperature__now": 5240,
+        "hydraulic_oil_temperature__now": 5240
+      },
+      "calibration_target_counts": {
+        "gearbox_bearing_temperature__now": 1484,
+        "gearbox_oil_temperature__now": 1484,
+        "generator_bearing_temperature__now": 1484,
+        "hydraulic_oil_temperature__now": 1484
+      },
+      "train_end": "2022-09-27T08:00:00+00:00",
+      "calibration_start": "2022-10-21T16:00:00+00:00",
+      "calibration_end": "2022-12-23T23:00:00+00:00",
+      "prediction_hours": 825,
+      "features_sha256": "711b7994e06cc0e0841cbc76fc4682d09be2ec05bd5493d65877608cb3c29435"
+    },
+    {
+      "event": 42,
+      "asset": "10",
+      "eligible": true,
+      "bounds": {
+        "boundary": "2023-06-28T15:00:00+00:00",
+        "prediction_start": "2023-09-09T15:50:00+00:00",
+        "prefix_start": "2022-09-09T15:50:00+00:00"
+      },
+      "training_normal_hours": 5784,
+      "calibration_normal_hours": 1459,
+      "training_target_counts": {
+        "gearbox_bearing_temperature__now": 5784,
+        "gearbox_oil_temperature__now": 5784,
+        "generator_bearing_temperature__now": 5784,
+        "hydraulic_oil_temperature__now": 5784
+      },
+      "calibration_target_counts": {
+        "gearbox_bearing_temperature__now": 1459,
+        "gearbox_oil_temperature__now": 1459,
+        "generator_bearing_temperature__now": 1459,
+        "hydraulic_oil_temperature__now": 1459
+      },
+      "train_end": "2023-06-27T15:00:00+00:00",
+      "calibration_start": "2023-06-28T21:00:00+00:00",
+      "calibration_end": "2023-09-01T15:00:00+00:00",
+      "prediction_hours": 264,
+      "features_sha256": "82dae77a200e890883e7f8ecb38d7dcba33e887081fd639ccf68017956d54c6d"
+    },
+    {
+      "event": 45,
+      "asset": "13",
+      "eligible": true,
+      "bounds": {
+        "boundary": "2023-02-02T18:00:00+00:00",
+        "prediction_start": "2023-04-16T18:10:00+00:00",
+        "prefix_start": "2022-04-16T18:10:00+00:00"
+      },
+      "training_normal_hours": 6249,
+      "calibration_normal_hours": 1596,
+      "training_target_counts": {
+        "gearbox_bearing_temperature__now": 6249,
+        "gearbox_oil_temperature__now": 6249,
+        "generator_bearing_temperature__now": 6249,
+        "hydraulic_oil_temperature__now": 6249
+      },
+      "calibration_target_counts": {
+        "gearbox_bearing_temperature__now": 1596,
+        "gearbox_oil_temperature__now": 1596,
+        "generator_bearing_temperature__now": 1596,
+        "hydraulic_oil_temperature__now": 1596
+      },
+      "train_end": "2023-02-01T18:00:00+00:00",
+      "calibration_start": "2023-02-03T00:00:00+00:00",
+      "calibration_end": "2023-04-11T18:00:00+00:00",
+      "prediction_hours": 240,
+      "features_sha256": "cf3da6c598233b73957d412dc24780eaab50fcf0f3b126885a848859e22fb259"
+    },
+    {
+      "event": 51,
+      "asset": "21",
+      "eligible": true,
+      "bounds": {
+        "boundary": "2023-07-23T01:00:00+00:00",
+        "prediction_start": "2023-10-04T01:30:00+00:00",
+        "prefix_start": "2022-10-04T01:30:00+00:00"
+      },
+      "training_normal_hours": 6204,
+      "calibration_normal_hours": 1185,
+      "training_target_counts": {
+        "gearbox_bearing_temperature__now": 6204,
+        "gearbox_oil_temperature__now": 6204,
+        "generator_bearing_temperature__now": 6204,
+        "hydraulic_oil_temperature__now": 6204
+      },
+      "calibration_target_counts": {
+        "gearbox_bearing_temperature__now": 1185,
+        "gearbox_oil_temperature__now": 1185,
+        "generator_bearing_temperature__now": 1185,
+        "hydraulic_oil_temperature__now": 1185
+      },
+      "train_end": "2023-07-22T01:00:00+00:00",
+      "calibration_start": "2023-07-23T07:00:00+00:00",
+      "calibration_end": "2023-10-02T08:00:00+00:00",
+      "prediction_hours": 399,
+      "features_sha256": "a4ae9acf297e0d0d59f1a3988574fe45e560f6904a5bb2ba2ee188b45f1226fb"
+    },
+    {
+      "event": 68,
+      "asset": "11",
+      "eligible": true,
+      "bounds": {
+        "boundary": "2023-05-16T13:00:00+00:00",
+        "prediction_start": "2023-07-28T13:20:00+00:00",
+        "prefix_start": "2022-07-28T13:20:00+00:00"
+      },
+      "training_normal_hours": 6683,
+      "calibration_normal_hours": 1582,
+      "training_target_counts": {
+        "gearbox_bearing_temperature__now": 6683,
+        "gearbox_oil_temperature__now": 6683,
+        "generator_bearing_temperature__now": 6683,
+        "hydraulic_oil_temperature__now": 6683
+      },
+      "calibration_target_counts": {
+        "gearbox_bearing_temperature__now": 1582,
+        "gearbox_oil_temperature__now": 1582,
+        "generator_bearing_temperature__now": 1582,
+        "hydraulic_oil_temperature__now": 1582
+      },
+      "train_end": "2023-05-15T13:00:00+00:00",
+      "calibration_start": "2023-05-16T19:00:00+00:00",
+      "calibration_end": "2023-07-27T13:00:00+00:00",
+      "prediction_hours": 383,
+      "features_sha256": "f41a51a60e3a5eb150444aaae7f9bdf4d9a2292439351c90b5999c20776e831f"
+    },
+    {
+      "event": 69,
+      "asset": "11",
+      "eligible": true,
+      "bounds": {
+        "boundary": "2023-06-22T00:00:00+00:00",
+        "prediction_start": "2023-09-03T00:50:00+00:00",
+        "prefix_start": "2022-09-03T00:50:00+00:00"
+      },
+      "training_normal_hours": 6784,
+      "calibration_normal_hours": 1126,
+      "training_target_counts": {
+        "gearbox_bearing_temperature__now": 6784,
+        "gearbox_oil_temperature__now": 6784,
+        "generator_bearing_temperature__now": 6784,
+        "hydraulic_oil_temperature__now": 6784
+      },
+      "calibration_target_counts": {
+        "gearbox_bearing_temperature__now": 1126,
+        "gearbox_oil_temperature__now": 1126,
+        "generator_bearing_temperature__now": 1126,
+        "hydraulic_oil_temperature__now": 1126
+      },
+      "train_end": "2023-06-21T00:00:00+00:00",
+      "calibration_start": "2023-06-22T19:00:00+00:00",
+      "calibration_end": "2023-09-02T00:00:00+00:00",
+      "prediction_hours": 432,
+      "features_sha256": "b8ec0cae164d75af93f0b1411ba93a1bf7a8bedf21342a2340e1efd8447f6b31"
+    },
+    {
+      "event": 71,
+      "asset": "0",
+      "eligible": true,
+      "bounds": {
+        "boundary": "2022-10-20T00:00:00+00:00",
+        "prediction_start": "2023-01-01T00:00:00+00:00",
+        "prefix_start": "2022-01-01T00:00:00+00:00"
+      },
+      "training_normal_hours": 5372,
+      "calibration_normal_hours": 1687,
+      "training_target_counts": {
+        "gearbox_bearing_temperature__now": 5372,
+        "gearbox_oil_temperature__now": 5372,
+        "generator_bearing_temperature__now": 5372,
+        "hydraulic_oil_temperature__now": 5372
+      },
+      "calibration_target_counts": {
+        "gearbox_bearing_temperature__now": 1687,
+        "gearbox_oil_temperature__now": 1687,
+        "generator_bearing_temperature__now": 1687,
+        "hydraulic_oil_temperature__now": 1687
+      },
+      "train_end": "2022-10-19T00:00:00+00:00",
+      "calibration_start": "2022-10-20T06:00:00+00:00",
+      "calibration_end": "2022-12-30T23:00:00+00:00",
+      "prediction_hours": 409,
+      "features_sha256": "04db841bdf87396fe7d9021cca90b1914bda4757763d77807bb6355666ff08b5"
+    },
+    {
+      "event": 72,
+      "asset": "21",
+      "eligible": true,
+      "bounds": {
+        "boundary": "2023-07-26T08:00:00+00:00",
+        "prediction_start": "2023-10-07T08:40:00+00:00",
+        "prefix_start": "2022-10-07T08:40:00+00:00"
+      },
+      "training_normal_hours": 6266,
+      "calibration_normal_hours": 1106,
+      "training_target_counts": {
+        "gearbox_bearing_temperature__now": 6266,
+        "gearbox_oil_temperature__now": 6266,
+        "generator_bearing_temperature__now": 6266,
+        "hydraulic_oil_temperature__now": 6266
+      },
+      "calibration_target_counts": {
+        "gearbox_bearing_temperature__now": 1106,
+        "gearbox_oil_temperature__now": 1106,
+        "generator_bearing_temperature__now": 1106,
+        "hydraulic_oil_temperature__now": 1106
+      },
+      "train_end": "2023-07-25T08:00:00+00:00",
+      "calibration_start": "2023-07-26T14:00:00+00:00",
+      "calibration_end": "2023-10-02T08:00:00+00:00",
+      "prediction_hours": 336,
+      "features_sha256": "01a4f4d30c515a465f1a564131e18ed17c13fb91a4614b74fa2dcae75dc9ce8d"
+    },
+    {
+      "event": 73,
+      "asset": "0",
+      "eligible": true,
+      "bounds": {
+        "boundary": "2023-03-26T11:00:00+00:00",
+        "prediction_start": "2023-06-07T11:40:00+00:00",
+        "prefix_start": "2022-06-07T11:40:00+00:00"
+      },
+      "training_normal_hours": 5828,
+      "calibration_normal_hours": 1597,
+      "training_target_counts": {
+        "gearbox_bearing_temperature__now": 5828,
+        "gearbox_oil_temperature__now": 5828,
+        "generator_bearing_temperature__now": 5828,
+        "hydraulic_oil_temperature__now": 5828
+      },
+      "calibration_target_counts": {
+        "gearbox_bearing_temperature__now": 1597,
+        "gearbox_oil_temperature__now": 1597,
+        "generator_bearing_temperature__now": 1597,
+        "hydraulic_oil_temperature__now": 1597
+      },
+      "train_end": "2023-03-25T01:00:00+00:00",
+      "calibration_start": "2023-03-26T17:00:00+00:00",
+      "calibration_end": "2023-06-02T11:00:00+00:00",
+      "prediction_hours": 288,
+      "features_sha256": "fc14a9b4d2e0b73e6ae4b52f1ca8cb57d4d4c75f7c14152c92240d7798774396"
+    },
+    {
+      "event": 84,
+      "asset": "13",
+      "eligible": true,
+      "bounds": {
+        "boundary": "2023-06-22T15:00:00+00:00",
+        "prediction_start": "2023-09-03T15:30:00+00:00",
+        "prefix_start": "2022-09-03T15:30:00+00:00"
+      },
+      "training_normal_hours": 6004,
+      "calibration_normal_hours": 1507,
+      "training_target_counts": {
+        "gearbox_bearing_temperature__now": 6004,
+        "gearbox_oil_temperature__now": 6004,
+        "generator_bearing_temperature__now": 6004,
+        "hydraulic_oil_temperature__now": 6004
+      },
+      "calibration_target_counts": {
+        "gearbox_bearing_temperature__now": 1507,
+        "gearbox_oil_temperature__now": 1507,
+        "generator_bearing_temperature__now": 1507,
+        "hydraulic_oil_temperature__now": 1507
+      },
+      "train_end": "2023-06-21T12:00:00+00:00",
+      "calibration_start": "2023-06-22T21:00:00+00:00",
+      "calibration_end": "2023-08-28T15:00:00+00:00",
+      "prediction_hours": 240,
+      "features_sha256": "29697fcd7a950509be4d5e970dae6737bd71a91eddb1f7a5789e92442e909b1d"
+    },
+    {
+      "event": 92,
+      "asset": "11",
+      "eligible": true,
+      "bounds": {
+        "boundary": "2023-01-21T02:00:00+00:00",
+        "prediction_start": "2023-04-04T02:30:00+00:00",
+        "prefix_start": "2022-04-04T02:30:00+00:00"
+      },
+      "training_normal_hours": 6245,
+      "calibration_normal_hours": 1692,
+      "training_target_counts": {
+        "gearbox_bearing_temperature__now": 6245,
+        "gearbox_oil_temperature__now": 6245,
+        "generator_bearing_temperature__now": 6245,
+        "hydraulic_oil_temperature__now": 6245
+      },
+      "calibration_target_counts": {
+        "gearbox_bearing_temperature__now": 1692,
+        "gearbox_oil_temperature__now": 1692,
+        "generator_bearing_temperature__now": 1692,
+        "hydraulic_oil_temperature__now": 1692
+      },
+      "train_end": "2023-01-20T02:00:00+00:00",
+      "calibration_start": "2023-01-21T08:00:00+00:00",
+      "calibration_end": "2023-04-03T02:00:00+00:00",
+      "prediction_hours": 296,
+      "features_sha256": "b4441a3dc49be239195f10e9463dd1aca8bf6d6e03026f1670eaeaf5c8c9e291"
+    }
+  ],
+  "protocol_sha256": "75e13b54568ca3eb18d8609eaeeea0d41a7b97e0ebdbaaa320cc0fb301553b0f",
+  "input_sha256": {
+    "raw/event_info.csv": "9254667b70d73e8eb23e7143ad56f1c280ba020c8b3d9289ad56fcaa59270aa5",
+    "raw/feature_description.csv": "8834c8481585d133fc37ea70033fbdb4c64e5cd1e5d7f7257ca97a1e229ee921",
+    "raw/datasets/0.csv": "f0a8365b2b60845b9ad78cf4deb167a2da500abef66199a55c381e8fff2bb26b",
+    "raw/datasets/3.csv": "af3e8a8b9907183edecb763f60b1a5a79bb437228cbaa158be0a6dde24e93910",
+    "raw/datasets/10.csv": "16a5bdaaf9afb5ce9b02e456c60e8ed7a6b6943c5e517d4866d7eedf31568914",
+    "raw/datasets/13.csv": "fb3c996efd634e0422d95876a28dc6c777470a07816cc5f5894a3d18ccc32dbd",
+    "raw/datasets/14.csv": "93bee35d6a6fa0b6d01961cd0980a53561184da36a80118b964750294be0f6ce",
+    "raw/datasets/17.csv": "54237f22c32ff0b5dcedb8d3eb5dc452424baad2cdc4d599ca3215605eab6c8f",
+    "raw/datasets/22.csv": "06b0745cc1b5ed3ec9bd0e34a81b1074bc23c4f76f854c8b395ea625237a76a3",
+    "raw/datasets/24.csv": "310c27badde12582045627ae22a29d79d642b58f1379e2676bd3f21f46ac697e",
+    "raw/datasets/25.csv": "f09afa3bfea796bb2bb52058830981554734a2a2b6085e3415f20d67b91defc6",
+    "raw/datasets/26.csv": "6bf52430a8102d198c9bea3986e4bf81a120f7e86c8acc859ca1b606a3f08d35",
+    "raw/datasets/38.csv": "085324d3dffe3fa12d37a2d95b71d439d8ba7085839dca644192b2b4ee360775",
+    "raw/datasets/40.csv": "59a051d79baac85548922248013e1136407514d8bd7a2f374670865e6a6cf2ef",
+    "raw/datasets/42.csv": "22af8df47d9d9844f15506980847ed27dca3b8148167073ee6e85e6faada5b4a",
+    "raw/datasets/45.csv": "cc51aeabe485286e2fee4df23f39caf77c19ce5fdc34f1e16b01097209f4aa1b",
+    "raw/datasets/51.csv": "cc4eaa53400424e1044f68379da070215d311d92f940b7050affbf2f289d0ebc",
+    "raw/datasets/68.csv": "ab1db0f9a261c525572e09067def2c2876b2002335ec9d5c9c268246573bbcc3",
+    "raw/datasets/69.csv": "fa66f3fc0e9af250cbc23b409a78b3d76e5b9a8526a0f138ee5efaf7b9508d9b",
+    "raw/datasets/71.csv": "540b1b258c234ef898b087af4626aa46a86f08dc539f30836c2417f95a83533e",
+    "raw/datasets/72.csv": "18964bc4ff606b77e7313427df81080d5651dfd6a9dd619be7657947ab42600f",
+    "raw/datasets/73.csv": "d6071fe582077dd0ee1900597548497e17344f61c2ab4a784ecdd57529881db0",
+    "raw/datasets/84.csv": "ac88e2141ec5c87c38bb3cee2c0fc084310b238f59464f1d9380cca0537c025a",
+    "raw/datasets/92.csv": "a979ae914688dd4f4f5f3e3abd0d3ea2d607343363bca39292ad8e2de1c0a01d",
+    "cache/coverage.json": "e67efdbcfe5f4dd5b1bb9871276d18207eded9b78bec16d2d021c4487c7d1304",
+    "cache/observation_lineage.parquet": "8cf3ba25bc2f25dff97bf55cdb37bd0bc6f282c50a873554b9be518f0e1c8bef"
+  },
+  "prior_label_data_sha256": "62258e17633f8c4d30e2f7187c0065a7da18c6faf647c72eaf213d080ff43693",
+  "feature_code_sha256": "f7d4f0b444ecf58ff04d6bffdb1017d10473e40bbf04b4996ee50b431c560831",
+  "evaluator_sha256": "c474129d066c0edc1c21258cde3b73864e1700390d4b528e80d21fa879d8bd71",
+  "canonical_faults": [
+    {
+      "id": "care-a-fault-0",
+      "source_event": 0,
+      "turbine_id": "0",
+      "failure_at": "2023-08-20T06:10:00+00:00",
+      "group_status": "single"
+    },
+    {
+      "id": "care-a-fault-10",
+      "source_event": 10,
+      "turbine_id": "10",
+      "failure_at": "2023-10-18T08:40:00+00:00",
+      "group_status": "single"
+    },
+    {
+      "id": "care-a-fault-22",
+      "source_event": 22,
+      "turbine_id": "21",
+      "failure_at": "2023-08-19T10:00:00+00:00",
+      "group_status": "single"
+    },
+    {
+      "id": "care-a-fault-26",
+      "source_event": 26,
+      "turbine_id": "0",
+      "failure_at": "2023-10-19T10:20:00+00:00",
+      "group_status": "single"
+    },
+    {
+      "id": "care-a-fault-40",
+      "source_event": 40,
+      "turbine_id": "10",
+      "failure_at": "2023-01-26T13:00:00+00:00",
+      "group_status": "single"
+    },
+    {
+      "id": "care-a-fault-42",
+      "source_event": 42,
+      "turbine_id": "10",
+      "failure_at": "2023-09-16T15:50:00+00:00",
+      "group_status": "single"
+    },
+    {
+      "id": "care-a-fault-45",
+      "source_event": 45,
+      "turbine_id": "13",
+      "failure_at": "2023-04-26T18:10:00+00:00",
+      "group_status": "single"
+    },
+    {
+      "id": "care-a-fault-51",
+      "source_event": 72,
+      "turbine_id": "21",
+      "failure_at": "2023-10-17T08:40:00+00:00",
+      "group_status": "conservative_merge"
+    },
+    {
+      "id": "care-a-fault-68",
+      "source_event": 68,
+      "turbine_id": "11",
+      "failure_at": "2023-08-11T13:10:00+00:00",
+      "group_status": "single"
+    },
+    {
+      "id": "care-a-fault-73",
+      "source_event": 73,
+      "turbine_id": "0",
+      "failure_at": "2023-06-17T11:40:00+00:00",
+      "group_status": "single"
+    },
+    {
+      "id": "care-a-fault-84",
+      "source_event": 84,
+      "turbine_id": "13",
+      "failure_at": "2023-09-12T15:30:00+00:00",
+      "group_status": "single"
+    }
+  ],
+  "physical_feature_config": {
+    "cadence_minutes": 10,
+    "measurement_delay_steps": 1,
+    "windows_hours": [
+      1,
+      6
+    ],
+    "required_history_hours": 6,
+    "sensors": {
+      "wind_speed": {
+        "column": "wind_speed_3_avg",
+        "measurement": "Wind speed",
+        "unit": "m/s"
+      },
+      "ambient_temperature": {
+        "column": "sensor_0_avg",
+        "measurement": "Ambient temperature",
+        "unit": "°C"
+      },
+      "grid_active_power": {
+        "column": "power_29_avg",
+        "measurement": "Possible grid active power",
+        "unit": "p.u."
+      },
+      "gearbox_bearing_temperature": {
+        "column": "sensor_11_avg",
+        "measurement": "Gearbox high-speed shaft bearing temperature",
+        "unit": "°C"
+      },
+      "gearbox_oil_temperature": {
+        "column": "sensor_12_avg",
+        "measurement": "Gearbox oil temperature",
+        "unit": "°C"
+      },
+      "generator_bearing_temperature": {
+        "column": "sensor_13_avg",
+        "measurement": "Generator drive-end bearing temperature",
+        "unit": "°C"
+      },
+      "generator_speed": {
+        "column": "sensor_18_avg",
+        "measurement": "Generator rotational speed",
+        "unit": "rpm"
+      },
+      "transformer_temperature": {
+        "column": "sensor_38_avg",
+        "measurement": "HV transformer phase L1 temperature",
+        "unit": "°C"
+      },
+      "hydraulic_oil_temperature": {
+        "column": "sensor_41_avg",
+        "measurement": "Hydraulic group oil temperature",
+        "unit": "°C"
+      },
+      "rotor_speed": {
+        "column": "sensor_52_avg",
+        "measurement": "Rotor rotational speed",
+        "unit": "rpm"
+      }
+    },
+    "operation": null
+  },
+  "raw_prefix_checks": [
+    {
+      "event": 0,
+      "timestamp": "2023-08-04T07:00:00+00:00"
+    },
+    {
+      "event": 0,
+      "timestamp": "2023-08-24T06:00:00+00:00"
+    },
+    {
+      "event": 3,
+      "timestamp": "2023-04-27T03:00:00+00:00"
+    },
+    {
+      "event": 3,
+      "timestamp": "2023-05-20T01:00:00+00:00"
+    },
+    {
+      "event": 10,
+      "timestamp": "2023-10-09T09:00:00+00:00"
+    },
+    {
+      "event": 10,
+      "timestamp": "2023-10-18T08:00:00+00:00"
+    },
+    {
+      "event": 13,
+      "timestamp": "2023-04-30T14:00:00+00:00"
+    },
+    {
+      "event": 13,
+      "timestamp": "2023-05-25T10:00:00+00:00"
+    },
+    {
+      "event": 14,
+      "timestamp": "2023-03-03T14:00:00+00:00"
+    },
+    {
+      "event": 14,
+      "timestamp": "2023-03-16T18:00:00+00:00"
+    },
+    {
+      "event": 17,
+      "timestamp": "2023-10-31T16:00:00+00:00"
+    },
+    {
+      "event": 17,
+      "timestamp": "2023-11-20T00:00:00+00:00"
+    },
+    {
+      "event": 22,
+      "timestamp": "2023-08-12T10:00:00+00:00"
+    },
+    {
+      "event": 22,
+      "timestamp": "2023-08-20T09:00:00+00:00"
+    },
+    {
+      "event": 24,
+      "timestamp": "2023-04-24T15:00:00+00:00"
+    },
+    {
+      "event": 24,
+      "timestamp": "2023-05-13T11:00:00+00:00"
+    },
+    {
+      "event": 25,
+      "timestamp": "2023-05-23T07:00:00+00:00"
+    },
+    {
+      "event": 25,
+      "timestamp": "2023-06-09T02:00:00+00:00"
+    },
+    {
+      "event": 26,
+      "timestamp": "2023-10-12T11:00:00+00:00"
+    },
+    {
+      "event": 26,
+      "timestamp": "2023-10-22T10:00:00+00:00"
+    },
+    {
+      "event": 38,
+      "timestamp": "2023-06-28T16:00:00+00:00"
+    },
+    {
+      "event": 38,
+      "timestamp": "2023-07-17T07:00:00+00:00"
+    },
+    {
+      "event": 40,
+      "timestamp": "2022-12-25T00:00:00+00:00"
+    },
+    {
+      "event": 40,
+      "timestamp": "2023-01-28T13:00:00+00:00"
+    },
+    {
+      "event": 42,
+      "timestamp": "2023-09-09T16:00:00+00:00"
+    },
+    {
+      "event": 42,
+      "timestamp": "2023-09-20T15:00:00+00:00"
+    },
+    {
+      "event": 45,
+      "timestamp": "2023-04-16T19:00:00+00:00"
+    },
+    {
+      "event": 45,
+      "timestamp": "2023-04-26T18:00:00+00:00"
+    },
+    {
+      "event": 51,
+      "timestamp": "2023-10-04T02:00:00+00:00"
+    },
+    {
+      "event": 51,
+      "timestamp": "2023-10-20T16:00:00+00:00"
+    },
+    {
+      "event": 68,
+      "timestamp": "2023-07-28T14:00:00+00:00"
+    },
+    {
+      "event": 68,
+      "timestamp": "2023-08-13T13:00:00+00:00"
+    },
+    {
+      "event": 69,
+      "timestamp": "2023-09-03T01:00:00+00:00"
+    },
+    {
+      "event": 69,
+      "timestamp": "2023-09-21T00:00:00+00:00"
+    },
+    {
+      "event": 71,
+      "timestamp": "2023-01-01T00:00:00+00:00"
+    },
+    {
+      "event": 71,
+      "timestamp": "2023-01-18T00:00:00+00:00"
+    },
+    {
+      "event": 72,
+      "timestamp": "2023-10-07T09:00:00+00:00"
+    },
+    {
+      "event": 72,
+      "timestamp": "2023-10-21T08:00:00+00:00"
+    },
+    {
+      "event": 73,
+      "timestamp": "2023-06-07T12:00:00+00:00"
+    },
+    {
+      "event": 73,
+      "timestamp": "2023-06-19T11:00:00+00:00"
+    },
+    {
+      "event": 84,
+      "timestamp": "2023-09-03T16:00:00+00:00"
+    },
+    {
+      "event": 84,
+      "timestamp": "2023-09-13T15:00:00+00:00"
+    },
+    {
+      "event": 92,
+      "timestamp": "2023-04-04T03:00:00+00:00"
+    },
+    {
+      "event": 92,
+      "timestamp": "2023-04-16T10:00:00+00:00"
+    }
+  ],
+  "total_hourly_rows": 199437,
+  "no_cross_source_training": true,
+  "normal_status_retrospectively_available_assumed": true
+}

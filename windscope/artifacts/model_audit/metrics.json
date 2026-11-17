@@ -1,0 +1,258 @@
+{
+  "status": "passed",
+  "scope": "no retraining; unchanged thresholds; held-out asset 21; one historical pass",
+  "model_id": "care-h7-logistic-20261116",
+  "threshold": 0.9999999614086562,
+  "forecast_horizon_hours": 168,
+  "source_events": [
+    {
+      "event": 13,
+      "asset": "21",
+      "source_sha256": "fb3c996efd634e0422d95876a28dc6c777470a07816cc5f5894a3d18ccc32dbd",
+      "source_label": "normal",
+      "description": null,
+      "annotation_start": "2023-05-03 13:20:00",
+      "annotation_end": "2023-05-24 10:20:00",
+      "prediction_measurements": 3583,
+      "scheduled_hours": 597,
+      "successful_hours": 597,
+      "unavailable_hours": 0,
+      "readiness_percent": 100.0,
+      "warning_points": 0,
+      "full_warning_episodes": 0,
+      "score_min": 1.1444633566306787e-05,
+      "score_max": 0.9999986272146393,
+      "first_valid_forecast": "2023-04-30 14:00:00"
+    },
+    {
+      "event": 22,
+      "asset": "21",
+      "source_sha256": "06b0745cc1b5ed3ec9bd0e34a81b1074bc23c4f76f854c8b395ea625237a76a3",
+      "source_label": "anomaly",
+      "description": "Hydraulic group",
+      "annotation_start": "2023-08-12 09:50:00",
+      "annotation_end": "2023-08-19 10:00:00",
+      "prediction_measurements": 1148,
+      "scheduled_hours": 191,
+      "successful_hours": 143,
+      "unavailable_hours": 48,
+      "readiness_percent": 74.86910994764398,
+      "warning_points": 54,
+      "full_warning_episodes": 1,
+      "score_min": 0.9947582931357493,
+      "score_max": 0.9999999998911957,
+      "first_valid_forecast": "2023-08-12 10:00:00",
+      "first_h7_warning": "2023-08-12 10:00:00",
+      "last_h7_warning": "2023-08-14 15:00:00",
+      "first_lead_hours": 168.0,
+      "last_lead_hours": 115.0,
+      "last_hours": {
+        "6": {
+          "scheduled": 6,
+          "available": 6,
+          "warning": 0
+        },
+        "24": {
+          "scheduled": 24,
+          "available": 21,
+          "warning": 0
+        },
+        "48": {
+          "scheduled": 47,
+          "available": 23,
+          "warning": 0
+        },
+        "168": {
+          "scheduled": 167,
+          "available": 143,
+          "warning": 54
+        }
+      }
+    },
+    {
+      "event": 72,
+      "asset": "21",
+      "source_sha256": "18964bc4ff606b77e7313427df81080d5651dfd6a9dd619be7657947ab42600f",
+      "source_label": "anomaly",
+      "description": "Gearbox failure",
+      "annotation_start": "2023-10-10 08:40:00",
+      "annotation_end": "2023-10-17 08:40:00",
+      "prediction_measurements": 2017,
+      "scheduled_hours": 336,
+      "successful_hours": 336,
+      "unavailable_hours": 0,
+      "readiness_percent": 100.0,
+      "warning_points": 0,
+      "full_warning_episodes": 0,
+      "score_min": 0.9352532579477223,
+      "score_max": 0.9999998092585056,
+      "first_valid_forecast": "2023-10-07 09:00:00",
+      "first_h7_warning": null,
+      "last_h7_warning": null,
+      "first_lead_hours": null,
+      "last_lead_hours": null,
+      "last_hours": {
+        "6": {
+          "scheduled": 6,
+          "available": 6,
+          "warning": 0
+        },
+        "24": {
+          "scheduled": 24,
+          "available": 24,
+          "warning": 0
+        },
+        "48": {
+          "scheduled": 48,
+          "available": 48,
+          "warning": 0
+        },
+        "168": {
+          "scheduled": 168,
+          "available": 168,
+          "warning": 0
+        }
+      }
+    }
+  ],
+  "archive_rows_reproduced": 644,
+  "max_archive_score_error": 2.220446049250313e-16,
+  "sequential_raw_checks": 9,
+  "max_sequential_score_error": 1.0842021724855044e-18,
+  "held_out_metrics": {
+    "rows": 644,
+    "tn": 333,
+    "fp": 0,
+    "fn": 257,
+    "tp": 54,
+    "point_recall": 0.17363344051446947,
+    "point_precision": 1.0,
+    "average_precision": 0.9066614704963285,
+    "roc_auc": 0.9135888299875439,
+    "detected_events": 1,
+    "eligible_events": 2,
+    "warning_episodes": 1,
+    "false_warning_episodes": 0,
+    "known_negative_hours": 333,
+    "events": [
+      {
+        "episode": "care-a-fault-22",
+        "failure_at": "2023-08-19 10:00:00",
+        "detected": true,
+        "first_warning": "2023-08-12 10:00:00",
+        "lead_hours": 168.0
+      },
+      {
+        "episode": "care-a-fault-51",
+        "failure_at": "2023-10-17 08:40:00",
+        "detected": false,
+        "first_warning": null,
+        "lead_hours": null
+      }
+    ]
+  },
+  "trivial_baselines": {
+    "never_warn": {
+      "rows": 644,
+      "tn": 333,
+      "fp": 0,
+      "fn": 311,
+      "tp": 0,
+      "point_recall": 0.0,
+      "point_precision": null,
+      "average_precision": 0.4829192546583851,
+      "roc_auc": 0.5,
+      "detected_events": 0,
+      "eligible_events": 2,
+      "warning_episodes": 0,
+      "false_warning_episodes": 0,
+      "known_negative_hours": 333,
+      "events": [
+        {
+          "episode": "care-a-fault-22",
+          "failure_at": "2023-08-19 10:00:00",
+          "detected": false,
+          "first_warning": null,
+          "lead_hours": null
+        },
+        {
+          "episode": "care-a-fault-51",
+          "failure_at": "2023-10-17 08:40:00",
+          "detected": false,
+          "first_warning": null,
+          "lead_hours": null
+        }
+      ]
+    },
+    "always_warn": {
+      "rows": 644,
+      "tn": 0,
+      "fp": 333,
+      "fn": 0,
+      "tp": 311,
+      "point_recall": 1.0,
+      "point_precision": 0.4829192546583851,
+      "average_precision": 0.4829192546583851,
+      "roc_auc": 0.5,
+      "detected_events": 2,
+      "eligible_events": 2,
+      "warning_episodes": 4,
+      "false_warning_episodes": 1,
+      "known_negative_hours": 333,
+      "events": [
+        {
+          "episode": "care-a-fault-22",
+          "failure_at": "2023-08-19 10:00:00",
+          "detected": true,
+          "first_warning": "2023-08-12 10:00:00",
+          "lead_hours": 168.0
+        },
+        {
+          "episode": "care-a-fault-51",
+          "failure_at": "2023-10-17 08:40:00",
+          "detected": true,
+          "first_warning": "2023-10-10 09:00:00",
+          "lead_hours": 167.66666666666666
+        }
+      ]
+    }
+  },
+  "lightgbm_archived_metrics": {
+    "rows": 644,
+    "tn": 333,
+    "fp": 0,
+    "fn": 311,
+    "tp": 0,
+    "point_recall": 0.0,
+    "point_precision": null,
+    "average_precision": 0.7404761904761905,
+    "roc_auc": 0.8363363363363363,
+    "detected_events": 0,
+    "eligible_events": 2,
+    "warning_episodes": 0,
+    "false_warning_episodes": 0,
+    "known_negative_hours": 333,
+    "events": [
+      {
+        "episode": "care-a-fault-22",
+        "failure_at": "2023-08-19 10:00:00",
+        "detected": false,
+        "first_warning": null,
+        "lead_hours": null
+      },
+      {
+        "episode": "care-a-fault-51",
+        "failure_at": "2023-10-17 08:40:00",
+        "detected": false,
+        "first_warning": null,
+        "lead_hours": null
+      }
+    ]
+  },
+  "lightgbm_threshold": 1.0000000000000002,
+  "future_sensor_forecasting_implemented": false,
+  "calibrated_failure_probability": false,
+  "independent_test_turbines": 1,
+  "independent_test_episodes": 2,
+  "source_and_label_integrity_verified": true
+}

@@ -1,0 +1,15 @@
+**
+!Dockerfile.baseline
+!requirements-baseline.txt
+!requirements-baseline.lock.txt
+!.wheelhouse/
+!.wheelhouse/*.whl
+!backend/
+!backend/**
+!baseline/
+!baseline/**
+!forecast/
+!forecast/**
+!project/
+!project/scada_pdm/
+!project/scada_pdm/**

@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "source_models_verified": 22,
+  "native_regressors_verified": 88,
+  "prediction_scores_reproduced": 8238,
+  "max_absolute_error": 8.881784197001252e-16,
+  "training_rows_checked": 130611,
+  "calibration_rows_checked": 31239,
+  "raw_feature_prefix_checks": 44,
+  "model_test_prefix_checks": 44,
+  "only_same_source_past_used": true,
+  "prediction_partition_used_for_fitting": false,
+  "threshold_uses_fault_labels": false,
+  "fitting_performed": false
+}

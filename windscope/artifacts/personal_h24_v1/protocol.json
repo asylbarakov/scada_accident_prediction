@@ -1,0 +1,72 @@
+{
+  "experiment_id": "care-personal-normal-h24-v1",
+  "scope": "one personal normal-behaviour bundle per source timeline; retrospective historical evaluation on previously examined CARE Farm A, not fresh external validation",
+  "data_policy": "never merge different source-file clocks; each model uses only its own asset and same-file prefix train partition",
+  "temporal_training_fraction": 0.8,
+  "normal_status": 0,
+  "normal_past_hours": 6,
+  "normal_followup_hours": 24,
+  "train_embargo_hours": 24,
+  "calibration_context_embargo_hours": 6,
+  "minimum_training_normal_hours": 720,
+  "minimum_calibration_normal_hours": 168,
+  "normal_policy": "status 0 plus observed required channels continuously over [t-6h,t+24h], entirely in historical train partition; train normal future ends by temporal boundary, calibration normal future ends before prediction partition",
+  "normal_information_assumption": "retrospective historical status labels are available before deployment; annotation creation time is not provided and this cannot be proven for prospective use",
+  "cadence_minutes": 10,
+  "decision_minutes": 60,
+  "measurement_delay_steps": 1,
+  "feature_windows_hours": [
+    1,
+    6
+  ],
+  "required_history_hours": 6,
+  "regime_features": [
+    "wind_speed__now",
+    "ambient_temperature__now",
+    "grid_active_power__now",
+    "generator_speed__now",
+    "rotor_speed__now",
+    "wind_speed__1h_mean",
+    "wind_speed__6h_mean",
+    "grid_active_power__1h_mean",
+    "grid_active_power__6h_mean",
+    "ambient_temperature__1h_mean",
+    "ambient_temperature__6h_mean"
+  ],
+  "required_current_inputs": [
+    "wind_speed__now",
+    "ambient_temperature__now",
+    "grid_active_power__now"
+  ],
+  "targets": [
+    "gearbox_bearing_temperature__now",
+    "gearbox_oil_temperature__now",
+    "generator_bearing_temperature__now",
+    "hydraulic_oil_temperature__now"
+  ],
+  "minimum_target_count": 2,
+  "regressor": {
+    "n_estimators": 120,
+    "max_depth": 3,
+    "learning_rate": 0.05,
+    "min_child_weight": 10,
+    "subsample": 1.0,
+    "colsample_bytree": 1.0,
+    "reg_lambda": 1.0,
+    "objective": "reg:squarederror",
+    "tree_method": "hist",
+    "random_state": 42,
+    "n_jobs": 2
+  },
+  "residual_calibration": "historical calibration normal rows only; per-channel median bias and max(q95-median,1 Celsius) scale, no refitting regressors on calibration",
+  "score": "max positive normalized temperature residual, causal trailing mean of 3 consecutive available hourly points, reset on gaps; no failure labels used in score",
+  "score_smoothing_hours": 3,
+  "threshold_policy": "only historical calibration certified-normal scores; smallest observed threshold satisfying both normal duration and episode budgets, or nextafter(max,+inf) if necessary; no target-failure labels or prediction-partition values in selection",
+  "false_alarm_budget_per_720_normal_hours": 2.0,
+  "max_normal_warning_fraction": 0.05,
+  "failure_horizon_under_evaluation_hours": 24,
+  "event_success": "new observed below-to-above crossing in [failure-24h,failure); count left-censored high starts separately and report any-warning window coverage separately",
+  "episode_denominator": "all 11 canonical faults including unavailable source models",
+  "model_selection": "one fixed personal specification, no tuning from prediction outcomes",
+  "production_integration": false
+}

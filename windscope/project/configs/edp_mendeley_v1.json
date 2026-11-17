@@ -1,0 +1,23 @@
+{
+  "extends": "edp.json",
+  "dataset_id": "edp-2016-2017-with-mendeley-zjxjnjp3xs-v1-log",
+  "signals": [
+    {
+      "path": "data/edp/mendeley_v1/signals_2016.xlsx",
+      "year": 2016,
+      "source": "https://edp.com/en/innovation/data/wind-farm-1-wind-turbine-scada-signals-2016"
+    },
+    {
+      "path": "data/edp/mendeley_v1/signals_2017.xlsx",
+      "year": 2017,
+      "source": "https://edp.com/en/innovation/data/wind-farm-1-wind-turbine-scada-signals-2017"
+    }
+  ],
+  "failure_logs": [
+    {
+      "path": "sources/edp_mendeley_v1_failures.csv",
+      "source": "https://data.mendeley.com/datasets/zjxjnjp3xs/1",
+      "representation": "Transcription of the two public Version 1 failure-log PNGs"
+    }
+  ]
+}

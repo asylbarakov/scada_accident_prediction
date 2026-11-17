@@ -1,0 +1,18 @@
+[
+  {
+    "event": 0,
+    "quality_evaluation": false,
+    "first_prediction_measurement": "2023-08-04 06:10:00",
+    "first_ready_hour": "2023-08-04 09:00:00",
+    "scheduled_hours": 471,
+    "not_ready_hours": 62
+  },
+  {
+    "event": 25,
+    "quality_evaluation": false,
+    "first_prediction_measurement": "2023-05-23 06:50:00",
+    "first_ready_hour": "2023-05-23 07:00:00",
+    "scheduled_hours": 404,
+    "not_ready_hours": 0
+  }
+]

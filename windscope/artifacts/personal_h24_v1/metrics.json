@@ -1,0 +1,2026 @@
+{
+  "experiment_id": "care-personal-normal-h24-v1",
+  "scope": "one personal normal-behaviour bundle per source timeline; retrospective historical evaluation on previously examined CARE Farm A, not fresh external validation",
+  "protocol_sha256": "75e13b54568ca3eb18d8609eaeeea0d41a7b97e0ebdbaaa320cc0fb301553b0f",
+  "sources": [
+    {
+      "event": 0,
+      "asset": "0",
+      "trained": true,
+      "threshold": 1.9867833650088809,
+      "historical_calibration": {
+        "normal_hours": 1136,
+        "normal_warning_hours": 6,
+        "normal_warning_fraction": 0.00528169014084507,
+        "false_alarm_episodes": 3,
+        "false_alarms_per_720_normal_hours": 1.9014084507042253
+      },
+      "residual_calibration": {
+        "gearbox_bearing_temperature__now": {
+          "center_celsius": 0.24671363830566406,
+          "scale_celsius": 2.3706396102905267,
+          "train_rows": 6246,
+          "calibration_rows": 1140
+        },
+        "gearbox_oil_temperature__now": {
+          "center_celsius": 0.3394145965576172,
+          "scale_celsius": 2.4467126846313465,
+          "train_rows": 6246,
+          "calibration_rows": 1140
+        },
+        "generator_bearing_temperature__now": {
+          "center_celsius": 1.0905895233154297,
+          "scale_celsius": 9.387319183349607,
+          "train_rows": 6246,
+          "calibration_rows": 1140
+        },
+        "hydraulic_oil_temperature__now": {
+          "center_celsius": 0.1618213653564453,
+          "scale_celsius": 8.355241775512695,
+          "train_rows": 6246,
+          "calibration_rows": 1140
+        }
+      },
+      "test": {
+        "scheduled_hours": 471,
+        "available_hours": 447,
+        "unavailable_hours": 24,
+        "availability": 0.9490445859872612,
+        "known_scored_hours": 24,
+        "tp": 0,
+        "fn": 24,
+        "fp": 0,
+        "tn": 0,
+        "point_precision": null,
+        "point_recall": 0.0,
+        "known_normal_hours": 0,
+        "normal_warning_hours": 0,
+        "normal_warning_fraction": null,
+        "false_alarm_episodes": 0,
+        "false_alarms_per_720_normal_hours": null,
+        "unknown_warning_hours": 0,
+        "left_censored_alarm_starts": 0,
+        "observed_onsets": 0,
+        "window_hit_events": 0,
+        "onset_hit_events": 0,
+        "total_events": 1,
+        "onset_event_recall": 0.0,
+        "window_event_recall": 0.0,
+        "average_precision": null,
+        "roc_auc": null,
+        "events": [
+          {
+            "id": "care-a-fault-0",
+            "source_event": 0,
+            "turbine_id": "0",
+            "failure_at": "2023-08-20T06:10:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 24,
+            "window_hit": false,
+            "onset_hit": false,
+            "first_target_warning": null,
+            "first_observed_onset": null,
+            "first_onset_lead_hours": null,
+            "first_source_warning": null,
+            "first_source_warning_lead_hours": null
+          }
+        ]
+      }
+    },
+    {
+      "event": 3,
+      "asset": "10",
+      "trained": true,
+      "threshold": 3.1665234112422453,
+      "historical_calibration": {
+        "normal_hours": 1689,
+        "normal_warning_hours": 4,
+        "normal_warning_fraction": 0.002368265245707519,
+        "false_alarm_episodes": 4,
+        "false_alarms_per_720_normal_hours": 1.7051509769094138
+      },
+      "residual_calibration": {
+        "gearbox_bearing_temperature__now": {
+          "center_celsius": 0.06008148193359375,
+          "scale_celsius": 2.769378662109375,
+          "train_rows": 4694,
+          "calibration_rows": 1691
+        },
+        "gearbox_oil_temperature__now": {
+          "center_celsius": 0.13108444213867188,
+          "scale_celsius": 3.4560699462890625,
+          "train_rows": 4694,
+          "calibration_rows": 1691
+        },
+        "generator_bearing_temperature__now": {
+          "center_celsius": -2.7810935974121094,
+          "scale_celsius": 5.0385894775390625,
+          "train_rows": 4694,
+          "calibration_rows": 1691
+        },
+        "hydraulic_oil_temperature__now": {
+          "center_celsius": -0.4782600402832031,
+          "scale_celsius": 5.052799224853516,
+          "train_rows": 4694,
+          "calibration_rows": 1691
+        }
+      },
+      "test": {
+        "scheduled_hours": 551,
+        "available_hours": 551,
+        "unavailable_hours": 0,
+        "availability": 1.0,
+        "known_scored_hours": 479,
+        "tp": 0,
+        "fn": 0,
+        "fp": 1,
+        "tn": 478,
+        "point_precision": 0.0,
+        "point_recall": null,
+        "known_normal_hours": 479,
+        "normal_warning_hours": 1,
+        "normal_warning_fraction": 0.0020876826722338203,
+        "false_alarm_episodes": 1,
+        "false_alarms_per_720_normal_hours": 1.5031315240083507,
+        "unknown_warning_hours": 0,
+        "left_censored_alarm_starts": 0,
+        "observed_onsets": 1,
+        "window_hit_events": 0,
+        "onset_hit_events": 0,
+        "total_events": 0,
+        "onset_event_recall": 0.0,
+        "window_event_recall": 0.0,
+        "average_precision": null,
+        "roc_auc": null,
+        "events": []
+      }
+    },
+    {
+      "event": 10,
+      "asset": "10",
+      "trained": true,
+      "threshold": 1.6883203695902826,
+      "historical_calibration": {
+        "normal_hours": 1133,
+        "normal_warning_hours": 4,
+        "normal_warning_fraction": 0.00353045013239188,
+        "false_alarm_episodes": 3,
+        "false_alarms_per_720_normal_hours": 1.9064430714916152
+      },
+      "residual_calibration": {
+        "gearbox_bearing_temperature__now": {
+          "center_celsius": 0.33507537841796875,
+          "scale_celsius": 2.3842178344726555,
+          "train_rows": 6036,
+          "calibration_rows": 1135
+        },
+        "gearbox_oil_temperature__now": {
+          "center_celsius": 0.307708740234375,
+          "scale_celsius": 2.349617767333984,
+          "train_rows": 6036,
+          "calibration_rows": 1135
+        },
+        "generator_bearing_temperature__now": {
+          "center_celsius": -0.06470489501953125,
+          "scale_celsius": 2.8933010101318355,
+          "train_rows": 6036,
+          "calibration_rows": 1135
+        },
+        "hydraulic_oil_temperature__now": {
+          "center_celsius": 0.9332084655761719,
+          "scale_celsius": 2.4038314819335938,
+          "train_rows": 6036,
+          "calibration_rows": 1135
+        }
+      },
+      "test": {
+        "scheduled_hours": 211,
+        "available_hours": 203,
+        "unavailable_hours": 8,
+        "availability": 0.9620853080568721,
+        "known_scored_hours": 24,
+        "tp": 0,
+        "fn": 24,
+        "fp": 0,
+        "tn": 0,
+        "point_precision": null,
+        "point_recall": 0.0,
+        "known_normal_hours": 0,
+        "normal_warning_hours": 0,
+        "normal_warning_fraction": null,
+        "false_alarm_episodes": 0,
+        "false_alarms_per_720_normal_hours": null,
+        "unknown_warning_hours": 13,
+        "left_censored_alarm_starts": 0,
+        "observed_onsets": 4,
+        "window_hit_events": 0,
+        "onset_hit_events": 0,
+        "total_events": 1,
+        "onset_event_recall": 0.0,
+        "window_event_recall": 0.0,
+        "average_precision": null,
+        "roc_auc": null,
+        "events": [
+          {
+            "id": "care-a-fault-10",
+            "source_event": 10,
+            "turbine_id": "10",
+            "failure_at": "2023-10-18T08:40:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 24,
+            "window_hit": false,
+            "onset_hit": false,
+            "first_target_warning": null,
+            "first_observed_onset": null,
+            "first_onset_lead_hours": null,
+            "first_source_warning": "2023-10-10T09:00:00+00:00",
+            "first_source_warning_lead_hours": 191.66666666666666
+          }
+        ]
+      }
+    },
+    {
+      "event": 13,
+      "asset": "21",
+      "trained": true,
+      "threshold": 2.982190583342236,
+      "historical_calibration": {
+        "normal_hours": 1658,
+        "normal_warning_hours": 19,
+        "normal_warning_fraction": 0.011459589867310011,
+        "false_alarm_episodes": 4,
+        "false_alarms_per_720_normal_hours": 1.7370325693606754
+      },
+      "residual_calibration": {
+        "gearbox_bearing_temperature__now": {
+          "center_celsius": 0.12411689758300781,
+          "scale_celsius": 2.1864795684814453,
+          "train_rows": 4715,
+          "calibration_rows": 1662
+        },
+        "gearbox_oil_temperature__now": {
+          "center_celsius": 0.09861373901367188,
+          "scale_celsius": 2.9737926483154262,
+          "train_rows": 4715,
+          "calibration_rows": 1662
+        },
+        "generator_bearing_temperature__now": {
+          "center_celsius": 0.00823974609375,
+          "scale_celsius": 5.574081420898427,
+          "train_rows": 4715,
+          "calibration_rows": 1662
+        },
+        "hydraulic_oil_temperature__now": {
+          "center_celsius": 0.1631917953491211,
+          "scale_celsius": 3.8988695144653303,
+          "train_rows": 4715,
+          "calibration_rows": 1662
+        }
+      },
+      "test": {
+        "scheduled_hours": 597,
+        "available_hours": 597,
+        "unavailable_hours": 0,
+        "availability": 1.0,
+        "known_scored_hours": 477,
+        "tp": 0,
+        "fn": 0,
+        "fp": 7,
+        "tn": 470,
+        "point_precision": 0.0,
+        "point_recall": null,
+        "known_normal_hours": 477,
+        "normal_warning_hours": 7,
+        "normal_warning_fraction": 0.014675052410901468,
+        "false_alarm_episodes": 1,
+        "false_alarms_per_720_normal_hours": 1.509433962264151,
+        "unknown_warning_hours": 0,
+        "left_censored_alarm_starts": 0,
+        "observed_onsets": 1,
+        "window_hit_events": 0,
+        "onset_hit_events": 0,
+        "total_events": 0,
+        "onset_event_recall": 0.0,
+        "window_event_recall": 0.0,
+        "average_precision": null,
+        "roc_auc": null,
+        "events": []
+      }
+    },
+    {
+      "event": 14,
+      "asset": "13",
+      "trained": true,
+      "threshold": 2.4118278359651053,
+      "historical_calibration": {
+        "normal_hours": 1690,
+        "normal_warning_hours": 8,
+        "normal_warning_fraction": 0.004733727810650888,
+        "false_alarm_episodes": 4,
+        "false_alarms_per_720_normal_hours": 1.7041420118343196
+      },
+      "residual_calibration": {
+        "gearbox_bearing_temperature__now": {
+          "center_celsius": -0.4053764343261719,
+          "scale_celsius": 2.4063758850097656,
+          "train_rows": 6171,
+          "calibration_rows": 1692
+        },
+        "gearbox_oil_temperature__now": {
+          "center_celsius": -0.5344905853271484,
+          "scale_celsius": 3.959501266479492,
+          "train_rows": 6171,
+          "calibration_rows": 1692
+        },
+        "generator_bearing_temperature__now": {
+          "center_celsius": -0.1889638900756836,
+          "scale_celsius": 9.692257308959958,
+          "train_rows": 6171,
+          "calibration_rows": 1692
+        },
+        "hydraulic_oil_temperature__now": {
+          "center_celsius": -0.4144773483276367,
+          "scale_celsius": 3.107490921020503,
+          "train_rows": 6171,
+          "calibration_rows": 1692
+        }
+      },
+      "test": {
+        "scheduled_hours": 317,
+        "available_hours": 317,
+        "unavailable_hours": 0,
+        "availability": 1.0,
+        "known_scored_hours": 149,
+        "tp": 0,
+        "fn": 0,
+        "fp": 0,
+        "tn": 149,
+        "point_precision": null,
+        "point_recall": null,
+        "known_normal_hours": 149,
+        "normal_warning_hours": 0,
+        "normal_warning_fraction": 0.0,
+        "false_alarm_episodes": 0,
+        "false_alarms_per_720_normal_hours": 0.0,
+        "unknown_warning_hours": 0,
+        "left_censored_alarm_starts": 0,
+        "observed_onsets": 0,
+        "window_hit_events": 0,
+        "onset_hit_events": 0,
+        "total_events": 0,
+        "onset_event_recall": 0.0,
+        "window_event_recall": 0.0,
+        "average_precision": null,
+        "roc_auc": null,
+        "events": []
+      }
+    },
+    {
+      "event": 17,
+      "asset": "10",
+      "trained": true,
+      "threshold": 1.6159653274107024,
+      "historical_calibration": {
+        "normal_hours": 847,
+        "normal_warning_hours": 4,
+        "normal_warning_fraction": 0.004722550177095631,
+        "false_alarm_episodes": 2,
+        "false_alarms_per_720_normal_hours": 1.7001180637544273
+      },
+      "residual_calibration": {
+        "gearbox_bearing_temperature__now": {
+          "center_celsius": 0.22292327880859375,
+          "scale_celsius": 2.1051551818847622,
+          "train_rows": 6271,
+          "calibration_rows": 847
+        },
+        "gearbox_oil_temperature__now": {
+          "center_celsius": 0.27392578125,
+          "scale_celsius": 2.367341995239257,
+          "train_rows": 6271,
+          "calibration_rows": 847
+        },
+        "generator_bearing_temperature__now": {
+          "center_celsius": -0.19954681396484375,
+          "scale_celsius": 3.101998901367185,
+          "train_rows": 6271,
+          "calibration_rows": 847
+        },
+        "hydraulic_oil_temperature__now": {
+          "center_celsius": 0.7189903259277344,
+          "scale_celsius": 2.2824909210205075,
+          "train_rows": 6271,
+          "calibration_rows": 847
+        }
+      },
+      "test": {
+        "scheduled_hours": 462,
+        "available_hours": 446,
+        "unavailable_hours": 16,
+        "availability": 0.9653679653679653,
+        "known_scored_hours": 230,
+        "tp": 0,
+        "fn": 0,
+        "fp": 46,
+        "tn": 184,
+        "point_precision": 0.0,
+        "point_recall": null,
+        "known_normal_hours": 230,
+        "normal_warning_hours": 46,
+        "normal_warning_fraction": 0.2,
+        "false_alarm_episodes": 10,
+        "false_alarms_per_720_normal_hours": 31.304347826086957,
+        "unknown_warning_hours": 38,
+        "left_censored_alarm_starts": 0,
+        "observed_onsets": 16,
+        "window_hit_events": 0,
+        "onset_hit_events": 0,
+        "total_events": 0,
+        "onset_event_recall": 0.0,
+        "window_event_recall": 0.0,
+        "average_precision": null,
+        "roc_auc": null,
+        "events": []
+      }
+    },
+    {
+      "event": 22,
+      "asset": "21",
+      "trained": true,
+      "threshold": 7.481929720569191,
+      "historical_calibration": {
+        "normal_hours": 1452,
+        "normal_warning_hours": 4,
+        "normal_warning_fraction": 0.0027548209366391185,
+        "false_alarm_episodes": 4,
+        "false_alarms_per_720_normal_hours": 1.9834710743801653
+      },
+      "residual_calibration": {
+        "gearbox_bearing_temperature__now": {
+          "center_celsius": 0.3807697296142578,
+          "scale_celsius": 3.1142349243164062,
+          "train_rows": 5467,
+          "calibration_rows": 1456
+        },
+        "gearbox_oil_temperature__now": {
+          "center_celsius": 0.5205001831054688,
+          "scale_celsius": 3.323366165161133,
+          "train_rows": 5467,
+          "calibration_rows": 1456
+        },
+        "generator_bearing_temperature__now": {
+          "center_celsius": 1.1695289611816406,
+          "scale_celsius": 10.554306030273438,
+          "train_rows": 5467,
+          "calibration_rows": 1456
+        },
+        "hydraulic_oil_temperature__now": {
+          "center_celsius": 0.5864429473876953,
+          "scale_celsius": 3.86838436126709,
+          "train_rows": 5467,
+          "calibration_rows": 1456
+        }
+      },
+      "test": {
+        "scheduled_hours": 191,
+        "available_hours": 175,
+        "unavailable_hours": 16,
+        "availability": 0.9162303664921466,
+        "known_scored_hours": 24,
+        "tp": 0,
+        "fn": 24,
+        "fp": 0,
+        "tn": 0,
+        "point_precision": null,
+        "point_recall": 0.0,
+        "known_normal_hours": 0,
+        "normal_warning_hours": 0,
+        "normal_warning_fraction": null,
+        "false_alarm_episodes": 0,
+        "false_alarms_per_720_normal_hours": null,
+        "unknown_warning_hours": 0,
+        "left_censored_alarm_starts": 0,
+        "observed_onsets": 0,
+        "window_hit_events": 0,
+        "onset_hit_events": 0,
+        "total_events": 1,
+        "onset_event_recall": 0.0,
+        "window_event_recall": 0.0,
+        "average_precision": null,
+        "roc_auc": null,
+        "events": [
+          {
+            "id": "care-a-fault-22",
+            "source_event": 22,
+            "turbine_id": "21",
+            "failure_at": "2023-08-19T10:00:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 24,
+            "window_hit": false,
+            "onset_hit": false,
+            "first_target_warning": null,
+            "first_observed_onset": null,
+            "first_onset_lead_hours": null,
+            "first_source_warning": null,
+            "first_source_warning_lead_hours": null
+          }
+        ]
+      }
+    },
+    {
+      "event": 24,
+      "asset": "0",
+      "trained": true,
+      "threshold": 2.8947151064959677,
+      "historical_calibration": {
+        "normal_hours": 1689,
+        "normal_warning_hours": 8,
+        "normal_warning_fraction": 0.004736530491415038,
+        "false_alarm_episodes": 4,
+        "false_alarms_per_720_normal_hours": 1.7051509769094138
+      },
+      "residual_calibration": {
+        "gearbox_bearing_temperature__now": {
+          "center_celsius": -0.08460235595703125,
+          "scale_celsius": 2.4741592407226562,
+          "train_rows": 5591,
+          "calibration_rows": 1691
+        },
+        "gearbox_oil_temperature__now": {
+          "center_celsius": 0.0120849609375,
+          "scale_celsius": 3.0750560760498047,
+          "train_rows": 5591,
+          "calibration_rows": 1691
+        },
+        "generator_bearing_temperature__now": {
+          "center_celsius": -1.0552711486816406,
+          "scale_celsius": 9.982318878173828,
+          "train_rows": 5591,
+          "calibration_rows": 1691
+        },
+        "hydraulic_oil_temperature__now": {
+          "center_celsius": -0.03020477294921875,
+          "scale_celsius": 5.637697219848633,
+          "train_rows": 5591,
+          "calibration_rows": 1691
+        }
+      },
+      "test": {
+        "scheduled_hours": 453,
+        "available_hours": 445,
+        "unavailable_hours": 8,
+        "availability": 0.9823399558498896,
+        "known_scored_hours": 303,
+        "tp": 0,
+        "fn": 0,
+        "fp": 0,
+        "tn": 303,
+        "point_precision": null,
+        "point_recall": null,
+        "known_normal_hours": 303,
+        "normal_warning_hours": 0,
+        "normal_warning_fraction": 0.0,
+        "false_alarm_episodes": 0,
+        "false_alarms_per_720_normal_hours": 0.0,
+        "unknown_warning_hours": 0,
+        "left_censored_alarm_starts": 0,
+        "observed_onsets": 0,
+        "window_hit_events": 0,
+        "onset_hit_events": 0,
+        "total_events": 0,
+        "onset_event_recall": 0.0,
+        "window_event_recall": 0.0,
+        "average_precision": null,
+        "roc_auc": null,
+        "events": []
+      }
+    },
+    {
+      "event": 25,
+      "asset": "11",
+      "trained": true,
+      "threshold": 1.8312291221265988,
+      "historical_calibration": {
+        "normal_hours": 1654,
+        "normal_warning_hours": 17,
+        "normal_warning_fraction": 0.010278113663845224,
+        "false_alarm_episodes": 4,
+        "false_alarms_per_720_normal_hours": 1.7412333736396615
+      },
+      "residual_calibration": {
+        "gearbox_bearing_temperature__now": {
+          "center_celsius": 0.07946586608886719,
+          "scale_celsius": 2.094493675231931,
+          "train_rows": 6279,
+          "calibration_rows": 1658
+        },
+        "gearbox_oil_temperature__now": {
+          "center_celsius": 0.015972137451171875,
+          "scale_celsius": 3.013334846496581,
+          "train_rows": 6279,
+          "calibration_rows": 1658
+        },
+        "generator_bearing_temperature__now": {
+          "center_celsius": -0.4514303207397461,
+          "scale_celsius": 8.937766075134277,
+          "train_rows": 6279,
+          "calibration_rows": 1658
+        },
+        "hydraulic_oil_temperature__now": {
+          "center_celsius": 0.31743526458740234,
+          "scale_celsius": 3.2352370262145977,
+          "train_rows": 6279,
+          "calibration_rows": 1658
+        }
+      },
+      "test": {
+        "scheduled_hours": 404,
+        "available_hours": 404,
+        "unavailable_hours": 0,
+        "availability": 1.0,
+        "known_scored_hours": 284,
+        "tp": 0,
+        "fn": 0,
+        "fp": 0,
+        "tn": 284,
+        "point_precision": null,
+        "point_recall": null,
+        "known_normal_hours": 284,
+        "normal_warning_hours": 0,
+        "normal_warning_fraction": 0.0,
+        "false_alarm_episodes": 0,
+        "false_alarms_per_720_normal_hours": 0.0,
+        "unknown_warning_hours": 3,
+        "left_censored_alarm_starts": 0,
+        "observed_onsets": 1,
+        "window_hit_events": 0,
+        "onset_hit_events": 0,
+        "total_events": 0,
+        "onset_event_recall": 0.0,
+        "window_event_recall": 0.0,
+        "average_precision": null,
+        "roc_auc": null,
+        "events": []
+      }
+    },
+    {
+      "event": 26,
+      "asset": "0",
+      "trained": true,
+      "threshold": 2.0809917827514712,
+      "historical_calibration": {
+        "normal_hours": 894,
+        "normal_warning_hours": 5,
+        "normal_warning_fraction": 0.005592841163310962,
+        "false_alarm_episodes": 2,
+        "false_alarms_per_720_normal_hours": 1.610738255033557
+      },
+      "residual_calibration": {
+        "gearbox_bearing_temperature__now": {
+          "center_celsius": -0.1937122344970703,
+          "scale_celsius": 1.992784690856933,
+          "train_rows": 6262,
+          "calibration_rows": 904
+        },
+        "gearbox_oil_temperature__now": {
+          "center_celsius": -0.05232429504394531,
+          "scale_celsius": 2.28479881286621,
+          "train_rows": 6262,
+          "calibration_rows": 904
+        },
+        "generator_bearing_temperature__now": {
+          "center_celsius": -5.942108154296875,
+          "scale_celsius": 6.574199485778806,
+          "train_rows": 6262,
+          "calibration_rows": 904
+        },
+        "hydraulic_oil_temperature__now": {
+          "center_celsius": -3.1627979278564453,
+          "scale_celsius": 6.512217712402343,
+          "train_rows": 6262,
+          "calibration_rows": 904
+        }
+      },
+      "test": {
+        "scheduled_hours": 240,
+        "available_hours": 240,
+        "unavailable_hours": 0,
+        "availability": 1.0,
+        "known_scored_hours": 24,
+        "tp": 3,
+        "fn": 21,
+        "fp": 0,
+        "tn": 0,
+        "point_precision": 1.0,
+        "point_recall": 0.125,
+        "known_normal_hours": 0,
+        "normal_warning_hours": 0,
+        "normal_warning_fraction": null,
+        "false_alarm_episodes": 0,
+        "false_alarms_per_720_normal_hours": null,
+        "unknown_warning_hours": 0,
+        "left_censored_alarm_starts": 0,
+        "observed_onsets": 1,
+        "window_hit_events": 1,
+        "onset_hit_events": 1,
+        "total_events": 1,
+        "onset_event_recall": 1.0,
+        "window_event_recall": 1.0,
+        "average_precision": null,
+        "roc_auc": null,
+        "events": [
+          {
+            "id": "care-a-fault-26",
+            "source_event": 26,
+            "turbine_id": "0",
+            "failure_at": "2023-10-19T10:20:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 24,
+            "window_hit": true,
+            "onset_hit": true,
+            "first_target_warning": "2023-10-19T08:00:00+00:00",
+            "first_observed_onset": "2023-10-19T08:00:00+00:00",
+            "first_onset_lead_hours": 2.3333333333333335,
+            "first_source_warning": "2023-10-19T08:00:00+00:00",
+            "first_source_warning_lead_hours": 2.3333333333333335
+          }
+        ]
+      }
+    },
+    {
+      "event": 38,
+      "asset": "13",
+      "trained": true,
+      "threshold": 2.2640857266346264,
+      "historical_calibration": {
+        "normal_hours": 1338,
+        "normal_warning_hours": 8,
+        "normal_warning_fraction": 0.005979073243647235,
+        "false_alarm_episodes": 3,
+        "false_alarms_per_720_normal_hours": 1.6143497757847534
+      },
+      "residual_calibration": {
+        "gearbox_bearing_temperature__now": {
+          "center_celsius": 0.1667652130126953,
+          "scale_celsius": 2.186225128173829,
+          "train_rows": 6220,
+          "calibration_rows": 1342
+        },
+        "gearbox_oil_temperature__now": {
+          "center_celsius": 0.38632774353027344,
+          "scale_celsius": 2.8438802719116216,
+          "train_rows": 6220,
+          "calibration_rows": 1342
+        },
+        "generator_bearing_temperature__now": {
+          "center_celsius": 0.6491889953613281,
+          "scale_celsius": 9.485766983032228,
+          "train_rows": 6220,
+          "calibration_rows": 1342
+        },
+        "hydraulic_oil_temperature__now": {
+          "center_celsius": 0.01342010498046875,
+          "scale_celsius": 3.008589172363281,
+          "train_rows": 6220,
+          "calibration_rows": 1342
+        }
+      },
+      "test": {
+        "scheduled_hours": 424,
+        "available_hours": 408,
+        "unavailable_hours": 16,
+        "availability": 0.9622641509433962,
+        "known_scored_hours": 236,
+        "tp": 0,
+        "fn": 0,
+        "fp": 1,
+        "tn": 235,
+        "point_precision": 0.0,
+        "point_recall": null,
+        "known_normal_hours": 236,
+        "normal_warning_hours": 1,
+        "normal_warning_fraction": 0.00423728813559322,
+        "false_alarm_episodes": 1,
+        "false_alarms_per_720_normal_hours": 3.0508474576271185,
+        "unknown_warning_hours": 0,
+        "left_censored_alarm_starts": 0,
+        "observed_onsets": 1,
+        "window_hit_events": 0,
+        "onset_hit_events": 0,
+        "total_events": 0,
+        "onset_event_recall": 0.0,
+        "window_event_recall": 0.0,
+        "average_precision": null,
+        "roc_auc": null,
+        "events": []
+      }
+    },
+    {
+      "event": 40,
+      "asset": "10",
+      "trained": true,
+      "threshold": 1.6286436794687182,
+      "historical_calibration": {
+        "normal_hours": 1482,
+        "normal_warning_hours": 9,
+        "normal_warning_fraction": 0.006072874493927126,
+        "false_alarm_episodes": 4,
+        "false_alarms_per_720_normal_hours": 1.94331983805668
+      },
+      "residual_calibration": {
+        "gearbox_bearing_temperature__now": {
+          "center_celsius": 0.12436103820800781,
+          "scale_celsius": 2.3812765121459956,
+          "train_rows": 5240,
+          "calibration_rows": 1484
+        },
+        "gearbox_oil_temperature__now": {
+          "center_celsius": -0.0006122589111328125,
+          "scale_celsius": 2.5078510284423823,
+          "train_rows": 5240,
+          "calibration_rows": 1484
+        },
+        "generator_bearing_temperature__now": {
+          "center_celsius": -6.751502990722656,
+          "scale_celsius": 7.4071248054504375,
+          "train_rows": 5240,
+          "calibration_rows": 1484
+        },
+        "hydraulic_oil_temperature__now": {
+          "center_celsius": -0.8283748626708984,
+          "scale_celsius": 2.5066890716552734,
+          "train_rows": 5240,
+          "calibration_rows": 1484
+        }
+      },
+      "test": {
+        "scheduled_hours": 825,
+        "available_hours": 776,
+        "unavailable_hours": 49,
+        "availability": 0.9406060606060606,
+        "known_scored_hours": 12,
+        "tp": 0,
+        "fn": 12,
+        "fp": 0,
+        "tn": 0,
+        "point_precision": null,
+        "point_recall": 0.0,
+        "known_normal_hours": 0,
+        "normal_warning_hours": 0,
+        "normal_warning_fraction": null,
+        "false_alarm_episodes": 0,
+        "false_alarms_per_720_normal_hours": null,
+        "unknown_warning_hours": 14,
+        "left_censored_alarm_starts": 0,
+        "observed_onsets": 5,
+        "window_hit_events": 0,
+        "onset_hit_events": 0,
+        "total_events": 1,
+        "onset_event_recall": 0.0,
+        "window_event_recall": 0.0,
+        "average_precision": null,
+        "roc_auc": null,
+        "events": [
+          {
+            "id": "care-a-fault-40",
+            "source_event": 40,
+            "turbine_id": "10",
+            "failure_at": "2023-01-26T13:00:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 12,
+            "window_hit": false,
+            "onset_hit": false,
+            "first_target_warning": null,
+            "first_observed_onset": null,
+            "first_onset_lead_hours": null,
+            "first_source_warning": "2022-12-30T10:00:00+00:00",
+            "first_source_warning_lead_hours": 651.0
+          }
+        ]
+      }
+    },
+    {
+      "event": 42,
+      "asset": "10",
+      "trained": true,
+      "threshold": 1.9476252072389058,
+      "historical_calibration": {
+        "normal_hours": 1455,
+        "normal_warning_hours": 10,
+        "normal_warning_fraction": 0.006872852233676976,
+        "false_alarm_episodes": 4,
+        "false_alarms_per_720_normal_hours": 1.9793814432989691
+      },
+      "residual_calibration": {
+        "gearbox_bearing_temperature__now": {
+          "center_celsius": 0.5239791870117188,
+          "scale_celsius": 2.821960067749023,
+          "train_rows": 5784,
+          "calibration_rows": 1459
+        },
+        "gearbox_oil_temperature__now": {
+          "center_celsius": 0.6178398132324219,
+          "scale_celsius": 2.720756530761717,
+          "train_rows": 5784,
+          "calibration_rows": 1459
+        },
+        "generator_bearing_temperature__now": {
+          "center_celsius": -1.1693534851074219,
+          "scale_celsius": 4.734092330932615,
+          "train_rows": 5784,
+          "calibration_rows": 1459
+        },
+        "hydraulic_oil_temperature__now": {
+          "center_celsius": 0.854095458984375,
+          "scale_celsius": 2.31325569152832,
+          "train_rows": 5784,
+          "calibration_rows": 1459
+        }
+      },
+      "test": {
+        "scheduled_hours": 264,
+        "available_hours": 254,
+        "unavailable_hours": 10,
+        "availability": 0.9621212121212122,
+        "known_scored_hours": 24,
+        "tp": 8,
+        "fn": 16,
+        "fp": 0,
+        "tn": 0,
+        "point_precision": 1.0,
+        "point_recall": 0.3333333333333333,
+        "known_normal_hours": 0,
+        "normal_warning_hours": 0,
+        "normal_warning_fraction": null,
+        "false_alarm_episodes": 0,
+        "false_alarms_per_720_normal_hours": null,
+        "unknown_warning_hours": 0,
+        "left_censored_alarm_starts": 0,
+        "observed_onsets": 1,
+        "window_hit_events": 1,
+        "onset_hit_events": 1,
+        "total_events": 1,
+        "onset_event_recall": 1.0,
+        "window_event_recall": 1.0,
+        "average_precision": null,
+        "roc_auc": null,
+        "events": [
+          {
+            "id": "care-a-fault-42",
+            "source_event": 42,
+            "turbine_id": "10",
+            "failure_at": "2023-09-16T15:50:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 24,
+            "window_hit": true,
+            "onset_hit": true,
+            "first_target_warning": "2023-09-16T01:00:00+00:00",
+            "first_observed_onset": "2023-09-16T01:00:00+00:00",
+            "first_onset_lead_hours": 14.833333333333334,
+            "first_source_warning": "2023-09-16T01:00:00+00:00",
+            "first_source_warning_lead_hours": 14.833333333333334
+          }
+        ]
+      }
+    },
+    {
+      "event": 45,
+      "asset": "13",
+      "trained": true,
+      "threshold": 2.688765877341885,
+      "historical_calibration": {
+        "normal_hours": 1594,
+        "normal_warning_hours": 7,
+        "normal_warning_fraction": 0.00439146800501882,
+        "false_alarm_episodes": 4,
+        "false_alarms_per_720_normal_hours": 1.806775407779172
+      },
+      "residual_calibration": {
+        "gearbox_bearing_temperature__now": {
+          "center_celsius": -0.25196075439453125,
+          "scale_celsius": 2.283994674682617,
+          "train_rows": 6249,
+          "calibration_rows": 1596
+        },
+        "gearbox_oil_temperature__now": {
+          "center_celsius": -0.3488292694091797,
+          "scale_celsius": 3.71872615814209,
+          "train_rows": 6249,
+          "calibration_rows": 1596
+        },
+        "generator_bearing_temperature__now": {
+          "center_celsius": 0.0075778961181640625,
+          "scale_celsius": 8.803630828857422,
+          "train_rows": 6249,
+          "calibration_rows": 1596
+        },
+        "hydraulic_oil_temperature__now": {
+          "center_celsius": 0.15511035919189453,
+          "scale_celsius": 3.8487095832824707,
+          "train_rows": 6249,
+          "calibration_rows": 1596
+        }
+      },
+      "test": {
+        "scheduled_hours": 240,
+        "available_hours": 232,
+        "unavailable_hours": 8,
+        "availability": 0.9666666666666667,
+        "known_scored_hours": 24,
+        "tp": 0,
+        "fn": 24,
+        "fp": 0,
+        "tn": 0,
+        "point_precision": null,
+        "point_recall": 0.0,
+        "known_normal_hours": 0,
+        "normal_warning_hours": 0,
+        "normal_warning_fraction": null,
+        "false_alarm_episodes": 0,
+        "false_alarms_per_720_normal_hours": null,
+        "unknown_warning_hours": 0,
+        "left_censored_alarm_starts": 0,
+        "observed_onsets": 0,
+        "window_hit_events": 0,
+        "onset_hit_events": 0,
+        "total_events": 1,
+        "onset_event_recall": 0.0,
+        "window_event_recall": 0.0,
+        "average_precision": null,
+        "roc_auc": null,
+        "events": [
+          {
+            "id": "care-a-fault-45",
+            "source_event": 45,
+            "turbine_id": "13",
+            "failure_at": "2023-04-26T18:10:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 24,
+            "window_hit": false,
+            "onset_hit": false,
+            "first_target_warning": null,
+            "first_observed_onset": null,
+            "first_onset_lead_hours": null,
+            "first_source_warning": null,
+            "first_source_warning_lead_hours": null
+          }
+        ]
+      }
+    },
+    {
+      "event": 51,
+      "asset": "21",
+      "trained": true,
+      "threshold": 2.076656543444767,
+      "historical_calibration": {
+        "normal_hours": 1181,
+        "normal_warning_hours": 5,
+        "normal_warning_fraction": 0.004233700254022015,
+        "false_alarm_episodes": 3,
+        "false_alarms_per_720_normal_hours": 1.8289585097375105
+      },
+      "residual_calibration": {
+        "gearbox_bearing_temperature__now": {
+          "center_celsius": 0.39247894287109375,
+          "scale_celsius": 2.725660705566405,
+          "train_rows": 6204,
+          "calibration_rows": 1185
+        },
+        "gearbox_oil_temperature__now": {
+          "center_celsius": 0.4657859802246094,
+          "scale_celsius": 2.949063873291015,
+          "train_rows": 6204,
+          "calibration_rows": 1185
+        },
+        "generator_bearing_temperature__now": {
+          "center_celsius": -0.7432785034179688,
+          "scale_celsius": 4.167951202392577,
+          "train_rows": 6204,
+          "calibration_rows": 1185
+        },
+        "hydraulic_oil_temperature__now": {
+          "center_celsius": -0.27590179443359375,
+          "scale_celsius": 3.3277572631835923,
+          "train_rows": 6204,
+          "calibration_rows": 1185
+        }
+      },
+      "test": {
+        "scheduled_hours": 399,
+        "available_hours": 399,
+        "unavailable_hours": 0,
+        "availability": 1.0,
+        "known_scored_hours": 0,
+        "tp": 0,
+        "fn": 0,
+        "fp": 0,
+        "tn": 0,
+        "point_precision": null,
+        "point_recall": null,
+        "known_normal_hours": 0,
+        "normal_warning_hours": 0,
+        "normal_warning_fraction": null,
+        "false_alarm_episodes": 0,
+        "false_alarms_per_720_normal_hours": null,
+        "unknown_warning_hours": 10,
+        "left_censored_alarm_starts": 0,
+        "observed_onsets": 2,
+        "window_hit_events": 0,
+        "onset_hit_events": 0,
+        "total_events": 0,
+        "onset_event_recall": 0.0,
+        "window_event_recall": 0.0,
+        "average_precision": null,
+        "roc_auc": null,
+        "events": []
+      }
+    },
+    {
+      "event": 68,
+      "asset": "11",
+      "trained": true,
+      "threshold": 2.1324134997834956,
+      "historical_calibration": {
+        "normal_hours": 1576,
+        "normal_warning_hours": 12,
+        "normal_warning_fraction": 0.007614213197969543,
+        "false_alarm_episodes": 4,
+        "false_alarms_per_720_normal_hours": 1.8274111675126903
+      },
+      "residual_calibration": {
+        "gearbox_bearing_temperature__now": {
+          "center_celsius": 0.4381294250488281,
+          "scale_celsius": 2.1125204086303664,
+          "train_rows": 6683,
+          "calibration_rows": 1582
+        },
+        "gearbox_oil_temperature__now": {
+          "center_celsius": 0.5101566314697266,
+          "scale_celsius": 2.2813274383544915,
+          "train_rows": 6683,
+          "calibration_rows": 1582
+        },
+        "generator_bearing_temperature__now": {
+          "center_celsius": 0.438995361328125,
+          "scale_celsius": 6.7672224044799805,
+          "train_rows": 6683,
+          "calibration_rows": 1582
+        },
+        "hydraulic_oil_temperature__now": {
+          "center_celsius": 0.6443367004394531,
+          "scale_celsius": 3.200591087341307,
+          "train_rows": 6683,
+          "calibration_rows": 1582
+        }
+      },
+      "test": {
+        "scheduled_hours": 383,
+        "available_hours": 367,
+        "unavailable_hours": 16,
+        "availability": 0.95822454308094,
+        "known_scored_hours": 24,
+        "tp": 0,
+        "fn": 24,
+        "fp": 0,
+        "tn": 0,
+        "point_precision": null,
+        "point_recall": 0.0,
+        "known_normal_hours": 0,
+        "normal_warning_hours": 0,
+        "normal_warning_fraction": null,
+        "false_alarm_episodes": 0,
+        "false_alarms_per_720_normal_hours": null,
+        "unknown_warning_hours": 0,
+        "left_censored_alarm_starts": 0,
+        "observed_onsets": 0,
+        "window_hit_events": 0,
+        "onset_hit_events": 0,
+        "total_events": 1,
+        "onset_event_recall": 0.0,
+        "window_event_recall": 0.0,
+        "average_precision": null,
+        "roc_auc": null,
+        "events": [
+          {
+            "id": "care-a-fault-68",
+            "source_event": 68,
+            "turbine_id": "11",
+            "failure_at": "2023-08-11T13:10:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 24,
+            "window_hit": false,
+            "onset_hit": false,
+            "first_target_warning": null,
+            "first_observed_onset": null,
+            "first_onset_lead_hours": null,
+            "first_source_warning": null,
+            "first_source_warning_lead_hours": null
+          }
+        ]
+      }
+    },
+    {
+      "event": 69,
+      "asset": "11",
+      "trained": true,
+      "threshold": 1.7535290761106692,
+      "historical_calibration": {
+        "normal_hours": 1118,
+        "normal_warning_hours": 11,
+        "normal_warning_fraction": 0.009838998211091235,
+        "false_alarm_episodes": 3,
+        "false_alarms_per_720_normal_hours": 1.9320214669051878
+      },
+      "residual_calibration": {
+        "gearbox_bearing_temperature__now": {
+          "center_celsius": 0.5172920227050781,
+          "scale_celsius": 2.563065528869629,
+          "train_rows": 6784,
+          "calibration_rows": 1126
+        },
+        "gearbox_oil_temperature__now": {
+          "center_celsius": 0.7851600646972656,
+          "scale_celsius": 2.5394973754882812,
+          "train_rows": 6784,
+          "calibration_rows": 1126
+        },
+        "generator_bearing_temperature__now": {
+          "center_celsius": -0.44409942626953125,
+          "scale_celsius": 5.154779434204102,
+          "train_rows": 6784,
+          "calibration_rows": 1126
+        },
+        "hydraulic_oil_temperature__now": {
+          "center_celsius": 0.6568546295166016,
+          "scale_celsius": 3.6356754302978516,
+          "train_rows": 6784,
+          "calibration_rows": 1126
+        }
+      },
+      "test": {
+        "scheduled_hours": 432,
+        "available_hours": 432,
+        "unavailable_hours": 0,
+        "availability": 1.0,
+        "known_scored_hours": 312,
+        "tp": 0,
+        "fn": 0,
+        "fp": 7,
+        "tn": 305,
+        "point_precision": 0.0,
+        "point_recall": null,
+        "known_normal_hours": 312,
+        "normal_warning_hours": 7,
+        "normal_warning_fraction": 0.022435897435897436,
+        "false_alarm_episodes": 2,
+        "false_alarms_per_720_normal_hours": 4.615384615384615,
+        "unknown_warning_hours": 0,
+        "left_censored_alarm_starts": 0,
+        "observed_onsets": 2,
+        "window_hit_events": 0,
+        "onset_hit_events": 0,
+        "total_events": 0,
+        "onset_event_recall": 0.0,
+        "window_event_recall": 0.0,
+        "average_precision": null,
+        "roc_auc": null,
+        "events": []
+      }
+    },
+    {
+      "event": 71,
+      "asset": "0",
+      "trained": true,
+      "threshold": 2.208824847924387,
+      "historical_calibration": {
+        "normal_hours": 1685,
+        "normal_warning_hours": 12,
+        "normal_warning_fraction": 0.007121661721068249,
+        "false_alarm_episodes": 4,
+        "false_alarms_per_720_normal_hours": 1.7091988130563798
+      },
+      "residual_calibration": {
+        "gearbox_bearing_temperature__now": {
+          "center_celsius": -0.4566459655761719,
+          "scale_celsius": 2.8880596160888645,
+          "train_rows": 5372,
+          "calibration_rows": 1687
+        },
+        "gearbox_oil_temperature__now": {
+          "center_celsius": -0.4272003173828125,
+          "scale_celsius": 3.474237060546872,
+          "train_rows": 5372,
+          "calibration_rows": 1687
+        },
+        "generator_bearing_temperature__now": {
+          "center_celsius": -0.10994720458984375,
+          "scale_celsius": 10.20147361755371,
+          "train_rows": 5372,
+          "calibration_rows": 1687
+        },
+        "hydraulic_oil_temperature__now": {
+          "center_celsius": -1.5828914642333984,
+          "scale_celsius": 3.878461456298826,
+          "train_rows": 5372,
+          "calibration_rows": 1687
+        }
+      },
+      "test": {
+        "scheduled_hours": 409,
+        "available_hours": 409,
+        "unavailable_hours": 0,
+        "availability": 1.0,
+        "known_scored_hours": 313,
+        "tp": 0,
+        "fn": 0,
+        "fp": 12,
+        "tn": 301,
+        "point_precision": 0.0,
+        "point_recall": null,
+        "known_normal_hours": 313,
+        "normal_warning_hours": 12,
+        "normal_warning_fraction": 0.038338658146964855,
+        "false_alarm_episodes": 2,
+        "false_alarms_per_720_normal_hours": 4.600638977635783,
+        "unknown_warning_hours": 9,
+        "left_censored_alarm_starts": 0,
+        "observed_onsets": 4,
+        "window_hit_events": 0,
+        "onset_hit_events": 0,
+        "total_events": 0,
+        "onset_event_recall": 0.0,
+        "window_event_recall": 0.0,
+        "average_precision": null,
+        "roc_auc": null,
+        "events": []
+      }
+    },
+    {
+      "event": 72,
+      "asset": "21",
+      "trained": true,
+      "threshold": 2.023282292865242,
+      "historical_calibration": {
+        "normal_hours": 1102,
+        "normal_warning_hours": 6,
+        "normal_warning_fraction": 0.0054446460980036296,
+        "false_alarm_episodes": 3,
+        "false_alarms_per_720_normal_hours": 1.9600725952813067
+      },
+      "residual_calibration": {
+        "gearbox_bearing_temperature__now": {
+          "center_celsius": 0.3005256652832031,
+          "scale_celsius": 2.3827123641967773,
+          "train_rows": 6266,
+          "calibration_rows": 1106
+        },
+        "gearbox_oil_temperature__now": {
+          "center_celsius": 0.3915557861328125,
+          "scale_celsius": 2.7514429092407227,
+          "train_rows": 6266,
+          "calibration_rows": 1106
+        },
+        "generator_bearing_temperature__now": {
+          "center_celsius": -0.8092718124389648,
+          "scale_celsius": 4.395691871643066,
+          "train_rows": 6266,
+          "calibration_rows": 1106
+        },
+        "hydraulic_oil_temperature__now": {
+          "center_celsius": -0.3750934600830078,
+          "scale_celsius": 3.3062973022460938,
+          "train_rows": 6266,
+          "calibration_rows": 1106
+        }
+      },
+      "test": {
+        "scheduled_hours": 336,
+        "available_hours": 336,
+        "unavailable_hours": 0,
+        "availability": 1.0,
+        "known_scored_hours": 24,
+        "tp": 0,
+        "fn": 24,
+        "fp": 0,
+        "tn": 0,
+        "point_precision": null,
+        "point_recall": 0.0,
+        "known_normal_hours": 0,
+        "normal_warning_hours": 0,
+        "normal_warning_fraction": null,
+        "false_alarm_episodes": 0,
+        "false_alarms_per_720_normal_hours": null,
+        "unknown_warning_hours": 10,
+        "left_censored_alarm_starts": 0,
+        "observed_onsets": 2,
+        "window_hit_events": 0,
+        "onset_hit_events": 0,
+        "total_events": 1,
+        "onset_event_recall": 0.0,
+        "window_event_recall": 0.0,
+        "average_precision": null,
+        "roc_auc": null,
+        "events": [
+          {
+            "id": "care-a-fault-51",
+            "source_event": 72,
+            "turbine_id": "21",
+            "failure_at": "2023-10-17T08:40:00+00:00",
+            "group_status": "conservative_merge",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 24,
+            "window_hit": false,
+            "onset_hit": false,
+            "first_target_warning": null,
+            "first_observed_onset": null,
+            "first_onset_lead_hours": null,
+            "first_source_warning": null,
+            "first_source_warning_lead_hours": null
+          }
+        ]
+      }
+    },
+    {
+      "event": 73,
+      "asset": "0",
+      "trained": true,
+      "threshold": 2.071668825739758,
+      "historical_calibration": {
+        "normal_hours": 1595,
+        "normal_warning_hours": 19,
+        "normal_warning_fraction": 0.011912225705329153,
+        "false_alarm_episodes": 4,
+        "false_alarms_per_720_normal_hours": 1.8056426332288402
+      },
+      "residual_calibration": {
+        "gearbox_bearing_temperature__now": {
+          "center_celsius": -0.08329010009765625,
+          "scale_celsius": 1.8845802307128903,
+          "train_rows": 5828,
+          "calibration_rows": 1597
+        },
+        "gearbox_oil_temperature__now": {
+          "center_celsius": -0.038379669189453125,
+          "scale_celsius": 2.4504997253417957,
+          "train_rows": 5828,
+          "calibration_rows": 1597
+        },
+        "generator_bearing_temperature__now": {
+          "center_celsius": -0.9512214660644531,
+          "scale_celsius": 9.636308288574215,
+          "train_rows": 5828,
+          "calibration_rows": 1597
+        },
+        "hydraulic_oil_temperature__now": {
+          "center_celsius": -0.21919631958007812,
+          "scale_celsius": 4.933449554443359,
+          "train_rows": 5828,
+          "calibration_rows": 1597
+        }
+      },
+      "test": {
+        "scheduled_hours": 288,
+        "available_hours": 288,
+        "unavailable_hours": 0,
+        "availability": 1.0,
+        "known_scored_hours": 24,
+        "tp": 5,
+        "fn": 19,
+        "fp": 0,
+        "tn": 0,
+        "point_precision": 1.0,
+        "point_recall": 0.20833333333333334,
+        "known_normal_hours": 0,
+        "normal_warning_hours": 0,
+        "normal_warning_fraction": null,
+        "false_alarm_episodes": 0,
+        "false_alarms_per_720_normal_hours": null,
+        "unknown_warning_hours": 5,
+        "left_censored_alarm_starts": 0,
+        "observed_onsets": 2,
+        "window_hit_events": 1,
+        "onset_hit_events": 1,
+        "total_events": 1,
+        "onset_event_recall": 1.0,
+        "window_event_recall": 1.0,
+        "average_precision": null,
+        "roc_auc": null,
+        "events": [
+          {
+            "id": "care-a-fault-73",
+            "source_event": 73,
+            "turbine_id": "0",
+            "failure_at": "2023-06-17T11:40:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 24,
+            "window_hit": true,
+            "onset_hit": true,
+            "first_target_warning": "2023-06-16T18:00:00+00:00",
+            "first_observed_onset": "2023-06-16T18:00:00+00:00",
+            "first_onset_lead_hours": 17.666666666666668,
+            "first_source_warning": "2023-06-16T18:00:00+00:00",
+            "first_source_warning_lead_hours": 17.666666666666668
+          }
+        ]
+      }
+    },
+    {
+      "event": 84,
+      "asset": "13",
+      "trained": true,
+      "threshold": 1.9996024958734704,
+      "historical_calibration": {
+        "normal_hours": 1502,
+        "normal_warning_hours": 5,
+        "normal_warning_fraction": 0.003328894806924101,
+        "false_alarm_episodes": 4,
+        "false_alarms_per_720_normal_hours": 1.9174434087882823
+      },
+      "residual_calibration": {
+        "gearbox_bearing_temperature__now": {
+          "center_celsius": 0.44524383544921875,
+          "scale_celsius": 2.360769271850587,
+          "train_rows": 6004,
+          "calibration_rows": 1507
+        },
+        "gearbox_oil_temperature__now": {
+          "center_celsius": 0.7136344909667969,
+          "scale_celsius": 2.540435791015625,
+          "train_rows": 6004,
+          "calibration_rows": 1507
+        },
+        "generator_bearing_temperature__now": {
+          "center_celsius": 0.5744400024414062,
+          "scale_celsius": 7.221304321289063,
+          "train_rows": 6004,
+          "calibration_rows": 1507
+        },
+        "hydraulic_oil_temperature__now": {
+          "center_celsius": 0.6454391479492188,
+          "scale_celsius": 2.9496959686279296,
+          "train_rows": 6004,
+          "calibration_rows": 1507
+        }
+      },
+      "test": {
+        "scheduled_hours": 240,
+        "available_hours": 216,
+        "unavailable_hours": 24,
+        "availability": 0.9,
+        "known_scored_hours": 13,
+        "tp": 1,
+        "fn": 12,
+        "fp": 0,
+        "tn": 0,
+        "point_precision": 1.0,
+        "point_recall": 0.07692307692307693,
+        "known_normal_hours": 0,
+        "normal_warning_hours": 0,
+        "normal_warning_fraction": null,
+        "false_alarm_episodes": 0,
+        "false_alarms_per_720_normal_hours": null,
+        "unknown_warning_hours": 0,
+        "left_censored_alarm_starts": 0,
+        "observed_onsets": 1,
+        "window_hit_events": 1,
+        "onset_hit_events": 1,
+        "total_events": 1,
+        "onset_event_recall": 1.0,
+        "window_event_recall": 1.0,
+        "average_precision": null,
+        "roc_auc": null,
+        "events": [
+          {
+            "id": "care-a-fault-84",
+            "source_event": 84,
+            "turbine_id": "13",
+            "failure_at": "2023-09-12T15:30:00+00:00",
+            "group_status": "single",
+            "scheduled_target_hours": 24,
+            "eligible_target_hours": 24,
+            "available_target_hours": 13,
+            "window_hit": true,
+            "onset_hit": true,
+            "first_target_warning": "2023-09-12T10:00:00+00:00",
+            "first_observed_onset": "2023-09-12T10:00:00+00:00",
+            "first_onset_lead_hours": 5.5,
+            "first_source_warning": "2023-09-12T10:00:00+00:00",
+            "first_source_warning_lead_hours": 5.5
+          }
+        ]
+      }
+    },
+    {
+      "event": 92,
+      "asset": "11",
+      "trained": true,
+      "threshold": 2.332704540766049,
+      "historical_calibration": {
+        "normal_hours": 1690,
+        "normal_warning_hours": 7,
+        "normal_warning_fraction": 0.004142011834319527,
+        "false_alarm_episodes": 4,
+        "false_alarms_per_720_normal_hours": 1.7041420118343196
+      },
+      "residual_calibration": {
+        "gearbox_bearing_temperature__now": {
+          "center_celsius": -0.030239105224609375,
+          "scale_celsius": 2.3452989578247068,
+          "train_rows": 6245,
+          "calibration_rows": 1692
+        },
+        "gearbox_oil_temperature__now": {
+          "center_celsius": -0.0906982421875,
+          "scale_celsius": 3.0899612426757805,
+          "train_rows": 6245,
+          "calibration_rows": 1692
+        },
+        "generator_bearing_temperature__now": {
+          "center_celsius": -1.70245361328125,
+          "scale_celsius": 8.143262100219726,
+          "train_rows": 6245,
+          "calibration_rows": 1692
+        },
+        "hydraulic_oil_temperature__now": {
+          "center_celsius": -0.39100074768066406,
+          "scale_celsius": 3.6950766563415516,
+          "train_rows": 6245,
+          "calibration_rows": 1692
+        }
+      },
+      "test": {
+        "scheduled_hours": 296,
+        "available_hours": 296,
+        "unavailable_hours": 0,
+        "availability": 1.0,
+        "known_scored_hours": 200,
+        "tp": 0,
+        "fn": 0,
+        "fp": 0,
+        "tn": 200,
+        "point_precision": null,
+        "point_recall": null,
+        "known_normal_hours": 200,
+        "normal_warning_hours": 0,
+        "normal_warning_fraction": 0.0,
+        "false_alarm_episodes": 0,
+        "false_alarms_per_720_normal_hours": 0.0,
+        "unknown_warning_hours": 0,
+        "left_censored_alarm_starts": 0,
+        "observed_onsets": 0,
+        "window_hit_events": 0,
+        "onset_hit_events": 0,
+        "total_events": 0,
+        "onset_event_recall": 0.0,
+        "window_event_recall": 0.0,
+        "average_precision": null,
+        "roc_auc": null,
+        "events": []
+      }
+    }
+  ],
+  "metrics": {
+    "scheduled_hours": 8433,
+    "available_hours": 8238,
+    "unavailable_hours": 195,
+    "availability": 0.9768765563856279,
+    "known_scored_hours": 3224,
+    "tp": 17,
+    "fn": 224,
+    "fp": 74,
+    "tn": 2909,
+    "point_precision": 0.18681318681318682,
+    "point_recall": 0.07053941908713693,
+    "known_normal_hours": 2983,
+    "normal_warning_hours": 74,
+    "normal_warning_fraction": 0.0248072410325176,
+    "false_alarm_episodes": 17,
+    "false_alarms_per_720_normal_hours": 4.1032517599731815,
+    "unknown_warning_hours": 102,
+    "left_censored_alarm_starts": 0,
+    "observed_onsets": 44,
+    "window_hit_events": 4,
+    "onset_hit_events": 4,
+    "total_events": 11,
+    "onset_event_recall": 0.36363636363636365,
+    "window_event_recall": 0.36363636363636365,
+    "average_precision": 0.11984709016328651,
+    "roc_auc": 0.5427693304938218,
+    "events": [
+      {
+        "id": "care-a-fault-0",
+        "source_event": 0,
+        "turbine_id": "0",
+        "failure_at": "2023-08-20T06:10:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 24,
+        "window_hit": false,
+        "onset_hit": false,
+        "first_target_warning": null,
+        "first_observed_onset": null,
+        "first_onset_lead_hours": null,
+        "first_source_warning": null,
+        "first_source_warning_lead_hours": null
+      },
+      {
+        "id": "care-a-fault-10",
+        "source_event": 10,
+        "turbine_id": "10",
+        "failure_at": "2023-10-18T08:40:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 24,
+        "window_hit": false,
+        "onset_hit": false,
+        "first_target_warning": null,
+        "first_observed_onset": null,
+        "first_onset_lead_hours": null,
+        "first_source_warning": "2023-10-10T09:00:00+00:00",
+        "first_source_warning_lead_hours": 191.66666666666666
+      },
+      {
+        "id": "care-a-fault-22",
+        "source_event": 22,
+        "turbine_id": "21",
+        "failure_at": "2023-08-19T10:00:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 24,
+        "window_hit": false,
+        "onset_hit": false,
+        "first_target_warning": null,
+        "first_observed_onset": null,
+        "first_onset_lead_hours": null,
+        "first_source_warning": null,
+        "first_source_warning_lead_hours": null
+      },
+      {
+        "id": "care-a-fault-26",
+        "source_event": 26,
+        "turbine_id": "0",
+        "failure_at": "2023-10-19T10:20:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 24,
+        "window_hit": true,
+        "onset_hit": true,
+        "first_target_warning": "2023-10-19T08:00:00+00:00",
+        "first_observed_onset": "2023-10-19T08:00:00+00:00",
+        "first_onset_lead_hours": 2.3333333333333335,
+        "first_source_warning": "2023-10-19T08:00:00+00:00",
+        "first_source_warning_lead_hours": 2.3333333333333335
+      },
+      {
+        "id": "care-a-fault-40",
+        "source_event": 40,
+        "turbine_id": "10",
+        "failure_at": "2023-01-26T13:00:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 12,
+        "window_hit": false,
+        "onset_hit": false,
+        "first_target_warning": null,
+        "first_observed_onset": null,
+        "first_onset_lead_hours": null,
+        "first_source_warning": "2022-12-30T10:00:00+00:00",
+        "first_source_warning_lead_hours": 651.0
+      },
+      {
+        "id": "care-a-fault-42",
+        "source_event": 42,
+        "turbine_id": "10",
+        "failure_at": "2023-09-16T15:50:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 24,
+        "window_hit": true,
+        "onset_hit": true,
+        "first_target_warning": "2023-09-16T01:00:00+00:00",
+        "first_observed_onset": "2023-09-16T01:00:00+00:00",
+        "first_onset_lead_hours": 14.833333333333334,
+        "first_source_warning": "2023-09-16T01:00:00+00:00",
+        "first_source_warning_lead_hours": 14.833333333333334
+      },
+      {
+        "id": "care-a-fault-45",
+        "source_event": 45,
+        "turbine_id": "13",
+        "failure_at": "2023-04-26T18:10:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 24,
+        "window_hit": false,
+        "onset_hit": false,
+        "first_target_warning": null,
+        "first_observed_onset": null,
+        "first_onset_lead_hours": null,
+        "first_source_warning": null,
+        "first_source_warning_lead_hours": null
+      },
+      {
+        "id": "care-a-fault-51",
+        "source_event": 72,
+        "turbine_id": "21",
+        "failure_at": "2023-10-17T08:40:00+00:00",
+        "group_status": "conservative_merge",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 24,
+        "window_hit": false,
+        "onset_hit": false,
+        "first_target_warning": null,
+        "first_observed_onset": null,
+        "first_onset_lead_hours": null,
+        "first_source_warning": null,
+        "first_source_warning_lead_hours": null
+      },
+      {
+        "id": "care-a-fault-68",
+        "source_event": 68,
+        "turbine_id": "11",
+        "failure_at": "2023-08-11T13:10:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 24,
+        "window_hit": false,
+        "onset_hit": false,
+        "first_target_warning": null,
+        "first_observed_onset": null,
+        "first_onset_lead_hours": null,
+        "first_source_warning": null,
+        "first_source_warning_lead_hours": null
+      },
+      {
+        "id": "care-a-fault-73",
+        "source_event": 73,
+        "turbine_id": "0",
+        "failure_at": "2023-06-17T11:40:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 24,
+        "window_hit": true,
+        "onset_hit": true,
+        "first_target_warning": "2023-06-16T18:00:00+00:00",
+        "first_observed_onset": "2023-06-16T18:00:00+00:00",
+        "first_onset_lead_hours": 17.666666666666668,
+        "first_source_warning": "2023-06-16T18:00:00+00:00",
+        "first_source_warning_lead_hours": 17.666666666666668
+      },
+      {
+        "id": "care-a-fault-84",
+        "source_event": 84,
+        "turbine_id": "13",
+        "failure_at": "2023-09-12T15:30:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 13,
+        "window_hit": true,
+        "onset_hit": true,
+        "first_target_warning": "2023-09-12T10:00:00+00:00",
+        "first_observed_onset": "2023-09-12T10:00:00+00:00",
+        "first_onset_lead_hours": 5.5,
+        "first_source_warning": "2023-09-12T10:00:00+00:00",
+        "first_source_warning_lead_hours": 5.5
+      }
+    ]
+  },
+  "code_sha256": {
+    "personal.py": "682ae0a8d6ca6b2da65f50303e90d3ddf57d68ca403c2f8344e8d322a4cd63bb",
+    "run.py": "e0b8246c019ecbb261fefac0a53ff1619d99e397c6cebf11736dae13fa94db68",
+    "test_personal.py": "6b67d1d96abb4b0d3a572705ab94050148b54cdd6465fdba59906d3780c7c896"
+  },
+  "reload_checks": [
+    {
+      "event": 0,
+      "max_error": 0.0
+    },
+    {
+      "event": 3,
+      "max_error": 0.0
+    },
+    {
+      "event": 10,
+      "max_error": 0.0
+    },
+    {
+      "event": 13,
+      "max_error": 0.0
+    },
+    {
+      "event": 14,
+      "max_error": 0.0
+    },
+    {
+      "event": 17,
+      "max_error": 0.0
+    },
+    {
+      "event": 22,
+      "max_error": 0.0
+    },
+    {
+      "event": 24,
+      "max_error": 0.0
+    },
+    {
+      "event": 25,
+      "max_error": 0.0
+    },
+    {
+      "event": 26,
+      "max_error": 0.0
+    },
+    {
+      "event": 38,
+      "max_error": 0.0
+    },
+    {
+      "event": 40,
+      "max_error": 0.0
+    },
+    {
+      "event": 42,
+      "max_error": 0.0
+    },
+    {
+      "event": 45,
+      "max_error": 0.0
+    },
+    {
+      "event": 51,
+      "max_error": 0.0
+    },
+    {
+      "event": 68,
+      "max_error": 0.0
+    },
+    {
+      "event": 69,
+      "max_error": 0.0
+    },
+    {
+      "event": 71,
+      "max_error": 0.0
+    },
+    {
+      "event": 72,
+      "max_error": 0.0
+    },
+    {
+      "event": 73,
+      "max_error": 0.0
+    },
+    {
+      "event": 84,
+      "max_error": 0.0
+    },
+    {
+      "event": 92,
+      "max_error": 0.0
+    }
+  ],
+  "versions": {
+    "python": "3.12.12",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "sklearn": "1.7.2",
+    "xgboost": "3.1.2"
+  },
+  "prediction_partition_used_for_fitting": false,
+  "prediction_fault_labels_used_for_threshold": false,
+  "independent_external_validation": false,
+  "production_integrated": false,
+  "calibrated_failure_probability": false,
+  "future_sensor_trajectory": false
+}

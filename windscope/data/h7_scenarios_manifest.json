@@ -1,0 +1,25 @@
+{
+  "source": "project CARE H7 archived experiment",
+  "files": [
+    {
+      "local_path": "event_info.csv",
+      "sha256": "9254667b70d73e8eb23e7143ad56f1c280ba020c8b3d9289ad56fcaa59270aa5"
+    },
+    {
+      "local_path": "feature_description.csv",
+      "sha256": "8834c8481585d133fc37ea70033fbdb4c64e5cd1e5d7f7257ca97a1e229ee921"
+    },
+    {
+      "local_path": "datasets/13.csv",
+      "sha256": "fb3c996efd634e0422d95876a28dc6c777470a07816cc5f5894a3d18ccc32dbd"
+    },
+    {
+      "local_path": "datasets/22.csv",
+      "sha256": "06b0745cc1b5ed3ec9bd0e34a81b1074bc23c4f76f854c8b395ea625237a76a3"
+    },
+    {
+      "local_path": "datasets/72.csv",
+      "sha256": "18964bc4ff606b77e7313427df81080d5651dfd6a9dd619be7657947ab42600f"
+    }
+  ]
+}

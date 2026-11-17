@@ -1,0 +1,12 @@
+id,source_event,turbine_id,failure_at,group_status,scheduled_target_hours,eligible_target_hours,available_target_hours,window_hit,onset_hit,first_target_warning,first_observed_onset,first_onset_lead_hours,first_source_warning,first_source_warning_lead_hours
+care-a-fault-0,0,0,2023-08-20T06:10:00+00:00,single,24,24,24,False,False,,,,,
+care-a-fault-10,10,10,2023-10-18T08:40:00+00:00,single,24,24,24,False,False,,,,2023-10-10T09:00:00+00:00,191.66666666666666
+care-a-fault-22,22,21,2023-08-19T10:00:00+00:00,single,24,24,24,False,False,,,,,
+care-a-fault-26,26,0,2023-10-19T10:20:00+00:00,single,24,24,24,True,True,2023-10-19T08:00:00+00:00,2023-10-19T08:00:00+00:00,2.3333333333333335,2023-10-19T08:00:00+00:00,2.3333333333333335
+care-a-fault-40,40,10,2023-01-26T13:00:00+00:00,single,24,24,12,False,False,,,,2022-12-30T10:00:00+00:00,651.0
+care-a-fault-42,42,10,2023-09-16T15:50:00+00:00,single,24,24,24,True,True,2023-09-16T01:00:00+00:00,2023-09-16T01:00:00+00:00,14.833333333333334,2023-09-16T01:00:00+00:00,14.833333333333334
+care-a-fault-45,45,13,2023-04-26T18:10:00+00:00,single,24,24,24,False,False,,,,,
+care-a-fault-51,72,21,2023-10-17T08:40:00+00:00,conservative_merge,24,24,24,False,False,,,,,
+care-a-fault-68,68,11,2023-08-11T13:10:00+00:00,single,24,24,24,False,False,,,,,
+care-a-fault-73,73,0,2023-06-17T11:40:00+00:00,single,24,24,24,True,True,2023-06-16T18:00:00+00:00,2023-06-16T18:00:00+00:00,17.666666666666668,2023-06-16T18:00:00+00:00,17.666666666666668
+care-a-fault-84,84,13,2023-09-12T15:30:00+00:00,single,24,24,13,True,True,2023-09-12T10:00:00+00:00,2023-09-12T10:00:00+00:00,5.5,2023-09-12T10:00:00+00:00,5.5

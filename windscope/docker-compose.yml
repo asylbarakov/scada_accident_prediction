@@ -1,0 +1,141 @@
+name: windscope
+x-backend: &backend
+  image: windscope-backend:1.0
+  build:
+    context: .
+    dockerfile: backend/Dockerfile
+  user: "10001:10001"
+  read_only: true
+  cap_drop: [ALL]
+  security_opt: [no-new-privileges:true]
+  tmpfs: ["/tmp:size=256m,noexec,nosuid"]
+  environment: &environment
+    DATABASE_URL: postgresql+psycopg://windscope:${POSTGRES_PASSWORD:-wind-local-dev}@postgres:5432/windscope
+    ML_URL: http://ml:8001
+    H7_URL: http://forecast:8002
+    PERSONAL_URL: http://personal:8003
+  networks: [database]
+services:
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: windscope
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-wind-local-dev}
+      POSTGRES_DB: windscope
+    volumes: [pgdata:/var/lib/postgresql/data]
+    networks: [database]
+    healthcheck:
+      test: [CMD-SHELL, "pg_isready -U windscope -d windscope"]
+      interval: 3s
+      timeout: 3s
+      retries: 30
+  init:
+    <<: *backend
+    command: [sh, -c, "alembic upgrade head && python -m app.ingest"]
+    volumes:
+      - ./data/raw/wind_farm_a_v2:/input:ro
+      - ./data/scenarios_manifest.json:/manifest.json:ro
+      - ./project/data/CARE_To_Compare/Wind Farm A:/h7-input:ro
+      - ./data/h7_scenarios_manifest.json:/h7-manifest.json:ro
+      - ./data/personal_scenarios_manifest.json:/personal-manifest.json:ro
+    depends_on:
+      postgres: {condition: service_healthy}
+  api:
+    <<: *backend
+    restart: unless-stopped
+    command: [uvicorn, app.main:app, --host, "0.0.0.0", --port, "8000"]
+    networks: [database, edge]
+    ports: ["127.0.0.1:8100:8000"]
+    depends_on:
+      init: {condition: service_completed_successfully}
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://localhost:8000/api/v1/health')"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+  ml:
+    <<: *backend
+    restart: unless-stopped
+    environment:
+      MODEL_PATH: /model/baseline.pkl
+    command: [uvicorn, app.ml_server:app, --host, "0.0.0.0", --port, "8001"]
+    networks: [inference]
+    volumes:
+      - "./reference/SWTFPS_Wind-Turbine-Failure-Prediction/Codes/Models' Packeges/prototype_model_best.pkl:/model/baseline.pkl:ro"
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://localhost:8001/health')"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+  worker:
+    <<: *backend
+    command: [python, -m, app.worker]
+    networks: [database, inference]
+    depends_on:
+      init: {condition: service_completed_successfully}
+      ml: {condition: service_healthy}
+      forecast: {condition: service_healthy}
+      personal: {condition: service_healthy}
+    restart: unless-stopped
+  forecast:
+    image: windscope-h7:1.0
+    build: {context: ., dockerfile: forecast/Dockerfile}
+    user: "10001:10001"
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    tmpfs: ["/tmp:size=64m,noexec,nosuid"]
+    mem_limit: 768m
+    cpus: 2
+    pids_limit: 128
+    networks: [inference]
+    volumes:
+      - ./project/results/care_h7_windows_20261116/training/h7/logistic/pipeline.joblib:/model/pipeline.joblib:ro
+      - ./project/results/care_h7_windows_20261116/training/h7/logistic/inference.json:/model/inference.json:ro
+      - ./project/results/care_h7_windows_20261116/training/config.json:/config/care_h7.json:ro
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://localhost:8002/health')"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+    restart: unless-stopped
+  personal:
+    image: windscope-xgb-h24:1.0
+    command: [uvicorn, personal_forecast.server:app, --host, "0.0.0.0", --port, "8003"]
+    working_dir: /work
+    user: "10001:10001"
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    tmpfs: ["/tmp:size=64m,noexec,nosuid"]
+    mem_limit: 768m
+    cpus: 2
+    pids_limit: 128
+    networks: [inference]
+    volumes:
+      - ./personal_forecast:/work/personal_forecast:ro
+      - ./experiments/personal_h24/personal.py:/work/personal.py:ro
+      - ./artifacts/personal_runtime_registry:/registry:ro
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://localhost:8003/health')"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+    restart: unless-stopped
+  frontend:
+    image: windscope-frontend:1.0
+    build: {context: ./frontend}
+    environment:
+      API_INTERNAL_URL: http://api:8000
+    ports: ["127.0.0.1:3100:3000"]
+    networks: [edge]
+    depends_on:
+      api: {condition: service_healthy}
+    restart: unless-stopped
+volumes:
+  pgdata:
+networks:
+  edge: {}
+  database: {internal: true}
+  inference: {internal: true}

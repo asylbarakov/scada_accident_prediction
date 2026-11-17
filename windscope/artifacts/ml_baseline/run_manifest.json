@@ -1,0 +1,30 @@
+{
+  "partition": "all",
+  "limit": 0,
+  "sequential": true,
+  "future_measurements_used": false,
+  "annotations_available_to_inference": false,
+  "total_elapsed_seconds": 287.30790711500003,
+  "scenarios": [
+    {
+      "scenario": "0",
+      "input_path": "/input/0.csv",
+      "input_sha256": "f0a8365b2b60845b9ad78cf4deb167a2da500abef66199a55c381e8fff2bb26b",
+      "rows": 54986,
+      "invalid_rows": 0,
+      "elapsed_seconds": 140.75269461999983,
+      "prediction_csv": "event_0_predictions.csv",
+      "output_sha256": "003e2d9df539b6c699af0a212e6b22fed25168898e3238ef828f538cb115ed25"
+    },
+    {
+      "scenario": "25",
+      "input_path": "/input/25.csv",
+      "input_sha256": "f09afa3bfea796bb2bb52058830981554734a2a2b6085e3415f20d67b91defc6",
+      "rows": 54712,
+      "invalid_rows": 0,
+      "elapsed_seconds": 145.26852515299993,
+      "prediction_csv": "event_25_predictions.csv",
+      "output_sha256": "a56b282fa2e3ed1955e1b2ceff8f98e5a797c2bfca3856871114ef01f91e693a"
+    }
+  ]
+}

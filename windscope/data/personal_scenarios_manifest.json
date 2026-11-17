@@ -1,0 +1,29 @@
+{
+  "source": "CARE v6 personal historical demo; original bytes preserved",
+  "files": [
+    {
+      "local_path": "event_info.csv",
+      "sha256": "9254667b70d73e8eb23e7143ad56f1c280ba020c8b3d9289ad56fcaa59270aa5"
+    },
+    {
+      "local_path": "feature_description.csv",
+      "sha256": "8834c8481585d133fc37ea70033fbdb4c64e5cd1e5d7f7257ca97a1e229ee921"
+    },
+    {
+      "local_path": "datasets/0.csv",
+      "sha256": "f0a8365b2b60845b9ad78cf4deb167a2da500abef66199a55c381e8fff2bb26b"
+    },
+    {
+      "local_path": "datasets/25.csv",
+      "sha256": "f09afa3bfea796bb2bb52058830981554734a2a2b6085e3415f20d67b91defc6"
+    },
+    {
+      "local_path": "datasets/26.csv",
+      "sha256": "6bf52430a8102d198c9bea3986e4bf81a120f7e86c8acc859ca1b606a3f08d35"
+    },
+    {
+      "local_path": "datasets/42.csv",
+      "sha256": "22af8df47d9d9844f15506980847ed27dca3b8148167073ee6e85e6faada5b4a"
+    }
+  ]
+}

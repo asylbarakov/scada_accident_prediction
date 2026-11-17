@@ -1,0 +1,346 @@
+{
+  "scope": "descriptive diagnosis, not causal proof",
+  "source_data_sha256": "62258e17633f8c4d30e2f7187c0065a7da18c6faf647c72eaf213d080ff43693",
+  "top_normal_median_shifts": [
+    {
+      "test_asset": "13",
+      "feature": "transformer_temperature__now",
+      "train_normal_median": 71.0,
+      "test_normal_median": 54.0,
+      "median_shift_in_train_iqr": -1.8888888359069824,
+      "outside_train_01_99": 0.4883720930232558
+    },
+    {
+      "test_asset": "10",
+      "feature": "hydraulic_oil_temperature__now",
+      "train_normal_median": 34.0,
+      "test_normal_median": 47.0,
+      "median_shift_in_train_iqr": 1.625,
+      "outside_train_01_99": 0.025245441795231416
+    },
+    {
+      "test_asset": "0",
+      "feature": "ambient_temperature__now",
+      "train_normal_median": 22.0,
+      "test_normal_median": 16.0,
+      "median_shift_in_train_iqr": -1.0,
+      "outside_train_01_99": 0.313915857605178
+    },
+    {
+      "test_asset": "21",
+      "feature": "transformer_temperature__now",
+      "train_normal_median": 69.0,
+      "test_normal_median": 56.0,
+      "median_shift_in_train_iqr": -1.0,
+      "outside_train_01_99": 0.020964360587002098
+    },
+    {
+      "test_asset": "13",
+      "feature": "ambient_temperature__now",
+      "train_normal_median": 19.0,
+      "test_normal_median": 23.0,
+      "median_shift_in_train_iqr": 0.800000011920929,
+      "outside_train_01_99": 0.10077519379844961
+    },
+    {
+      "test_asset": "21",
+      "feature": "hydraulic_oil_temperature__now",
+      "train_normal_median": 43.0,
+      "test_normal_median": 35.0,
+      "median_shift_in_train_iqr": -0.6666666865348816,
+      "outside_train_01_99": 0.0
+    },
+    {
+      "test_asset": "11",
+      "feature": "ambient_temperature__now",
+      "train_normal_median": 19.0,
+      "test_normal_median": 22.0,
+      "median_shift_in_train_iqr": 0.6000000238418579,
+      "outside_train_01_99": 0.13316582914572864
+    },
+    {
+      "test_asset": "10",
+      "feature": "gearbox_oil_temperature__now",
+      "train_normal_median": 50.0,
+      "test_normal_median": 45.0,
+      "median_shift_in_train_iqr": -0.5555555820465088,
+      "outside_train_01_99": 0.014025245441795231
+    },
+    {
+      "test_asset": "10",
+      "feature": "generator_bearing_temperature__now",
+      "train_normal_median": 44.0,
+      "test_normal_median": 35.0,
+      "median_shift_in_train_iqr": -0.5,
+      "outside_train_01_99": 0.0070126227208976155
+    },
+    {
+      "test_asset": "0",
+      "feature": "hydraulic_oil_temperature__now",
+      "train_normal_median": 36.0,
+      "test_normal_median": 32.0,
+      "median_shift_in_train_iqr": -0.5,
+      "outside_train_01_99": 0.012944983818770227
+    },
+    {
+      "test_asset": "11",
+      "feature": "generator_bearing_temperature__now",
+      "train_normal_median": 40.0,
+      "test_normal_median": 48.0,
+      "median_shift_in_train_iqr": 0.5,
+      "outside_train_01_99": 0.016331658291457288
+    },
+    {
+      "test_asset": "10",
+      "feature": "gearbox_bearing_temperature__now",
+      "train_normal_median": 55.0,
+      "test_normal_median": 49.0,
+      "median_shift_in_train_iqr": -0.4285714328289032,
+      "outside_train_01_99": 0.002805049088359046
+    }
+  ],
+  "logistic_attribution_changes": [
+    {
+      "test_asset": "0",
+      "threshold": 1.0000000000000002,
+      "alerts_disabled": true,
+      "largest_normal_logit_contribution_changes": [
+        {
+          "feature": "ambient_temperature__6h_mean",
+          "delta": -2.877361110184532
+        },
+        {
+          "feature": "ambient_temperature__1h_mean",
+          "delta": -2.6031994740790005
+        },
+        {
+          "feature": "ambient_temperature__now",
+          "delta": -2.577504010887905
+        },
+        {
+          "feature": "ambient_temperature__1h_max",
+          "delta": -2.0268908259292413
+        },
+        {
+          "feature": "generator_bearing_temperature__24h_mean",
+          "delta": 1.6861387753252974
+        },
+        {
+          "feature": "gearbox_oil_temperature__24h_std",
+          "delta": 1.5833739619661253
+        },
+        {
+          "feature": "gearbox_oil_temperature__24h_mean",
+          "delta": 1.5507930567238923
+        },
+        {
+          "feature": "ambient_temperature__24h_mean",
+          "delta": 1.1713154452260164
+        }
+      ]
+    },
+    {
+      "test_asset": "10",
+      "threshold": 1.0000000000000002,
+      "alerts_disabled": true,
+      "largest_normal_logit_contribution_changes": [
+        {
+          "feature": "generator_bearing_temperature__24h_mean",
+          "delta": 3.0823573837966536
+        },
+        {
+          "feature": "hydraulic_oil_temperature__6h_max",
+          "delta": 1.4914967579541771
+        },
+        {
+          "feature": "hydraulic_oil_temperature__24h_std",
+          "delta": 1.3411368456802533
+        },
+        {
+          "feature": "hydraulic_oil_temperature__24h_max",
+          "delta": 1.1479577333037265
+        },
+        {
+          "feature": "hydraulic_oil_temperature__24h_mean",
+          "delta": -1.1407464169158708
+        },
+        {
+          "feature": "generator_bearing_temperature__24h_std",
+          "delta": -1.0295313266818418
+        },
+        {
+          "feature": "gearbox_oil_temperature__24h_std",
+          "delta": 0.7882929508976781
+        },
+        {
+          "feature": "gearbox_bearing_temperature__24h_std",
+          "delta": -0.7149640118964292
+        }
+      ]
+    },
+    {
+      "test_asset": "11",
+      "threshold": 1.0000000000000002,
+      "alerts_disabled": true,
+      "largest_normal_logit_contribution_changes": [
+        {
+          "feature": "ambient_temperature__24h_mean",
+          "delta": 4.373775253229002
+        },
+        {
+          "feature": "ambient_temperature__24h_max",
+          "delta": 1.8684729807005462
+        },
+        {
+          "feature": "ambient_temperature__24h_std",
+          "delta": -1.6582385669781898
+        },
+        {
+          "feature": "ambient_temperature__now",
+          "delta": 1.305235333250314
+        },
+        {
+          "feature": "ambient_temperature__1h_mean",
+          "delta": 1.2849230117491934
+        },
+        {
+          "feature": "ambient_temperature__6h_mean",
+          "delta": 1.2132382505191543
+        },
+        {
+          "feature": "ambient_temperature__1h_max",
+          "delta": 1.1107292861057614
+        },
+        {
+          "feature": "generator_bearing_temperature__24h_max",
+          "delta": -0.7629491017686902
+        }
+      ]
+    },
+    {
+      "test_asset": "13",
+      "threshold": 1.0250687010299274e-10,
+      "alerts_disabled": false,
+      "largest_normal_logit_contribution_changes": [
+        {
+          "feature": "ambient_temperature__24h_mean",
+          "delta": 3.0435379919105148
+        },
+        {
+          "feature": "transformer_temperature__24h_max",
+          "delta": 2.3753835935664913
+        },
+        {
+          "feature": "ambient_temperature__24h_std",
+          "delta": -1.7389822165725097
+        },
+        {
+          "feature": "ambient_temperature__24h_max",
+          "delta": 1.6865325245570335
+        },
+        {
+          "feature": "hydraulic_oil_temperature__24h_max",
+          "delta": -1.650357503182852
+        },
+        {
+          "feature": "gearbox_oil_temperature__24h_mean",
+          "delta": 1.2594178366420266
+        },
+        {
+          "feature": "gearbox_bearing_temperature__24h_mean",
+          "delta": 1.1002789565315327
+        },
+        {
+          "feature": "hydraulic_oil_temperature__24h_mean",
+          "delta": -0.9770016301445976
+        }
+      ]
+    },
+    {
+      "test_asset": "21",
+      "threshold": 0.9459832869643512,
+      "alerts_disabled": false,
+      "largest_normal_logit_contribution_changes": [
+        {
+          "feature": "transformer_temperature__24h_std",
+          "delta": -2.561607688330524
+        },
+        {
+          "feature": "wind_speed__24h_max",
+          "delta": -1.1935513889640654
+        },
+        {
+          "feature": "grid_active_power__24h_std",
+          "delta": 0.9412462572123171
+        },
+        {
+          "feature": "gearbox_bearing_temperature__24h_mean",
+          "delta": 0.8497570787614933
+        },
+        {
+          "feature": "wind_speed__24h_mean",
+          "delta": 0.8302961738698406
+        },
+        {
+          "feature": "grid_active_power__24h_mean",
+          "delta": 0.8015504989035207
+        },
+        {
+          "feature": "hydraulic_oil_temperature__24h_mean",
+          "delta": -0.6829523525826492
+        },
+        {
+          "feature": "ambient_temperature__24h_std",
+          "delta": 0.6730560314233888
+        }
+      ]
+    }
+  ],
+  "validation_always_warn": [
+    {
+      "test_asset": "0",
+      "validation_asset": "10",
+      "positive_hours": 62,
+      "normal_hours": 713,
+      "chosen_normal_warning_hours": 0,
+      "chosen_false_alarm_episodes": 0
+    },
+    {
+      "test_asset": "10",
+      "validation_asset": "11",
+      "positive_hours": 24,
+      "normal_hours": 796,
+      "chosen_normal_warning_hours": 0,
+      "chosen_false_alarm_episodes": 0
+    },
+    {
+      "test_asset": "11",
+      "validation_asset": "13",
+      "positive_hours": 39,
+      "normal_hours": 387,
+      "chosen_normal_warning_hours": 0,
+      "chosen_false_alarm_episodes": 0
+    },
+    {
+      "test_asset": "13",
+      "validation_asset": "21",
+      "positive_hours": 48,
+      "normal_hours": 477,
+      "chosen_normal_warning_hours": 477,
+      "chosen_false_alarm_episodes": 1
+    },
+    {
+      "test_asset": "21",
+      "validation_asset": "0",
+      "positive_hours": 72,
+      "normal_hours": 618,
+      "chosen_normal_warning_hours": 0,
+      "chosen_false_alarm_episodes": 0
+    }
+  ],
+  "known_limitations": [
+    "Previous threshold rule limits alarm starts but not warning duration.",
+    "No external unseen turbines are present in this cached experiment.",
+    "Distribution shifts and logit changes do not establish sensor-unit errors or physical failure causes."
+  ]
+}

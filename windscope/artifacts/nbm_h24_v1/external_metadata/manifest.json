@@ -1,0 +1,84 @@
+{
+  "status": "metadata_prepared_scada_not_downloaded",
+  "source": "https://zenodo.org/records/15846963",
+  "archive_md5_declared_by_source": "2547b58c21ac8c242d13232860cf500c",
+  "archive_size_bytes": 5503439673,
+  "integrity": "individual ZIP CRC32 plus local SHA256; entire archive MD5 not recomputed",
+  "network_bytes": 26278,
+  "files": [
+    {
+      "member": "CARE_To_Compare/Wind Farm B/event_info.csv",
+      "bytes": 1344,
+      "crc32": "05292f25",
+      "sha256": "e27b4de2fc9f87b7c73ca5bc5a0950cb56cf666a26d9749c52c4aff7c473e681"
+    },
+    {
+      "member": "CARE_To_Compare/Wind Farm B/feature_description.csv",
+      "bytes": 5324,
+      "crc32": "73eb1390",
+      "sha256": "140b0446767c4d2a0399791e0086258596c3a58370b0c4ebfbe1d0f5edc0efed"
+    },
+    {
+      "member": "CARE_To_Compare/Wind Farm C/event_info.csv",
+      "bytes": 6070,
+      "crc32": "cef29956",
+      "sha256": "5c1e35122df6417d836a364ff5055ca4f5311b0c2c59b690733a08c89298ab80"
+    },
+    {
+      "member": "CARE_To_Compare/Wind Farm C/feature_description.csv",
+      "bytes": 21396,
+      "crc32": "30bbdca9",
+      "sha256": "4b673a7f6d0fdcb1b6003d3cb1c602efb9fdd84db060f7281f959e791ea1a055"
+    }
+  ],
+  "farms": [
+    {
+      "farm": "B",
+      "event_files": 15,
+      "turbines": 9,
+      "event_label_counts": {
+        "normal": 9,
+        "anomaly": 6
+      },
+      "described_sensors": 63,
+      "feature_metadata_columns": [
+        "sensor_name",
+        "statistics_type",
+        "description",
+        "unit",
+        "is_angle",
+        "is_counter"
+      ],
+      "raw_scada_downloaded": false,
+      "normal_model_compatible": false,
+      "sensor_mapping_verified": false
+    },
+    {
+      "farm": "C",
+      "event_files": 58,
+      "turbines": 22,
+      "event_label_counts": {
+        "normal": 31,
+        "anomaly": 27
+      },
+      "described_sensors": 238,
+      "feature_metadata_columns": [
+        "sensor_name",
+        "statistics_type",
+        "description",
+        "unit",
+        "is_angle",
+        "is_counter"
+      ],
+      "raw_scada_downloaded": false,
+      "normal_model_compatible": false,
+      "sensor_mapping_verified": false
+    }
+  ],
+  "source_notice": "CARE v6, Gück and Roelofs, CC BY-SA 4.0; preserve attribution for dataset derivatives.",
+  "limitations": [
+    "Metadata is not a prepared external test set.",
+    "Sensor names/units and raw lineage require review before transfer.",
+    "No models were loaded and no predictions were generated during this network-enabled discovery."
+  ]
+}

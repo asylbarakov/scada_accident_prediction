@@ -1,0 +1,108 @@
+{
+  "model_id": "care-personal-normal-h24-v1",
+  "feature_config": {
+    "cadence_minutes": 10,
+    "measurement_delay_steps": 1,
+    "windows_hours": [
+      1,
+      6
+    ],
+    "required_history_hours": 6,
+    "sensors": {
+      "wind_speed": {
+        "column": "wind_speed_3_avg",
+        "measurement": "Wind speed",
+        "unit": "m/s"
+      },
+      "ambient_temperature": {
+        "column": "sensor_0_avg",
+        "measurement": "Ambient temperature",
+        "unit": "°C"
+      },
+      "grid_active_power": {
+        "column": "power_29_avg",
+        "measurement": "Possible grid active power",
+        "unit": "p.u."
+      },
+      "gearbox_bearing_temperature": {
+        "column": "sensor_11_avg",
+        "measurement": "Gearbox high-speed shaft bearing temperature",
+        "unit": "°C"
+      },
+      "gearbox_oil_temperature": {
+        "column": "sensor_12_avg",
+        "measurement": "Gearbox oil temperature",
+        "unit": "°C"
+      },
+      "generator_bearing_temperature": {
+        "column": "sensor_13_avg",
+        "measurement": "Generator drive-end bearing temperature",
+        "unit": "°C"
+      },
+      "generator_speed": {
+        "column": "sensor_18_avg",
+        "measurement": "Generator rotational speed",
+        "unit": "rpm"
+      },
+      "transformer_temperature": {
+        "column": "sensor_38_avg",
+        "measurement": "HV transformer phase L1 temperature",
+        "unit": "°C"
+      },
+      "hydraulic_oil_temperature": {
+        "column": "sensor_41_avg",
+        "measurement": "Hydraulic group oil temperature",
+        "unit": "°C"
+      },
+      "rotor_speed": {
+        "column": "sensor_52_avg",
+        "measurement": "Rotor rotational speed",
+        "unit": "rpm"
+      }
+    },
+    "operation": null
+  },
+  "history_hours": 8,
+  "sources": {
+    "0": {
+      "asset_id": "0",
+      "threshold": 1.9867833650088809,
+      "prediction_start": "2023-08-04T06:10:00+00:00",
+      "training_normal_hours": 6246,
+      "calibration_normal_hours": 1140,
+      "baseline_end": "2023-08-02T07:00:00+00:00",
+      "source_sha256": "f0a8365b2b60845b9ad78cf4deb167a2da500abef66199a55c381e8fff2bb26b",
+      "normal_model_sha256": "094bef99b7f7bb01d7f61e0c343d2272b5de8d985803499f42a3ce65522f70e5"
+    },
+    "25": {
+      "asset_id": "11",
+      "threshold": 1.8312291221265988,
+      "prediction_start": "2023-05-23T06:50:00+00:00",
+      "training_normal_hours": 6279,
+      "calibration_normal_hours": 1658,
+      "baseline_end": "2023-05-22T06:00:00+00:00",
+      "source_sha256": "f09afa3bfea796bb2bb52058830981554734a2a2b6085e3415f20d67b91defc6",
+      "normal_model_sha256": "8bbbbbc4201f7053977eacba5dd3eea5ee7ad108f81bd72906a9bed9338b7aff"
+    },
+    "26": {
+      "asset_id": "0",
+      "threshold": 2.0809917827514712,
+      "prediction_start": "2023-10-12T10:20:00+00:00",
+      "training_normal_hours": 6262,
+      "calibration_normal_hours": 904,
+      "baseline_end": "2023-10-04T10:00:00+00:00",
+      "source_sha256": "6bf52430a8102d198c9bea3986e4bf81a120f7e86c8acc859ca1b606a3f08d35",
+      "normal_model_sha256": "6f88f2eff53718856d43484b641dfeae200217f80823eccdce06b4577b8331a7"
+    },
+    "42": {
+      "asset_id": "10",
+      "threshold": 1.9476252072389058,
+      "prediction_start": "2023-09-09T15:50:00+00:00",
+      "training_normal_hours": 5784,
+      "calibration_normal_hours": 1459,
+      "baseline_end": "2023-09-01T15:00:00+00:00",
+      "source_sha256": "22af8df47d9d9844f15506980847ed27dca3b8148167073ee6e85e6faada5b4a",
+      "normal_model_sha256": "28dd397d00b84ae71fc3da3c9fd030db82fd6a7f2f3bea22701c571e0daee175"
+    }
+  }
+}

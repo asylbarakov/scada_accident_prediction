@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "native_bundles_checked": 10,
+  "available_test_scores_reproduced_across_candidates": 16564,
+  "single_measurement_calls": 30,
+  "max_absolute_score_error": 1.1102230246251565e-16,
+  "training_occurrences_checked": 19416,
+  "raw_seven_feature_prefix_checks": 44,
+  "upstream_history_prefix_checks": 44,
+  "original_artifact_unchanged": true,
+  "original_pickle_loaded": false,
+  "fitting_performed": false,
+  "thresholds_changed": false
+}

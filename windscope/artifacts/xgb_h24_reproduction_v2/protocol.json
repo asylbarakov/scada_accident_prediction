@@ -1,0 +1,68 @@
+{
+  "experiment_id": "care-xgboost-h24-v1",
+  "evaluation_status": "exploratory reuse of previously examined CARE turbines; no fresh external validation",
+  "assets": [
+    "0",
+    "10",
+    "11",
+    "13",
+    "21"
+  ],
+  "horizon_hours": 24,
+  "measurement_delay_steps": 1,
+  "cadence_minutes": 10,
+  "prediction_every_minutes": 60,
+  "required_history_hours": 6,
+  "candidates": [
+    "research7",
+    "history160"
+  ],
+  "research_features": [
+    "sensor_0_avg",
+    "sensor_1_avg",
+    "sensor_43_avg",
+    "sensor_11_avg",
+    "wind_speed_3_avg",
+    "voltage",
+    "sensor_50"
+  ],
+  "voltage_sources": [
+    "sensor_32_avg",
+    "sensor_33_avg",
+    "sensor_34_avg"
+  ],
+  "research7_policy": "same feature order as reviewed research artifact, all seven required; measurements delayed 10 minutes; no circular encoding or counter transformation in this control",
+  "history160_policy": "unchanged H24 causal physical features, windows 1/6/24 hours, no event labels or IDs; preserve NaN for XGBoost",
+  "preprocessing": "MinMaxScaler fitted on eligible training rows only, feature_range [0,1], clip=false, no additional scaler and no imputation",
+  "xgboost": {
+    "n_estimators": 200,
+    "max_depth": 6,
+    "learning_rate": 0.3,
+    "min_child_weight": 1,
+    "subsample": 1.0,
+    "colsample_bytree": 1.0,
+    "reg_lambda": 1.0,
+    "reg_alpha": 0.0,
+    "gamma": 0.0,
+    "base_score": 0.5,
+    "objective": "binary:logistic",
+    "eval_metric": "logloss",
+    "tree_method": "hist",
+    "n_jobs": 2,
+    "random_state": 42
+  },
+  "class_balance": "scale_pos_weight = negative_count/positive_count on training rows only; no sampling across folds",
+  "split_rule": "same five fixed whole-turbine outer folds as H24; next asset cyclically is inner validation, remaining three train",
+  "threshold_policy": "reuse frozen NBM operational selector; validation only; maximize onset event recall, minimize normal warning fraction, minimize false-alarm rate, maximize precision then threshold; disable if no eligible onset",
+  "candidate_selection": "validation only; maximize onset recall, minimize normal warning fraction, minimize false-alarm rate, maximize precision; exact tie favors research7",
+  "false_alarm_budget_per_720_normal_hours": 2.0,
+  "max_normal_warning_fraction": 0.05,
+  "event_success": "new observed below-to-above crossing within [failure-24h,failure); left-censored high states do not count; report window coverage separately",
+  "episode_denominator": "all 11 canonical faults, including unavailable forecasts",
+  "gate": {
+    "minimum_train_rows_per_class": 20,
+    "minimum_validation_negative_hours": 24
+  },
+  "score_semantics": "uncalibrated class-1 score for annotated failure within 24 hours; no calibrated probability, RUL or future sensor trajectory",
+  "production_integration": false
+}
