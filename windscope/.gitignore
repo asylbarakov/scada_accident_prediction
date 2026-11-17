@@ -9,6 +9,7 @@ project/data/
 project/cache/
 artifacts/personal_h24_v1/features/
 artifacts/personal_h24_reproduction_v1/features/
+artifacts/personal_dynamics*/dynamic_features.parquet
 .env
 frontend/node_modules/
 frontend/.next/

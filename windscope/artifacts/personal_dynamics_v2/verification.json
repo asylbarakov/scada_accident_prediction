@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "folds": [
+    {
+      "test_asset": "0",
+      "rows": 1861,
+      "scored_rows": 1817,
+      "native_replay_passed": true
+    },
+    {
+      "test_asset": "10",
+      "rows": 2313,
+      "scored_rows": 2203,
+      "native_replay_passed": true
+    },
+    {
+      "test_asset": "11",
+      "rows": 1515,
+      "scored_rows": 1493,
+      "native_replay_passed": true
+    },
+    {
+      "test_asset": "13",
+      "rows": 1221,
+      "scored_rows": 1158,
+      "native_replay_passed": true
+    },
+    {
+      "test_asset": "21",
+      "rows": 1523,
+      "scored_rows": 1501,
+      "native_replay_passed": true
+    }
+  ],
+  "real_prefix_checks": 44,
+  "no_supervised_test_asset_in_fitting": true,
+  "unknown_labels_excluded_from_fitting": true,
+  "protocol_unchanged": true,
+  "checks_do_not_establish_predictive_accuracy": true
+}

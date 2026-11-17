@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "identical_files": {
+    "oof_predictions.csv": true,
+    "fault_results.csv": true,
+    "protocol.json": true,
+    "dynamic_features.parquet": true,
+    "fold_0/head.json": true,
+    "fold_10/head.json": true,
+    "fold_11/head.json": true,
+    "fold_13/head.json": true,
+    "fold_21/head.json": true
+  },
+  "metrics_identical": true,
+  "independent_test": false
+}

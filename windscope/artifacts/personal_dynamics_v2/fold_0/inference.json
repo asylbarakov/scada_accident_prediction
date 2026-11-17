@@ -1,0 +1,19 @@
+{
+  "split": {
+    "train": [
+      "11",
+      "13",
+      "21"
+    ],
+    "validation": [
+      "10"
+    ],
+    "test": [
+      "0"
+    ]
+  },
+  "threshold": 0.9997527487808436,
+  "alerts_disabled": false,
+  "horizon_hours": 24,
+  "score_semantics": "uncalibrated binary score for annotated event within next 24h; not a calibrated failure probability or future sensor forecast"
+}

@@ -1,0 +1,506 @@
+{
+  "status": "passed",
+  "protocol_sha256": "327d7c39a552e12be3192404d6e555600ad51f8e3e52c49e62a751834f254d7d",
+  "baseline_metrics_sha256": "db056b80a7294faca539e43cbf903496caaf1f61c6e8f02342fbce94e538586e",
+  "baseline_gate_sha256": "6f96c2a3db3fb785d0e4c0cba005473228e1b5e30ec60dc8f6c8f8e56b2c4689",
+  "canonical_label_data_sha256": "62258e17633f8c4d30e2f7187c0065a7da18c6faf647c72eaf213d080ff43693",
+  "features": [
+    "gearbox_bearing_temperature__z",
+    "gearbox_bearing_temperature__mean3",
+    "gearbox_bearing_temperature__mean6",
+    "gearbox_bearing_temperature__std6",
+    "gearbox_bearing_temperature__slope6",
+    "gearbox_bearing_temperature__persistence6",
+    "gearbox_bearing_temperature__delta1",
+    "gearbox_oil_temperature__z",
+    "gearbox_oil_temperature__mean3",
+    "gearbox_oil_temperature__mean6",
+    "gearbox_oil_temperature__std6",
+    "gearbox_oil_temperature__slope6",
+    "gearbox_oil_temperature__persistence6",
+    "gearbox_oil_temperature__delta1",
+    "generator_bearing_temperature__z",
+    "generator_bearing_temperature__mean3",
+    "generator_bearing_temperature__mean6",
+    "generator_bearing_temperature__std6",
+    "generator_bearing_temperature__slope6",
+    "generator_bearing_temperature__persistence6",
+    "generator_bearing_temperature__delta1",
+    "hydraulic_oil_temperature__z",
+    "hydraulic_oil_temperature__mean3",
+    "hydraulic_oil_temperature__mean6",
+    "hydraulic_oil_temperature__std6",
+    "hydraulic_oil_temperature__slope6",
+    "hydraulic_oil_temperature__persistence6",
+    "hydraulic_oil_temperature__delta1",
+    "joint__max",
+    "joint__second",
+    "joint__count",
+    "regime__wind_speed",
+    "regime__ambient_temperature",
+    "regime__grid_active_power",
+    "regime__generator_speed",
+    "regime__rotor_speed"
+  ],
+  "canonical_faults": [
+    {
+      "id": "care-a-fault-0",
+      "source_event": 0,
+      "turbine_id": "0",
+      "failure_at": "2023-08-20T06:10:00+00:00",
+      "group_status": "single"
+    },
+    {
+      "id": "care-a-fault-10",
+      "source_event": 10,
+      "turbine_id": "10",
+      "failure_at": "2023-10-18T08:40:00+00:00",
+      "group_status": "single"
+    },
+    {
+      "id": "care-a-fault-22",
+      "source_event": 22,
+      "turbine_id": "21",
+      "failure_at": "2023-08-19T10:00:00+00:00",
+      "group_status": "single"
+    },
+    {
+      "id": "care-a-fault-26",
+      "source_event": 26,
+      "turbine_id": "0",
+      "failure_at": "2023-10-19T10:20:00+00:00",
+      "group_status": "single"
+    },
+    {
+      "id": "care-a-fault-40",
+      "source_event": 40,
+      "turbine_id": "10",
+      "failure_at": "2023-01-26T13:00:00+00:00",
+      "group_status": "single"
+    },
+    {
+      "id": "care-a-fault-42",
+      "source_event": 42,
+      "turbine_id": "10",
+      "failure_at": "2023-09-16T15:50:00+00:00",
+      "group_status": "single"
+    },
+    {
+      "id": "care-a-fault-45",
+      "source_event": 45,
+      "turbine_id": "13",
+      "failure_at": "2023-04-26T18:10:00+00:00",
+      "group_status": "single"
+    },
+    {
+      "id": "care-a-fault-51",
+      "source_event": 72,
+      "turbine_id": "21",
+      "failure_at": "2023-10-17T08:40:00+00:00",
+      "group_status": "conservative_merge"
+    },
+    {
+      "id": "care-a-fault-68",
+      "source_event": 68,
+      "turbine_id": "11",
+      "failure_at": "2023-08-11T13:10:00+00:00",
+      "group_status": "single"
+    },
+    {
+      "id": "care-a-fault-73",
+      "source_event": 73,
+      "turbine_id": "0",
+      "failure_at": "2023-06-17T11:40:00+00:00",
+      "group_status": "single"
+    },
+    {
+      "id": "care-a-fault-84",
+      "source_event": 84,
+      "turbine_id": "13",
+      "failure_at": "2023-09-12T15:30:00+00:00",
+      "group_status": "single"
+    }
+  ],
+  "sources": [
+    {
+      "event": 0,
+      "feature_cache_sha256": "142c27598135756ec224657cb38dd04e22580278f39f1adb9c63e08a36703cdf",
+      "normal_manifest_sha256": "094bef99b7f7bb01d7f61e0c343d2272b5de8d985803499f42a3ce65522f70e5",
+      "scheduled_hours": 471,
+      "available_hours": 438
+    },
+    {
+      "event": 3,
+      "feature_cache_sha256": "bba219fd90a7774a5b92f3ace4db7dc98073c9604f7994e52d4986dee4381439",
+      "normal_manifest_sha256": "871d52d7e3dbcd14255dfe2b6a0a67820bcc7c56cb8a46234e82ed4843ddd29a",
+      "scheduled_hours": 551,
+      "available_hours": 551
+    },
+    {
+      "event": 10,
+      "feature_cache_sha256": "48a2892922921afcb3e104d91f64dda0e244e090156cbbb1a09661dbc6ae3686",
+      "normal_manifest_sha256": "c5214cd9cede22ad838b352ec7f04ea898a486d6c3ec7b56869f1b9640d1d91e",
+      "scheduled_hours": 211,
+      "available_hours": 200
+    },
+    {
+      "event": 13,
+      "feature_cache_sha256": "ad816ade5cdb876b8abdc665ee90a34e84d433f167fc101ceb9cd58c24394975",
+      "normal_manifest_sha256": "86f3925d8b25b9933b815355db473372da13375b031527ff0d1e1662f3d1d514",
+      "scheduled_hours": 597,
+      "available_hours": 597
+    },
+    {
+      "event": 14,
+      "feature_cache_sha256": "9b71ea16224b44ebfd2211c55972b9fa939f5eda674eb99733690cbf5cd29267",
+      "normal_manifest_sha256": "2483dae9dd7af3b05560a905fc2a68f9f0a7413c488286f3be155755bb5c2e22",
+      "scheduled_hours": 317,
+      "available_hours": 317
+    },
+    {
+      "event": 17,
+      "feature_cache_sha256": "392d9f14e907aa46e0565300db88c796a48119cbeff7d39447e9fcac41ca51be",
+      "normal_manifest_sha256": "cad3c6d13e49e2ac4439dbc5fb1303400847350574ccfaf77de672992fb1af9a",
+      "scheduled_hours": 462,
+      "available_hours": 440
+    },
+    {
+      "event": 22,
+      "feature_cache_sha256": "4c4ea434e446c0b8ae71913bd2a2a8b91ef090483b44208b0ed4a105cab09df7",
+      "normal_manifest_sha256": "6a4d86cba9f4410f8fb1969cd4015efd40d97c7f1d6e9190af435a7afe4967fa",
+      "scheduled_hours": 191,
+      "available_hours": 169
+    },
+    {
+      "event": 24,
+      "feature_cache_sha256": "e918418de2174b48cb1b18c99aa966b5498985c222e023f12b5e9fa1a47cb49a",
+      "normal_manifest_sha256": "549ace6ca4cd52ed975d1e6235b2fb058efe7fd732a7350fd5a70de8599a1efd",
+      "scheduled_hours": 453,
+      "available_hours": 442
+    },
+    {
+      "event": 25,
+      "feature_cache_sha256": "a216f17efa4f62b36dd091652809a0f04e0cb70727ea47ebd6ad5bef16710054",
+      "normal_manifest_sha256": "8bbbbbc4201f7053977eacba5dd3eea5ee7ad108f81bd72906a9bed9338b7aff",
+      "scheduled_hours": 404,
+      "available_hours": 404
+    },
+    {
+      "event": 26,
+      "feature_cache_sha256": "bf4d9c1b5554d739da3e944428caf0f698dc30cf5206e235b4c47495d103340b",
+      "normal_manifest_sha256": "6f88f2eff53718856d43484b641dfeae200217f80823eccdce06b4577b8331a7",
+      "scheduled_hours": 240,
+      "available_hours": 240
+    },
+    {
+      "event": 38,
+      "feature_cache_sha256": "2ed3f7a4322643f945be7d084ac746869fec1a696c86c79bd9f7aa6243df50ce",
+      "normal_manifest_sha256": "18c15883f68423a54e049f0e64028bd4a3301b5b91216d53dcc3abb52c25bc36",
+      "scheduled_hours": 424,
+      "available_hours": 402
+    },
+    {
+      "event": 40,
+      "feature_cache_sha256": "711b7994e06cc0e0841cbc76fc4682d09be2ec05bd5493d65877608cb3c29435",
+      "normal_manifest_sha256": "b1250f35e8b4a761f3ef3ee67b2fc9bf31bee395337ca79ccd4112752fa09350",
+      "scheduled_hours": 825,
+      "available_hours": 761
+    },
+    {
+      "event": 42,
+      "feature_cache_sha256": "82dae77a200e890883e7f8ecb38d7dcba33e887081fd639ccf68017956d54c6d",
+      "normal_manifest_sha256": "28dd397d00b84ae71fc3da3c9fd030db82fd6a7f2f3bea22701c571e0daee175",
+      "scheduled_hours": 264,
+      "available_hours": 251
+    },
+    {
+      "event": 45,
+      "feature_cache_sha256": "cf3da6c598233b73957d412dc24780eaab50fcf0f3b126885a848859e22fb259",
+      "normal_manifest_sha256": "215683c4332ea6c2a72d8e5a78e755a8accf1b39d20bae524e84a8481cdfc338",
+      "scheduled_hours": 240,
+      "available_hours": 229
+    },
+    {
+      "event": 51,
+      "feature_cache_sha256": "a4ae9acf297e0d0d59f1a3988574fe45e560f6904a5bb2ba2ee188b45f1226fb",
+      "normal_manifest_sha256": "b57dee01775dd7b43087146f1d34c5eab350570b1996e60ed81245a44a57b234",
+      "scheduled_hours": 399,
+      "available_hours": 399
+    },
+    {
+      "event": 68,
+      "feature_cache_sha256": "f41a51a60e3a5eb150444aaae7f9bdf4d9a2292439351c90b5999c20776e831f",
+      "normal_manifest_sha256": "bd3a3851515916bbf345a7cc055fb4410e0cefdf6836a1deaa2aabd92790f2d5",
+      "scheduled_hours": 383,
+      "available_hours": 361
+    },
+    {
+      "event": 69,
+      "feature_cache_sha256": "b8ec0cae164d75af93f0b1411ba93a1bf7a8bedf21342a2340e1efd8447f6b31",
+      "normal_manifest_sha256": "4b169bdb162b41dd4c0102c6dc8201d0c4013fa58b09ea5d2409039f0d5298b1",
+      "scheduled_hours": 432,
+      "available_hours": 432
+    },
+    {
+      "event": 71,
+      "feature_cache_sha256": "04db841bdf87396fe7d9021cca90b1914bda4757763d77807bb6355666ff08b5",
+      "normal_manifest_sha256": "189821c34aa3c05c38dd302d147a6769ae6395870bc62399f4cc721ec7597ba4",
+      "scheduled_hours": 409,
+      "available_hours": 409
+    },
+    {
+      "event": 72,
+      "feature_cache_sha256": "01a4f4d30c515a465f1a564131e18ed17c13fb91a4614b74fa2dcae75dc9ce8d",
+      "normal_manifest_sha256": "5f4185c897972fe8909e548655c274a1db73cec609c60e0ded075a7298f38584",
+      "scheduled_hours": 336,
+      "available_hours": 336
+    },
+    {
+      "event": 73,
+      "feature_cache_sha256": "fc14a9b4d2e0b73e6ae4b52f1ca8cb57d4d4c75f7c14152c92240d7798774396",
+      "normal_manifest_sha256": "d1b313783d7b1599bb452c5e4cc63d979e1ba55f453a098fb4ac7e80e50f9478",
+      "scheduled_hours": 288,
+      "available_hours": 288
+    },
+    {
+      "event": 84,
+      "feature_cache_sha256": "29697fcd7a950509be4d5e970dae6737bd71a91eddb1f7a5789e92442e909b1d",
+      "normal_manifest_sha256": "0fb492ecd26b68f58813a8c864336233f38e9e5818bfe08f5d9fcf1b01e9f820",
+      "scheduled_hours": 240,
+      "available_hours": 210
+    },
+    {
+      "event": 92,
+      "feature_cache_sha256": "b4441a3dc49be239195f10e9463dd1aca8bf6d6e03026f1670eaeaf5c8c9e291",
+      "normal_manifest_sha256": "73b2257538bdde7af5d3d5e311445309ef006cb97fb6a51b3998bfaceeb5b6e3",
+      "scheduled_hours": 296,
+      "available_hours": 296
+    }
+  ],
+  "real_prefix_checks": [
+    {
+      "event": 0,
+      "stop_at": "2023-08-04 07:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 0,
+      "stop_at": "2023-08-24 06:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 3,
+      "stop_at": "2023-04-27 03:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 3,
+      "stop_at": "2023-05-20 01:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 10,
+      "stop_at": "2023-10-09 09:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 10,
+      "stop_at": "2023-10-18 08:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 13,
+      "stop_at": "2023-04-30 14:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 13,
+      "stop_at": "2023-05-25 10:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 14,
+      "stop_at": "2023-03-03 14:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 14,
+      "stop_at": "2023-03-16 18:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 17,
+      "stop_at": "2023-10-31 16:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 17,
+      "stop_at": "2023-11-20 00:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 22,
+      "stop_at": "2023-08-12 10:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 22,
+      "stop_at": "2023-08-20 09:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 24,
+      "stop_at": "2023-04-24 15:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 24,
+      "stop_at": "2023-05-13 11:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 25,
+      "stop_at": "2023-05-23 07:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 25,
+      "stop_at": "2023-06-09 02:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 26,
+      "stop_at": "2023-10-12 11:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 26,
+      "stop_at": "2023-10-22 10:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 38,
+      "stop_at": "2023-06-28 16:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 38,
+      "stop_at": "2023-07-17 07:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 40,
+      "stop_at": "2022-12-25 00:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 40,
+      "stop_at": "2023-01-28 13:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 42,
+      "stop_at": "2023-09-09 16:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 42,
+      "stop_at": "2023-09-20 15:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 45,
+      "stop_at": "2023-04-16 19:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 45,
+      "stop_at": "2023-04-26 18:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 51,
+      "stop_at": "2023-10-04 02:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 51,
+      "stop_at": "2023-10-20 16:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 68,
+      "stop_at": "2023-07-28 14:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 68,
+      "stop_at": "2023-08-13 13:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 69,
+      "stop_at": "2023-09-03 01:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 69,
+      "stop_at": "2023-09-21 00:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 71,
+      "stop_at": "2023-01-01 00:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 71,
+      "stop_at": "2023-01-18 00:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 72,
+      "stop_at": "2023-10-07 09:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 72,
+      "stop_at": "2023-10-21 08:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 73,
+      "stop_at": "2023-06-07 12:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 73,
+      "stop_at": "2023-06-19 11:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 84,
+      "stop_at": "2023-09-03 16:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 84,
+      "stop_at": "2023-09-13 15:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 92,
+      "stop_at": "2023-04-04 03:00:00+00:00",
+      "passed": true
+    },
+    {
+      "event": 92,
+      "stop_at": "2023-04-16 10:00:00+00:00",
+      "passed": true
+    }
+  ],
+  "cached_raw_prefix_checks_inherited": 44,
+  "cross_turbine_physical_reuse": 0,
+  "data_sha256": "47b3f70ac20d46462c4c5d29d07b5a14355f211cef6d332028aeb9096d3edf37",
+  "test_labels_used_for_feature_construction": false
+}

@@ -1,0 +1,55 @@
+{
+  "scope": "verified metadata and current configuration; selection hypotheses require a new experiment",
+  "metadata_sha256": "8834c8481585d133fc37ea70033fbdb4c64e5cd1e5d7f7257ca97a1e229ee921",
+  "channels": [
+    {
+      "sensor": "power_29",
+      "description": "Possible grid active power",
+      "declared_unit": "kW",
+      "personal_temperature_target": false
+    },
+    {
+      "sensor": "power_30",
+      "description": "Grid power",
+      "declared_unit": "kW",
+      "personal_temperature_target": false
+    },
+    {
+      "sensor": "sensor_13",
+      "description": "Temperature in generator bearing 2 (Drive End)",
+      "declared_unit": "�C",
+      "personal_temperature_target": true
+    },
+    {
+      "sensor": "sensor_14",
+      "description": "Temperature in generator bearing 1 (Non-Drive End)",
+      "declared_unit": "�C",
+      "personal_temperature_target": false
+    },
+    {
+      "sensor": "sensor_38",
+      "description": "Temperature in HV transformer phase L1",
+      "declared_unit": "�C",
+      "personal_temperature_target": false
+    },
+    {
+      "sensor": "sensor_39",
+      "description": "Temperature in HV transformer phase L2",
+      "declared_unit": "�C",
+      "personal_temperature_target": false
+    },
+    {
+      "sensor": "sensor_40",
+      "description": "Temperature in HV transformer phase L3",
+      "declared_unit": "�C",
+      "personal_temperature_target": false
+    }
+  ],
+  "current_power_mapping": {
+    "column": "power_29_avg",
+    "measurement": "Possible grid active power",
+    "unit": "p.u."
+  },
+  "power_mapping_note": "power_29 is Possible grid active power, power_30 is Grid power; verify availability and numeric scaling before interpreting either as actual load. Current config unit p.u. differs from metadata kW; no conversion introduced in this experiment.",
+  "unit_encoding_note": "Original temperature unit cells contain a replacement character; preserved as supplied, not repaired by guessing."
+}

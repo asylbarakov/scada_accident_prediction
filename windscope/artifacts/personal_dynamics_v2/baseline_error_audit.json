@@ -1,0 +1,713 @@
+{
+  "scope": "retrospective error analysis, does not tune or alter baseline",
+  "events": [
+    {
+      "event": 0,
+      "description": "Generator bearing failure",
+      "hit": false,
+      "scheduled_hours": 24,
+      "available": 24,
+      "max_score_ratio": 0.9489746645036473,
+      "channels": {
+        "gearbox_bearing_temperature": {
+          "z_median": 0.1436336806104508,
+          "z_max": 0.7684677880620767,
+          "z_min": -1.4252345265045507,
+          "actual_min": 39.0,
+          "actual_max": 64.0,
+          "max_1h_rise": 0.836565899741242
+        },
+        "gearbox_oil_temperature": {
+          "z_median": -0.17629026784829635,
+          "z_max": 0.959039730909872,
+          "z_min": -1.2978642280711594,
+          "actual_min": 42.0,
+          "actual_max": 56.0,
+          "max_1h_rise": 1.6813050322420315
+        },
+        "generator_bearing_temperature": {
+          "z_median": 1.1108319820951427,
+          "z_max": 2.032251605901653,
+          "z_min": -0.5172327264945714,
+          "actual_min": 34.0,
+          "actual_max": 91.0,
+          "max_1h_rise": 0.7175783904402314
+        },
+        "hydraulic_oil_temperature": {
+          "z_median": 0.05279082344169785,
+          "z_max": 0.7376860866653138,
+          "z_min": -0.624712222406623,
+          "actual_min": 41.0,
+          "actual_max": 50.0,
+          "max_1h_rise": 0.9557441720257693
+        }
+      }
+    },
+    {
+      "event": 10,
+      "description": "Gearbox failure",
+      "hit": false,
+      "scheduled_hours": 24,
+      "available": 24,
+      "max_score_ratio": 0.6933864341528823,
+      "channels": {
+        "gearbox_bearing_temperature": {
+          "z_median": 0.1157448443892914,
+          "z_max": 1.341757966772927,
+          "z_min": -0.6016991131639193,
+          "actual_min": 52.0,
+          "actual_max": 64.0,
+          "max_1h_rise": 1.211178921755292
+        },
+        "gearbox_oil_temperature": {
+          "z_median": 0.29794872277770723,
+          "z_max": 1.338567732931648,
+          "z_min": -1.1706060770382485,
+          "actual_min": 49.0,
+          "actual_max": 56.0,
+          "max_1h_rise": 1.9664083182371221
+        },
+        "generator_bearing_temperature": {
+          "z_median": 0.19854666321230546,
+          "z_max": 0.998305121617907,
+          "z_min": -0.5955569267523797,
+          "actual_min": 40.0,
+          "actual_max": 58.0,
+          "max_1h_rise": 0.8145884794416067
+        },
+        "hydraulic_oil_temperature": {
+          "z_median": -0.1538014758390859,
+          "z_max": 0.947391890819646,
+          "z_min": -0.6539220820439577,
+          "actual_min": 46.0,
+          "actual_max": 52.0,
+          "max_1h_rise": 0.5001206062048719
+        }
+      }
+    },
+    {
+      "event": 22,
+      "description": "Hydraulic group",
+      "hit": false,
+      "scheduled_hours": 24,
+      "available": 24,
+      "max_score_ratio": 0.16637939325422657,
+      "channels": {
+        "gearbox_bearing_temperature": {
+          "z_median": 0.4466503261969333,
+          "z_max": 2.07832339920968,
+          "z_min": -0.7339106394341837,
+          "actual_min": 39.0,
+          "actual_max": 62.0,
+          "max_1h_rise": 2.096994284510362
+        },
+        "gearbox_oil_temperature": {
+          "z_median": 0.37421466126339453,
+          "z_max": 1.4965361016206946,
+          "z_min": -1.25412003321853,
+          "actual_min": 42.0,
+          "actual_max": 57.0,
+          "max_1h_rise": 1.3092313422685133
+        },
+        "generator_bearing_temperature": {
+          "z_median": 0.0181660924666793,
+          "z_max": 0.8952625970995551,
+          "z_min": -0.4869858042727418,
+          "actual_min": 33.0,
+          "actual_max": 57.0,
+          "max_1h_rise": 0.5100507888683754
+        },
+        "hydraulic_oil_temperature": {
+          "z_median": -0.004460227868042149,
+          "z_max": 1.254724816612204,
+          "z_min": -1.282461458054703,
+          "actual_min": 37.0,
+          "actual_max": 48.0,
+          "max_1h_rise": 0.46936428440239186
+        }
+      }
+    },
+    {
+      "event": 26,
+      "description": "Hydraulic group",
+      "hit": true,
+      "scheduled_hours": 24,
+      "available": 24,
+      "max_score_ratio": 1.550138673818832,
+      "channels": {
+        "gearbox_bearing_temperature": {
+          "z_median": 0.2765686335409374,
+          "z_max": 4.793669674885871,
+          "z_min": -0.6561136362788003,
+          "actual_min": 45.0,
+          "actual_max": 62.0,
+          "max_1h_rise": 4.421204542794168
+        },
+        "gearbox_oil_temperature": {
+          "z_median": 0.0400069254956579,
+          "z_max": 2.493910555921292,
+          "z_min": -0.6765406180821222,
+          "actual_min": 45.0,
+          "actual_max": 56.0,
+          "max_1h_rise": 1.3358760209387728
+        },
+        "generator_bearing_temperature": {
+          "z_median": 0.1302916910215666,
+          "z_max": 2.180508561933814,
+          "z_min": -1.4284748993834502,
+          "actual_min": 31.0,
+          "actual_max": 50.0,
+          "max_1h_rise": 1.7776210966434445
+        },
+        "hydraulic_oil_temperature": {
+          "z_median": 0.3003100860925896,
+          "z_max": 1.82308989755256,
+          "z_min": 0.0268129925932208,
+          "actual_min": 32.0,
+          "actual_max": 44.0,
+          "max_1h_rise": 0.8752158875423605
+        }
+      }
+    },
+    {
+      "event": 40,
+      "description": "Generator bearing failure",
+      "hit": false,
+      "scheduled_hours": 24,
+      "available": 12,
+      "max_score_ratio": 0.35360436138685786,
+      "channels": {
+        "gearbox_bearing_temperature": {
+          "z_median": -1.8915349265788088,
+          "z_max": -1.2338704180389082,
+          "z_min": -4.960794960442532,
+          "actual_min": 21.0,
+          "actual_max": 30.0,
+          "max_1h_rise": 0.49275327725904283
+        },
+        "gearbox_oil_temperature": {
+          "z_median": -2.3765344306766125,
+          "z_max": -1.950819425263771,
+          "z_min": -4.649052863010618,
+          "actual_min": 21.0,
+          "actual_max": 26.0,
+          "max_1h_rise": 0.4344936654466922
+        },
+        "generator_bearing_temperature": {
+          "z_median": 0.4850318464818026,
+          "z_max": 0.5758955082052786,
+          "z_min": -1.203801248042133,
+          "actual_min": 19.0,
+          "actual_max": 21.0,
+          "max_1h_rise": 0.04756034147995075
+        },
+        "hydraulic_oil_temperature": {
+          "z_median": -5.2768745429823,
+          "z_max": -5.092798276096899,
+          "z_min": -5.778294769472853,
+          "actual_min": 28.0,
+          "actual_max": 33.0,
+          "max_1h_rise": 0.34936886854401816
+        }
+      }
+    },
+    {
+      "event": 42,
+      "description": "Hydraulic group",
+      "hit": true,
+      "scheduled_hours": 24,
+      "available": 24,
+      "max_score_ratio": 1.7174169013702836,
+      "channels": {
+        "gearbox_bearing_temperature": {
+          "z_median": -0.1692096313952676,
+          "z_max": 1.9077487168471827,
+          "z_min": -2.451618423761548,
+          "actual_min": 30.0,
+          "actual_max": 60.0,
+          "max_1h_rise": 1.888505986874931
+        },
+        "gearbox_oil_temperature": {
+          "z_median": -0.1923306647224599,
+          "z_max": 1.9296580345751035,
+          "z_min": -2.5447625590622955,
+          "actual_min": 32.0,
+          "actual_max": 54.0,
+          "max_1h_rise": 1.3426103781388905
+        },
+        "generator_bearing_temperature": {
+          "z_median": -0.4847459806856316,
+          "z_max": 0.2350336285516223,
+          "z_min": -1.6491056224269534,
+          "actual_min": 25.0,
+          "actual_max": 45.0,
+          "max_1h_rise": 0.8496431828845756
+        },
+        "hydraulic_oil_temperature": {
+          "z_median": 0.37911640400714974,
+          "z_max": 3.5366415344436684,
+          "z_min": -0.5652367283244678,
+          "actual_min": 46.0,
+          "actual_max": 53.0,
+          "max_1h_rise": 1.4721702172850841
+        }
+      }
+    },
+    {
+      "event": 45,
+      "description": "Hydraulic group",
+      "hit": false,
+      "scheduled_hours": 24,
+      "available": 24,
+      "max_score_ratio": 0.18657067531179172,
+      "channels": {
+        "gearbox_bearing_temperature": {
+          "z_median": -0.1446582004908678,
+          "z_max": 0.6456540492421111,
+          "z_min": -7.870655740306028,
+          "actual_min": 32.0,
+          "actual_max": 61.0,
+          "max_1h_rise": 1.7898320710898208
+        },
+        "gearbox_oil_temperature": {
+          "z_median": -0.09617920036764935,
+          "z_max": 0.3226764754381929,
+          "z_min": -3.689325472570292,
+          "actual_min": 35.0,
+          "actual_max": 54.0,
+          "max_1h_rise": 0.5312718705369359
+        },
+        "generator_bearing_temperature": {
+          "z_median": -0.45081730846309864,
+          "z_max": 0.2408581435545855,
+          "z_min": -1.2482822526376636,
+          "actual_min": 26.0,
+          "actual_max": 36.0,
+          "max_1h_rise": 0.40142186193977947
+        },
+        "hydraulic_oil_temperature": {
+          "z_median": 0.1692474684156723,
+          "z_max": 0.6035484366948739,
+          "z_min": -0.5497461446559792,
+          "actual_min": 28.0,
+          "actual_max": 32.0,
+          "max_1h_rise": 0.3466814449020724
+        }
+      }
+    },
+    {
+      "event": 72,
+      "description": "Gearbox failure",
+      "hit": false,
+      "scheduled_hours": 24,
+      "available": 24,
+      "max_score_ratio": 0.482511754972793,
+      "channels": {
+        "gearbox_bearing_temperature": {
+          "z_median": 0.0733677412641012,
+          "z_max": 0.7115501379852749,
+          "z_min": -0.4797829058358065,
+          "actual_min": 56.0,
+          "actual_max": 65.0,
+          "max_1h_rise": 0.9661794989303389
+        },
+        "gearbox_oil_temperature": {
+          "z_median": 0.2740601095907693,
+          "z_max": 1.3208068914147428,
+          "z_min": -1.0001854357063211,
+          "actual_min": 51.0,
+          "actual_max": 57.0,
+          "max_1h_rise": 2.0634508995711407
+        },
+        "generator_bearing_temperature": {
+          "z_median": -0.7182966217472513,
+          "z_max": 0.325171715716574,
+          "z_min": -1.7628289143253617,
+          "actual_min": 44.0,
+          "actual_max": 64.0,
+          "max_1h_rise": 1.2785512159657486
+        },
+        "hydraulic_oil_temperature": {
+          "z_median": -0.17592353292736107,
+          "z_max": 1.425074937177378,
+          "z_min": -0.8442316256810111,
+          "actual_min": 34.0,
+          "actual_max": 49.0,
+          "max_1h_rise": 1.959228175917187
+        }
+      }
+    },
+    {
+      "event": 68,
+      "description": "Transformer failure",
+      "hit": false,
+      "scheduled_hours": 24,
+      "available": 24,
+      "max_score_ratio": 0.9609564965834572,
+      "channels": {
+        "gearbox_bearing_temperature": {
+          "z_median": 0.0452712160351892,
+          "z_max": 0.5878730275158466,
+          "z_min": -1.1419784101958088,
+          "actual_min": 54.0,
+          "actual_max": 65.0,
+          "max_1h_rise": 1.1766525447486778
+        },
+        "gearbox_oil_temperature": {
+          "z_median": -0.2192216425658443,
+          "z_max": 0.7167048220985919,
+          "z_min": -1.0230190040303575,
+          "actual_min": 48.0,
+          "actual_max": 57.0,
+          "max_1h_rise": 0.8620964981557141
+        },
+        "generator_bearing_temperature": {
+          "z_median": 0.4758056958429932,
+          "z_max": 1.2169335537596322,
+          "z_min": -0.7641404311503454,
+          "actual_min": 44.0,
+          "actual_max": 78.0,
+          "max_1h_rise": 0.8726874651121267
+        },
+        "hydraulic_oil_temperature": {
+          "z_median": 0.5284638578000476,
+          "z_max": 2.1436748952567357,
+          "z_min": -1.830276726032856,
+          "actual_min": 41.0,
+          "actual_max": 55.0,
+          "max_1h_rise": 2.187096011010522
+        }
+      }
+    },
+    {
+      "event": 73,
+      "description": "Hydraulic group",
+      "hit": true,
+      "scheduled_hours": 24,
+      "available": 24,
+      "max_score_ratio": 2.7155863477967,
+      "channels": {
+        "gearbox_bearing_temperature": {
+          "z_median": -0.5773681591898815,
+          "z_max": 8.069507322813896,
+          "z_min": -4.2064795881395405,
+          "actual_min": 40.0,
+          "actual_max": 67.0,
+          "max_1h_rise": 6.375483420689456
+        },
+        "gearbox_oil_temperature": {
+          "z_median": 0.5019219040081648,
+          "z_max": 2.602371043603529,
+          "z_min": -2.4567587165180704,
+          "actual_min": 44.0,
+          "actual_max": 60.0,
+          "max_1h_rise": 0.9518094945731826
+        },
+        "generator_bearing_temperature": {
+          "z_median": -0.5536086372497311,
+          "z_max": 3.624114465125774,
+          "z_min": -1.215532842637609,
+          "actual_min": 33.0,
+          "actual_max": 84.0,
+          "max_1h_rise": 2.84905936438631
+        },
+        "hydraulic_oil_temperature": {
+          "z_median": -0.6510703607943311,
+          "z_max": 0.996388855511074,
+          "z_min": -2.4651183793815727,
+          "actual_min": 34.0,
+          "actual_max": 50.0,
+          "max_1h_rise": 0.5554429215397633
+        }
+      }
+    },
+    {
+      "event": 84,
+      "description": "Hydraulic group",
+      "hit": true,
+      "scheduled_hours": 24,
+      "available": 13,
+      "max_score_ratio": 1.3750711619987646,
+      "channels": {
+        "gearbox_bearing_temperature": {
+          "z_median": -0.5450185542322472,
+          "z_max": 1.6079575155345738,
+          "z_min": -2.006137075904705,
+          "actual_min": 39.0,
+          "actual_max": 53.0,
+          "max_1h_rise": 1.9964774024559606
+        },
+        "gearbox_oil_temperature": {
+          "z_median": -0.960200312331071,
+          "z_max": 0.9034476545137846,
+          "z_min": -1.781048411315995,
+          "actual_min": 40.0,
+          "actual_max": 49.0,
+          "max_1h_rise": 0.9609721304582858
+        },
+        "generator_bearing_temperature": {
+          "z_median": -0.0798421951445245,
+          "z_max": 0.7863792996339819,
+          "z_min": -0.5694092449869562,
+          "actual_min": 33.0,
+          "actual_max": 54.0,
+          "max_1h_rise": 0.5259723396711373
+        },
+        "hydraulic_oil_temperature": {
+          "z_median": -0.2267301790855189,
+          "z_max": 3.3886926667883186,
+          "z_min": -0.9994980892863078,
+          "actual_min": 38.0,
+          "actual_max": 49.0,
+          "max_1h_rise": 3.3901799054400734
+        }
+      }
+    }
+  ],
+  "normal_drift": [
+    {
+      "event": 17,
+      "asset": "10",
+      "normal_hours": 230,
+      "warning_hours": 46,
+      "warning_fraction": 0.2,
+      "false_alarm_episodes": 10,
+      "false_alarms_per_720_normal_hours": 31.304347826086957,
+      "channels": {
+        "gearbox_bearing_temperature": {
+          "cal_median": 0.0,
+          "cal_q95": 0.9999999999999999,
+          "normal_test_median": 0.11320933189188889,
+          "normal_test_q95": 1.269026959676641
+        },
+        "gearbox_oil_temperature": {
+          "cal_median": 0.0,
+          "cal_q95": 1.0,
+          "normal_test_median": 0.02669016064693845,
+          "normal_test_q95": 1.1280041638165312
+        },
+        "generator_bearing_temperature": {
+          "cal_median": 0.0,
+          "cal_q95": 0.9999999999999999,
+          "normal_test_median": -0.03681147272453595,
+          "normal_test_q95": 0.9541687388030853
+        },
+        "hydraulic_oil_temperature": {
+          "cal_median": 0.0,
+          "cal_q95": 1.0000000000000002,
+          "normal_test_median": 0.5866902384976602,
+          "normal_test_q95": 2.5126732852972045
+        }
+      },
+      "regime": {
+        "grid_active_power__now": {
+          "cal_median": 0.18853658437728882,
+          "test_median": 0.016829267144203186,
+          "cal_min": 0.0,
+          "cal_max": 0.9756097793579102,
+          "test_min": 0.0,
+          "test_max": 0.9374634027481079
+        },
+        "ambient_temperature__now": {
+          "cal_median": 24.0,
+          "test_median": 18.0,
+          "cal_min": 18.0,
+          "cal_max": 36.0,
+          "test_min": 12.0,
+          "test_max": 24.0
+        },
+        "wind_speed__now": {
+          "cal_median": 6.400000095367432,
+          "test_median": 3.4000000953674316,
+          "cal_min": 0.6000000238418579,
+          "cal_max": 17.299999237060547,
+          "test_min": 0.6000000238418579,
+          "test_max": 11.699999809265137
+        }
+      }
+    },
+    {
+      "event": 69,
+      "asset": "11",
+      "normal_hours": 312,
+      "warning_hours": 7,
+      "warning_fraction": 0.022435897435897436,
+      "false_alarm_episodes": 2,
+      "false_alarms_per_720_normal_hours": 4.615384615384615,
+      "channels": {
+        "gearbox_bearing_temperature": {
+          "cal_median": 0.0,
+          "cal_q95": 1.0,
+          "normal_test_median": 0.06569133666893756,
+          "normal_test_q95": 0.8931103164235038
+        },
+        "gearbox_oil_temperature": {
+          "cal_median": 0.0,
+          "cal_q95": 1.0,
+          "normal_test_median": 0.13636561646592976,
+          "normal_test_q95": 0.9833257224573914
+        },
+        "generator_bearing_temperature": {
+          "cal_median": 0.0,
+          "cal_q95": 1.0,
+          "normal_test_median": 0.10834296298845286,
+          "normal_test_q95": 1.3449834954556539
+        },
+        "hydraulic_oil_temperature": {
+          "cal_median": 0.0,
+          "cal_q95": 1.0,
+          "normal_test_median": -0.0399309390018891,
+          "normal_test_q95": 0.5490389220944303
+        }
+      },
+      "regime": {
+        "grid_active_power__now": {
+          "cal_median": 0.09831707179546356,
+          "test_median": 0.08031708002090454,
+          "cal_min": 0.0,
+          "cal_max": 0.9756097793579102,
+          "test_min": 0.0,
+          "test_max": 0.9737560749053955
+        },
+        "ambient_temperature__now": {
+          "cal_median": 26.0,
+          "test_median": 25.0,
+          "cal_min": 17.0,
+          "cal_max": 39.0,
+          "test_min": 17.0,
+          "test_max": 37.0
+        },
+        "wind_speed__now": {
+          "cal_median": 5.300000190734863,
+          "test_median": 4.850000381469727,
+          "cal_min": 0.6000000238418579,
+          "cal_max": 17.799999237060547,
+          "test_min": 0.699999988079071,
+          "test_max": 13.5
+        }
+      }
+    },
+    {
+      "event": 71,
+      "asset": "0",
+      "normal_hours": 313,
+      "warning_hours": 12,
+      "warning_fraction": 0.038338658146964855,
+      "false_alarm_episodes": 2,
+      "false_alarms_per_720_normal_hours": 4.600638977635783,
+      "channels": {
+        "gearbox_bearing_temperature": {
+          "cal_median": 0.0,
+          "cal_q95": 1.0,
+          "normal_test_median": -0.1078078821800651,
+          "normal_test_q95": 0.7982223983357266
+        },
+        "gearbox_oil_temperature": {
+          "cal_median": 0.0,
+          "cal_q95": 1.0000000000000002,
+          "normal_test_median": -0.1491144006085532,
+          "normal_test_q95": 0.7195710262658138
+        },
+        "generator_bearing_temperature": {
+          "cal_median": 0.0,
+          "cal_q95": 1.0,
+          "normal_test_median": 0.0952904605099192,
+          "normal_test_q95": 0.901610545680552
+        },
+        "hydraulic_oil_temperature": {
+          "cal_median": 0.0,
+          "cal_q95": 1.0,
+          "normal_test_median": 0.0789178564620935,
+          "normal_test_q95": 1.2405891560214384
+        }
+      },
+      "regime": {
+        "grid_active_power__now": {
+          "cal_median": 0.15575610101222992,
+          "test_median": 0.06931707262992859,
+          "cal_min": 0.0,
+          "cal_max": 0.9756097793579102,
+          "test_min": 0.0,
+          "test_max": 0.9723902344703674
+        },
+        "ambient_temperature__now": {
+          "cal_median": 16.0,
+          "test_median": 14.0,
+          "cal_min": 9.0,
+          "cal_max": 28.0,
+          "test_min": 8.0,
+          "test_max": 21.0
+        },
+        "wind_speed__now": {
+          "cal_median": 5.699999809265137,
+          "test_median": 4.699999809265137,
+          "cal_min": 0.699999988079071,
+          "cal_max": 19.0,
+          "test_min": 0.6000000238418579,
+          "test_max": 11.899999618530273
+        }
+      }
+    },
+    {
+      "event": 3,
+      "asset": "10",
+      "normal_hours": 479,
+      "warning_hours": 1,
+      "warning_fraction": 0.0020876826722338203,
+      "false_alarm_episodes": 1,
+      "false_alarms_per_720_normal_hours": 1.5031315240083507,
+      "channels": {
+        "gearbox_bearing_temperature": {
+          "cal_median": 0.0,
+          "cal_q95": 1.0,
+          "normal_test_median": 0.1109072476225109,
+          "normal_test_q95": 0.8377779706216181
+        },
+        "gearbox_oil_temperature": {
+          "cal_median": 0.0,
+          "cal_q95": 0.9999999999999999,
+          "normal_test_median": 0.0174560810959968,
+          "normal_test_q95": 0.7455421043104316
+        },
+        "generator_bearing_temperature": {
+          "cal_median": 0.0,
+          "cal_q95": 1.0,
+          "normal_test_median": -0.4464611806461968,
+          "normal_test_q95": 0.5226290773419235
+        },
+        "hydraulic_oil_temperature": {
+          "cal_median": 0.0,
+          "cal_q95": 0.9999999999999998,
+          "normal_test_median": -0.0061356177631683,
+          "normal_test_q95": 0.5773500050205311
+        }
+      },
+      "regime": {
+        "grid_active_power__now": {
+          "cal_median": 0.23073171079158783,
+          "test_median": 0.2197560966014862,
+          "cal_min": 0.0,
+          "cal_max": 0.9756097793579102,
+          "test_min": 0.0,
+          "test_max": 0.9756097793579102
+        },
+        "ambient_temperature__now": {
+          "cal_median": 16.0,
+          "test_median": 19.0,
+          "cal_min": 8.0,
+          "cal_max": 29.0,
+          "test_min": 13.0,
+          "test_max": 27.0
+        },
+        "wind_speed__now": {
+          "cal_median": 6.599999904632568,
+          "test_median": 6.5,
+          "cal_min": 0.6000000238418579,
+          "cal_max": 21.100000381469727,
+          "test_min": 0.6000000238418579,
+          "test_max": 15.800000190734863
+        }
+      }
+    }
+  ]
+}

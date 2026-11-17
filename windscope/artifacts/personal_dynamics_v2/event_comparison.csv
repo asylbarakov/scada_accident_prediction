@@ -1,0 +1,12 @@
+event,historical_description,baseline_available_h24,baseline_max_score_ratio,baseline_hit,baseline_lead_hours,candidate_hit,candidate_lead_hours,candidate_available_h24
+0,Generator bearing failure,24,0.9489746645036473,False,,False,,24
+10,Gearbox failure,24,0.6933864341528823,False,,False,,24
+22,Hydraulic group,24,0.16637939325422657,False,,False,,24
+26,Hydraulic group,24,1.550138673818832,True,2.3333333333333335,False,,24
+40,Generator bearing failure,12,0.35360436138685786,False,,False,,9
+42,Hydraulic group,24,1.7174169013702836,True,14.833333333333334,False,,24
+45,Hydraulic group,24,0.18657067531179172,False,,True,6.166666666666667,24
+72,Gearbox failure,24,0.482511754972793,False,,False,,24
+68,Transformer failure,24,0.9609564965834572,False,,False,,24
+73,Hydraulic group,24,2.7155863477967,True,17.666666666666668,False,,24
+84,Hydraulic group,13,1.3750711619987646,True,5.5,True,5.5,10
