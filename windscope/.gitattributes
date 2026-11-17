@@ -5,3 +5,4 @@
 *.joblib binary
 data/source_readme.md -text -diff
 artifacts/nbm_h24_v1/external_metadata/** -text -diff
+artifacts/kaggle_v2_inventory_audit/*.json -text -diff

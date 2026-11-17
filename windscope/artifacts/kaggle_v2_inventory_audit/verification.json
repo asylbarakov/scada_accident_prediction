@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "version": 2,
+  "all_22_primary_a_csv_sha256_match": true,
+  "all_primary_metadata_match": true,
+  "offline_recheck_passed": true,
+  "audit_code_sha256": "a3a2c42211203ba92fe69f5a4cf2ca7ff3141069b003d4606277df178b0320a1",
+  "records": 1196747,
+  "new_experiment_sensor_columns_present": true,
+  "full_three_farm_dataset_present": false,
+  "evidence_sha256": {
+    "inventory.json": "f19a6c9d3331446f731bac3983ccddbba91fde93d50f4d78d1d72bcf734a7b7e",
+    "remote_verification.json": "d7d39ccfe8d2b3ba4097c1f5d958d700aaa14b1770fe96ecd200da58ea492884",
+    "readiness.json": "d08ff5665ee45348221cd55beb0e34b803b764430b26f52b8b2cfb6d9116eca8",
+    "application_manifest_checks.json": "4c0e912d880d6bc72d9cee2e6feddfa62ff292eac6a667e0940b984bcaa89518"
+  }
+}

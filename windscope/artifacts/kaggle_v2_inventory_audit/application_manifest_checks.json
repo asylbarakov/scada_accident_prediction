@@ -1,0 +1,111 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "manifest": "scenarios_manifest.json",
+      "path": "data\\raw\\wind_farm_a_v2\\0.csv",
+      "exists": true,
+      "matches_manifest": true
+    },
+    {
+      "manifest": "scenarios_manifest.json",
+      "path": "data\\raw\\wind_farm_a_v2\\25.csv",
+      "exists": true,
+      "matches_manifest": true
+    },
+    {
+      "manifest": "scenarios_manifest.json",
+      "path": "data\\raw\\wind_farm_a_v2\\event_info.csv",
+      "exists": true,
+      "matches_manifest": true
+    },
+    {
+      "manifest": "scenarios_manifest.json",
+      "path": "data\\raw\\wind_farm_a_v2\\feature_description.csv",
+      "exists": true,
+      "matches_manifest": true
+    },
+    {
+      "manifest": "scenarios_manifest.json",
+      "path": "data\\raw\\wind_farm_a_v2\\README.md",
+      "exists": true,
+      "matches_manifest": true
+    },
+    {
+      "manifest": "h7_scenarios_manifest.json",
+      "path": "project\\data\\CARE_To_Compare\\Wind Farm A\\event_info.csv",
+      "exists": true,
+      "matches_manifest": true
+    },
+    {
+      "manifest": "h7_scenarios_manifest.json",
+      "path": "project\\data\\CARE_To_Compare\\Wind Farm A\\feature_description.csv",
+      "exists": true,
+      "matches_manifest": true
+    },
+    {
+      "manifest": "h7_scenarios_manifest.json",
+      "path": "project\\data\\CARE_To_Compare\\Wind Farm A\\datasets\\13.csv",
+      "exists": true,
+      "matches_manifest": true
+    },
+    {
+      "manifest": "h7_scenarios_manifest.json",
+      "path": "project\\data\\CARE_To_Compare\\Wind Farm A\\datasets\\22.csv",
+      "exists": true,
+      "matches_manifest": true
+    },
+    {
+      "manifest": "h7_scenarios_manifest.json",
+      "path": "project\\data\\CARE_To_Compare\\Wind Farm A\\datasets\\72.csv",
+      "exists": true,
+      "matches_manifest": true
+    },
+    {
+      "manifest": "personal_scenarios_manifest.json",
+      "path": "project\\data\\CARE_To_Compare\\Wind Farm A\\event_info.csv",
+      "exists": true,
+      "matches_manifest": true
+    },
+    {
+      "manifest": "personal_scenarios_manifest.json",
+      "path": "project\\data\\CARE_To_Compare\\Wind Farm A\\feature_description.csv",
+      "exists": true,
+      "matches_manifest": true
+    },
+    {
+      "manifest": "personal_scenarios_manifest.json",
+      "path": "project\\data\\CARE_To_Compare\\Wind Farm A\\datasets\\0.csv",
+      "exists": true,
+      "matches_manifest": true
+    },
+    {
+      "manifest": "personal_scenarios_manifest.json",
+      "path": "project\\data\\CARE_To_Compare\\Wind Farm A\\datasets\\25.csv",
+      "exists": true,
+      "matches_manifest": true
+    },
+    {
+      "manifest": "personal_scenarios_manifest.json",
+      "path": "project\\data\\CARE_To_Compare\\Wind Farm A\\datasets\\26.csv",
+      "exists": true,
+      "matches_manifest": true
+    },
+    {
+      "manifest": "personal_scenarios_manifest.json",
+      "path": "project\\data\\CARE_To_Compare\\Wind Farm A\\datasets\\42.csv",
+      "exists": true,
+      "matches_manifest": true
+    }
+  ],
+  "declared_import_event_ids": [
+    "0",
+    "13",
+    "22",
+    "25",
+    "26",
+    "42",
+    "72"
+  ],
+  "notes": "Manifest integrity does not assert that every file is imported into the current database."
+}
