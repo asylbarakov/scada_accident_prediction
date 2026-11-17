@@ -1,0 +1,17 @@
+{
+  "experiment_id": "care-personal-eight-temperatures-h24-v3",
+  "scope": "one fixed target-extension ablation on previously examined Farm A; exploratory, not independent holdout",
+  "frozen_before_candidate_evaluation": true,
+  "added_targets": {"generator_nde_temperature__now":"sensor_14_avg","transformer_l1_temperature__now":"sensor_38_avg","transformer_l2_temperature__now":"sensor_39_avg","transformer_l3_temperature__now":"sensor_40_avg"},
+  "baseline_policy": "reuse all four frozen baseline regressors and calibration; train only four added regressors with identical hyperparameters, roles, history and fitting rules",
+  "quality_policy": "nonfinite becomes missing; no interpolation; delay exactly 10 minutes, reset on missing timestamp; preserve observed finite extremes including 205 because no verified physical bounds are available",
+  "power_policy": "keep power_29 and its original numeric scale; power_30 will be a separate experiment",
+  "threshold_policy": "recalibrate maximum positive residual across eight targets, same 3-hour smoothing and same certified historical normal calibration; never tune on prediction outcomes",
+  "failure_horizon_hours":24,
+  "false_alarm_budget_per_720_normal_hours":2.0,
+  "max_normal_warning_fraction":0.05,
+  "promotion_gate": "more than four new event detections, false episode rate <=2/720h, normal warning fraction <=5%, availability at least baseline minus 0.01",
+  "episode_policy":"inherit all 11 canonical events including missing predictions, count new below-to-above crossings in the last 24 hours",
+  "score_semantics":"normal temperature deviation, not calibrated failure probability or future temperature prediction",
+  "production_integration":false
+}

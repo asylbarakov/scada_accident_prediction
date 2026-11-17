@@ -1,0 +1,1372 @@
+{
+  "experiment_id": "care-personal-eight-temperatures-h24-v3",
+  "protocol_sha256": "e84c4240b2e94706c6550d513a31be766078adf83341ca3d6323b66adf9ed83a",
+  "metrics": {
+    "scheduled_hours": 8433,
+    "available_hours": 8238,
+    "unavailable_hours": 195,
+    "availability": 0.9768765563856279,
+    "known_scored_hours": 3224,
+    "tp": 15,
+    "fn": 226,
+    "fp": 64,
+    "tn": 2919,
+    "point_precision": 0.189873417721519,
+    "point_recall": 0.06224066390041494,
+    "known_normal_hours": 2983,
+    "normal_warning_hours": 64,
+    "normal_warning_fraction": 0.021454911163258466,
+    "false_alarm_episodes": 18,
+    "false_alarms_per_720_normal_hours": 4.3446195105598395,
+    "unknown_warning_hours": 189,
+    "left_censored_alarm_starts": 1,
+    "observed_onsets": 47,
+    "window_hit_events": 4,
+    "onset_hit_events": 4,
+    "total_events": 11,
+    "onset_event_recall": 0.36363636363636365,
+    "window_event_recall": 0.36363636363636365,
+    "average_precision": 0.09850370630031734,
+    "roc_auc": 0.45871974383192166,
+    "events": [
+      {
+        "id": "care-a-fault-0",
+        "source_event": 0,
+        "turbine_id": "0",
+        "failure_at": "2023-08-20T06:10:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 24,
+        "window_hit": false,
+        "onset_hit": false,
+        "first_target_warning": null,
+        "first_observed_onset": null,
+        "first_onset_lead_hours": null,
+        "first_source_warning": null,
+        "first_source_warning_lead_hours": null
+      },
+      {
+        "id": "care-a-fault-10",
+        "source_event": 10,
+        "turbine_id": "10",
+        "failure_at": "2023-10-18T08:40:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 24,
+        "window_hit": false,
+        "onset_hit": false,
+        "first_target_warning": null,
+        "first_observed_onset": null,
+        "first_onset_lead_hours": null,
+        "first_source_warning": "2023-10-10T10:00:00+00:00",
+        "first_source_warning_lead_hours": 190.66666666666666
+      },
+      {
+        "id": "care-a-fault-22",
+        "source_event": 22,
+        "turbine_id": "21",
+        "failure_at": "2023-08-19T10:00:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 24,
+        "window_hit": false,
+        "onset_hit": false,
+        "first_target_warning": null,
+        "first_observed_onset": null,
+        "first_onset_lead_hours": null,
+        "first_source_warning": null,
+        "first_source_warning_lead_hours": null
+      },
+      {
+        "id": "care-a-fault-26",
+        "source_event": 26,
+        "turbine_id": "0",
+        "failure_at": "2023-10-19T10:20:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 24,
+        "window_hit": true,
+        "onset_hit": true,
+        "first_target_warning": "2023-10-19T08:00:00+00:00",
+        "first_observed_onset": "2023-10-19T08:00:00+00:00",
+        "first_onset_lead_hours": 2.3333333333333335,
+        "first_source_warning": "2023-10-19T08:00:00+00:00",
+        "first_source_warning_lead_hours": 2.3333333333333335
+      },
+      {
+        "id": "care-a-fault-40",
+        "source_event": 40,
+        "turbine_id": "10",
+        "failure_at": "2023-01-26T13:00:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 12,
+        "window_hit": false,
+        "onset_hit": false,
+        "first_target_warning": null,
+        "first_observed_onset": null,
+        "first_onset_lead_hours": null,
+        "first_source_warning": "2022-12-30T10:00:00+00:00",
+        "first_source_warning_lead_hours": 651.0
+      },
+      {
+        "id": "care-a-fault-42",
+        "source_event": 42,
+        "turbine_id": "10",
+        "failure_at": "2023-09-16T15:50:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 24,
+        "window_hit": true,
+        "onset_hit": true,
+        "first_target_warning": "2023-09-16T02:00:00+00:00",
+        "first_observed_onset": "2023-09-16T02:00:00+00:00",
+        "first_onset_lead_hours": 13.833333333333334,
+        "first_source_warning": "2023-09-09T21:00:00+00:00",
+        "first_source_warning_lead_hours": 162.83333333333334
+      },
+      {
+        "id": "care-a-fault-45",
+        "source_event": 45,
+        "turbine_id": "13",
+        "failure_at": "2023-04-26T18:10:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 24,
+        "window_hit": false,
+        "onset_hit": false,
+        "first_target_warning": null,
+        "first_observed_onset": null,
+        "first_onset_lead_hours": null,
+        "first_source_warning": null,
+        "first_source_warning_lead_hours": null
+      },
+      {
+        "id": "care-a-fault-51",
+        "source_event": 72,
+        "turbine_id": "21",
+        "failure_at": "2023-10-17T08:40:00+00:00",
+        "group_status": "conservative_merge",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 24,
+        "window_hit": false,
+        "onset_hit": false,
+        "first_target_warning": null,
+        "first_observed_onset": null,
+        "first_onset_lead_hours": null,
+        "first_source_warning": null,
+        "first_source_warning_lead_hours": null
+      },
+      {
+        "id": "care-a-fault-68",
+        "source_event": 68,
+        "turbine_id": "11",
+        "failure_at": "2023-08-11T13:10:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 24,
+        "window_hit": false,
+        "onset_hit": false,
+        "first_target_warning": null,
+        "first_observed_onset": null,
+        "first_onset_lead_hours": null,
+        "first_source_warning": null,
+        "first_source_warning_lead_hours": null
+      },
+      {
+        "id": "care-a-fault-73",
+        "source_event": 73,
+        "turbine_id": "0",
+        "failure_at": "2023-06-17T11:40:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 24,
+        "window_hit": true,
+        "onset_hit": true,
+        "first_target_warning": "2023-06-16T18:00:00+00:00",
+        "first_observed_onset": "2023-06-16T18:00:00+00:00",
+        "first_onset_lead_hours": 17.666666666666668,
+        "first_source_warning": "2023-06-07T23:00:00+00:00",
+        "first_source_warning_lead_hours": 228.66666666666666
+      },
+      {
+        "id": "care-a-fault-84",
+        "source_event": 84,
+        "turbine_id": "13",
+        "failure_at": "2023-09-12T15:30:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 13,
+        "window_hit": true,
+        "onset_hit": true,
+        "first_target_warning": "2023-09-12T10:00:00+00:00",
+        "first_observed_onset": "2023-09-12T10:00:00+00:00",
+        "first_onset_lead_hours": 5.5,
+        "first_source_warning": "2023-09-12T10:00:00+00:00",
+        "first_source_warning_lead_hours": 5.5
+      }
+    ]
+  },
+  "baseline_metrics": {
+    "scheduled_hours": 8433,
+    "available_hours": 8238,
+    "unavailable_hours": 195,
+    "availability": 0.9768765563856279,
+    "known_scored_hours": 3224,
+    "tp": 17,
+    "fn": 224,
+    "fp": 74,
+    "tn": 2909,
+    "point_precision": 0.18681318681318682,
+    "point_recall": 0.07053941908713693,
+    "known_normal_hours": 2983,
+    "normal_warning_hours": 74,
+    "normal_warning_fraction": 0.0248072410325176,
+    "false_alarm_episodes": 17,
+    "false_alarms_per_720_normal_hours": 4.1032517599731815,
+    "unknown_warning_hours": 102,
+    "left_censored_alarm_starts": 0,
+    "observed_onsets": 44,
+    "window_hit_events": 4,
+    "onset_hit_events": 4,
+    "total_events": 11,
+    "onset_event_recall": 0.36363636363636365,
+    "window_event_recall": 0.36363636363636365,
+    "average_precision": 0.11984709016328651,
+    "roc_auc": 0.5427693304938218,
+    "events": [
+      {
+        "id": "care-a-fault-0",
+        "source_event": 0,
+        "turbine_id": "0",
+        "failure_at": "2023-08-20T06:10:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 24,
+        "window_hit": false,
+        "onset_hit": false,
+        "first_target_warning": null,
+        "first_observed_onset": null,
+        "first_onset_lead_hours": null,
+        "first_source_warning": null,
+        "first_source_warning_lead_hours": null
+      },
+      {
+        "id": "care-a-fault-10",
+        "source_event": 10,
+        "turbine_id": "10",
+        "failure_at": "2023-10-18T08:40:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 24,
+        "window_hit": false,
+        "onset_hit": false,
+        "first_target_warning": null,
+        "first_observed_onset": null,
+        "first_onset_lead_hours": null,
+        "first_source_warning": "2023-10-10T09:00:00+00:00",
+        "first_source_warning_lead_hours": 191.66666666666666
+      },
+      {
+        "id": "care-a-fault-22",
+        "source_event": 22,
+        "turbine_id": "21",
+        "failure_at": "2023-08-19T10:00:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 24,
+        "window_hit": false,
+        "onset_hit": false,
+        "first_target_warning": null,
+        "first_observed_onset": null,
+        "first_onset_lead_hours": null,
+        "first_source_warning": null,
+        "first_source_warning_lead_hours": null
+      },
+      {
+        "id": "care-a-fault-26",
+        "source_event": 26,
+        "turbine_id": "0",
+        "failure_at": "2023-10-19T10:20:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 24,
+        "window_hit": true,
+        "onset_hit": true,
+        "first_target_warning": "2023-10-19T08:00:00+00:00",
+        "first_observed_onset": "2023-10-19T08:00:00+00:00",
+        "first_onset_lead_hours": 2.3333333333333335,
+        "first_source_warning": "2023-10-19T08:00:00+00:00",
+        "first_source_warning_lead_hours": 2.3333333333333335
+      },
+      {
+        "id": "care-a-fault-40",
+        "source_event": 40,
+        "turbine_id": "10",
+        "failure_at": "2023-01-26T13:00:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 12,
+        "window_hit": false,
+        "onset_hit": false,
+        "first_target_warning": null,
+        "first_observed_onset": null,
+        "first_onset_lead_hours": null,
+        "first_source_warning": "2022-12-30T10:00:00+00:00",
+        "first_source_warning_lead_hours": 651.0
+      },
+      {
+        "id": "care-a-fault-42",
+        "source_event": 42,
+        "turbine_id": "10",
+        "failure_at": "2023-09-16T15:50:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 24,
+        "window_hit": true,
+        "onset_hit": true,
+        "first_target_warning": "2023-09-16T01:00:00+00:00",
+        "first_observed_onset": "2023-09-16T01:00:00+00:00",
+        "first_onset_lead_hours": 14.833333333333334,
+        "first_source_warning": "2023-09-16T01:00:00+00:00",
+        "first_source_warning_lead_hours": 14.833333333333334
+      },
+      {
+        "id": "care-a-fault-45",
+        "source_event": 45,
+        "turbine_id": "13",
+        "failure_at": "2023-04-26T18:10:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 24,
+        "window_hit": false,
+        "onset_hit": false,
+        "first_target_warning": null,
+        "first_observed_onset": null,
+        "first_onset_lead_hours": null,
+        "first_source_warning": null,
+        "first_source_warning_lead_hours": null
+      },
+      {
+        "id": "care-a-fault-51",
+        "source_event": 72,
+        "turbine_id": "21",
+        "failure_at": "2023-10-17T08:40:00+00:00",
+        "group_status": "conservative_merge",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 24,
+        "window_hit": false,
+        "onset_hit": false,
+        "first_target_warning": null,
+        "first_observed_onset": null,
+        "first_onset_lead_hours": null,
+        "first_source_warning": null,
+        "first_source_warning_lead_hours": null
+      },
+      {
+        "id": "care-a-fault-68",
+        "source_event": 68,
+        "turbine_id": "11",
+        "failure_at": "2023-08-11T13:10:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 24,
+        "window_hit": false,
+        "onset_hit": false,
+        "first_target_warning": null,
+        "first_observed_onset": null,
+        "first_onset_lead_hours": null,
+        "first_source_warning": null,
+        "first_source_warning_lead_hours": null
+      },
+      {
+        "id": "care-a-fault-73",
+        "source_event": 73,
+        "turbine_id": "0",
+        "failure_at": "2023-06-17T11:40:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 24,
+        "window_hit": true,
+        "onset_hit": true,
+        "first_target_warning": "2023-06-16T18:00:00+00:00",
+        "first_observed_onset": "2023-06-16T18:00:00+00:00",
+        "first_onset_lead_hours": 17.666666666666668,
+        "first_source_warning": "2023-06-16T18:00:00+00:00",
+        "first_source_warning_lead_hours": 17.666666666666668
+      },
+      {
+        "id": "care-a-fault-84",
+        "source_event": 84,
+        "turbine_id": "13",
+        "failure_at": "2023-09-12T15:30:00+00:00",
+        "group_status": "single",
+        "scheduled_target_hours": 24,
+        "eligible_target_hours": 24,
+        "available_target_hours": 13,
+        "window_hit": true,
+        "onset_hit": true,
+        "first_target_warning": "2023-09-12T10:00:00+00:00",
+        "first_observed_onset": "2023-09-12T10:00:00+00:00",
+        "first_onset_lead_hours": 5.5,
+        "first_source_warning": "2023-09-12T10:00:00+00:00",
+        "first_source_warning_lead_hours": 5.5
+      }
+    ]
+  },
+  "sources": [
+    {
+      "event": 0,
+      "asset": "0",
+      "threshold": 2.057642600141707,
+      "historical_calibration": {
+        "normal_hours": 1136,
+        "normal_warning_hours": 7,
+        "normal_warning_fraction": 0.006161971830985915,
+        "false_alarm_episodes": 3,
+        "false_alarms_per_720_normal_hours": 1.9014084507042253
+      },
+      "added_target_calibration": {
+        "generator_nde_temperature__now": {
+          "center_celsius": 0.6333713531494141,
+          "scale_celsius": 6.49130229949951,
+          "train_rows": 6246,
+          "calibration_rows": 1140
+        },
+        "transformer_l1_temperature__now": {
+          "center_celsius": 11.073944091796875,
+          "scale_celsius": 9.97773094177246,
+          "train_rows": 6246,
+          "calibration_rows": 1140
+        },
+        "transformer_l2_temperature__now": {
+          "center_celsius": 8.66839599609375,
+          "scale_celsius": 7.532031631469724,
+          "train_rows": 6246,
+          "calibration_rows": 1140
+        },
+        "transformer_l3_temperature__now": {
+          "center_celsius": -5.859874725341797,
+          "scale_celsius": 7.8077476501464815,
+          "train_rows": 6246,
+          "calibration_rows": 1140
+        }
+      },
+      "fit_rows": 6246,
+      "calibration_rows": 1140,
+      "reused_baseline_manifest_sha256": "094bef99b7f7bb01d7f61e0c343d2272b5de8d985803499f42a3ce65522f70e5",
+      "new_manifest_sha256": "c039f6ae78986f74a6a1c0b0173d7f6ca2ee0f532acb967eb7d2352fef1cbec4"
+    },
+    {
+      "event": 3,
+      "asset": "10",
+      "threshold": 3.2355798722455464,
+      "historical_calibration": {
+        "normal_hours": 1689,
+        "normal_warning_hours": 4,
+        "normal_warning_fraction": 0.002368265245707519,
+        "false_alarm_episodes": 4,
+        "false_alarms_per_720_normal_hours": 1.7051509769094138
+      },
+      "added_target_calibration": {
+        "generator_nde_temperature__now": {
+          "center_celsius": -9.7950439453125,
+          "scale_celsius": 10.296868324279785,
+          "train_rows": 4694,
+          "calibration_rows": 1691
+        },
+        "transformer_l1_temperature__now": {
+          "center_celsius": 0.30525970458984375,
+          "scale_celsius": 9.17538833618164,
+          "train_rows": 4694,
+          "calibration_rows": 1691
+        },
+        "transformer_l2_temperature__now": {
+          "center_celsius": -0.6231689453125,
+          "scale_celsius": 7.225788116455078,
+          "train_rows": 4694,
+          "calibration_rows": 1691
+        },
+        "transformer_l3_temperature__now": {
+          "center_celsius": -0.6641769409179688,
+          "scale_celsius": 7.149379730224609,
+          "train_rows": 4694,
+          "calibration_rows": 1691
+        }
+      },
+      "fit_rows": 4694,
+      "calibration_rows": 1691,
+      "reused_baseline_manifest_sha256": "871d52d7e3dbcd14255dfe2b6a0a67820bcc7c56cb8a46234e82ed4843ddd29a",
+      "new_manifest_sha256": "f77c6a8b69ce1be8ee15f9d1046379fbdf2d3ecfcefde5634fddba8cfbe2fbe5"
+    },
+    {
+      "event": 10,
+      "asset": "10",
+      "threshold": 2.280649272972609,
+      "historical_calibration": {
+        "normal_hours": 1133,
+        "normal_warning_hours": 11,
+        "normal_warning_fraction": 0.009708737864077669,
+        "false_alarm_episodes": 3,
+        "false_alarms_per_720_normal_hours": 1.9064430714916152
+      },
+      "added_target_calibration": {
+        "generator_nde_temperature__now": {
+          "center_celsius": -0.4813385009765625,
+          "scale_celsius": 5.023028945922851,
+          "train_rows": 6036,
+          "calibration_rows": 1135
+        },
+        "transformer_l1_temperature__now": {
+          "center_celsius": 0.9445953369140625,
+          "scale_celsius": 7.563698577880858,
+          "train_rows": 6036,
+          "calibration_rows": 1135
+        },
+        "transformer_l2_temperature__now": {
+          "center_celsius": 0.5442276000976562,
+          "scale_celsius": 6.451500701904297,
+          "train_rows": 6036,
+          "calibration_rows": 1135
+        },
+        "transformer_l3_temperature__now": {
+          "center_celsius": 0.6369171142578125,
+          "scale_celsius": 6.555838012695304,
+          "train_rows": 6036,
+          "calibration_rows": 1135
+        }
+      },
+      "fit_rows": 6036,
+      "calibration_rows": 1135,
+      "reused_baseline_manifest_sha256": "c5214cd9cede22ad838b352ec7f04ea898a486d6c3ec7b56869f1b9640d1d91e",
+      "new_manifest_sha256": "50228c0afbf9996bf5d58bf4ad01d12d5fc1b2a0c02616b56d54493b1d86c401"
+    },
+    {
+      "event": 13,
+      "asset": "21",
+      "threshold": 3.082605225431353,
+      "historical_calibration": {
+        "normal_hours": 1658,
+        "normal_warning_hours": 18,
+        "normal_warning_fraction": 0.010856453558504222,
+        "false_alarm_episodes": 4,
+        "false_alarms_per_720_normal_hours": 1.7370325693606754
+      },
+      "added_target_calibration": {
+        "generator_nde_temperature__now": {
+          "center_celsius": -0.6397504806518555,
+          "scale_celsius": 9.071580410003632,
+          "train_rows": 4715,
+          "calibration_rows": 1662
+        },
+        "transformer_l1_temperature__now": {
+          "center_celsius": -0.19385147094726562,
+          "scale_celsius": 5.233695220947265,
+          "train_rows": 4715,
+          "calibration_rows": 1662
+        },
+        "transformer_l2_temperature__now": {
+          "center_celsius": -0.0570068359375,
+          "scale_celsius": 5.236330413818353,
+          "train_rows": 4715,
+          "calibration_rows": 1662
+        },
+        "transformer_l3_temperature__now": {
+          "center_celsius": 0.10213661193847656,
+          "scale_celsius": 4.792803955078119,
+          "train_rows": 4715,
+          "calibration_rows": 1662
+        }
+      },
+      "fit_rows": 4715,
+      "calibration_rows": 1662,
+      "reused_baseline_manifest_sha256": "86f3925d8b25b9933b815355db473372da13375b031527ff0d1e1662f3d1d514",
+      "new_manifest_sha256": "c78e01d949cdc925f4397017d13f8d72170d1d1e26b4bffd14790579352f25f4"
+    },
+    {
+      "event": 14,
+      "asset": "13",
+      "threshold": 2.5422826380610695,
+      "historical_calibration": {
+        "normal_hours": 1690,
+        "normal_warning_hours": 8,
+        "normal_warning_fraction": 0.004733727810650888,
+        "false_alarm_episodes": 4,
+        "false_alarms_per_720_normal_hours": 1.7041420118343196
+      },
+      "added_target_calibration": {
+        "generator_nde_temperature__now": {
+          "center_celsius": -0.3896608352661133,
+          "scale_celsius": 11.30168704986571,
+          "train_rows": 6171,
+          "calibration_rows": 1692
+        },
+        "transformer_l1_temperature__now": {
+          "center_celsius": -0.9157199859619141,
+          "scale_celsius": 5.440453720092769,
+          "train_rows": 6171,
+          "calibration_rows": 1692
+        },
+        "transformer_l2_temperature__now": {
+          "center_celsius": -0.9822349548339844,
+          "scale_celsius": 5.848185348510741,
+          "train_rows": 6171,
+          "calibration_rows": 1692
+        },
+        "transformer_l3_temperature__now": {
+          "center_celsius": -0.7918376922607422,
+          "scale_celsius": 5.583692550659175,
+          "train_rows": 6171,
+          "calibration_rows": 1692
+        }
+      },
+      "fit_rows": 6171,
+      "calibration_rows": 1692,
+      "reused_baseline_manifest_sha256": "2483dae9dd7af3b05560a905fc2a68f9f0a7413c488286f3be155755bb5c2e22",
+      "new_manifest_sha256": "c6030069c53944a64b7840ab0d9499fda65fdf9e0997b9e775c66a68112bcc59"
+    },
+    {
+      "event": 17,
+      "asset": "10",
+      "threshold": 2.0060406283582437,
+      "historical_calibration": {
+        "normal_hours": 847,
+        "normal_warning_hours": 5,
+        "normal_warning_fraction": 0.0059031877213695395,
+        "false_alarm_episodes": 2,
+        "false_alarms_per_720_normal_hours": 1.7001180637544273
+      },
+      "added_target_calibration": {
+        "generator_nde_temperature__now": {
+          "center_celsius": -0.3399200439453125,
+          "scale_celsius": 4.821861267089842,
+          "train_rows": 6271,
+          "calibration_rows": 847
+        },
+        "transformer_l1_temperature__now": {
+          "center_celsius": 0.5633621215820312,
+          "scale_celsius": 8.956027984619134,
+          "train_rows": 6271,
+          "calibration_rows": 847
+        },
+        "transformer_l2_temperature__now": {
+          "center_celsius": 0.28490447998046875,
+          "scale_celsius": 7.371346282958981,
+          "train_rows": 6271,
+          "calibration_rows": 847
+        },
+        "transformer_l3_temperature__now": {
+          "center_celsius": 0.4613838195800781,
+          "scale_celsius": 7.2965484619140595,
+          "train_rows": 6271,
+          "calibration_rows": 847
+        }
+      },
+      "fit_rows": 6271,
+      "calibration_rows": 847,
+      "reused_baseline_manifest_sha256": "cad3c6d13e49e2ac4439dbc5fb1303400847350574ccfaf77de672992fb1af9a",
+      "new_manifest_sha256": "a60a7f87f427bd87ab8b08f02069753aff376b600400a0e2435e6815a27e8edd"
+    },
+    {
+      "event": 22,
+      "asset": "21",
+      "threshold": 7.481929720569191,
+      "historical_calibration": {
+        "normal_hours": 1452,
+        "normal_warning_hours": 4,
+        "normal_warning_fraction": 0.0027548209366391185,
+        "false_alarm_episodes": 4,
+        "false_alarms_per_720_normal_hours": 1.9834710743801653
+      },
+      "added_target_calibration": {
+        "generator_nde_temperature__now": {
+          "center_celsius": -0.030279159545898438,
+          "scale_celsius": 7.664560317993164,
+          "train_rows": 5467,
+          "calibration_rows": 1456
+        },
+        "transformer_l1_temperature__now": {
+          "center_celsius": 0.29825592041015625,
+          "scale_celsius": 6.241973876953125,
+          "train_rows": 5467,
+          "calibration_rows": 1456
+        },
+        "transformer_l2_temperature__now": {
+          "center_celsius": 0.5905723571777344,
+          "scale_celsius": 6.124601364135742,
+          "train_rows": 5467,
+          "calibration_rows": 1456
+        },
+        "transformer_l3_temperature__now": {
+          "center_celsius": 0.7986679077148438,
+          "scale_celsius": 5.830836296081543,
+          "train_rows": 5467,
+          "calibration_rows": 1456
+        }
+      },
+      "fit_rows": 5467,
+      "calibration_rows": 1456,
+      "reused_baseline_manifest_sha256": "6a4d86cba9f4410f8fb1969cd4015efd40d97c7f1d6e9190af435a7afe4967fa",
+      "new_manifest_sha256": "9e4c1036eca72b90298017afedb5f28bf988d3ea1eed34af9f56ad3e3f939191"
+    },
+    {
+      "event": 24,
+      "asset": "0",
+      "threshold": 2.8947151064959686,
+      "historical_calibration": {
+        "normal_hours": 1689,
+        "normal_warning_hours": 8,
+        "normal_warning_fraction": 0.004736530491415038,
+        "false_alarm_episodes": 4,
+        "false_alarms_per_720_normal_hours": 1.7051509769094138
+      },
+      "added_target_calibration": {
+        "generator_nde_temperature__now": {
+          "center_celsius": 0.4034614562988281,
+          "scale_celsius": 6.263263702392578,
+          "train_rows": 5591,
+          "calibration_rows": 1691
+        },
+        "transformer_l1_temperature__now": {
+          "center_celsius": 1.6588668823242188,
+          "scale_celsius": 9.590913772583008,
+          "train_rows": 5591,
+          "calibration_rows": 1691
+        },
+        "transformer_l2_temperature__now": {
+          "center_celsius": 1.2853851318359375,
+          "scale_celsius": 7.107418060302734,
+          "train_rows": 5591,
+          "calibration_rows": 1691
+        },
+        "transformer_l3_temperature__now": {
+          "center_celsius": -0.9170303344726562,
+          "scale_celsius": 6.91168212890625,
+          "train_rows": 5591,
+          "calibration_rows": 1691
+        }
+      },
+      "fit_rows": 5591,
+      "calibration_rows": 1691,
+      "reused_baseline_manifest_sha256": "549ace6ca4cd52ed975d1e6235b2fb058efe7fd732a7350fd5a70de8599a1efd",
+      "new_manifest_sha256": "f8824707633aba13623a2b18b8a0df391184708d905defa9011c97468ff09a52"
+    },
+    {
+      "event": 25,
+      "asset": "11",
+      "threshold": 2.653687653122557,
+      "historical_calibration": {
+        "normal_hours": 1654,
+        "normal_warning_hours": 9,
+        "normal_warning_fraction": 0.005441354292623942,
+        "false_alarm_episodes": 4,
+        "false_alarms_per_720_normal_hours": 1.7412333736396615
+      },
+      "added_target_calibration": {
+        "generator_nde_temperature__now": {
+          "center_celsius": -2.1556968688964844,
+          "scale_celsius": 7.426437568664547,
+          "train_rows": 6279,
+          "calibration_rows": 1658
+        },
+        "transformer_l1_temperature__now": {
+          "center_celsius": 0.593658447265625,
+          "scale_celsius": 9.066546249389633,
+          "train_rows": 6279,
+          "calibration_rows": 1658
+        },
+        "transformer_l2_temperature__now": {
+          "center_celsius": -0.7465744018554688,
+          "scale_celsius": 6.779310607910155,
+          "train_rows": 6279,
+          "calibration_rows": 1658
+        },
+        "transformer_l3_temperature__now": {
+          "center_celsius": 0.22927474975585938,
+          "scale_celsius": 6.311922073364253,
+          "train_rows": 6279,
+          "calibration_rows": 1658
+        }
+      },
+      "fit_rows": 6279,
+      "calibration_rows": 1658,
+      "reused_baseline_manifest_sha256": "8bbbbbc4201f7053977eacba5dd3eea5ee7ad108f81bd72906a9bed9338b7aff",
+      "new_manifest_sha256": "19876a38304c6c2178a9725ee73e711bbcc5de5f3936e5da854214b21d1bb7c7"
+    },
+    {
+      "event": 26,
+      "asset": "0",
+      "threshold": 2.154060925438818,
+      "historical_calibration": {
+        "normal_hours": 894,
+        "normal_warning_hours": 5,
+        "normal_warning_fraction": 0.005592841163310962,
+        "false_alarm_episodes": 2,
+        "false_alarms_per_720_normal_hours": 1.610738255033557
+      },
+      "added_target_calibration": {
+        "generator_nde_temperature__now": {
+          "center_celsius": -0.6247167587280273,
+          "scale_celsius": 3.6744112014770502,
+          "train_rows": 6262,
+          "calibration_rows": 904
+        },
+        "transformer_l1_temperature__now": {
+          "center_celsius": 4.426013946533203,
+          "scale_celsius": 7.454901504516597,
+          "train_rows": 6262,
+          "calibration_rows": 904
+        },
+        "transformer_l2_temperature__now": {
+          "center_celsius": 2.899463653564453,
+          "scale_celsius": 5.379323959350584,
+          "train_rows": 6262,
+          "calibration_rows": 904
+        },
+        "transformer_l3_temperature__now": {
+          "center_celsius": 1.1766395568847656,
+          "scale_celsius": 7.95828056335449,
+          "train_rows": 6262,
+          "calibration_rows": 904
+        }
+      },
+      "fit_rows": 6262,
+      "calibration_rows": 904,
+      "reused_baseline_manifest_sha256": "6f88f2eff53718856d43484b641dfeae200217f80823eccdce06b4577b8331a7",
+      "new_manifest_sha256": "7376b90b82313e4f080eb3255202dda26490fbbef5761fdc1d04ef9a5de12bdb"
+    },
+    {
+      "event": 38,
+      "asset": "13",
+      "threshold": 2.2640857266346264,
+      "historical_calibration": {
+        "normal_hours": 1338,
+        "normal_warning_hours": 8,
+        "normal_warning_fraction": 0.005979073243647235,
+        "false_alarm_episodes": 3,
+        "false_alarms_per_720_normal_hours": 1.6143497757847534
+      },
+      "added_target_calibration": {
+        "generator_nde_temperature__now": {
+          "center_celsius": 5.356391906738281,
+          "scale_celsius": 6.341236877441409,
+          "train_rows": 6220,
+          "calibration_rows": 1342
+        },
+        "transformer_l1_temperature__now": {
+          "center_celsius": 0.023622512817382812,
+          "scale_celsius": 5.856626510620117,
+          "train_rows": 6220,
+          "calibration_rows": 1342
+        },
+        "transformer_l2_temperature__now": {
+          "center_celsius": 0.12160491943359375,
+          "scale_celsius": 5.7447048187255865,
+          "train_rows": 6220,
+          "calibration_rows": 1342
+        },
+        "transformer_l3_temperature__now": {
+          "center_celsius": 0.3046131134033203,
+          "scale_celsius": 5.680337905883792,
+          "train_rows": 6220,
+          "calibration_rows": 1342
+        }
+      },
+      "fit_rows": 6220,
+      "calibration_rows": 1342,
+      "reused_baseline_manifest_sha256": "18c15883f68423a54e049f0e64028bd4a3301b5b91216d53dcc3abb52c25bc36",
+      "new_manifest_sha256": "5e0908e47a7570f53a27c3b4c55e59e79e6a5dcd1735d7df8a79b04e02bbd0d1"
+    },
+    {
+      "event": 40,
+      "asset": "10",
+      "threshold": 1.911818647972271,
+      "historical_calibration": {
+        "normal_hours": 1482,
+        "normal_warning_hours": 16,
+        "normal_warning_fraction": 0.010796221322537112,
+        "false_alarm_episodes": 4,
+        "false_alarms_per_720_normal_hours": 1.94331983805668
+      },
+      "added_target_calibration": {
+        "generator_nde_temperature__now": {
+          "center_celsius": 0.30592918395996094,
+          "scale_celsius": 11.33985786437988,
+          "train_rows": 5240,
+          "calibration_rows": 1484
+        },
+        "transformer_l1_temperature__now": {
+          "center_celsius": 1.0660247802734375,
+          "scale_celsius": 6.967493820190425,
+          "train_rows": 5240,
+          "calibration_rows": 1484
+        },
+        "transformer_l2_temperature__now": {
+          "center_celsius": -0.3095264434814453,
+          "scale_celsius": 6.920420455932612,
+          "train_rows": 5240,
+          "calibration_rows": 1484
+        },
+        "transformer_l3_temperature__now": {
+          "center_celsius": 1.7717437744140625,
+          "scale_celsius": 8.217292404174803,
+          "train_rows": 5240,
+          "calibration_rows": 1484
+        }
+      },
+      "fit_rows": 5240,
+      "calibration_rows": 1484,
+      "reused_baseline_manifest_sha256": "b1250f35e8b4a761f3ef3ee67b2fc9bf31bee395337ca79ccd4112752fa09350",
+      "new_manifest_sha256": "c3c70af57f392802ab68f170fdecd09932a90e17af96311cf5e31e252aa871b5"
+    },
+    {
+      "event": 42,
+      "asset": "10",
+      "threshold": 2.327877477390348,
+      "historical_calibration": {
+        "normal_hours": 1455,
+        "normal_warning_hours": 9,
+        "normal_warning_fraction": 0.006185567010309278,
+        "false_alarm_episodes": 4,
+        "false_alarms_per_720_normal_hours": 1.9793814432989691
+      },
+      "added_target_calibration": {
+        "generator_nde_temperature__now": {
+          "center_celsius": -1.5040817260742188,
+          "scale_celsius": 6.784154891967772,
+          "train_rows": 5784,
+          "calibration_rows": 1459
+        },
+        "transformer_l1_temperature__now": {
+          "center_celsius": 1.6127700805664062,
+          "scale_celsius": 6.026136779785151,
+          "train_rows": 5784,
+          "calibration_rows": 1459
+        },
+        "transformer_l2_temperature__now": {
+          "center_celsius": 0.8010330200195312,
+          "scale_celsius": 5.75884857177734,
+          "train_rows": 5784,
+          "calibration_rows": 1459
+        },
+        "transformer_l3_temperature__now": {
+          "center_celsius": 0.7993087768554688,
+          "scale_celsius": 6.590435028076167,
+          "train_rows": 5784,
+          "calibration_rows": 1459
+        }
+      },
+      "fit_rows": 5784,
+      "calibration_rows": 1459,
+      "reused_baseline_manifest_sha256": "28dd397d00b84ae71fc3da3c9fd030db82fd6a7f2f3bea22701c571e0daee175",
+      "new_manifest_sha256": "e9a424a355eba783c93d88af965da7f4a1fcae4e68d5785da9d6b1bb23275195"
+    },
+    {
+      "event": 45,
+      "asset": "13",
+      "threshold": 2.6887658773418845,
+      "historical_calibration": {
+        "normal_hours": 1594,
+        "normal_warning_hours": 7,
+        "normal_warning_fraction": 0.00439146800501882,
+        "false_alarm_episodes": 4,
+        "false_alarms_per_720_normal_hours": 1.806775407779172
+      },
+      "added_target_calibration": {
+        "generator_nde_temperature__now": {
+          "center_celsius": -0.1570730209350586,
+          "scale_celsius": 10.234710693359375,
+          "train_rows": 6249,
+          "calibration_rows": 1596
+        },
+        "transformer_l1_temperature__now": {
+          "center_celsius": -0.4952392578125,
+          "scale_celsius": 4.9177446365356445,
+          "train_rows": 6249,
+          "calibration_rows": 1596
+        },
+        "transformer_l2_temperature__now": {
+          "center_celsius": -0.6133785247802734,
+          "scale_celsius": 5.778524398803711,
+          "train_rows": 6249,
+          "calibration_rows": 1596
+        },
+        "transformer_l3_temperature__now": {
+          "center_celsius": -0.6490383148193359,
+          "scale_celsius": 5.629940986633301,
+          "train_rows": 6249,
+          "calibration_rows": 1596
+        }
+      },
+      "fit_rows": 6249,
+      "calibration_rows": 1596,
+      "reused_baseline_manifest_sha256": "215683c4332ea6c2a72d8e5a78e755a8accf1b39d20bae524e84a8481cdfc338",
+      "new_manifest_sha256": "1e5b0bbb01e47e7cc5df9cc4be18645390a322816a105a4859074578a30ce02b"
+    },
+    {
+      "event": 51,
+      "asset": "21",
+      "threshold": 2.966396284934376,
+      "historical_calibration": {
+        "normal_hours": 1181,
+        "normal_warning_hours": 4,
+        "normal_warning_fraction": 0.003386960203217612,
+        "false_alarm_episodes": 3,
+        "false_alarms_per_720_normal_hours": 1.8289585097375105
+      },
+      "added_target_calibration": {
+        "generator_nde_temperature__now": {
+          "center_celsius": -0.24671173095703125,
+          "scale_celsius": 5.19680557250976,
+          "train_rows": 6204,
+          "calibration_rows": 1185
+        },
+        "transformer_l1_temperature__now": {
+          "center_celsius": -0.3762855529785156,
+          "scale_celsius": 3.829839324951171,
+          "train_rows": 6204,
+          "calibration_rows": 1185
+        },
+        "transformer_l2_temperature__now": {
+          "center_celsius": -0.16418838500976562,
+          "scale_celsius": 3.990018463134765,
+          "train_rows": 6204,
+          "calibration_rows": 1185
+        },
+        "transformer_l3_temperature__now": {
+          "center_celsius": -0.4492073059082031,
+          "scale_celsius": 3.0319213867187496,
+          "train_rows": 6204,
+          "calibration_rows": 1185
+        }
+      },
+      "fit_rows": 6204,
+      "calibration_rows": 1185,
+      "reused_baseline_manifest_sha256": "b57dee01775dd7b43087146f1d34c5eab350570b1996e60ed81245a44a57b234",
+      "new_manifest_sha256": "b7687ba3fe4abd39bb340811ca9e244d3829d80e196c87f2459fe6c1deea7dfd"
+    },
+    {
+      "event": 68,
+      "asset": "11",
+      "threshold": 2.266852964161428,
+      "historical_calibration": {
+        "normal_hours": 1576,
+        "normal_warning_hours": 12,
+        "normal_warning_fraction": 0.007614213197969543,
+        "false_alarm_episodes": 4,
+        "false_alarms_per_720_normal_hours": 1.8274111675126903
+      },
+      "added_target_calibration": {
+        "generator_nde_temperature__now": {
+          "center_celsius": -1.2031707763671875,
+          "scale_celsius": 7.9006801605224535,
+          "train_rows": 6683,
+          "calibration_rows": 1582
+        },
+        "transformer_l1_temperature__now": {
+          "center_celsius": 2.8422203063964844,
+          "scale_celsius": 9.29281959533691,
+          "train_rows": 6683,
+          "calibration_rows": 1582
+        },
+        "transformer_l2_temperature__now": {
+          "center_celsius": 0.23776626586914062,
+          "scale_celsius": 7.518691635131835,
+          "train_rows": 6683,
+          "calibration_rows": 1582
+        },
+        "transformer_l3_temperature__now": {
+          "center_celsius": 0.54888916015625,
+          "scale_celsius": 7.047632598876947,
+          "train_rows": 6683,
+          "calibration_rows": 1582
+        }
+      },
+      "fit_rows": 6683,
+      "calibration_rows": 1582,
+      "reused_baseline_manifest_sha256": "bd3a3851515916bbf345a7cc055fb4410e0cefdf6836a1deaa2aabd92790f2d5",
+      "new_manifest_sha256": "a1405c919273b4392e5a2e5e5267afcac8b621b1c438b3b3d08a433d61dc1c8f"
+    },
+    {
+      "event": 69,
+      "asset": "11",
+      "threshold": 1.8750553777568084,
+      "historical_calibration": {
+        "normal_hours": 1118,
+        "normal_warning_hours": 8,
+        "normal_warning_fraction": 0.007155635062611807,
+        "false_alarm_episodes": 3,
+        "false_alarms_per_720_normal_hours": 1.9320214669051878
+      },
+      "added_target_calibration": {
+        "generator_nde_temperature__now": {
+          "center_celsius": -0.6542243957519531,
+          "scale_celsius": 5.254817008972168,
+          "train_rows": 6784,
+          "calibration_rows": 1126
+        },
+        "transformer_l1_temperature__now": {
+          "center_celsius": 2.353759765625,
+          "scale_celsius": 7.936546325683594,
+          "train_rows": 6784,
+          "calibration_rows": 1126
+        },
+        "transformer_l2_temperature__now": {
+          "center_celsius": 0.771270751953125,
+          "scale_celsius": 7.058841705322266,
+          "train_rows": 6784,
+          "calibration_rows": 1126
+        },
+        "transformer_l3_temperature__now": {
+          "center_celsius": -1.207305908203125,
+          "scale_celsius": 6.583818435668945,
+          "train_rows": 6784,
+          "calibration_rows": 1126
+        }
+      },
+      "fit_rows": 6784,
+      "calibration_rows": 1126,
+      "reused_baseline_manifest_sha256": "4b169bdb162b41dd4c0102c6dc8201d0c4013fa58b09ea5d2409039f0d5298b1",
+      "new_manifest_sha256": "572348ada737cec5611f2aecf96ee41f7a68198f8a8832a30cd66ae048231bb4"
+    },
+    {
+      "event": 71,
+      "asset": "0",
+      "threshold": 2.4713237681685865,
+      "historical_calibration": {
+        "normal_hours": 1685,
+        "normal_warning_hours": 6,
+        "normal_warning_fraction": 0.0035608308605341245,
+        "false_alarm_episodes": 4,
+        "false_alarms_per_720_normal_hours": 1.7091988130563798
+      },
+      "added_target_calibration": {
+        "generator_nde_temperature__now": {
+          "center_celsius": -0.5147933959960938,
+          "scale_celsius": 3.9727695465087884,
+          "train_rows": 5372,
+          "calibration_rows": 1687
+        },
+        "transformer_l1_temperature__now": {
+          "center_celsius": 0.9415206909179688,
+          "scale_celsius": 8.805379104614248,
+          "train_rows": 5372,
+          "calibration_rows": 1687
+        },
+        "transformer_l2_temperature__now": {
+          "center_celsius": 0.21167755126953125,
+          "scale_celsius": 6.711016845703117,
+          "train_rows": 5372,
+          "calibration_rows": 1687
+        },
+        "transformer_l3_temperature__now": {
+          "center_celsius": -4.7624359130859375,
+          "scale_celsius": 9.866317749023434,
+          "train_rows": 5372,
+          "calibration_rows": 1687
+        }
+      },
+      "fit_rows": 5372,
+      "calibration_rows": 1687,
+      "reused_baseline_manifest_sha256": "189821c34aa3c05c38dd302d147a6769ae6395870bc62399f4cc721ec7597ba4",
+      "new_manifest_sha256": "77c9fcf1715e168e4d6df7eb48087776ddfd8b48a0d3067a872e9cfec8726c10"
+    },
+    {
+      "event": 72,
+      "asset": "21",
+      "threshold": 2.87998279678884,
+      "historical_calibration": {
+        "normal_hours": 1102,
+        "normal_warning_hours": 4,
+        "normal_warning_fraction": 0.003629764065335753,
+        "false_alarm_episodes": 3,
+        "false_alarms_per_720_normal_hours": 1.9600725952813067
+      },
+      "added_target_calibration": {
+        "generator_nde_temperature__now": {
+          "center_celsius": -0.30906200408935547,
+          "scale_celsius": 5.460150718688965,
+          "train_rows": 6266,
+          "calibration_rows": 1106
+        },
+        "transformer_l1_temperature__now": {
+          "center_celsius": -0.36128807067871094,
+          "scale_celsius": 4.068132400512695,
+          "train_rows": 6266,
+          "calibration_rows": 1106
+        },
+        "transformer_l2_temperature__now": {
+          "center_celsius": -0.17351531982421875,
+          "scale_celsius": 4.474123001098633,
+          "train_rows": 6266,
+          "calibration_rows": 1106
+        },
+        "transformer_l3_temperature__now": {
+          "center_celsius": -0.465240478515625,
+          "scale_celsius": 3.255429267883301,
+          "train_rows": 6266,
+          "calibration_rows": 1106
+        }
+      },
+      "fit_rows": 6266,
+      "calibration_rows": 1106,
+      "reused_baseline_manifest_sha256": "5f4185c897972fe8909e548655c274a1db73cec609c60e0ded075a7298f38584",
+      "new_manifest_sha256": "4eb5a3db62af3daddd2a3c7635f06171725806309a03ba9a32e44ea01b0bdbe7"
+    },
+    {
+      "event": 73,
+      "asset": "0",
+      "threshold": 2.1295277778937627,
+      "historical_calibration": {
+        "normal_hours": 1595,
+        "normal_warning_hours": 19,
+        "normal_warning_fraction": 0.011912225705329153,
+        "false_alarm_episodes": 4,
+        "false_alarms_per_720_normal_hours": 1.8056426332288402
+      },
+      "added_target_calibration": {
+        "generator_nde_temperature__now": {
+          "center_celsius": 0.7856559753417969,
+          "scale_celsius": 7.543981170654291,
+          "train_rows": 5828,
+          "calibration_rows": 1597
+        },
+        "transformer_l1_temperature__now": {
+          "center_celsius": 4.021430969238281,
+          "scale_celsius": 11.132518005371088,
+          "train_rows": 5828,
+          "calibration_rows": 1597
+        },
+        "transformer_l2_temperature__now": {
+          "center_celsius": 3.1874465942382812,
+          "scale_celsius": 7.940727233886719,
+          "train_rows": 5828,
+          "calibration_rows": 1597
+        },
+        "transformer_l3_temperature__now": {
+          "center_celsius": -3.9012222290039062,
+          "scale_celsius": 9.857986450195312,
+          "train_rows": 5828,
+          "calibration_rows": 1597
+        }
+      },
+      "fit_rows": 5828,
+      "calibration_rows": 1597,
+      "reused_baseline_manifest_sha256": "d1b313783d7b1599bb452c5e4cc63d979e1ba55f453a098fb4ac7e80e50f9478",
+      "new_manifest_sha256": "3770b93dbf3f22ee4b72bec033a760f1010380d916a68582afc0c21b4536a815"
+    },
+    {
+      "event": 84,
+      "asset": "13",
+      "threshold": 2.124749664626427,
+      "historical_calibration": {
+        "normal_hours": 1502,
+        "normal_warning_hours": 5,
+        "normal_warning_fraction": 0.003328894806924101,
+        "false_alarm_episodes": 4,
+        "false_alarms_per_720_normal_hours": 1.9174434087882823
+      },
+      "added_target_calibration": {
+        "generator_nde_temperature__now": {
+          "center_celsius": 1.1223297119140625,
+          "scale_celsius": 7.786174774169925,
+          "train_rows": 6004,
+          "calibration_rows": 1507
+        },
+        "transformer_l1_temperature__now": {
+          "center_celsius": 0.24304962158203125,
+          "scale_celsius": 4.750606918334964,
+          "train_rows": 6004,
+          "calibration_rows": 1507
+        },
+        "transformer_l2_temperature__now": {
+          "center_celsius": 0.49493408203125,
+          "scale_celsius": 4.63717498779297,
+          "train_rows": 6004,
+          "calibration_rows": 1507
+        },
+        "transformer_l3_temperature__now": {
+          "center_celsius": 0.1204986572265625,
+          "scale_celsius": 4.720077514648438,
+          "train_rows": 6004,
+          "calibration_rows": 1507
+        }
+      },
+      "fit_rows": 6004,
+      "calibration_rows": 1507,
+      "reused_baseline_manifest_sha256": "0fb492ecd26b68f58813a8c864336233f38e9e5818bfe08f5d9fcf1b01e9f820",
+      "new_manifest_sha256": "2b3161c02dd958f05cdb8a91d06fe5282a3061e893750708fdebc8fd7832754c"
+    },
+    {
+      "event": 92,
+      "asset": "11",
+      "threshold": 2.35355414096971,
+      "historical_calibration": {
+        "normal_hours": 1690,
+        "normal_warning_hours": 8,
+        "normal_warning_fraction": 0.004733727810650888,
+        "false_alarm_episodes": 4,
+        "false_alarms_per_720_normal_hours": 1.7041420118343196
+      },
+      "added_target_calibration": {
+        "generator_nde_temperature__now": {
+          "center_celsius": -1.3787460327148438,
+          "scale_celsius": 7.230657005310055,
+          "train_rows": 6245,
+          "calibration_rows": 1692
+        },
+        "transformer_l1_temperature__now": {
+          "center_celsius": -0.7902259826660156,
+          "scale_celsius": 7.815966796874989,
+          "train_rows": 6245,
+          "calibration_rows": 1692
+        },
+        "transformer_l2_temperature__now": {
+          "center_celsius": -2.3690872192382812,
+          "scale_celsius": 5.614454269409176,
+          "train_rows": 6245,
+          "calibration_rows": 1692
+        },
+        "transformer_l3_temperature__now": {
+          "center_celsius": -0.9825401306152344,
+          "scale_celsius": 3.7904697418212874,
+          "train_rows": 6245,
+          "calibration_rows": 1692
+        }
+      },
+      "fit_rows": 6245,
+      "calibration_rows": 1692,
+      "reused_baseline_manifest_sha256": "73b2257538bdde7af5d3d5e311445309ef006cb97fb6a51b3998bfaceeb5b6e3",
+      "new_manifest_sha256": "077431b84846be20289765a2b3340148da0f8b75734a1ab8a2ab32861c42d9e8"
+    }
+  ],
+  "promotion_gate_passed": false,
+  "production_integrated": false,
+  "independent_external_validation": false,
+  "prior_gate_sha256": "6f96c2a3db3fb785d0e4c0cba005473228e1b5e30ec60dc8f6c8f8e56b2c4689",
+  "code_sha256": {
+    "extended.py": "3adb20536c53ba5ec199c8ffa695bf3cb33dd8c69fc1a1021ff8605d57f2f81c",
+    "test_extended.py": "0e469fa74490f92a978471fccf5423d74220eade87090ba5b213c4a6bbb54b0b"
+  }
+}
